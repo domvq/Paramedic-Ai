@@ -497,10 +497,7 @@ if st.button(
         )
 
     else:
-        try:
-             import tempfile
-        import os
-
+    try:
         engine = pyttsx3.init()
 
         engine.setProperty("rate", 170)
