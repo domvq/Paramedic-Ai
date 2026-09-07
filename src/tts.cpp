@@ -1,60 +1,32 @@
-#include <cstdlib>
-#include <fstream>
-#include <iostream>
-#include <sstream>
-#include <string>
 
-int main(int argc, char* argv[]) {
+import sys
+import pyttsx3
 
-    if (argc < 2) {
-        std::cerr << "Usage: tts.exe <text-file>" << std::endl;
-        return 1;
-    }
 
-    std::ifstream file(argv[1]);
+def speak_text(text):
+    if not text:
+        print("Text is empty.")
+        return
 
-    if (!file) {
-        std::cerr << "Could not open text file." << std::endl;
-        return 1;
-    }
+    try:
+        engine = pyttsx3.init()
+        engine.setProperty("rate", 170)
+        engine.setProperty("volume", 1.0)
 
-    std::stringstream buffer;
-    buffer << file.rdbuf();
+        engine.say(text)
+        engine.runAndWait()
 
-    std::string text = buffer.str();
+        print("Speech completed.")
 
-    if (text.empty()) {
-        std::cerr << "Text file is empty." << std::endl;
-        return 1;
-    }
+    except Exception as error:
+        print(f"TTS error: {error}")
 
-    // Replace characters that can interfere with PowerShell.
-    for (char& c : text) {
 
-        if (c == '\'') {
-            c = ' ';
-        }
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python tts.py <text>")
+        sys.exit(1)
 
-        if (c == '\n' || c == '\r') {
-            c = ' ';
-        }
-    }
+    text = " ".join(sys.argv[1:])
+    speak_text(text)
 
-    std::string command =
-        "powershell.exe -NoProfile -Command "
-        "\"Add-Type -AssemblyName System.Speech; "
-        "$voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; "
-        "$voice.Speak('"
-        + text +
-        "'); "
-        "$voice.Dispose()\"";
-
-    int result = std::system(command.c_str());
-
-    if (result != 0) {
-        std::cerr << "Speech command failed." << std::endl;
-        return 1;
-    }
-
-    return 0;
-}
