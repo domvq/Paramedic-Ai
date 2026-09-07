@@ -14,7 +14,7 @@ GROQ_MODEL = os.getenv(
 )
 
 client = Groq(
-    api_key=os.getenv("GROQ_API_KEY")
+    api_key=os.getenv("[REDACTED]")
 )
 
 
