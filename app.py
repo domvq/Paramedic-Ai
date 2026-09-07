@@ -3,6 +3,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from groq import Groq
 
 import pandas as pd
 import streamlit as st
@@ -483,43 +484,52 @@ if st.button(
     "🔊 Read Latest Response Aloud",
     use_container_width=True,
 ):
+
     answer = st.session_state.last_copilot_answer
 
     if not answer:
+
         st.warning(
             "There is no Copilot response to read yet."
         )
+
     else:
         try:
-            engine = pyttsx3.init()
-            engine.setProperty("rate", 170)
-            engine.setProperty("volume", 1.0)
-
-            audio_path = os.path.join(
-                tempfile.gettempdir(),
-                "paramedic_tts.wav"
+            client = Groq(
+                api_key=st.secrets["GROQ_API_KEY"]
             )
 
-            engine.save_to_file(answer, audio_path)
-            engine.runAndWait()
-            engine.stop()
+            # Groq Orpheus currently limits each TTS request
+            # to 200 characters, so split longer responses.
+            chunks = [
+                answer[i:i + 200]
+                for i in range(0, len(answer), 200)
+            ]
 
-            if os.path.exists(audio_path):
-                with open(audio_path, "rb") as audio:
-                    audio_bytes = audio.read()
+            for chunk in chunks:
+
+                response = client.audio.speech.create(
+                    model="canopylabs/orpheus-v1-english",
+                    voice="troy",
+                    input=chunk,
+                    response_format="wav",
+                )
+
+                audio_bytes = response.read()
 
                 st.audio(
                     audio_bytes,
                     format="audio/wav"
                 )
 
-                st.success(
-                    "🔊 Press ▶️ to hear the response."
-                )
+            st.success(
+                "🔊 Press ▶️ to hear the response."
+            )
 
         except Exception as error:
+
             st.error(
-                f"Python TTS error: {error}"
+                f"Groq TTS error: {error}"
             )
            
 # ============================================================
