@@ -7,8 +7,6 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 import pyttsx3
-import tempfile
-import os
 from streamlit_mic_recorder import speech_to_text
 
 from src.ml_model import (
