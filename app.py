@@ -491,50 +491,30 @@ if st.button(
         )
     else:
         try:
+            engine = pyttsx3.init()
+            engine.setProperty("rate", 170)
+            engine.setProperty("volume", 1.0)
+
             audio_path = os.path.join(
                 tempfile.gettempdir(),
                 "paramedic_tts.wav"
             )
-
-           engine = pyttsx3.init()
-
-voices = engine.getProperty("voices")
-
-if voices:
-    # Try to select a clearer English voice
-    for voice in voices:
-        voice_name = voice.name.lower()
-
-        if "english" in voice_name or "en" in voice.id.lower():
-            engine.setProperty("voice", voice.id)
-            break
-
-engine.setProperty("rate", 145)
-engine.setProperty("volume", 1.0)
 
             engine.save_to_file(answer, audio_path)
             engine.runAndWait()
             engine.stop()
 
             if os.path.exists(audio_path):
-                with open(audio_path, "rb") as audio_file:
-                    audio_data = audio_file.read()
+                with open(audio_path, "rb") as audio:
+                    audio_bytes = audio.read()
 
-                if audio_data:
-                    st.audio(
-                        audio_data,
-                        format="audio/wav"
-                    )
-                    st.success(
-                        "🔊 Press ▶️ to hear the response."
-                    )
-                else:
-                    st.error(
-                        "TTS created an empty audio file."
-                    )
-            else:
-                st.error(
-                    "TTS did not create an audio file."
+                st.audio(
+                    audio_bytes,
+                    format="audio/wav"
+                )
+
+                st.success(
+                    "🔊 Press ▶️ to hear the response."
                 )
 
         except Exception as error:
