@@ -5,7 +5,6 @@ import sys
 from pathlib import Path
 
 import pandas as pd
-import pyttsx3
 import streamlit as st
 from streamlit_mic_recorder import speech_to_text
 
