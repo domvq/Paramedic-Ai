@@ -140,4 +140,4 @@ websockets==16.1.1
 widgetsnbextension==4.0.16
 streamlit-mic-recorder
 groq
-pywinpty==3.0.5
+
