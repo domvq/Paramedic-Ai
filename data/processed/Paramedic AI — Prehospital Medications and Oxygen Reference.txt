@@ -1,0 +1,1515 @@
+Paramedic AI — Prehospital Medications and Oxygen Reference
+
+1. Purpose
+
+This document provides a structured educational reference for commonly encountered prehospital medications and oxygen therapy.
+
+It is intended to support:
+
+Paramedic education
+
+Medication recognition
+
+Dose/reference lookup
+
+Clinical reasoning
+
+AI retrieval
+
+Protocol comparison
+
+Documentation support
+
+This document is not a substitute for the current EMS agency protocol, medical director orders, drug formulary, or online medical direction.
+
+Medication concentrations, permitted indications, routes, repeat intervals, maximum doses, and scope of practice vary between EMS systems.
+
+The Paramedic AI should therefore treat the user's current local protocol as the highest-priority source.
+
+2. Medication Safety Rules for the AI
+
+Before providing a medication recommendation, the AI should determine:
+
+Patient age
+
+Adult versus pediatric patient
+
+Weight when weight-based dosing is relevant
+
+Indication
+
+Allergies
+
+Contraindications
+
+Current vital signs
+
+Relevant medical history
+
+Current medications
+
+Route available
+
+Medication concentration
+
+Local EMS protocol
+
+Maximum permitted dose
+
+Whether repeat dosing is permitted
+
+Whether medical control is required
+
+The AI should never calculate a dose from an unknown medication concentration.
+
+For example:
+
+Dose: 5 mg
+
+does not automatically tell the paramedic how many mL to administer.
+
+The AI must know the concentration:
+
+5 mg/mL
+
+before calculating:
+
+5 mg ÷ 5 mg/mL = 1 mL
+
+3. Medication Response Format
+
+When asked about a medication, the AI should use:
+
+Medication:
+Generic name
+
+Class:
+Medication class
+
+Indications:
+Common prehospital indications
+
+Adult dose:
+Dose + route
+
+Pediatric dose:
+Weight-based dose when applicable
+
+Repeat:
+Repeat interval and maximum when specified by the applicable protocol
+
+Onset:
+Approximate onset when clinically useful
+
+Duration:
+Approximate duration when clinically useful
+
+Contraindications:
+Important contraindications
+
+Precautions:
+Important precautions
+
+Major adverse effects:
+Important adverse effects
+
+Concentration:
+Common EMS concentration(s), clearly labeled as examples rather than universal standards
+
+Administration:
+Important administration considerations
+
+Protocol:
+Applicable local protocol
+
+Source:
+Original authoritative source
+
+4. OXYGEN
+
+Purpose
+
+Oxygen is a medication and should be administered based on the patient's clinical condition and oxygenation/ventilation status.
+
+Routine oxygen administration to every patient is not appropriate.
+
+Oxygen should generally be considered when the patient has:
+
+Hypoxemia
+
+Respiratory distress
+
+Respiratory failure
+
+Significant clinical signs of inadequate oxygenation
+
+Certain toxicologic emergencies
+
+Cardiac arrest
+
+Post-cardiac arrest care
+
+Other protocol-defined indications
+
+Current EMS reference material identifies supplemental oxygen as appropriate for respiratory distress, clinical markers of respiratory compromise, or inadequate measured oxygenation, while emphasizing assessment of oxygenation and ventilation.
+
+5. Oxygen Saturation
+
+Pulse oximetry should be interpreted with the clinical presentation.
+
+The AI should never treat SpO2 as the only measure of respiratory status.
+
+Important limitations include:
+
+Poor peripheral perfusion
+
+Motion artifact
+
+Nail products
+
+Equipment problems
+
+Dyshemoglobinemias
+
+Carbon monoxide exposure
+
+Pulse oximetry can be misleading in carbon monoxide poisoning because the measured saturation may not accurately represent tissue oxygenation.
+
+6. Nasal Cannula
+
+Typical flow:
+
+1–6 L/min
+
+Approximate FiO2:
+
+24–44%
+
+Actual FiO2 varies with:
+
+Patient respiratory rate
+
+Tidal volume
+
+Mouth breathing
+
+Nasal obstruction
+
+Device fit
+
+Common use:
+
+Mild hypoxemia
+
+Patients who need supplemental oxygen but do not require a high-concentration device
+
+Patients who can maintain their airway and ventilate adequately
+
+7. Simple Face Mask
+
+Typical flow:
+
+5–12 L/min
+
+Approximate FiO2:
+
+35–55%
+
+Never use a simple face mask at a flow that is too low to adequately clear exhaled carbon dioxide from the mask.
+
+8. Partial-Rebreather Mask
+
+Typical flow:
+
+8–15 L/min
+
+Approximate FiO2:
+
+35–60%
+
+Actual delivered oxygen concentration varies with:
+
+Flow
+
+Mask seal
+
+Patient minute ventilation
+
+9. Non-Rebreather Mask
+
+Typical flow:
+
+8–15 L/min
+
+Approximate FiO2:
+
+60–95%
+
+The reservoir should remain appropriately inflated during inspiration.
+
+Actual FiO2 varies according to:
+
+Mask seal
+
+Flow rate
+
+Patient respiratory pattern
+
+10. Venturi Mask
+
+Typical flow:
+
+Approximately 4–15 L/min depending on the adapter
+
+Approximate FiO2:
+
+24–50%
+
+Venturi systems are designed to deliver a more controlled oxygen concentration than simple variable-performance masks.
+
+Use the manufacturer's specified flow rate for the selected FiO2 adapter.
+
+11. Bag-Valve Mask
+
+A BVM is primarily a ventilation device rather than simply an oxygen-delivery device.
+
+When supplemental oxygen is available:
+
+Oxygen flow: commonly 15 L/min
+
+A reservoir-equipped BVM can provide a high inspired oxygen concentration when properly assembled and ventilated.
+
+The AI should distinguish:
+
+Oxygenation problem
+
+from
+
+Ventilation problem.
+
+A patient with inadequate ventilation may require assisted ventilation rather than simply increasing oxygen flow.
+
+12. Oxygen in Cardiac Arrest
+
+During active cardiac arrest, oxygenation and ventilation are priorities.
+
+Follow the current resuscitation algorithm and local EMS protocol.
+
+The 2025 AHA guidelines provide current recommendations for adult and pediatric resuscitation, including oxygenation and ventilation.
+
+13. Oxygen After ROSC
+
+After return of spontaneous circulation:
+
+Avoid hypoxemia.
+
+Initially use high-concentration oxygen when reliable oxygenation cannot yet be measured.
+
+Once reliable oxygen saturation is available, titrate oxygen according to current post-cardiac-arrest recommendations.
+
+The 2025 AHA guideline recommends 100% inspired oxygen until SpO2 or PaO2 can be reliably measured, followed by titration to avoid both hypoxemia and hyperoxemia.
+
+14. ASPIRIN
+
+Class
+
+Antiplatelet agent.
+
+Common prehospital indication
+
+Suspected acute coronary syndrome when appropriate.
+
+Typical adult dose
+
+162–325 mg PO
+
+Usually administered as chewable aspirin when appropriate.
+
+Important considerations
+
+Assess for:
+
+Aspirin allergy
+
+Active significant bleeding
+
+Major contraindications
+
+Inability to safely swallow
+
+Local ACS protocol
+
+The exact dose and contraindications should follow the applicable EMS protocol.
+
+15. NITROGLYCERIN
+
+Class
+
+Nitrate / vasodilator.
+
+Common indication
+
+Suspected ischemic chest discomfort when appropriate.
+
+Important considerations
+
+Before administration evaluate:
+
+Blood pressure
+
+Suspected right ventricular infarction
+
+Recent phosphodiesterase-5 inhibitor use
+
+Significant volume depletion
+
+Other protocol-specific contraindications
+
+The AI should never recommend nitroglycerin solely because the patient reports "chest pain."
+
+16. EPINEPHRINE — ANAPHYLAXIS
+
+Class
+
+Sympathomimetic / adrenergic agonist.
+
+Common indication
+
+Anaphylaxis with significant systemic involvement.
+
+Adult IM reference dose
+
+0.3–0.5 mg IM
+
+Using:
+
+1 mg/mL (1:1,000)
+
+The exact dose and repeat interval should follow the applicable EMS protocol.
+
+Pediatric
+
+Weight-based dosing is generally used.
+
+A commonly referenced dose is:
+
+0.01 mg/kg IM
+
+using the appropriate concentration.
+
+Maximum dose and repeat interval depend on protocol and patient age/size.
+
+Important principle
+
+For suspected anaphylaxis, epinephrine should not be unnecessarily delayed while waiting for secondary medications.
+
+17. EPINEPHRINE — CARDIAC ARREST
+
+Cardiac-arrest dosing is different from anaphylaxis dosing.
+
+The AI must never confuse:
+
+Epinephrine 1 mg/mL
+
+with
+
+Epinephrine 0.1 mg/mL
+
+The concentration must always be explicitly displayed before administration.
+
+Current AHA adult ALS guidelines include epinephrine as a vasopressor therapy during cardiac arrest.
+
+Use the current AHA/local cardiac-arrest algorithm for:
+
+Dose
+
+Route
+
+Repeat interval
+
+Concentration
+
+18. ALBUTEROL
+
+Class
+
+Beta-2 adrenergic bronchodilator.
+
+Common indications
+
+Bronchospasm
+
+Asthma exacerbation
+
+COPD exacerbation
+
+Wheezing associated with bronchospasm
+
+Typical nebulized adult dose
+
+Common EMS formulations include:
+
+2.5 mg nebulized
+
+or
+
+5 mg nebulized
+
+depending on the protocol and formulation.
+
+Some systems use continuous or repeated nebulization for severe bronchospasm.
+
+Important considerations
+
+Monitor for:
+
+Tachycardia
+
+Tremor
+
+Anxiety
+
+Hypokalemia
+
+Palpitations
+
+Dose and formulation must be verified against the medication actually stocked by the EMS system.
+
+19. IPRATROPIUM
+
+Class
+
+Anticholinergic bronchodilator.
+
+Common indication
+
+Moderate/severe bronchospasm, often combined with albuterol.
+
+A common nebulized adult dose is:
+
+0.5 mg nebulized
+
+The exact indication, dose, and repeat policy depend on local protocol.
+
+20. NALOXONE
+
+Class
+
+Opioid antagonist.
+
+Common indication
+
+Suspected opioid-induced respiratory depression.
+
+The goal is restoration of adequate ventilation and airway protection rather than necessarily producing complete awakening.
+
+Common routes include:
+
+Intranasal
+
+Intramuscular
+
+Intravenous
+
+Intraosseous
+
+Dose depends on:
+
+Product concentration
+
+Route
+
+Patient response
+
+Local protocol
+
+The AI should prioritize adequate ventilation and airway management rather than presenting naloxone as a replacement for ventilation.
+
+The 2025 AHA BLS guidelines include opioid antagonists in the management of suspected opioid overdose and respiratory/cardiac arrest.
+
+21. DEXTROSE
+
+Class
+
+Carbohydrate / glucose replacement.
+
+Common indication
+
+Clinically significant hypoglycemia with altered mental status or inability to safely take oral glucose.
+
+Common concentrations
+
+EMS systems may stock different concentrations, including:
+
+D10
+
+D25
+
+D50
+
+These are not interchangeable by volume.
+
+For example:
+
+D10 = 0.1 g/mL
+
+D25 = 0.25 g/mL
+
+D50 = 0.5 g/mL
+
+The AI must calculate the required volume from the concentration actually available.
+
+Example
+
+If the desired dose is 10 g and the available solution is D10:
+
+10 g ÷ 0.1 g/mL =
+
+100 mL
+
+Always verify the local protocol before administration.
+
+22. GLUCAGON
+
+Class
+
+Hormone that increases blood glucose through hepatic glycogenolysis.
+
+Common indication
+
+Hypoglycemia when IV/IO access is unavailable or when oral glucose cannot safely be administered, depending on protocol.
+
+Dose depends on:
+
+Adult versus pediatric patient
+
+Product formulation
+
+Local protocol
+
+Follow the medication package instructions and local EMS protocol.
+
+23. ONDANSETRON
+
+Class
+
+5-HT3 receptor antagonist.
+
+Common indication
+
+Nausea and vomiting.
+
+Common adult EMS dosing may include:
+
+4 mg
+
+Routes may include:
+
+PO/ODT
+
+IV
+
+IM
+
+depending on formulation and protocol.
+
+Important considerations include:
+
+QT prolongation
+
+Drug interactions
+
+Existing arrhythmia risk
+
+24. DIPHENHYDRAMINE
+
+Class
+
+First-generation antihistamine.
+
+Common indications
+
+May be used for selected allergic reactions or other protocol-defined indications.
+
+Important adverse effects include:
+
+Sedation
+
+Anticholinergic effects
+
+Tachycardia
+
+Confusion
+
+Urinary retention
+
+In anaphylaxis, antihistamines are adjunctive therapy and should not replace epinephrine.
+
+25. FENTANYL
+
+Class
+
+Opioid analgesic.
+
+Common indication
+
+Moderate-to-severe pain when appropriate.
+
+Dose is generally protocol-specific and should be determined by:
+
+Patient weight
+
+Pain severity
+
+Age
+
+Respiratory status
+
+Hemodynamics
+
+Local protocol
+
+Monitor:
+
+Respiratory rate
+
+Oxygenation
+
+Ventilation
+
+Mental status
+
+Blood pressure
+
+The AI should never recommend an opioid without considering respiratory depression risk.
+
+26. MORPHINE
+
+Class
+
+Opioid analgesic.
+
+Common indication
+
+Selected moderate-to-severe pain.
+
+Dose is protocol-specific.
+
+Important risks include:
+
+Respiratory depression
+
+Hypotension
+
+Sedation
+
+Nausea/vomiting
+
+Fentanyl and morphine should not be treated as interchangeable medications.
+
+27. MIDAZOLAM
+
+Class
+
+Benzodiazepine.
+
+Common EMS indications
+
+Depending on local protocol:
+
+Seizures
+
+Severe agitation
+
+Procedural sedation
+
+Selected prehospital sedation indications
+
+Dose varies substantially by:
+
+Indication
+
+Route
+
+Age
+
+Weight
+
+Clinical condition
+
+Major risks include:
+
+Respiratory depression
+
+Hypotension
+
+Excessive sedation
+
+The AI must distinguish seizure dosing from sedation/agitation dosing.
+
+28. LORAZEPAM
+
+Class
+
+Benzodiazepine.
+
+Common indication
+
+Seizures and other protocol-defined indications.
+
+Dose and route are protocol-specific.
+
+Monitor:
+
+Respiratory status
+
+Ventilation
+
+Blood pressure
+
+Mental status
+
+29. ADENOSINE
+
+Class
+
+AV nodal antiarrhythmic.
+
+Common indication
+
+Selected regular narrow-complex supraventricular tachycardias.
+
+It is not appropriate for every tachycardia.
+
+Before administration determine:
+
+Rhythm regularity
+
+QRS width
+
+Patient stability
+
+Presence of pre-excitation
+
+Local protocol
+
+The AI should not recommend adenosine for an irregularly irregular rhythm.
+
+Administration should follow the current AHA/local tachycardia algorithm.
+
+The 2025 AHA ALS guidelines specifically address adult tachyarrhythmias including atrial fibrillation/flutter and other life-threatening cardiovascular emergencies.
+
+30. AMIODARONE
+
+Class
+
+Antiarrhythmic.
+
+Common EMS indications
+
+Depending on the protocol:
+
+Certain ventricular tachyarrhythmias
+
+Selected cardiac-arrest rhythms
+
+Other protocol-defined arrhythmias
+
+Dose varies substantially depending on the indication.
+
+The AI must distinguish:
+
+Cardiac arrest
+
+from
+
+Stable wide-complex tachycardia
+
+because dosing and administration are different.
+
+Current AHA ALS guidance includes antiarrhythmic medications in selected cardiac-arrest and tachyarrhythmia situations.
+
+31. LIDOCAINE
+
+Class
+
+Class Ib antiarrhythmic.
+
+Common EMS indication
+
+Selected ventricular arrhythmias.
+
+Use depends on the current protocol and available alternatives.
+
+Dose should be determined from the current cardiac-arrest or tachycardia algorithm.
+
+32. MAGNESIUM SULFATE
+
+Common indications
+
+Protocol-dependent indications include:
+
+Torsades de pointes
+
+Certain severe asthma protocols
+
+Specific electrolyte abnormalities
+
+Selected toxicologic emergencies
+
+Dose depends heavily on the indication.
+
+The AI must never give a generic magnesium dose without first determining the indication.
+
+33. ATROPINE
+
+Class
+
+Antimuscarinic.
+
+Common indication
+
+Selected symptomatic bradycardia.
+
+The current AHA adult bradycardia algorithm should be used for:
+
+Dose
+
+Repeat interval
+
+Maximum dose
+
+Alternative treatments when atropine is ineffective
+
+The AI should distinguish symptomatic bradycardia from an asymptomatic low heart rate.
+
+34. CALCIUM
+
+Calcium may be indicated in selected emergencies such as certain cases of:
+
+Hyperkalemia
+
+Calcium-channel blocker toxicity
+
+Other protocol-defined conditions
+
+Different calcium products have different concentrations and physiologic properties.
+
+Common EMS products include:
+
+Calcium chloride
+
+Calcium gluconate
+
+They should not be treated as equivalent volumes.
+
+The AI must identify the specific calcium preparation before giving a volume.
+
+The 2025 AHA special-circumstances guidelines specifically address hyperkalemia and calcium-channel blocker poisoning.
+
+35. SODIUM BICARBONATE
+
+Sodium bicarbonate is not a routine medication for every cardiac arrest.
+
+Protocol-defined indications can include selected:
+
+Sodium-channel blocker toxicity
+
+Hyperkalemia
+
+Severe metabolic conditions
+
+Other specific toxicologic emergencies
+
+The AI must identify the indication before suggesting administration.
+
+Current AHA ALS guidance specifically discusses bicarbonate and other medications in selected circumstances rather than routine cardiac-arrest use.
+
+36. DOPAMINE
+
+Dopamine may be used in selected shock or bradycardia situations depending on local protocol.
+
+It is generally administered as a continuous infusion.
+
+Dose is commonly expressed as:
+
+mcg/kg/min
+
+The AI must calculate infusion rates using:
+
+Patient weight
+
+Medication concentration
+
+Desired dose
+
+Infusion device
+
+It must not confuse:
+
+mcg/kg/min
+
+with:
+
+mcg/min
+
+37. EPINEPHRINE INFUSION
+
+Epinephrine may be used as a continuous infusion in selected conditions.
+
+Dose is generally expressed as:
+
+mcg/min
+
+or
+
+mcg/kg/min
+
+depending on protocol.
+
+The AI must know:
+
+Patient weight if weight-based
+
+Bag concentration
+
+Desired dose
+
+Pump rate
+
+before calculating mL/hr.
+
+38. FLUIDS
+
+Common prehospital crystalloid solutions include:
+
+0.9% sodium chloride
+
+Lactated Ringer's
+
+Fluid therapy should be individualized.
+
+Potential considerations include:
+
+Hypovolemia
+
+Hemorrhage
+
+Sepsis
+
+Burns
+
+Dehydration
+
+Cardiogenic shock
+
+Renal failure
+
+Heart failure
+
+The AI should avoid recommending large-volume fluid administration without considering the patient's underlying condition.
+
+39. Medication Concentration Safety
+
+The AI should always display both:
+
+Dose
+
+and
+
+Concentration
+
+For example:
+
+Epinephrine
+Dose: ___ mg
+Concentration: ___ mg/mL
+Volume: ___ mL
+
+Never output:
+
+"Give 1 mL epinephrine"
+
+without identifying the concentration.
+
+This is particularly important because epinephrine products may be supplied at different concentrations.
+
+40. Dose Calculation
+
+For liquid medications:
+
+Volume (mL) = Desired dose (mg) ÷ Concentration (mg/mL)
+
+Example:
+
+Desired dose:
+
+5 mg
+
+Available:
+
+2.5 mg/mL
+
+Calculation:
+
+5 ÷ 2.5 = 2 mL
+
+41. Weight-Based Dose Calculation
+
+For a medication ordered as:
+
+0.1 mg/kg
+
+For a:
+
+70-kg patient
+
+Calculation:
+
+0.1 × 70 =
+
+7 mg
+
+If the available concentration is:
+
+1 mg/mL
+
+Then:
+
+7 mg ÷ 1 mg/mL =
+
+7 mL
+
+The AI should display the calculation rather than silently generating a volume.
+
+42. Infusion Calculation
+
+For an infusion:
+
+Dose rate → concentration → mL/hr
+
+The AI should show:
+
+Patient weight
+
+Ordered dose
+
+Medication concentration
+
+Required medication amount per minute
+
+Conversion to mL/hr
+
+Final pump setting
+
+This provides an auditable calculation.
+
+43. Pediatric Medication Safety
+
+Pediatric medication administration requires additional safeguards.
+
+The AI should request:
+
+Age
+
+Weight in kg
+
+Medication
+
+Indication
+
+Concentration
+
+Route
+
+Local pediatric protocol
+
+Never assume the adult dose is appropriate for a child.
+
+Weight should preferably be documented in kilograms.
+
+If weight is unknown, follow the applicable EMS protocol for estimated weight rather than inventing a value.
+
+The 2025 AHA pediatric guidelines specifically include weight-based medication dosing during pediatric resuscitation.
+
+44. High-Risk Medication Categories
+
+The AI should apply additional confirmation to:
+
+Epinephrine
+
+Insulin
+
+Opioids
+
+Benzodiazepines
+
+Antiarrhythmics
+
+Vasopressors
+
+Sedatives
+
+Paralytics
+
+Concentrated electrolytes
+
+Calcium
+
+Sodium bicarbonate
+
+Hypertonic solutions
+
+For these medications, the AI should explicitly display:
+
+Indication → Dose → Concentration → Route → Calculation → Maximum → Protocol source
+
+45. Medication Contraindication Logic
+
+The AI should not simply answer:
+
+"Can I give nitroglycerin?"
+
+It should evaluate:
+
+Blood pressure
+
+Suspected diagnosis
+
+PDE-5 inhibitor use
+
+Right ventricular involvement
+
+Other contraindications
+
+Local protocol
+
+Similarly:
+
+"Can I give adenosine?"
+
+should trigger assessment of:
+
+Regularity
+
+QRS width
+
+Stability
+
+Rhythm characteristics
+
+Pre-excitation concerns
+
+Local protocol
+
+The AI should use conditional reasoning rather than treating medications as universally appropriate.
+
+46. Oxygen + Medication Interaction
+
+Oxygen should not automatically be added to every medication protocol.
+
+For example:
+
+Chest pain + normal oxygenation
+
+does not automatically mean:
+
+high-flow oxygen.
+
+Instead evaluate:
+
+SpO2
+
+Respiratory distress
+
+Work of breathing
+
+Clinical appearance
+
+Ventilation
+
+Suspected underlying condition
+
+Oxygen should be titrated according to the patient's condition and applicable protocol.
+
+47. Oxygen Delivery Quick Reference
+
+*Venturi flow depends on the selected adapter.
+
+These are approximate device characteristics, not universal treatment instructions.
+
+48. AI Medication Answer Example
+
+User
+
+"70 kg adult with severe wheezing, SpO2 88%, speaking in short sentences. What medications?"
+
+AI response structure
+
+Assessment:
+Severe respiratory distress with hypoxemia and suspected bronchospasm.
+
+Oxygen:
+Provide supplemental oxygen and titrate according to the current EMS protocol and measured oxygenation.
+
+Bronchodilator:
+Albuterol — verify the local protocol and stocked concentration before calculating administration.
+
+Additional therapy:
+Ipratropium may be indicated in moderate/severe bronchospasm according to protocol.
+
+Monitoring:
+
+SpO2
+
+Respiratory rate
+
+Work of breathing
+
+Mental status
+
+Heart rate
+
+Blood pressure
+
+EtCO2 when available
+
+Escalation:
+If ventilation becomes inadequate, prioritize airway/ventilatory support rather than relying solely on oxygen or bronchodilator therapy.
+
+Protocol:
+Use the current local EMS asthma/bronchospasm protocol.
+
+49. AI Medication Answer Example With a Dose Calculation
+
+If a protocol states:
+
+Medication: 0.01 mg/kg
+
+Patient:
+
+30 kg
+
+Calculation:
+
+0.01 mg/kg × 30 kg =
+
+0.30 mg
+
+If concentration:
+
+0.1 mg/mL
+
+Then:
+
+0.30 mg ÷ 0.1 mg/mL =
+
+3 mL
+
+The AI should display this calculation so the clinician can independently verify it.
+
+50. Source Priority
+
+The medication database should use this source hierarchy:
+
+Priority 1
+
+Current local EMS agency protocols and medical-director-approved medication guidelines.
+
+Priority 2
+
+Current state EMS protocols/formulary.
+
+Priority 3
+
+Current AHA/ILCOR recommendations.
+
+The 2025 AHA CPR/ECC guidelines are the current major resuscitation reference and include adult ALS, pediatric life support, special circumstances, and post-cardiac-arrest care.
+
+Priority 4
+
+NAEMSP clinical practice guidance and position statements.
+
+NAEMSP maintains clinical-practice and EMS-medicine guidance resources.
+
+Priority 5
+
+Peer-reviewed literature.
+
+Priority 6
+
+Established pharmacology references.
+
+51. Source Tracking
+
+Every medication entry in the AI database should contain:
+
+Medication:
+
+Indication:
+
+Adult dose:
+
+Pediatric dose:
+
+Route:
+
+Concentration:
+
+Repeat interval:
+
+Maximum dose:
+
+Contraindications:
+
+Precautions:
+
+Adverse effects:
+
+Protocol:
+
+Source:
+
+Source date:
+
+Last reviewed:
+
+This allows the AI to identify outdated medication information.
+
+52. Critical AI Rule
+
+If the AI does not know the applicable protocol or medication concentration, it should say:
+
+"I can provide the general reference information, but I cannot safely determine the administration volume without the medication concentration and applicable EMS protocol."
+
+It should not guess.
+
+53. Final Clinical Safety Principle
+
+The AI should function as:
+
+A protocol-aware reference and calculation assistant.
+
+It should not function as:
+
+An autonomous prescriber.
+
+The preferred decision pathway is:
+
+Patient assessment
+
+↓
+
+Identify clinical problem
+
+↓
+
+Check current local protocol
+
+↓
+
+Confirm indication
+
+↓
+
+Check contraindications
+
+↓
+
+Confirm medication concentration
+
+↓
+
+Calculate dose
+
+↓
+
+Verify dose independently
+
+↓
+
+Administer according to protocol
+
+↓
+
+Reassess patient
+
+↓
+
+Document response
+
+54. Recommended Knowledge-Base Structure
+
+For a retrieval-based Paramedic AI, separate medications into individual documents:
+
+knowledge/
+
+├── medications/
+
+│   ├── aspirin.md
+
+│   ├── nitroglycerin.md
+
+│   ├── epinephrine.md
+
+│   ├── albuterol.md
+
+│   ├── ipratropium.md
+
+│   ├── naloxone.md
+
+│   ├── dextrose.md
+
+│   ├── glucagon.md
+
+│   ├── ondansetron.md
+
+│   ├── diphenhydramine.md
+
+│   ├── fentanyl.md
+
+│   ├── morphine.md
+
+│   ├── midazolam.md
+
+│   ├── lorazepam.md
+
+│   ├── adenosine.md
+
+│   ├── amiodarone.md
+
+│   ├── lidocaine.md
+
+│   ├── magnesium.md
+
+│   ├── atropine.md
+
+│   ├── calcium.md
+
+│   ├── sodium_bicarbonate.md
+
+│   ├── dopamine.md
+
+│   └── fluids.md
+
+│
+
+└── oxygen/
+
+├── oxygen_basics.md
+
+├── nasal_cannula.md
+
+├── simple_mask.md
+
+├── non_rebreather.md
+
+├── bvm.md
+
+├── venturi.md
+
+├── nippv.md
+
+└── post_cardiac_arrest_oxygen.md
+
+This structure allows the AI to retrieve only the medication or oxygen information relevant to the question, while keeping the source and protocol attached to the answer.

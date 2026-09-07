@@ -1,0 +1,2051 @@
+Paramedic AI — Signs and Symptoms Assessment Reference
+
+1. Purpose
+
+Signs and symptoms are the foundation of prehospital patient assessment.
+
+A symptom is something reported or experienced by the patient.
+
+Examples:
+
+Pain
+
+Nausea
+
+Dizziness
+
+Shortness of breath
+
+Weakness
+
+Palpitations
+
+A sign is an observable or measurable finding.
+
+Examples:
+
+Heart rate
+
+Blood pressure
+
+Respiratory rate
+
+Oxygen saturation
+
+Fever
+
+Cyanosis
+
+Altered mental status
+
+Abnormal lung sounds
+
+Skin color or temperature
+
+The Paramedic AI should use signs and symptoms to identify possible clinical patterns while avoiding premature diagnostic conclusions.
+
+2. General Assessment Principle
+
+The AI should not ask:
+
+"What disease causes this symptom?"
+
+as its first step.
+
+Instead:
+
+Identify the chief complaint.
+
+Determine whether the patient is immediately unstable.
+
+Identify life threats.
+
+Obtain relevant vital signs.
+
+Assess airway, breathing, and circulation.
+
+Determine onset and progression.
+
+Identify associated signs and symptoms.
+
+Consider relevant medical history.
+
+Consider medications and allergies.
+
+Develop a differential diagnosis.
+
+Identify findings that support or contradict each possibility.
+
+Determine whether immediate intervention or transport is required according to local protocol.
+
+3. Primary Survey
+
+The primary survey should identify immediate threats to life.
+
+A — Airway
+
+Assess:
+
+Is the airway open?
+
+Can the patient speak?
+
+Is there obstruction?
+
+Is there stridor?
+
+Is there gurgling?
+
+Is there snoring respirations?
+
+Is there blood, vomit, or secretions?
+
+Is there facial or airway trauma?
+
+Is there swelling of the tongue or airway?
+
+Is there evidence of anaphylaxis?
+
+Concerning findings
+
+Inability to speak
+
+Severe airway obstruction
+
+Stridor
+
+Absent or severely diminished air movement
+
+Altered consciousness with loss of airway protection
+
+Severe facial/neck trauma
+
+Progressive airway swelling
+
+4. B — Breathing
+
+Assess:
+
+Respiratory rate
+
+Respiratory effort
+
+Respiratory depth
+
+Chest expansion
+
+SpO2
+
+Skin color
+
+Lung sounds
+
+Ability to speak
+
+Work of breathing
+
+Accessory muscle use
+
+Position of comfort
+
+Concerning findings
+
+Severe respiratory distress
+
+Cyanosis
+
+Apnea
+
+Agonal respirations
+
+Very slow or very rapid respirations
+
+Poor chest movement
+
+Severe accessory muscle use
+
+Inability to speak normally
+
+Altered mental status associated with respiratory distress
+
+Significantly abnormal oxygenation
+
+Remember:
+
+Oxygenation and ventilation are different.
+
+A patient can have an acceptable SpO2 while experiencing significant ventilatory failure.
+
+Consider EtCO2/capnography when clinically appropriate and available.
+
+5. C — Circulation
+
+Assess:
+
+Pulse
+
+Heart rate
+
+Blood pressure
+
+Skin color
+
+Skin temperature
+
+Skin moisture
+
+Capillary refill when appropriate
+
+Peripheral perfusion
+
+External bleeding
+
+Mental status
+
+Concerning findings
+
+Absent pulse
+
+Severe hypotension
+
+Signs of shock
+
+Major hemorrhage
+
+Weak or rapidly deteriorating pulse
+
+Mottled or cyanotic skin
+
+Altered mental status associated with poor perfusion
+
+Severe tachycardia or bradycardia with symptoms
+
+6. D — Disability / Neurologic Status
+
+Assess:
+
+Level of consciousness
+
+Mental status
+
+Orientation
+
+Pupils
+
+Motor function
+
+Sensory changes
+
+Speech
+
+Facial symmetry
+
+Blood glucose when indicated
+
+Seizure activity
+
+Common mental-status descriptions include:
+
+Alert
+
+Confused
+
+Disoriented
+
+Somnolent
+
+Obtunded
+
+Unresponsive
+
+Use objective descriptions whenever possible rather than vague statements such as:
+
+"Patient doesn't look right."
+
+7. E — Exposure / Secondary Survey
+
+Depending on the presentation, assess:
+
+Skin
+
+Temperature
+
+Rash
+
+Trauma
+
+Swelling
+
+Bleeding
+
+Edema
+
+Distention
+
+Deformity
+
+Medical alert devices
+
+Medication patches
+
+Evidence of drug use or exposure
+
+Maintain patient privacy and temperature control.
+
+8. Pain Assessment
+
+Pain should be evaluated systematically.
+
+Assess:
+
+Location
+
+Onset
+
+Provocation/Palliation
+
+Quality
+
+Region/Radiation
+
+Severity
+
+Timing
+
+A common framework is:
+
+OPQRST
+
+O — Onset
+
+When did it begin?
+
+Was onset:
+
+Sudden?
+
+Gradual?
+
+During exertion?
+
+At rest?
+
+P — Provocation/Palliation
+
+What makes it worse?
+
+What makes it better?
+
+Q — Quality
+
+Examples:
+
+Pressure
+
+Tightness
+
+Burning
+
+Sharp
+
+Stabbing
+
+Tearing
+
+Cramping
+
+Aching
+
+R — Region/Radiation
+
+Where is the pain?
+
+Does it radiate to:
+
+Arm
+
+Shoulder
+
+Jaw
+
+Back
+
+Abdomen
+
+Other locations?
+
+S — Severity
+
+Use an appropriate pain scale.
+
+T — Time
+
+When did it begin?
+
+Has it changed?
+
+Is it:
+
+Constant?
+
+Intermittent?
+
+Getting worse?
+
+Getting better?
+
+9. Chest Pain
+
+Chest discomfort may be caused by cardiac, pulmonary, gastrointestinal, musculoskeletal, vascular, or other conditions.
+
+Important associated findings include:
+
+Dyspnea
+
+Diaphoresis
+
+Nausea
+
+Vomiting
+
+Weakness
+
+Syncope
+
+Palpitations
+
+Radiation to arm/jaw/back
+
+Pleuritic pain
+
+Positional pain
+
+Exertional symptoms
+
+Potential serious causes include:
+
+Acute coronary syndrome
+
+Aortic dissection
+
+Pulmonary embolism
+
+Pneumothorax
+
+Pericardial disease
+
+Esophageal rupture
+
+Do not assume chest pain is cardiac or noncardiac based on a single symptom.
+
+10. Shortness of Breath / Dyspnea
+
+Assess:
+
+Onset
+
+Severity
+
+Respiratory rate
+
+Work of breathing
+
+SpO2
+
+EtCO2 when available
+
+Lung sounds
+
+Chest movement
+
+Ability to speak
+
+Position
+
+Associated chest pain
+
+Fever
+
+Cough
+
+Sputum
+
+Wheezing
+
+Orthopnea
+
+Edema
+
+Potential causes include:
+
+Asthma
+
+COPD
+
+Pneumonia
+
+Pulmonary edema
+
+Pulmonary embolism
+
+Pneumothorax
+
+Acute coronary syndrome
+
+Anaphylaxis
+
+Metabolic acidosis
+
+Anxiety/panic
+
+Upper-airway obstruction
+
+The AI should avoid diagnosing the cause solely from wheezing or hypoxemia.
+
+11. Wheezing
+
+Wheezing generally indicates narrowed lower airways but has multiple possible causes.
+
+Consider:
+
+Asthma
+
+COPD
+
+Allergic reaction
+
+Anaphylaxis
+
+Pulmonary edema
+
+Foreign-body aspiration
+
+Other airway disease
+
+Important:
+
+Not every patient with wheezing has asthma.
+
+Also recognize that a severely ill patient may have very little audible wheezing because airflow is critically reduced.
+
+12. Crackles
+
+Crackles may occur when air moves through fluid or abnormal small airways.
+
+Potential causes include:
+
+Pulmonary edema
+
+Pneumonia
+
+Atelectasis
+
+Interstitial lung disease
+
+Other pulmonary processes
+
+Interpret crackles with:
+
+Respiratory effort
+
+SpO2
+
+History
+
+Edema
+
+Orthopnea
+
+Chest pain
+
+Fever
+
+13. Stridor
+
+Stridor generally suggests upper-airway obstruction.
+
+Potential causes include:
+
+Anaphylaxis
+
+Croup
+
+Foreign body
+
+Upper-airway edema
+
+Trauma
+
+Other airway obstruction
+
+Stridor should be treated as a potentially serious airway finding.
+
+14. Cough
+
+Assess:
+
+Onset
+
+Duration
+
+Dry versus productive
+
+Sputum color
+
+Blood
+
+Fever
+
+Dyspnea
+
+Chest pain
+
+Exposure history
+
+Potential serious causes include:
+
+Pneumonia
+
+Pulmonary edema
+
+Pulmonary embolism
+
+Pneumothorax
+
+Airway disease
+
+Infection
+
+Hemoptysis should be documented and evaluated in context.
+
+15. Altered Mental Status
+
+Altered mental status is a finding, not a diagnosis.
+
+Potential causes include:
+
+Metabolic
+
+Hypoglycemia
+
+Hyperglycemia
+
+Electrolyte abnormalities
+
+Hypoxia
+
+Hypercapnia
+
+Neurologic
+
+Stroke
+
+Seizure
+
+Intracranial hemorrhage
+
+Head injury
+
+Infection
+
+Toxicologic
+
+Opioids
+
+Sedatives
+
+Alcohol
+
+Stimulants
+
+Other substances
+
+Infectious
+
+Sepsis
+
+Meningitis
+
+Encephalitis
+
+Environmental
+
+Hypothermia
+
+Heat illness
+
+Other
+
+Shock
+
+Cardiac dysrhythmia
+
+Psychiatric illness
+
+A glucose measurement should be considered when clinically indicated.
+
+16. Stroke Signs and Symptoms
+
+Common warning signs include:
+
+Facial asymmetry
+
+Arm weakness
+
+Speech difficulty
+
+Sudden unilateral weakness
+
+Sudden sensory loss
+
+Sudden vision changes
+
+Sudden severe dizziness or ataxia
+
+Sudden severe headache
+
+Altered coordination
+
+Use the stroke assessment tool specified by the local EMS system.
+
+Document:
+
+Last known well
+
+Symptom discovery time
+
+Baseline neurologic status
+
+Anticoagulant use when relevant
+
+Blood glucose when indicated
+
+A negative screening tool does not completely exclude stroke.
+
+17. Seizure
+
+Assess:
+
+Witnessed activity
+
+Duration
+
+Focal versus generalized activity
+
+Loss of consciousness
+
+Incontinence
+
+Tongue injury
+
+Postictal state
+
+Trauma
+
+Blood glucose
+
+Fever
+
+Pregnancy/postpartum status when relevant
+
+Medication history
+
+Known seizure history
+
+After the seizure, reassess:
+
+Airway
+
+Breathing
+
+Oxygenation
+
+Circulation
+
+Mental status
+
+Trauma
+
+18. Syncope
+
+Syncope is transient loss of consciousness caused by transient cerebral hypoperfusion with spontaneous recovery.
+
+Important questions:
+
+What was the patient doing immediately beforehand?
+
+Was there exertion?
+
+Was there chest pain?
+
+Was there palpitations?
+
+Was there dyspnea?
+
+Was there a sudden severe headache?
+
+Was there trauma?
+
+Was there seizure-like activity?
+
+Was there a prolonged postictal period?
+
+Is there a cardiac history?
+
+Is there a family history of sudden death?
+
+Potential serious causes include:
+
+Dysrhythmia
+
+Acute coronary syndrome
+
+Pulmonary embolism
+
+Structural cardiac disease
+
+Hemorrhage
+
+Neurologic disease
+
+19. Dizziness
+
+Clarify what the patient means by "dizzy."
+
+Possible descriptions include:
+
+Vertigo
+
+Lightheadedness
+
+Near-syncope
+
+Disequilibrium
+
+Generalized weakness
+
+Ask:
+
+Is the room spinning?
+
+Does standing cause symptoms?
+
+Is there difficulty walking?
+
+Is there weakness?
+
+Is there numbness?
+
+Is there speech difficulty?
+
+Is there headache?
+
+Is there chest pain?
+
+Are there palpitations?
+
+Sudden dizziness with neurologic abnormalities may indicate a serious neurologic condition.
+
+20. Headache
+
+Assess:
+
+Onset
+
+Location
+
+Severity
+
+Quality
+
+Duration
+
+Previous history
+
+Trauma
+
+Fever
+
+Neck stiffness
+
+Neurologic symptoms
+
+Vision changes
+
+Vomiting
+
+A particularly concerning pattern is:
+
+Sudden severe headache reaching maximum intensity rapidly.
+
+Other concerning findings include:
+
+New neurologic deficit
+
+Altered mental status
+
+Fever/meningismus
+
+Recent trauma
+
+Pregnancy/postpartum status
+
+New headache in an older patient
+
+Seizure
+
+21. Abdominal Pain
+
+Assess:
+
+Location
+
+Onset
+
+Quality
+
+Severity
+
+Radiation
+
+Timing
+
+Vomiting
+
+Diarrhea
+
+Constipation
+
+GI bleeding
+
+Urinary symptoms
+
+Pregnancy possibility
+
+Prior abdominal surgery
+
+Fever
+
+Potential serious causes include:
+
+Appendicitis
+
+Bowel obstruction
+
+GI bleeding
+
+Perforation
+
+Pancreatitis
+
+Cholecystitis
+
+Ectopic pregnancy
+
+Abdominal aortic aneurysm
+
+Mesenteric ischemia
+
+Do not assume abdominal pain is gastrointestinal.
+
+22. Nausea and Vomiting
+
+Assess:
+
+Duration
+
+Frequency
+
+Blood
+
+Abdominal pain
+
+Headache
+
+Diarrhea
+
+Fever
+
+Pregnancy possibility
+
+Medication/substance exposure
+
+Hydration status
+
+Important findings include:
+
+Hematemesis
+
+Severe abdominal pain
+
+Altered mental status
+
+Shock
+
+Severe dehydration
+
+Possible toxicologic exposure
+
+23. GI Bleeding
+
+Possible findings include:
+
+Hematemesis
+
+Coffee-ground emesis
+
+Melena
+
+Hematochezia
+
+Pallor
+
+Weakness
+
+Tachycardia
+
+Hypotension
+
+Syncope
+
+Altered mental status
+
+Assess for signs of shock and ongoing blood loss.
+
+24. Allergic Reaction
+
+Possible findings:
+
+Skin
+
+Hives
+
+Flushing
+
+Itching
+
+Swelling
+
+Airway
+
+Lip/tongue swelling
+
+Throat tightness
+
+Hoarseness
+
+Stridor
+
+Respiratory
+
+Wheezing
+
+Dyspnea
+
+Hypoxemia
+
+Cardiovascular
+
+Hypotension
+
+Tachycardia
+
+Shock
+
+GI
+
+Vomiting
+
+Abdominal cramping
+
+Anaphylaxis can occur without prominent skin findings.
+
+25. Fever
+
+Fever may accompany:
+
+Infection
+
+Inflammation
+
+Heat illness
+
+Medication reactions
+
+Other systemic conditions
+
+Assess:
+
+Temperature
+
+Mental status
+
+Heart rate
+
+Respiratory rate
+
+Blood pressure
+
+Skin appearance
+
+Hydration
+
+Infection source
+
+A febrile patient with altered mental status, hypotension, respiratory distress, or poor perfusion requires particular concern for serious systemic illness.
+
+26. Sepsis / Suspected Serious Infection
+
+Potential findings include:
+
+Suspected infection
+
+Abnormal temperature
+
+Tachycardia
+
+Tachypnea
+
+Hypotension
+
+Altered mental status
+
+Poor perfusion
+
+Hypoxemia
+
+Weakness
+
+Decreased urine output
+
+Do not diagnose sepsis solely from a single vital-sign abnormality.
+
+Use the applicable local sepsis screening and treatment protocol.
+
+27. Shock
+
+Shock is inadequate tissue perfusion.
+
+Possible findings include:
+
+Hypotension
+
+Tachycardia
+
+Altered mental status
+
+Cool or mottled skin
+
+Weak peripheral pulses
+
+Delayed peripheral perfusion
+
+Tachypnea
+
+Decreased urine output
+
+Weakness
+
+Important categories include:
+
+Hypovolemic
+
+Examples:
+
+Hemorrhage
+
+Severe dehydration
+
+Fluid loss
+
+Cardiogenic
+
+Examples:
+
+Myocardial infarction
+
+Severe dysrhythmia
+
+Cardiomyopathy
+
+Distributive
+
+Examples:
+
+Sepsis
+
+Anaphylaxis
+
+Neurogenic shock
+
+Obstructive
+
+Examples:
+
+Pulmonary embolism
+
+Tension pneumothorax
+
+Cardiac tamponade
+
+28. Hypotension
+
+Hypotension should not be interpreted solely by a numerical blood-pressure threshold.
+
+Assess:
+
+Mental status
+
+Skin/perfusion
+
+Pulse
+
+Respiratory status
+
+Urine output when known
+
+Symptoms
+
+Baseline blood pressure
+
+Possible cause
+
+Potential causes include:
+
+Hemorrhage
+
+Dehydration
+
+Sepsis
+
+Anaphylaxis
+
+Cardiogenic shock
+
+Dysrhythmia
+
+Medication effects
+
+Obstructive shock
+
+29. Hypertension
+
+Severe hypertension should be interpreted with the patient's symptoms and evidence of acute organ injury.
+
+Assess for:
+
+Chest pain
+
+Dyspnea
+
+Neurologic deficits
+
+Severe headache
+
+Vision changes
+
+Altered mental status
+
+Seizure
+
+Acute heart failure
+
+A high blood-pressure number alone does not establish hypertensive emergency.
+
+30. Bradycardia
+
+Assess:
+
+Heart rate
+
+Rhythm
+
+Blood pressure
+
+Mental status
+
+Chest pain
+
+Dyspnea
+
+Syncope
+
+Perfusion
+
+Potential causes include:
+
+Athletic conditioning
+
+Medications
+
+Inferior myocardial infarction
+
+Hypothermia
+
+Hypoxia
+
+Electrolyte abnormalities
+
+Conduction disease
+
+Determine whether the patient is symptomatic or unstable.
+
+31. Tachycardia
+
+Assess:
+
+Heart rate
+
+Regularity
+
+QRS width
+
+P waves
+
+Blood pressure
+
+Mental status
+
+Chest pain
+
+Dyspnea
+
+Perfusion
+
+Determine whether the tachycardia may be:
+
+Physiologic
+
+Supraventricular
+
+Atrial
+
+Ventricular
+
+A rapid heart rate may be the body's response to:
+
+Hypovolemia
+
+Pain
+
+Fever
+
+Hypoxia
+
+Anxiety
+
+Shock
+
+Infection
+
+Treat the patient and the underlying cause rather than automatically treating the number.
+
+32. Palpitations
+
+Ask:
+
+Fast?
+
+Slow?
+
+Regular?
+
+Irregular?
+
+Sudden onset?
+
+Sudden termination?
+
+Associated chest pain?
+
+Associated syncope?
+
+Associated dyspnea?
+
+Obtain ECG/rhythm monitoring when appropriate.
+
+33. Edema
+
+Assess:
+
+Location
+
+Symmetry
+
+Onset
+
+Pitting versus non-pitting
+
+Associated dyspnea
+
+Orthopnea
+
+Chest pain
+
+Weight changes
+
+Cardiac history
+
+Renal history
+
+Potential causes include:
+
+Heart failure
+
+Venous disease
+
+Renal disease
+
+Liver disease
+
+Medication effects
+
+DVT when unilateral and clinically appropriate
+
+34. Skin Findings
+
+Assess:
+
+Color
+
+Pale
+
+Cyanotic
+
+Flushed
+
+Mottled
+
+Jaundiced
+
+Temperature
+
+Warm
+
+Cool
+
+Hot
+
+Cold
+
+Moisture
+
+Dry
+
+Diaphoretic
+
+Lesions
+
+Rash
+
+Hives
+
+Bruising
+
+Petechiae
+
+Purpura
+
+Burns
+
+Skin findings can provide clues about perfusion, allergic reactions, infection, toxicologic conditions, and environmental exposure.
+
+35. Cyanosis
+
+Cyanosis may indicate inadequate oxygenation but can have multiple causes.
+
+Assess:
+
+SpO2
+
+Respiratory effort
+
+Lung sounds
+
+Perfusion
+
+Circulation
+
+Environmental factors
+
+Do not rely on skin color alone to determine oxygenation.
+
+36. Diaphoresis
+
+Diaphoresis can occur with:
+
+Acute coronary syndrome
+
+Shock
+
+Hypoglycemia
+
+Pain
+
+Fever
+
+Anxiety
+
+Toxicologic conditions
+
+Diaphoresis should be interpreted with the complete presentation.
+
+37. Pallor
+
+Pallor may occur with:
+
+Shock
+
+Hemorrhage
+
+Vasoconstriction
+
+Anemia
+
+Syncope
+
+Fear/anxiety
+
+Evaluate perfusion and hemodynamic status.
+
+38. Hypoglycemia
+
+Possible findings include:
+
+Autonomic
+
+Sweating
+
+Tremor
+
+Palpitations
+
+Hunger
+
+Anxiety
+
+Neurogenic/neuroglycopenic
+
+Confusion
+
+Weakness
+
+Behavioral changes
+
+Seizure
+
+Altered consciousness
+
+Coma
+
+Check blood glucose when clinically indicated.
+
+39. Hyperglycemia
+
+Possible findings include:
+
+Polyuria
+
+Polydipsia
+
+Weakness
+
+Dehydration
+
+Nausea/vomiting
+
+Abdominal pain
+
+Altered mental status
+
+In severe cases consider diabetic ketoacidosis or hyperosmolar hyperglycemic state according to the clinical presentation and available testing.
+
+40. Trauma-Related Signs
+
+Assess for:
+
+Bleeding
+
+Deformity
+
+Tenderness
+
+Instability
+
+Swelling
+
+Penetrating wounds
+
+Burns
+
+Neurologic deficits
+
+Loss of consciousness
+
+Respiratory abnormalities
+
+Use the applicable trauma assessment and destination protocol.
+
+41. Neurologic Red Flags
+
+Potentially serious neurologic findings include:
+
+Sudden unilateral weakness
+
+Facial droop
+
+Aphasia
+
+Severe new headache
+
+New seizure
+
+Altered consciousness
+
+Unequal pupils
+
+New vision loss
+
+Sudden loss of coordination
+
+New sensory deficit
+
+Sudden severe dizziness with neurologic findings
+
+Time of onset or last known well should be documented whenever relevant.
+
+42. Respiratory Red Flags
+
+Concerning findings include:
+
+Apnea
+
+Agonal respirations
+
+Severe work of breathing
+
+Inability to speak normally
+
+Cyanosis
+
+Altered mental status
+
+Exhaustion
+
+Poor air movement
+
+Severe hypoxemia
+
+Silent chest in a severely distressed patient
+
+Stridor with airway compromise
+
+43. Cardiovascular Red Flags
+
+Concerning findings include:
+
+Cardiac arrest
+
+Severe chest pain
+
+Syncope with concerning features
+
+Significant dysrhythmia
+
+Severe hypotension
+
+Signs of cardiogenic shock
+
+New neurologic deficit associated with cardiac symptoms
+
+Severe dyspnea with suspected cardiac cause
+
+New concerning ECG changes
+
+44. General Red-Flag Pattern
+
+The AI should increase concern when multiple systems show abnormalities simultaneously.
+
+Examples:
+
+Chest pain + diaphoresis + dyspnea
+
+may raise concern for acute coronary syndrome.
+
+Fever + altered mental status + hypotension
+
+may raise concern for severe systemic infection/shock.
+
+Wheezing + hypotension + airway swelling
+
+may raise concern for anaphylaxis.
+
+Altered mental status + abnormal respiratory pattern + pinpoint pupils
+
+may raise concern for opioid toxicity.
+
+These are patterns for differential diagnosis, not definitive diagnoses.
+
+45. Differential Diagnosis Framework
+
+The AI should use a broad differential rather than anchoring on the first apparent diagnosis.
+
+For many complaints consider:
+
+Cardiac
+
+ACS
+
+Dysrhythmia
+
+Heart failure
+
+Structural disease
+
+Respiratory
+
+Asthma
+
+COPD
+
+Pneumonia
+
+PE
+
+Pneumothorax
+
+Neurologic
+
+Stroke
+
+Seizure
+
+Intracranial hemorrhage
+
+Metabolic
+
+Hypoglycemia
+
+Hyperglycemia
+
+Electrolyte abnormalities
+
+Toxicologic
+
+Opioids
+
+Stimulants
+
+Sedatives
+
+Alcohol
+
+Other exposures
+
+Infectious
+
+Sepsis
+
+Pneumonia
+
+CNS infection
+
+Traumatic
+
+Internal bleeding
+
+Head injury
+
+Chest injury
+
+Psychiatric
+
+Consider psychiatric causes only after appropriate medical causes have been considered.
+
+46. Vital Signs
+
+The AI should evaluate trends rather than isolated values.
+
+Assess:
+
+Heart rate
+
+Respiratory rate
+
+Blood pressure
+
+SpO2
+
+Temperature
+
+EtCO2 when available
+
+Blood glucose when indicated
+
+A single normal vital sign does not exclude serious illness.
+
+A changing trend can be more informative than a single measurement.
+
+47. Reassessment
+
+Patient assessment is continuous.
+
+Repeat assessment after:
+
+Medication administration
+
+Oxygen therapy
+
+Airway intervention
+
+Ventilatory support
+
+Fluid administration
+
+Significant change in symptoms
+
+Deterioration
+
+Improvement
+
+Compare:
+
+Before intervention
+
+with:
+
+After intervention
+
+Document clinically meaningful changes.
+
+48. AI Response Structure for Signs and Symptoms
+
+When asked about a patient presentation, the AI should respond using:
+
+Chief Complaint:
+
+Immediate Threats:
+
+Relevant Signs:
+
+Reported Symptoms:
+
+Vital Signs:
+
+Important Associated Findings:
+
+Concerning Findings:
+
+Possible Differential Diagnoses:
+
+Findings Supporting Each:
+
+Findings Against Each:
+
+Recommended Assessment:
+
+ECG/Monitoring Considerations:
+
+Relevant Protocol:
+
+Reassessment Priorities:
+
+Source:
+
+49. Example
+
+Presentation
+
+Patient reports sudden shortness of breath.
+
+Vital signs:
+
+HR 122
+
+RR 30
+
+SpO2 88%
+
+BP 98/64
+
+Patient appears anxious and is using accessory muscles.
+
+AI assessment
+
+Chief Complaint:
+Acute dyspnea.
+
+Immediate concerns:
+Respiratory distress with hypoxemia and borderline blood pressure.
+
+Important findings:
+
+Tachycardia
+
+Tachypnea
+
+Hypoxemia
+
+Increased work of breathing
+
+Differential considerations:
+
+Asthma/COPD exacerbation
+
+Pulmonary edema
+
+Pulmonary embolism
+
+Pneumonia
+
+Pneumothorax
+
+Acute coronary syndrome
+
+Other causes of respiratory failure
+
+Assessment priorities:
+
+Airway
+
+Respiratory effort
+
+Lung sounds
+
+SpO2
+
+EtCO2 when available
+
+Cardiac monitoring
+
+12-lead ECG when appropriate
+
+Temperature
+
+Relevant history
+
+The AI should not identify the cause solely from the initial vital signs.
+
+50. AI Safety Rules
+
+The AI should:
+
+Distinguish signs from symptoms.
+
+Identify immediate life threats before discussing differential diagnoses.
+
+Avoid premature diagnostic closure.
+
+Avoid treating one abnormal vital sign as a diagnosis.
+
+Consider multiple organ systems.
+
+Recognize that serious illness can present atypically.
+
+Ask for missing information when it could change the assessment.
+
+Consider age and relevant patient characteristics.
+
+Consider medications and medical history.
+
+Reassess after interventions.
+
+Identify deterioration promptly.
+
+Follow the applicable local EMS protocol.
+
+Clearly distinguish clinical findings from diagnostic conclusions.
+
+Cite the underlying source when using protocol-specific information.
+
+Never invent vital signs, symptoms, physical findings, or medical history.
+
+51. Core Principle
+
+The goal of prehospital assessment is not simply to identify a disease.
+
+The goal is to:
+
+Recognize life threats → stabilize the patient → identify the most likely causes → identify dangerous alternatives → provide appropriate protocol-directed care → reassess → transport to the appropriate destination.
+
+Signs and symptoms should therefore be interpreted as patterns, not isolated facts.
+
+52. Recommended Knowledge-Base Structure
+
+For retrieval-based AI, divide this information into focused documents:
+
+knowledge/
+
+├── assessment/
+
+│   ├── primary_survey.md
+
+│   ├── vital_signs.md
+
+│   ├── pain_assessment.md
+
+│   ├── respiratory_symptoms.md
+
+│   ├── chest_pain.md
+
+│   ├── dyspnea.md
+
+│   ├── abdominal_pain.md
+
+│   ├── altered_mental_status.md
+
+│   ├── stroke.md
+
+│   ├── seizure.md
+
+│   ├── syncope.md
+
+│   ├── dizziness.md
+
+│   ├── headache.md
+
+│   ├── allergic_reaction.md
+
+│   ├── shock.md
+
+│   ├── fever.md
+
+│   ├── hypoglycemia.md
+
+│   ├── hyperglycemia.md
+
+│   ├── trauma_signs.md
+
+│   └── neurologic_red_flags.md
+
+Each document should contain:
+
+Chief complaint:
+
+Definition:
+
+Important signs:
+
+Important symptoms:
+
+Red flags:
+
+Differential diagnoses:
+
+Assessment:
+
+Vital signs:
+
+ECG considerations:
+
+Relevant medications:
+
+Protocol considerations:
+
+Reassessment:
+
+Sources:
+
+Last reviewed:
+
+This structure will allow your local Paramedic AI to retrieve a focused set of information instead of dumping a huge signs-and-symptoms document into the model's context.

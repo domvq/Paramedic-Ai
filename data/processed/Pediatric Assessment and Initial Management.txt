@@ -1,0 +1,1621 @@
+Pediatric Assessment and Initial Management
+
+1. Purpose
+
+This document provides a structured framework for the prehospital assessment and initial management of pediatric patients.
+
+It is intended to support paramedics and a documentation-grounded paramedic AI in recognizing pediatric illness, identifying deterioration, selecting appropriate assessment priorities, and locating the appropriate pediatric protocol.
+
+Current local EMS protocols, medical-director orders, pediatric medication protocols, scope of practice, manufacturer instructions, and applicable law take precedence over this general reference.
+
+The 2025 American Heart Association (AHA) and American Academy of Pediatrics (AAP) pediatric guidelines address pediatric patients in prearrest, intra-arrest, and post-arrest states and include pediatric BLS and advanced life support.
+
+2. Pediatric Age Definitions
+
+The AI should identify the patient's developmental category before providing pediatric-specific recommendations.
+
+For 2025 AHA pediatric BLS guidance:
+
+Infant
+
+Approximately younger than 1 year of age, excluding newborn infants.
+
+Child
+
+Approximately 1 year of age until puberty.
+
+Puberty and older
+
+Patients showing signs of puberty should generally follow adult BLS guidance.
+
+The pediatric BLS guidelines specifically exclude newborn infants, whose resuscitation follows neonatal guidance because of their unique transition from fetal to neonatal physiology.
+
+Local EMS definitions may differ and should take precedence.
+
+3. Pediatric Assessment Principles
+
+Pediatric assessment should rapidly determine:
+
+Is the child critically ill?
+
+Is the airway patent?
+
+Is breathing adequate?
+
+Is oxygenation adequate?
+
+Is ventilation adequate?
+
+Is circulation adequate?
+
+Is the child in shock?
+
+Is the child at risk for respiratory failure?
+
+Is the child experiencing cardiac arrest?
+
+What is the most likely underlying cause?
+
+Pediatric patients may compensate for significant illness before suddenly deteriorating.
+
+Early recognition of respiratory failure and shock is therefore important.
+
+4. Pediatric Appearance
+
+Assess the child's overall appearance.
+
+Consider:
+
+Level of consciousness
+
+Interaction with caregivers
+
+Muscle tone
+
+Ability to respond appropriately
+
+Eye contact
+
+Speech or cry
+
+Consolability
+
+Work of breathing
+
+Skin color
+
+Position
+
+A markedly abnormal appearance may indicate serious illness even before severe vital-sign abnormalities develop.
+
+5. Pediatric Respiratory Assessment
+
+Assess:
+
+Respiratory rate
+
+Respiratory effort
+
+Chest movement
+
+Breath sounds
+
+Air entry
+
+Oxygen saturation
+
+Skin color
+
+Mental status
+
+Ability to speak or cry
+
+Presence of abnormal airway sounds
+
+Potential signs of respiratory distress include:
+
+Tachypnea
+
+Nasal flaring
+
+Retractions
+
+Grunting
+
+Accessory-muscle use
+
+Head bobbing in infants
+
+Abnormal positioning
+
+Wheezing
+
+Stridor
+
+Crackles
+
+Decreased air movement
+
+Cyanosis
+
+Potential signs of respiratory failure include:
+
+Decreasing mental status
+
+Severe fatigue
+
+Poor respiratory effort
+
+Apnea
+
+Bradycardia
+
+Cyanosis
+
+Inadequate chest movement
+
+Inability to maintain oxygenation or ventilation
+
+Respiratory conditions are a major cause of pediatric cardiac arrest, making early support of oxygenation and ventilation particularly important.
+
+6. Pediatric Airway
+
+Assess for:
+
+Airway obstruction
+
+Secretions
+
+Vomitus
+
+Blood
+
+Foreign body
+
+Tongue obstruction
+
+Facial trauma
+
+Airway swelling
+
+Anaphylaxis
+
+Burns or inhalation injury
+
+Altered mental status
+
+Basic airway interventions may include:
+
+Positioning
+
+Airway-opening maneuvers
+
+Suction
+
+Airway adjuncts
+
+Oxygen
+
+Assisted ventilation
+
+Advanced airway interventions should follow the applicable pediatric airway protocol and provider scope.
+
+7. Pediatric Ventilation
+
+If a pediatric patient has inadequate or absent breathing, ventilation support should be initiated promptly.
+
+The 2025 AHA pediatric BLS guidelines emphasize rapid support of ventilation and oxygenation in seriously ill children.
+
+Potential interventions include:
+
+Appropriate airway positioning
+
+Supplemental oxygen when indicated
+
+Bag-valve-mask ventilation
+
+Advanced airway management when indicated
+
+Continuous reassessment
+
+Avoid both inadequate and excessive ventilation.
+
+8. Pediatric Oxygenation
+
+Assess oxygenation using:
+
+Clinical appearance
+
+Pulse oximetry
+
+Work of breathing
+
+Skin color
+
+Mental status
+
+Oxygen therapy should follow the applicable pediatric respiratory protocol.
+
+Do not use pulse oximetry as the sole indicator of respiratory status.
+
+A child can have significant respiratory distress before oxygen saturation becomes severely abnormal.
+
+9. Pediatric Circulation
+
+Assess:
+
+Heart rate
+
+Pulse quality
+
+Blood pressure when appropriate
+
+Capillary refill when useful
+
+Skin temperature
+
+Skin color
+
+Mental status
+
+Urine output when history is available
+
+Signs of shock
+
+Pediatric patients can maintain blood pressure despite significant circulatory compromise.
+
+Therefore, normal blood pressure does not automatically exclude shock.
+
+10. Pediatric Shock
+
+Consider shock when there is evidence of inadequate tissue perfusion.
+
+Potential findings include:
+
+Tachycardia
+
+Weak peripheral pulses
+
+Delayed capillary refill
+
+Cool extremities
+
+Pale or mottled skin
+
+Altered mental status
+
+Decreased urine output
+
+Hypotension
+
+Increasing respiratory distress
+
+Abnormal skin temperature
+
+Potential causes include:
+
+Hypovolemic shock
+
+Examples:
+
+Hemorrhage
+
+Dehydration
+
+Vomiting
+
+Diarrhea
+
+Burns
+
+Distributive shock
+
+Examples:
+
+Sepsis
+
+Anaphylaxis
+
+Cardiogenic shock
+
+Examples:
+
+Myocarditis
+
+Cardiomyopathy
+
+Congenital heart disease
+
+Dysrhythmia
+
+Obstructive shock
+
+Examples:
+
+Tension pneumothorax
+
+Cardiac tamponade
+
+Pulmonary embolism
+
+Treatment should follow the appropriate pediatric shock protocol and underlying cause.
+
+The 2025 PALS guidelines specifically address pediatric shock and different shock etiologies.
+
+11. Pediatric Vital Signs
+
+Vital signs should be interpreted according to:
+
+Age
+
+Clinical condition
+
+Activity
+
+Fever
+
+Medications
+
+Baseline health
+
+Local pediatric reference ranges
+
+The AI should not automatically apply adult normal ranges to pediatric patients.
+
+A heart rate that is normal for an infant may be abnormal for an adolescent.
+
+12. Pediatric Heart Rate
+
+Evaluate:
+
+Rate
+
+Rhythm
+
+Regularity
+
+Pulse quality
+
+Relationship to clinical condition
+
+Perfusion
+
+Tachycardia may be:
+
+Physiologic
+
+Related to fever
+
+Related to pain
+
+Related to dehydration
+
+Related to hypoxia
+
+Related to shock
+
+Caused by a primary arrhythmia
+
+Bradycardia in a seriously ill child may indicate significant hypoxia or respiratory failure.
+
+13. Pediatric Cardiac Arrest
+
+Pediatric cardiac arrest is frequently associated with respiratory failure or shock rather than an isolated primary cardiac event.
+
+When cardiac arrest is recognized:
+
+Begin high-quality CPR.
+
+Provide effective ventilation.
+
+Apply the monitor/defibrillator.
+
+Identify the rhythm.
+
+Defibrillate shockable rhythms when indicated.
+
+Establish vascular access.
+
+Administer appropriate medications according to current pediatric protocol.
+
+Identify and treat reversible causes.
+
+Reassess continuously.
+
+The 2025 pediatric BLS guidance emphasizes conventional CPR with both compressions and ventilations for infants and children in cardiac arrest.
+
+14. Pediatric CPR
+
+For pediatric cardiac arrest, use current pediatric resuscitation guidance.
+
+The 2025 AHA/AAP pediatric BLS guidelines recommend:
+
+Compression rate of approximately 100–120/min
+
+Compression depth of approximately one-third of the anterior-posterior chest diameter
+
+Approximately 4 cm for infants
+
+Approximately 5 cm for children
+
+Minimizing interruptions
+
+Complete chest recoil
+
+For infants, the 2025 guidelines no longer recommend the 2-finger compression technique because of concerns about achieving adequate depth; 1-hand or 2-thumb–encircling-hands techniques are recommended.
+
+15. Pediatric AED/Defibrillation
+
+Use an AED or manual defibrillator as soon as available during pediatric cardiac arrest.
+
+When available, a pediatric attenuator may be used according to current guidance and equipment instructions.
+
+The 2025 AHA/AAP pediatric BLS guidelines recommend immediate AED application/use for pediatric cardiac arrest when available, including use of a pediatric attenuator when available.
+
+Defibrillation energy should come from the current pediatric resuscitation protocol and device-specific guidance.
+
+16. Pediatric Advanced Life Support
+
+PALS-level management may include:
+
+Advanced airway management
+
+Vascular access
+
+Weight-based medication administration
+
+Defibrillation
+
+Cardioversion
+
+Pacing when indicated
+
+Treatment of bradycardia
+
+Treatment of tachyarrhythmias
+
+Shock management
+
+Post-cardiac-arrest care
+
+The 2025 PALS guidelines specifically address airway management, ventilation, medication administration, defibrillation, shock, bradycardia, tachycardia, congenital heart disease, and post-arrest care.
+
+17. Pediatric Bradycardia
+
+Evaluate:
+
+Heart rate
+
+Oxygenation
+
+Ventilation
+
+Mental status
+
+Perfusion
+
+Blood pressure
+
+ECG rhythm
+
+In a critically ill child, bradycardia should prompt immediate assessment of oxygenation and ventilation.
+
+Potential causes include:
+
+Hypoxia
+
+Respiratory failure
+
+Increased vagal tone
+
+Medication effects
+
+Hypothermia
+
+Metabolic abnormalities
+
+Cardiac disease
+
+Treatment should follow the current pediatric bradycardia algorithm.
+
+18. Pediatric Tachycardia
+
+Determine whether tachycardia is likely:
+
+Sinus tachycardia
+
+Supraventricular tachycardia
+
+Another atrial rhythm
+
+Ventricular tachycardia
+
+Secondary to another illness
+
+Assess:
+
+Heart rate
+
+Rhythm regularity
+
+QRS width
+
+P waves
+
+Clinical symptoms
+
+Perfusion
+
+Blood pressure
+
+Underlying illness
+
+A fast heart rate in a sick child should not automatically be labeled SVT.
+
+Pain, fever, hypoxia, dehydration, and shock can all produce sinus tachycardia.
+
+19. Pediatric Respiratory Emergencies
+
+The pediatric folder should contain dedicated documents for:
+
+Asthma
+
+Bronchiolitis
+
+Croup
+
+Upper-airway obstruction
+
+Foreign-body airway obstruction
+
+Pneumonia
+
+Respiratory failure
+
+Anaphylaxis
+
+Inhalation injury
+
+Drowning
+
+Pneumothorax
+
+Severe respiratory distress
+
+20. Foreign-Body Airway Obstruction
+
+Assess whether the obstruction is:
+
+Mild/partial
+
+Severe/complete
+
+The 2025 pediatric BLS guidelines provide different interventions for infants and children with severe foreign-body airway obstruction.
+
+For infants with severe obstruction, the current guideline uses repeated cycles of 5 back blows followed by 5 chest thrusts.
+
+For children with severe obstruction, the guideline uses repeated cycles of 5 back blows followed by 5 abdominal thrusts.
+
+Blind finger sweeps should not be performed.
+
+If the patient becomes unresponsive, initiate CPR according to the current pediatric algorithm and remove a visible foreign body when opening the airway.
+
+21. Pediatric Asthma
+
+Assess:
+
+Respiratory rate
+
+Work of breathing
+
+Air movement
+
+Wheezing
+
+Mental status
+
+Oxygenation
+
+Ability to speak
+
+Fatigue
+
+Severe asthma may progress to respiratory failure.
+
+Concerning findings include:
+
+Minimal air movement
+
+Altered mental status
+
+Exhaustion
+
+Cyanosis
+
+Bradycardia
+
+Silent chest
+
+Treatment should follow the local pediatric respiratory protocol.
+
+22. Croup and Upper-Airway Obstruction
+
+Assess for:
+
+Barking cough
+
+Stridor
+
+Hoarseness
+
+Retractions
+
+Drooling
+
+Difficulty swallowing
+
+Abnormal positioning
+
+Increasing respiratory distress
+
+Avoid unnecessarily agitating a child with significant upper-airway obstruction.
+
+Consider alternative diagnoses when presentation is atypical.
+
+23. Anaphylaxis
+
+Pediatric anaphylaxis may involve:
+
+Airway swelling
+
+Stridor
+
+Wheezing
+
+Respiratory distress
+
+Hypotension
+
+Poor perfusion
+
+Hives
+
+Angioedema
+
+Gastrointestinal symptoms
+
+Epinephrine is the primary medication treatment when indicated.
+
+Additional treatments should follow the local pediatric anaphylaxis protocol.
+
+The 2025 AHA special-circumstances guidelines include pediatric considerations for anaphylaxis.
+
+24. Pediatric Seizures
+
+Assess:
+
+Seizure duration
+
+Generalized vs focal activity
+
+Current mental status
+
+Respiratory status
+
+Blood glucose
+
+Temperature
+
+Trauma
+
+Medication history
+
+Known seizure disorder
+
+Possible toxicologic cause
+
+Potential causes include:
+
+Fever
+
+Epilepsy
+
+Hypoglycemia
+
+Hypoxia
+
+Electrolyte abnormalities
+
+Infection
+
+Trauma
+
+Toxicologic exposure
+
+Active prolonged seizure activity requires treatment according to the current pediatric seizure protocol.
+
+25. Pediatric Altered Mental Status
+
+Potential causes include:
+
+Hypoglycemia
+
+Hypoxia
+
+Seizure
+
+Infection
+
+Trauma
+
+Toxicologic exposure
+
+Metabolic abnormalities
+
+Intracranial pathology
+
+Shock
+
+Medication effects
+
+A systematic evaluation should include:
+
+Airway
+
+Breathing
+
+Circulation
+
+Oxygenation
+
+Blood glucose
+
+Temperature
+
+Neurologic assessment
+
+Trauma assessment
+
+Medication/toxin history
+
+26. Pediatric Fever and Infection
+
+Assess:
+
+Temperature
+
+Mental status
+
+Perfusion
+
+Respiratory status
+
+Hydration
+
+Skin findings
+
+Heart rate
+
+Blood pressure
+
+Capillary refill when appropriate
+
+Consider serious infection when fever is associated with:
+
+Altered mental status
+
+Poor perfusion
+
+Respiratory distress
+
+Hypotension
+
+Petechiae/purpura
+
+Severe lethargy
+
+Seizure
+
+Significant dehydration
+
+Follow the local pediatric sepsis/infection protocol.
+
+27. Pediatric Dehydration
+
+Potential findings include:
+
+Dry mucous membranes
+
+Decreased urine output
+
+Poor oral intake
+
+Tachycardia
+
+Weak pulses
+
+Delayed capillary refill
+
+Altered mental status
+
+Abnormal skin findings
+
+Potential causes include:
+
+Vomiting
+
+Diarrhea
+
+Fever
+
+Poor intake
+
+Burns
+
+Heat illness
+
+Assess severity before determining treatment.
+
+28. Pediatric Trauma
+
+The pediatric trauma assessment should address:
+
+Airway
+
+Breathing
+
+Circulation
+
+Neurologic status
+
+Exposure
+
+Mechanism
+
+Injury pattern
+
+Bleeding
+
+Head injury
+
+Spinal injury
+
+Chest injury
+
+Abdominal injury
+
+Extremity injury
+
+Burns
+
+Pediatric patients have anatomical and physiologic differences that may alter injury patterns and treatment.
+
+Use the applicable pediatric trauma protocol.
+
+29. Pediatric Head Injury
+
+Assess:
+
+Mechanism
+
+Level of consciousness
+
+Pupils
+
+Vomiting
+
+Seizure
+
+Behavior changes
+
+Headache
+
+Neurologic deficits
+
+Signs of skull injury
+
+Anticoagulant exposure when relevant
+
+Monitor for deterioration during transport.
+
+30. Pediatric Burns
+
+Assess:
+
+Burn mechanism
+
+Burn depth
+
+Burn extent
+
+Location
+
+Airway involvement
+
+Inhalation injury
+
+Associated trauma
+
+Temperature
+
+Perfusion
+
+Special attention should be given to burns involving:
+
+Face
+
+Neck
+
+Chest
+
+Hands
+
+Feet
+
+Genitals
+
+Major joints
+
+Follow the applicable pediatric burn protocol.
+
+31. Drowning
+
+After a drowning event, prioritize:
+
+Ventilation
+
+Oxygenation
+
+Airway management
+
+CPR when indicated
+
+Hypothermia assessment
+
+Trauma assessment
+
+Reassessment for respiratory deterioration
+
+The 2025 AHA special-circumstances guidelines include specific recommendations for drowning-related resuscitation.
+
+32. Toxicologic Emergencies
+
+Pediatric toxicologic emergencies may involve:
+
+Medications
+
+Household chemicals
+
+Carbon monoxide
+
+Recreational substances
+
+Pesticides
+
+Opioids
+
+Alcohol
+
+Hydrocarbons
+
+Unknown substances
+
+Obtain, when possible:
+
+Substance
+
+Amount
+
+Time of exposure
+
+Route
+
+Patient weight
+
+Symptoms
+
+Container/packaging information
+
+The 2025 AHA special-circumstances guidance addresses multiple poisoning scenarios, including opioids, beta-blockers, calcium-channel blockers, cyanide, digoxin, organophosphates, sodium-channel blockers, sympathomimetics, and others.
+
+33. Pediatric Medication Safety
+
+Pediatric medications require particular attention to:
+
+Patient weight
+
+Medication concentration
+
+Weight-based dosing
+
+Maximum dose
+
+Route
+
+Administration rate
+
+Medication concentration
+
+Calculation accuracy
+
+Equipment size
+
+The AI should never estimate a pediatric medication dose when the required weight, indication, or protocol information is unavailable.
+
+The 2025 PALS guidelines specifically include weight-based medication administration and dosing during pediatric resuscitation.
+
+34. Weight
+
+When medication dosing or fluid therapy is weight-dependent, obtain an actual measured weight when feasible.
+
+If an actual weight is unavailable:
+
+Follow the local EMS-approved weight-estimation method.
+
+Clearly identify that the weight is estimated.
+
+Do not present an estimated weight as an actual weight.
+
+The AI should distinguish:
+
+Actual weight
+
+from
+
+Estimated weight
+
+and should preserve the source of the weight in its response.
+
+35. Pediatric Equipment
+
+Pediatric equipment should be selected according to:
+
+Age
+
+Weight
+
+Body size
+
+Clinical condition
+
+Manufacturer instructions
+
+Local protocol
+
+Relevant equipment includes:
+
+Airway devices
+
+BVMs
+
+Masks
+
+Suction equipment
+
+Oxygen-delivery devices
+
+IV/IO equipment
+
+ECG electrodes
+
+Defibrillation pads
+
+Immobilization equipment
+
+Medication-delivery equipment
+
+The AI should not infer equipment size from age alone when a more accurate weight or manufacturer sizing system is available.
+
+36. Special Populations
+
+Create dedicated references for:
+
+Infants
+
+Toddlers
+
+School-age children
+
+Adolescents
+
+Children with congenital heart disease
+
+Children with neuromuscular disease
+
+Children with tracheostomies
+
+Children with feeding tubes
+
+Children with ventricular-assist devices
+
+Technology-dependent children
+
+Children with complex medical needs
+
+The 2025 PALS guidelines include specific considerations for congenital heart disease, single-ventricle physiology, pulmonary hypertension, myocarditis/cardiomyopathies, and other special pediatric populations.
+
+37. Pediatric Post-Cardiac Arrest Care
+
+After ROSC, reassess:
+
+Airway
+
+Oxygenation
+
+Ventilation
+
+Blood pressure
+
+Cardiac rhythm
+
+Temperature
+
+Glucose
+
+Neurologic status
+
+Seizure activity
+
+Potential underlying cause
+
+The 2025 PALS guidelines include post-cardiac-arrest management involving temperature, blood pressure, oxygenation/ventilation, neurologic monitoring, and seizures.
+
+38. Family and Caregiver Assessment
+
+Caregivers can provide valuable information regarding:
+
+Baseline mental status
+
+Baseline behavior
+
+Medical history
+
+Medications
+
+Allergies
+
+Recent illness
+
+Oral intake
+
+Urine output
+
+Seizure history
+
+Developmental status
+
+Chronic conditions
+
+Recent exposures
+
+Weight
+
+Whenever possible, compare the child's current condition with their normal baseline.
+
+39. Reassessment
+
+Pediatric patients should be reassessed frequently.
+
+Reassess:
+
+Airway
+
+Respiratory effort
+
+Oxygenation
+
+Ventilation
+
+Heart rate
+
+Rhythm
+
+Blood pressure
+
+Perfusion
+
+Mental status
+
+Temperature
+
+Pain
+
+Response to treatment
+
+A child who initially appears stable may deteriorate rapidly.
+
+40. Pediatric Documentation
+
+Document:
+
+Age
+
+Actual or estimated weight
+
+Chief complaint
+
+History
+
+Baseline condition
+
+Initial appearance
+
+Airway findings
+
+Respiratory findings
+
+Cardiovascular findings
+
+Neurologic findings
+
+Vital signs
+
+Blood glucose when indicated
+
+ECG when indicated
+
+Treatments
+
+Medication doses
+
+Medication concentrations
+
+Routes
+
+Patient response
+
+Reassessment findings
+
+Transport destination
+
+Medical-control consultation when applicable
+
+41. AI Retrieval Rules
+
+When the AI receives a pediatric question, it should first determine:
+
+Patient age
+
+Patient weight
+
+Whether the patient is a newborn
+
+Chief complaint
+
+Clinical severity
+
+Airway status
+
+Respiratory status
+
+Circulatory status
+
+Mental status
+
+Relevant local pediatric protocol
+
+The AI should retrieve pediatric-specific documents before using adult references.
+
+42. Pediatric vs Adult Protocol Conflict
+
+If a pediatric-specific protocol conflicts with an adult protocol:
+
+Use the applicable pediatric protocol.
+
+Do not automatically extrapolate adult:
+
+Doses
+
+Defibrillation energies
+
+Medication concentrations
+
+Vital-sign thresholds
+
+Treatment intervals
+
+Equipment sizes
+
+to pediatric patients.
+
+43. Newborn Exception
+
+This document does not serve as the primary reference for resuscitation of a newborn at birth.
+
+Newborn resuscitation should have a separate folder based on current neonatal resuscitation guidance.
+
+The 2025 AHA/AAP pediatric BLS guideline explicitly distinguishes newborn resuscitation from infant and child resuscitation.
+
+Recommended separate folder:
+
+Neonatal/
+
+├── Newborn_Resuscitation/
+
+├── Neonatal_Airway/
+
+├── Neonatal_Ventilation/
+
+├── Neonatal_Medications/
+
+├── Neonatal_Thermoregulation/
+
+└── Neonatal_Transport/
+
+44. Pediatric AI Safety Rules
+
+The AI should never fabricate:
+
+Pediatric medication doses
+
+Weight-based calculations
+
+Maximum doses
+
+Defibrillation energies
+
+Cardioversion energies
+
+Fluid boluses
+
+Equipment sizes
+
+Vital-sign thresholds
+
+Scope-of-practice rules
+
+Pediatric destination requirements
+
+If the required information is unavailable, the AI should explicitly say so.
+
+Example:
+
+"The provided pediatric protocol does not specify the dose for this indication. I cannot reliably determine the protocol-specific dose from the supplied documentation."
+
+45. Conflicting Pediatric Documents
+
+If two pediatric documents conflict:
+
+Identify both documents.
+
+Check effective dates.
+
+Determine whether they apply to different age groups.
+
+Determine whether they apply to different indications.
+
+Determine whether one is an agency protocol and the other is general guidance.
+
+Prefer the current authoritative local protocol.
+
+Flag unresolved conflicts.
+
+The AI should never silently choose one conflicting pediatric dose or treatment recommendation.
+
+46. Recommended Pediatric Folder Structure
+
+Pediatrics/
+
+│
+
+├── 00_Pediatric_Reference/
+
+│   ├── Pediatric_Overview.pdf
+
+│   ├── Pediatric_Age_Definitions.pdf
+
+│   └── Pediatric_Assessment.pdf
+
+│
+
+├── 01_Assessment/
+
+│   ├── Pediatric_Assessment.pdf
+
+│   ├── Pediatric_Vital_Signs.pdf
+
+│   ├── Pediatric_Weight.pdf
+
+│   └── Pediatric_Shock_Assessment.pdf
+
+│
+
+├── 02_Airway/
+
+│   ├── Pediatric_Airway.pdf
+
+│   ├── Pediatric_BVM.pdf
+
+│   ├── Pediatric_Advanced_Airway.pdf
+
+│   └── Pediatric_FBAO.pdf
+
+│
+
+├── 03_Respiratory/
+
+│   ├── Asthma.pdf
+
+│   ├── Bronchiolitis.pdf
+
+│   ├── Croup.pdf
+
+│   ├── Respiratory_Failure.pdf
+
+│   ├── Pneumonia.pdf
+
+│   └── Drowning.pdf
+
+│
+
+├── 04_Cardiology/
+
+│   ├── Pediatric_Cardiac_Arrest.pdf
+
+│   ├── Pediatric_Bradycardia.pdf
+
+│   ├── Pediatric_Tachycardia.pdf
+
+│   ├── Pediatric_Defibrillation.pdf
+
+│   └── Congenital_Heart_Disease.pdf
+
+│
+
+├── 05_Shock/
+
+│   ├── Hypovolemic_Shock.pdf
+
+│   ├── Septic_Shock.pdf
+
+│   ├── Cardiogenic_Shock.pdf
+
+│   ├── Anaphylactic_Shock.pdf
+
+│   └── Obstructive_Shock.pdf
+
+│
+
+├── 06_Neurologic/
+
+│   ├── Pediatric_Seizures.pdf
+
+│   ├── Altered_Mental_Status.pdf
+
+│   └── Pediatric_Head_Injury.pdf
+
+│
+
+├── 07_Trauma/
+
+│   ├── Pediatric_Trauma.pdf
+
+│   ├── Pediatric_Burns.pdf
+
+│   ├── Pediatric_Head_Trauma.pdf
+
+│   └── Pediatric_Abdominal_Trauma.pdf
+
+│
+
+├── 08_Medications/
+
+│   ├── Pediatric_Medication_Safety.pdf
+
+│   ├── Weight_Based_Dosing.pdf
+
+│   └── Pediatric_Medication_Formulary.pdf
+
+│
+
+├── 09_Toxicology/
+
+│   ├── Pediatric_Poisoning.pdf
+
+│   ├── Pediatric_Opioid_Toxicity.pdf
+
+│   └── Pediatric_Environmental_Exposure.pdf
+
+│
+
+├── 10_Special_Populations/
+
+│   ├── Congenital_Heart_Disease.pdf
+
+│   ├── Tracheostomy.pdf
+
+│   ├── Technology_Dependent_Children.pdf
+
+│   └── Neuromuscular_Disease.pdf
+
+│
+
+├── 11_Post_Arrest/
+
+│   └── Pediatric_Post_Cardiac_Arrest.pdf
+
+│
+
+└── 12_Safety/
+
+├── Pediatric_Protocol_Conflicts.pdf
+
+├── Pediatric_Medication_Errors.pdf
+
+└── Pediatric_Equipment_Sizing.pdf
+
+47. Recommended Pediatric Medication Document Format
+
+Every pediatric medication should use the same structure:
+
+# [Medication Name]
+
+## Medication Class
+
+## Pediatric Indications
+
+## Pediatric Contraindications
+
+## Pediatric Precautions
+
+## Weight-Based Dose
+
+## Maximum Dose
+
+## Concentration
+
+## Route
+
+## Administration Rate
+
+## Repeat Dose
+
+## Total Maximum Dose
+
+## Age-Specific Considerations
+
+## Expected Effects
+
+## Adverse Effects
+
+## Serious Adverse Effects
+
+## Drug Interactions
+
+## Monitoring
+
+## Reassessment
+
+## Medication Errors
+
+## Local Protocol
+
+Protocol:
+
+Version:
+
+Effective Date:
+
+Review Date:
+
+## Source
+
+This standardized format is especially useful for your RAG system because a question such as “What is the pediatric dose?” can retrieve the dosing section without confusing it with adult medication information.
+
+48. Final AI Instruction
+
+When answering pediatric questions, prioritize:
+
+Current local pediatric protocol → current pediatric medication/formulary documentation → current AHA/AAP/PALS guidance → manufacturer information → other authoritative pediatric references → general medical knowledge.
+
+The AI should identify uncertainty whenever documentation is incomplete.
+
+Document classification: General prehospital pediatric reference
+
+Protocol authority: Local EMS agency / medical director
+
+Primary guideline reference: 2025 AHA/AAP Pediatric Basic Life Support and Pediatric Advanced Life Support guidelines
+
+Newborn care: Separate neonatal reference required
+
+Review requirement: Verify all pediatric clinical information against current local protocols before clinical use.

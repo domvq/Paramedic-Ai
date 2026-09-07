@@ -1,0 +1,3872 @@
+Paramedic AI
+
+Master Clinical, Product & Technical Reference Documentation
+
+Document Version: 1.0
+Status: Product/Engineering Reference
+Audience: Product, engineering, clinical advisors, paramedics, EMTs, QA, compliance, and AI developers
+Purpose: Define the knowledge, behavior, data structures, safety requirements, and functional scope of a paramedic-focused AI assistant.
+
+1. Product Overview
+
+Paramedic AI is an EMS-focused clinical decision-support and documentation assistant designed to help EMTs, AEMTs, paramedics, EMS students, educators, and agencies organize patient information, recognize clinical patterns, construct differential diagnoses, reference treatments, document encounters, and review clinical reasoning.
+
+The system should assist—not replace—the clinician.
+
+The AI must never represent itself as medical control, an online medical director, a protocol authority, or a substitute for the user's agency-specific protocols.
+
+The product should continuously distinguish between:
+
+Reference information
+
+Clinical reasoning assistance
+
+Protocol-dependent recommendations
+
+Documentation assistance
+
+Emergency safety actions
+
+Educational content
+
+2. Core Product Philosophy
+
+The application should follow five principles.
+
+2.1 Patient First
+
+The application should prioritize information that affects immediate patient care:
+
+Airway
+
+Breathing
+
+Circulation
+
+Mental status
+
+Life threats
+
+Vital signs
+
+ECG/rhythm
+
+Glucose
+
+Trauma mechanism
+
+Chief complaint
+
+Relevant history
+
+Allergies
+
+Medications
+
+Recent events
+
+Response to treatment
+
+The AI should not allow extensive differential reasoning to distract from immediately apparent life threats.
+
+2.2 Protocol First
+
+The application may provide general clinical reference information, but the user's:
+
+Local protocol > medical direction > scope of practice > general reference information
+
+must always be made explicit.
+
+Treatment recommendations should be labeled according to their source.
+
+Example:
+
+General EMS reference
+
+versus:
+
+Agency protocol
+
+versus:
+
+User-provided medical direction
+
+The system should never silently convert a general reference into a protocol.
+
+2.3 Evidence Before Confidence
+
+The AI should distinguish:
+
+Known
+
+Reported
+
+Observed
+
+Measured
+
+Inferred
+
+Suspected
+
+Unknown
+
+It should never turn an assumption into a documented fact.
+
+2.4 Explainable Reasoning
+
+When presenting a differential, the system should explain:
+
+Why the condition is being considered
+
+Which findings support it
+
+Which findings argue against it
+
+What information is missing
+
+What additional assessment could distinguish it from alternatives
+
+2.5 Documentation Integrity
+
+The AI must never fabricate:
+
+Vital signs
+
+Treatments
+
+Medication administration
+
+Patient statements
+
+Physical findings
+
+ECG findings
+
+Times
+
+Procedures
+
+Response to treatment
+
+Consent
+
+Refusal
+
+Medical control contact
+
+Transport details
+
+If information was not provided, it must remain unknown.
+
+3. Primary Features
+
+The initial product should contain the following modules.
+
+3.1 AI Patient Assessment
+
+Input:
+
+Age
+
+Sex
+
+Chief complaint
+
+Mechanism of injury
+
+Signs
+
+Symptoms
+
+Vital signs
+
+Mental status
+
+Medical history
+
+Medications
+
+Allergies
+
+Events
+
+Physical examination
+
+ECG interpretation
+
+Glucose
+
+Temperature
+
+Oxygen saturation
+
+End-tidal CO₂
+
+Treatments already performed
+
+Output:
+
+Immediate concerns
+
+Differential diagnosis
+
+Supporting findings
+
+Contradicting findings
+
+Recommended additional assessment
+
+General treatment considerations
+
+Protocol questions
+
+Transport considerations
+
+Documentation reminders
+
+4. Assessment Framework
+
+The AI should understand the standard EMS assessment sequence.
+
+4.1 Scene Assessment
+
+Capture:
+
+Scene safety
+
+PPE
+
+Number of patients
+
+Mechanism of injury
+
+Nature of illness
+
+Hazards
+
+Need for additional resources
+
+Law enforcement
+
+Fire
+
+Hazmat
+
+Rescue
+
+ALS/BLS resources
+
+Bystanders
+
+Environmental conditions
+
+4.2 General Impression
+
+Capture:
+
+Appearance
+
+Work of breathing
+
+Skin
+
+Position
+
+Distress
+
+Responsiveness
+
+Age category
+
+Immediate life threats
+
+4.3 Primary Assessment
+
+Airway
+
+Assess:
+
+Patent
+
+Partial obstruction
+
+Complete obstruction
+
+Secretions
+
+Blood
+
+Vomit
+
+Foreign body
+
+Swelling
+
+Stridor
+
+Snoring
+
+Gurgling
+
+Abnormal airway sounds
+
+Breathing
+
+Assess:
+
+Respiratory rate
+
+Respiratory effort
+
+Respiratory depth
+
+SpO₂
+
+Lung sounds
+
+Work of breathing
+
+Accessory muscle use
+
+Cyanosis
+
+Chest movement
+
+Symmetry
+
+Respiratory distress
+
+Circulation
+
+Assess:
+
+Pulse
+
+Heart rate
+
+Blood pressure
+
+Skin color
+
+Skin temperature
+
+Skin condition
+
+Capillary refill where applicable
+
+Hemorrhage
+
+Peripheral perfusion
+
+Shock indicators
+
+Disability
+
+Assess:
+
+AVPU
+
+GCS
+
+Pupils
+
+Blood glucose
+
+Motor function
+
+Sensory findings
+
+Seizure activity
+
+Altered mental status
+
+Exposure
+
+Assess:
+
+Temperature
+
+Trauma
+
+Rash
+
+Bleeding
+
+Burns
+
+Swelling
+
+Medical alert information
+
+Relevant environmental exposure
+
+5. Vital Signs Engine
+
+The system should support serial vital signs rather than a single snapshot.
+
+Supported fields should include:
+
+Time
+
+Heart rate
+
+Blood pressure
+
+Respiratory rate
+
+SpO₂
+
+Temperature
+
+Blood glucose
+
+ETCO₂
+
+Pain score
+
+GCS
+
+AVPU
+
+ECG rhythm
+
+Weight
+
+Height where relevant
+
+The system should recognize trends.
+
+Example:
+
+HR 118 → 104 → 92
+
+should be interpreted differently from:
+
+HR 92 → 104 → 118
+
+The AI should identify:
+
+Improvement
+
+Deterioration
+
+Persistent abnormality
+
+New abnormality
+
+Treatment-associated change
+
+It should not assume causality unless supported by the available information.
+
+6. Patient History
+
+The AI should support standard EMS history frameworks.
+
+SAMPLE
+
+Signs/Symptoms
+
+Allergies
+
+Medications
+
+Past medical history
+
+Last oral intake
+
+Events leading to illness/injury
+
+OPQRST
+
+Onset
+
+Provocation/Palliation
+
+Quality
+
+Region/Radiation
+
+Severity
+
+Time
+
+The system should support additional complaint-specific history.
+
+Examples:
+
+Chest Pain
+
+Onset
+
+Exertional relationship
+
+Radiation
+
+Pressure/tightness/sharpness
+
+Associated dyspnea
+
+Diaphoresis
+
+Nausea
+
+Syncope
+
+Previous cardiac history
+
+Anticoagulants
+
+Cardiac medications
+
+Shortness of Breath
+
+Onset
+
+Baseline respiratory status
+
+COPD/asthma
+
+CHF history
+
+Infection symptoms
+
+Orthopnea
+
+PND
+
+Chest pain
+
+Wheezing
+
+Cough
+
+Sputum
+
+Oxygen use
+
+Abdominal Pain
+
+Location
+
+Radiation
+
+Onset
+
+Character
+
+Severity
+
+Vomiting
+
+Diarrhea
+
+Pregnancy possibility
+
+GI/GU symptoms
+
+Surgical history
+
+7. Physical Examination Engine
+
+The AI should support structured examination findings.
+
+Head
+
+Trauma
+
+Tenderness
+
+Bleeding
+
+Swelling
+
+Pupils
+
+Facial symmetry
+
+Eyes
+
+PERRL
+
+Unequal pupils
+
+Dilated
+
+Constricted
+
+Visual disturbance
+
+Ears/Nose/Throat
+
+Bleeding
+
+Drainage
+
+Foreign body
+
+Swelling
+
+Airway findings
+
+Neck
+
+JVD
+
+Tracheal deviation
+
+Tenderness
+
+Trauma
+
+Swelling
+
+Chest
+
+Symmetry
+
+Tenderness
+
+Crepitus
+
+Breath sounds
+
+Work of breathing
+
+Cardiovascular
+
+Rate
+
+Rhythm
+
+Pulses
+
+Perfusion
+
+Edema
+
+Skin findings
+
+Abdomen
+
+Tenderness
+
+Distention
+
+Rigidity
+
+Guarding
+
+Rebound
+
+Masses
+
+Pregnancy-related findings
+
+Pelvis
+
+Stability where clinically appropriate
+
+Pain
+
+Bleeding
+
+Trauma
+
+Extremities
+
+Pulses
+
+Motor
+
+Sensory
+
+Deformity
+
+Swelling
+
+Edema
+
+Temperature
+
+Color
+
+Neurologic
+
+LOC
+
+Orientation
+
+Speech
+
+Facial symmetry
+
+Strength
+
+Sensation
+
+Coordination
+
+Gait
+
+Seizure activity
+
+Stroke findings
+
+Skin
+
+Color
+
+Temperature
+
+Moisture
+
+Rash
+
+Cyanosis
+
+Pallor
+
+Diaphoresis
+
+Hives
+
+Burns
+
+8. Differential Diagnosis Engine
+
+The differential engine should not simply match symptoms to diagnoses.
+
+It should calculate a structured clinical relevance score.
+
+Conceptually:
+
+Clinical relevance =
+
+supporting findings
+
++ risk factors
+
++ compatible presentation
+
++ objective abnormalities
+
+- contradicting findings
+
+- incompatible findings
+
+The exact numerical score should not be presented as a probability unless the model has been clinically validated for probabilistic output.
+
+Instead, display categories such as:
+
+Strong consideration
+
+Important consideration
+
+Possible
+
+Less likely
+
+Cannot exclude
+
+Each differential should include:
+
+Diagnosis
+
+Why it fits
+
+Findings supporting it
+
+Findings against it
+
+Missing information
+
+Dangerous alternative
+
+Assessment that may help distinguish it
+
+General treatment considerations
+
+Protocol dependency
+
+9. Do-Not-Miss Conditions
+
+The AI should maintain a dedicated safety layer for potentially life-threatening diagnoses.
+
+Examples include:
+
+Acute coronary syndrome
+
+Aortic catastrophe
+
+Pulmonary embolism
+
+Tension pneumothorax
+
+Massive hemorrhage
+
+Sepsis
+
+Anaphylaxis
+
+Stroke
+
+Intracranial hemorrhage
+
+Status epilepticus
+
+Hypoglycemia
+
+Hyperglycemic crisis
+
+Opioid toxicity
+
+Severe respiratory failure
+
+Airway obstruction
+
+Cardiac arrest
+
+Dangerous dysrhythmias
+
+Major trauma
+
+Spinal cord injury
+
+Ectopic pregnancy
+
+Severe obstetric hemorrhage
+
+The purpose is not to diagnose these conditions automatically.
+
+The purpose is to prevent the AI from prematurely anchoring on a benign explanation.
+
+10. ECG Module
+
+The ECG module should support:
+
+Rate
+
+Rhythm
+
+Regularity
+
+P waves
+
+PR interval
+
+QRS duration
+
+QT/QTc
+
+Axis
+
+ST elevation
+
+ST depression
+
+T-wave abnormalities
+
+Blocks
+
+Ectopy
+
+Wide-complex rhythms
+
+Narrow-complex rhythms
+
+Rhythm Library
+
+Potential categories:
+
+Sinus
+
+Normal sinus rhythm
+
+Sinus bradycardia
+
+Sinus tachycardia
+
+Sinus arrhythmia
+
+Atrial
+
+Atrial fibrillation
+
+Atrial flutter
+
+SVT
+
+PACs
+
+Ventricular
+
+PVCs
+
+Ventricular tachycardia
+
+Ventricular fibrillation
+
+Torsades
+
+Bradyarrhythmias
+
+First-degree AV block
+
+Mobitz I
+
+Mobitz II
+
+Third-degree AV block
+
+Junctional rhythms
+
+Arrest
+
+Asystole
+
+PEA
+
+VF
+
+Pulseless VT
+
+ECG educational graphics must be clearly labeled as educational/reference material unless they are sourced from appropriately validated clinical systems.
+
+11. 12-Lead ECG Reasoning
+
+The AI should support a structured interpretation workflow:
+
+Rate
+
+Rhythm
+
+Axis
+
+Intervals
+
+QRS morphology
+
+R-wave progression
+
+ST segments
+
+T waves
+
+Reciprocal changes
+
+Comparison with prior ECG
+
+Clinical correlation
+
+The AI should avoid declaring a definitive diagnosis solely from an isolated automated interpretation.
+
+12. Medication Reference
+
+The medication database should contain structured fields.
+
+Medication
+
+├── Generic name
+
+├── Brand names
+
+├── Drug class
+
+├── Indications
+
+├── Contraindications
+
+├── Precautions
+
+├── Adult dose
+
+├── Pediatric dose
+
+├── Weight-based dosing
+
+├── Route
+
+├── Concentration
+
+├── Maximum dose
+
+├── Repeat interval
+
+├── Onset
+
+├── Duration
+
+├── Mechanism
+
+├── Side effects
+
+├── Adverse effects
+
+├── Interactions
+
+├── Special populations
+
+├── Pregnancy considerations
+
+├── Renal considerations
+
+├── Hepatic considerations
+
+├── Protocol source
+
+├── Source version
+
+└── Last verified date
+
+Never present a dose without identifying:
+
+Patient population
+
+Route
+
+Concentration where relevant
+
+Source
+
+Jurisdiction/protocol context
+
+General reference doses should be explicitly distinguished from agency-specific dosing.
+
+13. Medication Administration Documentation
+
+Every medication event should capture:
+
+Medication
+
+Dose
+
+Concentration
+
+Route
+
+Time
+
+Indication
+
+Administering clinician
+
+Protocol
+
+Patient response
+
+Adverse effects
+
+Repeat dose
+
+Whether medication was withheld
+
+Reason withheld
+
+The AI should never invent any of these fields.
+
+14. Procedure Reference
+
+The system should support procedure references such as:
+
+Airway management
+
+BVM ventilation
+
+Suction
+
+Oxygen administration
+
+Supraglottic airway
+
+Endotracheal intubation
+
+CPAP/BiPAP
+
+IV access
+
+IO access
+
+ECG acquisition
+
+12-lead acquisition
+
+Cardioversion
+
+Defibrillation
+
+Transcutaneous pacing
+
+Hemorrhage control
+
+Splinting
+
+Pelvic stabilization
+
+Spinal motion considerations
+
+Childbirth
+
+Neonatal resuscitation
+
+CPR
+
+AED use
+
+Each procedure should contain:
+
+Indications
+
+Contraindications
+
+Equipment
+
+Preparation
+
+Procedure overview
+
+Confirmation
+
+Complications
+
+Documentation requirements
+
+Protocol dependency
+
+Source
+
+15. Trauma Module
+
+The trauma engine should support:
+
+Mechanism
+
+MVC
+
+Motorcycle
+
+Pedestrian
+
+Fall
+
+Penetrating trauma
+
+Blunt trauma
+
+Blast
+
+Crush
+
+Burns
+
+Industrial injury
+
+Sports injury
+
+Trauma Assessment
+
+Hemorrhage
+
+Airway
+
+Breathing
+
+Circulation
+
+Neurologic status
+
+Exposure
+
+Secondary survey
+
+Injury Documentation
+
+Capture:
+
+Location
+
+Size
+
+Depth where appropriate
+
+Appearance
+
+Bleeding
+
+Neurovascular status
+
+Treatment
+
+Response
+
+16. Medical Complaint Modules
+
+The application should eventually have dedicated reasoning modules for:
+
+Chest pain
+
+Dyspnea
+
+Abdominal pain
+
+Back pain
+
+Headache
+
+Syncope
+
+Dizziness
+
+Altered mental status
+
+Weakness
+
+Seizure
+
+Stroke
+
+Fever
+
+Sepsis
+
+Allergic reaction
+
+Anaphylaxis
+
+Overdose
+
+Poisoning
+
+Diabetes
+
+Hypertension
+
+Hypotension
+
+Palpitations
+
+GI bleeding
+
+Vomiting
+
+Diarrhea
+
+Psychiatric emergencies
+
+Behavioral emergencies
+
+OB/GYN emergencies
+
+Pediatric complaints
+
+Geriatric complaints
+
+Environmental emergencies
+
+Toxicology
+
+Infectious disease
+
+17. Pediatric Module
+
+Pediatric functionality should be separated from adult functionality.
+
+The system should support:
+
+Age
+
+Weight
+
+Length where applicable
+
+Developmental considerations
+
+Pediatric vital signs
+
+Weight-based medication calculations
+
+Maximum doses
+
+Pediatric equipment sizing
+
+Respiratory assessment
+
+Pediatric shock recognition
+
+Pediatric cardiac arrest
+
+Neonatal care
+
+Weight-based calculations must show the mathematical basis.
+
+Example:
+
+Dose = weight × dose_per_kg
+
+The AI must never silently estimate a child's weight when an actual weight is unavailable.
+
+If a weight estimate is used, it must be explicitly labeled as an estimate and must not be treated as measured patient data.
+
+18. Obstetric Module
+
+Support:
+
+Pregnancy status
+
+Gestational age
+
+Gravida/para where relevant
+
+Contractions
+
+Vaginal bleeding
+
+Rupture of membranes
+
+Fetal movement
+
+Delivery status
+
+Complications
+
+Postpartum hemorrhage
+
+Neonatal assessment
+
+The system should recognize time-sensitive obstetric emergencies and direct users toward appropriate protocol/medical control.
+
+19. Toxicology Module
+
+Support common toxidromes and exposures.
+
+Categories:
+
+Opioids
+
+Stimulants
+
+Sedatives
+
+Anticholinergic
+
+Cholinergic
+
+Sympathomimetic
+
+Serotonergic
+
+Alcohol-related
+
+Carbon monoxide
+
+Cyanide
+
+Organophosphates
+
+Medication overdose
+
+Unknown ingestion
+
+The AI should emphasize scene safety and responder exposure risks.
+
+20. Refusal Module
+
+The system should support documentation of:
+
+Capacity assessment
+
+Risks explained
+
+Benefits explained
+
+Alternatives explained
+
+Patient understanding
+
+Questions answered
+
+Witnesses
+
+Medical control
+
+Refusal of specific treatment
+
+Refusal of transport
+
+Signatures where applicable
+
+Follow-up instructions
+
+The AI must not declare that a patient has decision-making capacity without sufficient information.
+
+21. EMS Documentation / PCR Module
+
+A PCR should be treated as a clinical/legal record.
+
+A typical EMS record includes demographics, dispatch information, assessment, vital signs, interventions, treatment response, and transport/handoff information. EMS documentation is also used for billing, quality improvement, research, and legal review.
+
+The AI should support:
+
+Dispatch
+
+Call number
+
+Date
+
+Dispatch time
+
+Dispatch complaint
+
+Location
+
+Unit
+
+Crew
+
+Response priority
+
+Response
+
+En route time
+
+Arrival time
+
+Scene departure
+
+Destination arrival
+
+Handoff time
+
+Patient
+
+Name
+
+DOB
+
+Age
+
+Sex
+
+Address
+
+Identifiers required by the agency
+
+Clinical
+
+Chief complaint
+
+History
+
+Assessment
+
+Vital signs
+
+Findings
+
+Interventions
+
+Medications
+
+Procedures
+
+Response
+
+Disposition
+
+Transported
+
+Refused
+
+Treated and released where applicable
+
+Transfer of care
+
+Destination
+
+Receiving clinician
+
+22. Narrative Generator
+
+The AI should be able to convert structured information into a professional narrative.
+
+Example structure:
+
+Dispatch
+
+→ Scene
+
+→ Initial impression
+
+→ Chief complaint
+
+→ History
+
+→ Assessment
+
+→ Vital signs
+
+→ Interventions
+
+→ Response
+
+→ Reassessment
+
+→ Transport
+
+→ Handoff
+
+The narrative generator must follow a strict rule:
+
+Only document information supported by the source data.
+
+If information is missing:
+
+omit it, or
+
+explicitly state that it was not obtained when appropriate.
+
+Never generate realistic-looking filler.
+
+23. Narrative Quality Checks
+
+Before finalizing a narrative, the AI should check:
+
+Is the chief complaint documented?
+
+Is the initial presentation documented?
+
+Are important abnormal findings documented?
+
+Are interventions documented?
+
+Are medication dose/route/time fields supported?
+
+Is treatment response documented?
+
+Are serial changes documented?
+
+Is disposition documented?
+
+Are important refusals documented?
+
+Are unusual delays explained?
+
+Are contradictions present?
+
+Are impossible times present?
+
+Are fabricated findings present?
+
+24. NEMSIS Integration
+
+For a U.S.-focused product, the data architecture should be designed around NEMSIS compatibility.
+
+NEMSIS describes its national data standard as the standard for collecting, sharing, and assessing prehospital patient encounter documentation across the United States and territories.
+
+The system should maintain mappings for relevant NEMSIS elements rather than storing only free-text narratives.
+
+Potential domains include:
+
+eRecord
+
+eDispatch
+
+eResponse
+
+eScene
+
+eSituation
+
+eInjury
+
+eHistory
+
+eVitals
+
+eProtocols
+
+eMedications
+
+eProcedures
+
+eDisposition
+
+eOutcome
+
+The NEMSIS version should be stored with each record.
+
+Never assume a NEMSIS field is valid simply because it existed in an older version.
+
+25. Protocol Engine
+
+This should be one of the most important architectural components.
+
+A protocol should be represented as structured data.
+
+Protocol
+
+├── Agency
+
+├── Jurisdiction
+
+├── Version
+
+├── Effective date
+
+├── Expiration/review date
+
+├── Scope
+
+├── Patient population
+
+├── Indications
+
+├── Contraindications
+
+├── Treatment steps
+
+├── Medication rules
+
+├── Procedure rules
+
+├── Medical-control requirements
+
+├── Exceptions
+
+└── Source document
+
+The AI should be able to answer:
+
+"According to my agency's protocol, what applies?"
+
+but only when the agency protocol has actually been loaded and verified.
+
+26. Protocol Hierarchy
+
+When conflicting information exists, use:
+
+Current agency protocol
+
+↓
+
+Current regional/state protocol
+
+↓
+
+Medical director guidance
+
+↓
+
+Current authoritative clinical guideline
+
+↓
+
+General EMS reference
+
+↓
+
+Educational material
+
+The exact hierarchy may vary by jurisdiction.
+
+The system must clearly display the source it used.
+
+27. AI Response Structure
+
+Clinical answers should use a predictable format.
+
+Example:
+
+Immediate concerns
+
+Potential immediate threats.
+
+Assessment
+
+What the available information suggests.
+
+Differential
+
+Potential causes ranked qualitatively.
+
+Missing information
+
+What would meaningfully change the assessment.
+
+Treatment considerations
+
+General considerations, clearly marked as protocol-dependent.
+
+Reassessment
+
+What should be reassessed after intervention.
+
+Documentation
+
+Important elements to capture in the PCR.
+
+Source
+
+The protocol/reference used.
+
+28. Emergency Override Behavior
+
+If the AI detects a potentially time-critical presentation, the response should become concise.
+
+Instead of producing a long educational explanation:
+
+POTENTIAL TIME-CRITICAL CONDITION
+
+Immediate priorities:
+
+1. ...
+
+2. ...
+
+3. ...
+
+Do not delay immediate patient care for additional AI analysis.
+
+Follow your local protocol and contact medical control when required.
+
+This behavior should be deterministic and tested separately from the generative model.
+
+29. AI Hallucination Prevention
+
+The system should use several safeguards.
+
+Retrieval-Augmented Generation
+
+Clinical answers should preferably be generated from a controlled knowledge base.
+
+The model should receive:
+
+Relevant protocol
+
+Clinical reference
+
+Medication reference
+
+Patient information
+
+Source version
+
+The model should not rely solely on its internal training knowledge for protocol-specific decisions.
+
+Source Attribution
+
+Every clinical recommendation should be traceable to:
+
+Source
+
+Version
+
+Date
+
+Jurisdiction
+
+Section/page where practical
+
+Unsupported Claim Detection
+
+The system should detect claims not supported by retrieved information.
+
+30. Confidence Model
+
+Avoid presenting raw AI confidence such as:
+
+"92% chance of PE."
+
+unless the underlying model has actually been validated for that purpose.
+
+Prefer:
+
+High concern
+
+Moderate concern
+
+Possible
+
+Lower concern
+
+Insufficient information
+
+The explanation is more important than a pseudo-precise number.
+
+31. Patient Data Privacy
+
+Patient information should be treated as sensitive health information.
+
+The application should minimize collection of identifiable patient information whenever possible.
+
+Recommended architecture:
+
+User device
+
+↓
+
+Encrypted transport
+
+↓
+
+Authenticated API
+
+↓
+
+Encrypted application database
+
+↓
+
+Controlled clinical knowledge service
+
+Security requirements should include:
+
+Encryption in transit
+
+Encryption at rest
+
+Authentication
+
+Role-based access
+
+Audit logs
+
+Session management
+
+Data retention controls
+
+Account deletion
+
+Administrative access controls
+
+Backup security
+
+Incident response
+
+Vendor security review
+
+If the system handles protected health information, its regulatory/compliance architecture should be reviewed by qualified healthcare privacy/security counsel.
+
+32. Audit Trail
+
+Every AI-generated clinical output should be auditable.
+
+Store:
+
+User
+
+Timestamp
+
+Patient/encounter ID
+
+Input data
+
+Protocol version
+
+Knowledge sources
+
+AI model/version
+
+Prompt/template version
+
+Output
+
+Edits
+
+Final accepted output
+
+This allows investigation of:
+
+Incorrect recommendations
+
+Documentation errors
+
+Protocol changes
+
+AI behavior changes
+
+User edits
+
+Clinical QA events
+
+33. AI vs. Deterministic Logic
+
+Do not use an LLM for everything.
+
+Use deterministic software for:
+
+Unit conversion
+
+Weight calculations
+
+Medication arithmetic
+
+Time calculations
+
+Age calculations
+
+Protocol rule matching
+
+Dose maximum checks
+
+Required-field validation
+
+NEMSIS validation
+
+Range validation
+
+Use AI for:
+
+Narrative generation
+
+Summarization
+
+Differential explanation
+
+Question answering
+
+Natural-language interaction
+
+Extracting structured findings from user text
+
+Explaining clinical concepts
+
+This separation dramatically improves reliability.
+
+34. Calculation Engine
+
+All clinical calculations should be independently calculated and then passed to the AI.
+
+Examples:
+
+mg/kg
+
+mcg/kg/min
+
+mL/hr
+
+gtt/min
+
+ETT size
+
+weight conversions
+
+MAP
+
+BMI
+
+GCS
+
+shock index
+
+age calculations
+
+dose calculations
+
+For example:
+
+MAP ≈ (SBP + 2 × DBP) / 3
+
+The UI should show the inputs and result.
+
+Never let the language model perform hidden arithmetic when deterministic calculation is available.
+
+35. Unit System
+
+Support:
+
+lb
+
+kg
+
+oz
+
+g
+
+mg
+
+mcg
+
+mL
+
+L
+
+mEq
+
+mmol
+
+°F
+
+°C
+
+mmHg
+
+cm
+
+in
+
+Conversions must occur through deterministic code.
+
+36. Search
+
+Global search should search:
+
+Medications
+
+Conditions
+
+Symptoms
+
+Procedures
+
+ECG rhythms
+
+Protocols
+
+Clinical guidelines
+
+Documentation guidance
+
+Calculators
+
+Toxicology
+
+Trauma
+
+Pediatrics
+
+Search results should identify the content type.
+
+Example:
+
+Epinephrine
+
+Medication
+
+Adult reference
+
+Pediatric reference
+
+Anaphylaxis
+
+Cardiac arrest
+
+Protocol references
+
+37. Knowledge Base
+
+Every clinical object should have metadata.
+
+KnowledgeObject
+
+├── id
+
+├── title
+
+├── category
+
+├── content
+
+├── jurisdiction
+
+├── population
+
+├── source
+
+├── source_url
+
+├── source_version
+
+├── effective_date
+
+├── review_date
+
+├── author
+
+├── clinical_reviewer
+
+├── status
+
+└── last_verified
+
+Status:
+
+Draft
+
+Under review
+
+Approved
+
+Deprecated
+
+Archived
+
+38. Source Hierarchy
+
+Preferred sources should include authoritative organizations and current agency/regional protocols.
+
+Potential source categories:
+
+NEMSIS
+
+Federal EMS resources
+
+State EMS authorities
+
+Regional EMS authorities
+
+Local agency protocols
+
+Medical director protocols
+
+National clinical guidelines
+
+Peer-reviewed literature
+
+Recognized medical references
+
+Educational references
+
+A source should never be presented as authoritative merely because it appears high in search results.
+
+39. Content Review
+
+Clinical content should have:
+
+Author
+
+Clinical reviewer
+
+Date created
+
+Date reviewed
+
+Source
+
+Version
+
+Jurisdiction
+
+Population
+
+Approval status
+
+Medication and protocol information should have particularly strict review procedures.
+
+40. Versioning
+
+Every clinical answer should be reproducible.
+
+Example:
+
+Protocol:
+
+Sacramento County EMS
+
+Version: 2026.2
+
+Medication Reference:
+
+Version: 4.7
+
+NEMSIS:
+
+Version: 3.x
+
+AI:
+
+Model: <model identifier>
+
+Prompt: clinical-v12
+
+If a protocol changes, historical reports must retain the protocol version that existed at the time of care.
+
+41. User Roles
+
+Potential roles:
+
+Student
+
+Educational references
+
+Practice scenarios
+
+Flashcards
+
+Quiz mode
+
+ECG learning
+
+EMT
+
+BLS references
+
+Assessment assistance
+
+Documentation
+
+Paramedic
+
+ALS references
+
+Advanced ECG
+
+Medication reference
+
+Differential reasoning
+
+Medical Director
+
+Protocol management
+
+Review
+
+Clinical QA
+
+Content approval
+
+Agency Administrator
+
+Users
+
+Protocols
+
+Audit
+
+Reporting
+
+Configuration
+
+Clinical Educator
+
+Scenarios
+
+Assignments
+
+Evaluation
+
+Training content
+
+42. Training Mode
+
+Training mode should deliberately differ from clinical mode.
+
+Features:
+
+Randomized scenarios
+
+Progressive disclosure
+
+Timed scenarios
+
+ECG recognition
+
+Medication questions
+
+Differential diagnosis
+
+Documentation practice
+
+Treatment decisions
+
+Debrief
+
+After the scenario:
+
+What you noticed
+
+What you missed
+
+What was immediately dangerous
+
+What treatment was appropriate
+
+What documentation was missing
+
+Alternative diagnoses
+
+43. Simulation Engine
+
+Scenario schema:
+
+Scenario
+
+├── Patient
+
+├── Dispatch
+
+├── Initial presentation
+
+├── Hidden findings
+
+├── Vital signs
+
+├── History
+
+├── Examination
+
+├── ECG
+
+├── Available interventions
+
+├── Patient response
+
+├── Deterioration events
+
+├── Expected actions
+
+├── Critical errors
+
+└── Debrief
+
+The patient state should change based on user actions.
+
+44. Documentation Assistant
+
+Users should be able to enter:
+
+"65 year old male, chest pressure started while mowing, pale and sweaty..."
+
+The AI can extract:
+
+Age: 65
+
+Sex: Male
+
+Chief complaint: Chest pressure
+
+Onset: During exertion
+
+Associated finding: Diaphoresis
+
+Skin: Pale
+
+The user must be able to review and correct extracted information before it becomes part of the clinical record.
+
+45. Voice Input
+
+Voice input can be useful for field documentation.
+
+Pipeline:
+
+Voice
+
+↓
+
+Speech-to-text
+
+↓
+
+Medical terminology correction
+
+↓
+
+Structured extraction
+
+↓
+
+User confirmation
+
+↓
+
+PCR/narrative
+
+Do not automatically commit raw speech recognition output to the legal record.
+
+46. Contradiction Detection
+
+The AI should flag contradictions.
+
+Examples:
+
+Patient documented as unconscious
+
++
+
+GCS 15 at same timestamp
+
+or:
+
+"No respiratory distress"
+
++
+
+"Severe accessory muscle use"
+
+or:
+
+Medication administered at 14:05
+
++
+
+Narrative says medication administered at 14:25
+
+The user should be prompted to resolve discrepancies.
+
+47. Missing Documentation Detection
+
+The system should identify potentially important missing information.
+
+Example:
+
+Chest pain documented.
+
+Missing:
+
+- onset
+
+- quality
+
+- radiation
+
+- associated symptoms
+
+- initial ECG
+
+- reassessment
+
+This is a documentation aid, not a claim that a specific field is legally required in every jurisdiction.
+
+Documentation standards vary by jurisdiction and agency. For example, Ontario's current ambulance documentation standard emphasizes accurate, thorough documentation of assessments, treatments, procedures, times, personnel, and treatment results.
+
+48. Handoff Generator
+
+Generate a concise handoff from the full PCR.
+
+Format:
+
+Patient
+
+Age/sex
+
+Chief complaint
+
+Pertinent history
+
+Initial condition
+
+Important findings
+
+Vital trends
+
+Treatments
+
+Response
+
+Current condition
+
+Concerns
+
+The handoff should prioritize information the receiving clinician needs immediately.
+
+49. Quality Assurance
+
+QA should measure:
+
+Clinical completeness
+
+Assessment documented
+
+Treatment documented
+
+Response documented
+
+Reassessment documented
+
+Accuracy
+
+Correct patient data
+
+Correct medication
+
+Correct dose
+
+Correct time
+
+Correct procedure
+
+Consistency
+
+Narrative matches structured fields
+
+Vital signs match narrative
+
+Medication administration matches narrative
+
+AI quality
+
+No hallucinated facts
+
+Appropriate uncertainty
+
+Correct source
+
+Correct protocol
+
+Appropriate escalation
+
+50. AI Safety Rules
+
+The following rules should be hard-coded into the application.
+
+Rule 1
+
+Never fabricate patient information.
+
+Rule 2
+
+Never fabricate treatment.
+
+Rule 3
+
+Never invent a protocol.
+
+Rule 4
+
+Never claim medical-control authorization.
+
+Rule 5
+
+Never hide uncertainty.
+
+Rule 6
+
+Never silently substitute one medication for another.
+
+Rule 7
+
+Never silently substitute adult dosing for pediatric dosing.
+
+Rule 8
+
+Never silently calculate from an estimated weight.
+
+Rule 9
+
+Never tell the user to ignore local protocol.
+
+Rule 10
+
+Never delay emergency care for AI interaction.
+
+51. Emergency Language
+
+Avoid:
+
+"You should definitely administer X."
+
+Prefer:
+
+"This presentation may be consistent with X. Assess according to your local protocol. Relevant treatment considerations include..."
+
+If the user's protocol is loaded:
+
+"Your agency protocol, version X, lists..."
+
+This distinction is critical.
+
+52. Patient-Specific Recommendations
+
+Patient-specific recommendations should require sufficient context.
+
+The AI should actively ask for missing information when it materially changes the answer.
+
+Examples:
+
+What is the patient's age and weight?
+
+Is the patient pregnant or potentially pregnant?
+
+What is the current blood pressure?
+
+Is the patient perfusing?
+
+Is the patient allergic to the medication?
+
+What does your local protocol specify?
+
+53. Clinical Red Flags
+
+The system should maintain a separate red-flag engine.
+
+Examples:
+
+Chest pain
+
+→ STEMI/ACS concern
+
+→ Aortic catastrophe concern
+
+→ PE concern
+
+→ Pneumothorax concern
+
+Headache
+
+→ Intracranial hemorrhage concern
+
+→ Stroke concern
+
+→ Meningitis concern
+
+Abdominal pain
+
+→ AAA concern
+
+→ Ectopic pregnancy concern
+
+→ GI hemorrhage concern
+
+The purpose is to prevent premature closure.
+
+54. Differential Ranking Algorithm
+
+A conceptual implementation:
+
+def rank_differentials(patient, conditions):
+
+results = []
+
+for condition in conditions:
+
+score = 0
+
+for finding in condition.supporting_findings:
+
+if finding.matches(patient):
+
+score += finding.weight
+
+for finding in condition.contradicting_findings:
+
+if finding.matches(patient):
+
+score -= finding.weight
+
+for risk_factor in condition.risk_factors:
+
+if risk_factor.matches(patient):
+
+score += risk_factor.weight
+
+results.append({
+
+"condition": condition.name,
+
+"score": score
+
+})
+
+return sort_descending(results)
+
+The production system should use clinically reviewed logic rather than arbitrary weights.
+
+55. Data Model
+
+Core entities:
+
+User
+
+Agency
+
+Protocol
+
+Patient
+
+Encounter
+
+Assessment
+
+VitalSign
+
+Finding
+
+Symptom
+
+Diagnosis
+
+Medication
+
+MedicationAdministration
+
+Procedure
+
+ECG
+
+Narrative
+
+Disposition
+
+ClinicalSource
+
+AIInteraction
+
+AuditEvent
+
+Relationships:
+
+Agency
+
+├── Users
+
+├── Protocols
+
+└── Encounters
+
+Encounter
+
+├── Patient
+
+├── Assessments
+
+├── VitalSigns
+
+├── Findings
+
+├── ECGs
+
+├── Medications
+
+├── Procedures
+
+├── Narratives
+
+└── Disposition
+
+56. Encounter Object
+
+Example conceptual schema:
+
+{
+
+"encounter_id": "...",
+
+"patient": {},
+
+"dispatch": {},
+
+"scene": {},
+
+"assessment": {},
+
+"vitals": [],
+
+"findings": [],
+
+"ecgs": [],
+
+"medications": [],
+
+"procedures": [],
+
+"reassessments": [],
+
+"transport": {},
+
+"handoff": {},
+
+"disposition": {},
+
+"protocol_version": "...",
+
+"created_at": "...",
+
+"updated_at": "..."
+
+}
+
+57. AI Interaction Object
+
+{
+
+"interaction_id": "...",
+
+"user_id": "...",
+
+"encounter_id": "...",
+
+"input": "...",
+
+"structured_context": {},
+
+"sources": [],
+
+"model": "...",
+
+"prompt_version": "...",
+
+"response": "...",
+
+"user_accepted": false,
+
+"user_modified": true,
+
+"timestamp": "..."
+
+}
+
+58. Clinical Content Lifecycle
+
+Draft
+
+↓
+
+Clinical review
+
+↓
+
+Medical review
+
+↓
+
+Approved
+
+↓
+
+Published
+
+↓
+
+Periodic review
+
+↓
+
+Updated
+
+↓
+
+Deprecated
+
+↓
+
+Archived
+
+Never overwrite old clinical content without retaining the historical version.
+
+59. Protocol Import
+
+Agencies should be able to upload:
+
+PDF
+
+DOCX
+
+Structured JSON
+
+CSV
+
+XML
+
+The import pipeline:
+
+Upload
+
+↓
+
+Extract
+
+↓
+
+OCR if necessary
+
+↓
+
+Identify sections
+
+↓
+
+Extract rules
+
+↓
+
+Human clinical review
+
+↓
+
+Validation
+
+↓
+
+Publish
+
+No protocol should become active merely because an AI successfully parsed a document.
+
+60. Protocol Diff
+
+When a protocol changes, display:
+
+Changed
+
+Added
+
+Removed
+
+Modified
+
+Example:
+
+Medication X
+
+OLD:
+
+Dose A
+
+NEW:
+
+Dose B
+
+Effective:
+
+2026-09-01
+
+This is especially useful for agency administrators and educators.
+
+61. Searchable Clinical References
+
+Each reference should expose:
+
+Title
+
+Topic
+
+Source
+
+Version
+
+Jurisdiction
+
+Publication date
+
+Review date
+
+Relevant population
+
+Relevant protocol
+
+Evidence level where applicable
+
+62. Source Integrity
+
+The system should never cite:
+
+Random social media posts
+
+Unverified AI-generated pages
+
+Anonymous medical advice
+
+Outdated protocol copies when a current copy exists
+
+Sources should be prioritized based on authority and currency.
+
+63. Student Mode vs Clinical Mode
+
+Student Mode
+
+Can provide:
+
+More explanation
+
+Teaching points
+
+Pathophysiology
+
+Differential reasoning
+
+Quiz questions
+
+Memory aids
+
+Detailed ECG explanations
+
+Clinical Mode
+
+Should provide:
+
+Immediate priorities
+
+Relevant findings
+
+Protocol information
+
+Concise treatment reference
+
+Reassessment
+
+Documentation
+
+The clinical UI should be much less verbose.
+
+64. Offline Mode
+
+EMS environments may have poor connectivity.
+
+Offline functionality should include:
+
+Cached protocols
+
+Medication references
+
+ECG library
+
+Procedure references
+
+Documentation templates
+
+Calculators
+
+The UI must clearly indicate:
+
+Offline — clinical references may not reflect the newest available protocol.
+
+65. Synchronization
+
+When connectivity returns:
+
+Local data
+
+↓
+
+Encrypted sync
+
+↓
+
+Conflict detection
+
+↓
+
+Server validation
+
+↓
+
+Audit record
+
+Protocol updates should never silently overwrite a protocol currently being used for an encounter.
+
+66. API Architecture
+
+Suggested services:
+
+/api/auth
+
+/api/users
+
+/api/agencies
+
+/api/protocols
+
+/api/patients
+
+/api/encounters
+
+/api/assessments
+
+/api/vitals
+
+/api/medications
+
+/api/procedures
+
+/api/ecg
+
+/api/narratives
+
+/api/ai
+
+/api/search
+
+/api/sources
+
+/api/audit
+
+/api/analytics
+
+67. AI API
+
+Conceptually:
+
+POST /api/ai/assessment
+
+Input:
+
+{
+
+"encounter_id": "...",
+
+"patient": {},
+
+"findings": [],
+
+"vitals": [],
+
+"history": {},
+
+"ecg": {},
+
+"protocol_id": "..."
+
+}
+
+Response:
+
+{
+
+"immediate_concerns": [],
+
+"differential": [],
+
+"missing_information": [],
+
+"treatment_considerations": [],
+
+"reassessment": [],
+
+"documentation": [],
+
+"sources": []
+
+}
+
+68. AI Prompt Architecture
+
+Do not use one enormous prompt.
+
+Separate:
+
+System safety instructions
+
++
+
+Clinical reasoning instructions
+
++
+
+Protocol context
+
++
+
+Patient context
+
++
+
+Retrieved knowledge
+
++
+
+Task
+
++
+
+Output schema
+
+This makes the system easier to test and update.
+
+69. Structured AI Output
+
+Whenever possible, make the AI return structured objects.
+
+Example:
+
+{
+
+"concerns": [
+
+{
+
+"name": "Acute coronary syndrome",
+
+"level": "high",
+
+"supporting_findings": [],
+
+"missing_information": []
+
+}
+
+]
+
+}
+
+Then render the result in the UI.
+
+Do not depend on parsing arbitrary prose for critical clinical logic.
+
+70. Testing
+
+The system needs several test suites.
+
+Unit tests
+
+Test:
+
+Calculators
+
+Dose calculations
+
+Conversions
+
+Protocol rules
+
+Validation
+
+Clinical test cases
+
+Test:
+
+Chest pain
+
+Respiratory distress
+
+Stroke
+
+Cardiac arrest
+
+Trauma
+
+Anaphylaxis
+
+Sepsis
+
+Overdose
+
+Pediatric emergencies
+
+Obstetric emergencies
+
+Hallucination tests
+
+Provide incomplete cases and verify that the AI does not invent missing information.
+
+Contradiction tests
+
+Give contradictory information and verify that the AI flags it.
+
+Protocol tests
+
+Give two different protocols and verify that the correct protocol is used.
+
+71. Clinical Validation
+
+Before using the product in real clinical workflows, establish formal clinical validation appropriate to its intended use.
+
+Validation should involve qualified EMS clinicians and medical leadership.
+
+Test:
+
+Sensitivity to dangerous conditions
+
+False reassurance
+
+Incorrect treatment suggestions
+
+Medication errors
+
+Protocol mismatches
+
+Documentation hallucinations
+
+Pediatric errors
+
+Contraindication errors
+
+ECG errors
+
+The AI should not be considered clinically validated merely because clinicians report that it "looks good."
+
+72. Human Factors
+
+The UI should minimize cognitive load.
+
+Important information should be visible immediately.
+
+Recommended hierarchy:
+
+🚨 Immediate concern
+
+↓
+
+Patient status
+
+↓
+
+Vital trends
+
+↓
+
+Assessment
+
+↓
+
+Differential
+
+↓
+
+Protocol
+
+↓
+
+Treatment reference
+
+↓
+
+Documentation
+
+↓
+
+Education
+
+73. Color Coding
+
+Use color sparingly.
+
+Suggested:
+
+Red = immediate safety concern
+
+Orange = significant concern
+
+Yellow = caution
+
+Green = reassuring/improved
+
+Blue = reference
+
+Gray = unknown/not documented
+
+Never use color as the sole indication of clinical severity.
+
+74. "Unknown" State
+
+Every important clinical field should support:
+
+Known
+
+Unknown
+
+Not obtained
+
+Not applicable
+
+Unable to obtain
+
+Refused
+
+Not assessed
+
+Do not force users to enter false values merely to complete a form.
+
+75. Refusal / Unable to Obtain
+
+Documentation should distinguish:
+
+Patient refused
+
+from:
+
+Unable to obtain
+
+from:
+
+Not assessed
+
+from:
+
+Not applicable
+
+These are clinically and legally different states.
+
+76. AI Documentation Rules
+
+When generating a PCR:
+
+Allowed
+
+"Patient reports chest pressure beginning approximately 30 minutes prior to EMS arrival."
+
+when the user supplied that information.
+
+Not allowed
+
+"Patient denies shortness of breath."
+
+unless the user actually documented that the patient denied it.
+
+Allowed
+
+"Unable to assess secondary to altered mental status."
+
+if supported by the encounter.
+
+Not allowed
+
+"Patient tolerated treatment well."
+
+unless a response was actually documented or observed.
+
+77. Medication Safety UI
+
+Every medication result should prominently show:
+
+Medication
+
+Indication
+
+Population
+
+Dose
+
+Route
+
+Maximum
+
+Contraindications
+
+Source
+
+Protocol status
+
+Last verified
+
+A "Use" button should not exist if the product is functioning as a general educational/reference tool unless the clinical/legal design specifically supports such functionality.
+
+Prefer:
+
+View protocol
+
+Verify dose
+
+Add to documentation
+
+over:
+
+Administer
+
+78. Protocol Verification Prompt
+
+Before displaying protocol-dependent treatment:
+
+Protocol-dependent information
+
+Agency:
+
+[Agency]
+
+Protocol:
+
+[Protocol Name]
+
+Version:
+
+[Version]
+
+Effective:
+
+[Date]
+
+Verify that this protocol applies to your current encounter.
+
+79. AI Disclaimer
+
+The disclaimer should be useful rather than generic.
+
+Recommended concept:
+
+This tool provides clinical reference and decision-support information. It does not replace patient assessment, local protocols, medical direction, professional judgment, training, or certification requirements. Verify protocol-specific treatments and medication doses before administration.
+
+80. Regulatory Strategy
+
+Before deployment, determine whether the intended functionality could place the product within applicable medical-device, clinical-decision-support, privacy, or other regulatory frameworks.
+
+The regulatory analysis should be based on:
+
+What the software does
+
+Whether it makes recommendations
+
+Whether recommendations are patient-specific
+
+Whether it controls or directs treatment
+
+Whether it is used for education or clinical care
+
+Whether it integrates with clinical systems
+
+Whether it stores protected health information
+
+This assessment should be performed with qualified regulatory/legal professionals rather than relying solely on a generic disclaimer.
+
+81. Recommended MVP
+
+The first production version should focus on:
+
+1. Patient Builder
+
+Structured patient information.
+
+2. Assessment Engine
+
+Symptoms + vitals + findings.
+
+3. Differential Engine
+
+Ranked clinical considerations with explanations.
+
+4. Protocol Library
+
+Agency-specific protocols.
+
+5. Medication Reference
+
+Structured, versioned medication information.
+
+6. ECG Reference
+
+Rhythm recognition and structured interpretation.
+
+7. PCR Generator
+
+Structured information → narrative.
+
+8. Documentation QA
+
+Find missing/contradictory information.
+
+9. Clinical Chat
+
+Ask questions against the verified knowledge base.
+
+10. Audit System
+
+Track every AI interaction and source.
+
+82. Future Features
+
+Potential later modules:
+
+Voice-first field documentation
+
+Ambient EMS documentation
+
+Real-time scenario assistant
+
+Automatic PCR extraction
+
+ECG image analysis
+
+Integration with ePCR platforms
+
+NEMSIS export
+
+Agency dashboards
+
+Medical director dashboard
+
+Protocol change notifications
+
+Clinical QA automation
+
+Training analytics
+
+Student progression
+
+Multi-agency protocol management
+
+Offline-first mobile application
+
+Hospital handoff integration
+
+83. Recommended Product Navigation
+
+A clean application could use:
+
+HOME
+
+├── New Patient
+
+├── AI Assessment
+
+├── Clinical Chat
+
+├── PCR / Run Report
+
+├── Protocols
+
+├── Medications
+
+├── ECG
+
+├── Procedures
+
+├── Calculators
+
+├── Trauma
+
+├── Pediatrics
+
+├── OB
+
+├── Toxicology
+
+├── Scenarios
+
+├── References
+
+└── Settings
+
+84. Clinical Chat Examples
+
+Users could ask:
+
+"What should I consider in a 64-year-old with sudden dyspnea?"
+
+"Help me build a differential for altered mental status."
+
+"What information am I missing from this chest pain assessment?"
+
+"Turn these notes into a PCR narrative."
+
+"Compare these two ECG rhythms."
+
+"Show me the relevant section of our agency protocol."
+
+"What documentation should I include for this refusal?"
+
+The system should answer based on available context and explicitly identify missing information.
+
+85. Example AI Response
+
+IMMEDIATE CONCERN
+
+This presentation has features that warrant evaluation for a time-sensitive cardiac cause.
+
+WHY
+
+• Exertional chest pressure
+
+• Diaphoresis
+
+• Older patient
+
+IMPORTANT ALTERNATIVES
+
+• Acute coronary syndrome
+
+• Aortic pathology
+
+• Pulmonary embolism
+
+• Pneumothorax
+
+• Other cardiopulmonary causes
+
+MISSING
+
+• Initial ECG
+
+• Serial vital signs
+
+• Pain characteristics
+
+• Radiation
+
+• Associated dyspnea
+
+• Cardiac history
+
+• Medications/allergies
+
+PROTOCOL
+
+Check the applicable local chest-pain/ACS protocol.
+
+DOCUMENT
+
+• Initial presentation
+
+• ECG findings
+
+• Serial vital signs
+
+• Treatments
+
+• Patient response
+
+• Reassessment
+
+• Destination/handoff
+
+86. Core Principle for the Entire Product
+
+The most important distinction in the application is:
+
+The AI should help the paramedic think, document, and retrieve information—not pretend to be the paramedic.
+
+The product should therefore optimize for:
+
+Accuracy → traceability → protocol awareness → transparency → speed
+
+rather than:
+
+confidence → automation → maximum number of recommendations.
+
+87. Reference Standard
+
+The clinical documentation model should be compatible with established EMS documentation concepts. NEMSIS defines a national prehospital data standard, while EMS documentation references emphasize patient demographics, dispatch, assessment, vital signs, interventions, treatment response, disposition, and clear communication of care.
+
+The LOINC EMS patient-care-report terminology also identifies sections such as dispatch, response, scene, situation, times, disposition, medications, procedures, protocols, cardiac arrest, history, vital signs, and the PCR narrative.
+
+88. Final Product Definition
+
+Paramedic AI should ultimately function as four products in one:
+
+1. Field Reference
+
+Fast access to:
+
+Medications
+
+Procedures
+
+ECG
+
+Conditions
+
+Protocols
+
+Calculators
+
+2. Clinical Reasoning Assistant
+
+Transforms:
+
+Patient data
+
++
+
+Findings
+
++
+
+Vitals
+
++
+
+History
+
++
+
+ECG
+
+into:
+
+Immediate concerns
+
++
+
+Differential
+
++
+
+Missing information
+
++
+
+Clinical reasoning
+
++
+
+Protocol references
+
+3. Documentation Assistant
+
+Transforms:
+
+Structured encounter
+
++
+
+Voice/text notes
+
+into:
+
+PCR
+
++
+
+Handoff
+
++
+
+Documentation QA
+
+4. EMS Education Platform
+
+Transforms:
+
+Clinical scenario
+
+into:
+
+Assessment
+
++
+
+Decision making
+
++
+
+Treatment
+
++
+
+Debrief
+
++
+
+Learning
+
+89. Non-Negotiable Requirements
+
+The production system should not ship without:
+
+Versioned clinical sources
+
+Protocol versioning
+
+Clinical review workflow
+
+Audit logging
+
+Patient-data security
+
+Deterministic calculations
+
+Medication safety checks
+
+Pediatric separation
+
+Unknown/not-obtained states
+
+Hallucination testing
+
+Contradiction detection
+
+Source attribution
+
+Human review of generated PCRs
+
+Clear distinction between reference and protocol
+
+Clear distinction between educational and clinical modes
+
+90. Product Goal
+
+The ultimate goal is not to build:
+
+"ChatGPT for paramedics."
+
+It is to build:
+
+A clinically structured EMS operating layer that understands the patient, the encounter, the protocol, the documentation requirements, and the paramedic's workflow.
+
+The AI should sit on top of that structured foundation rather than being the foundation itself.

@@ -1,0 +1,1655 @@
+Paramedic AI — Clinical Thinking Tree
+
+Scene → Patient → Life threats → Stability → Problem identification → Differential diagnosis → Focused assessment → Treatment → Reassessment → Transport/disposition
+
+The purpose of this tree is to teach the AI to prioritize the most dangerous problems first while continuing to gather information.
+
+2. MASTER CLINICAL THINKING TREE
+
+PATIENT ENCOUNTER
+
+│
+
+├── 1. SCENE
+
+│   │
+
+│   ├── Is the scene safe?
+
+│   ├── PPE / standard precautions
+
+│   ├── Number of patients
+
+│   ├── Mechanism of injury / nature of illness
+
+│   ├── Environmental hazards
+
+│   ├── Need additional resources?
+
+│   └── Is there an immediate operational threat?
+
+│
+
+├── 2. GENERAL IMPRESSION
+
+│   │
+
+│   ├── Does the patient look sick?
+
+│   ├── Does the patient look injured?
+
+│   ├── Is the patient conscious?
+
+│   ├── Is the patient breathing normally?
+
+│   ├── Is the patient communicating?
+
+│   ├── Age / approximate size
+
+│   └── Immediate obvious threats?
+
+│
+
+├── 3. PRIMARY SURVEY
+
+│   │
+
+│   ├── AIRWAY
+
+│   │   ├── Patent?
+
+│   │   ├── Obstructed?
+
+│   │   ├── Can patient speak?
+
+│   │   ├── Secretions / blood / vomit?
+
+│   │   ├── Stridor?
+
+│   │   └── Airway swelling?
+
+│   │
+
+│   ├── BREATHING
+
+│   │   ├── Breathing?
+
+│   │   ├── Adequate ventilation?
+
+│   │   ├── Respiratory rate?
+
+│   │   ├── Work of breathing?
+
+│   │   ├── Chest movement?
+
+│   │   ├── Lung sounds?
+
+│   │   └── Oxygenation?
+
+│   │
+
+│   ├── CIRCULATION
+
+│   │   ├── Pulse?
+
+│   │   ├── Major bleeding?
+
+│   │   ├── Blood pressure?
+
+│   │   ├── Skin/perfusion?
+
+│   │   └── Mental status?
+
+│   │
+
+│   └── DISABILITY
+
+│       ├── Mental status
+
+│       ├── Pupils
+
+│       ├── Motor/sensory findings
+
+│       ├── Blood glucose when indicated
+
+│       └── Seizure activity
+
+│
+
+├── 4. IMMEDIATE LIFE THREAT?
+
+│   │
+
+│   ├── YES
+
+│   │   │
+
+│   │   ├── Identify life threat
+
+│   │   ├── Treat immediately according to protocol
+
+│   │   ├── Reassess response
+
+│   │   ├── Continue primary survey
+
+│   │   └── Consider additional resources
+
+│   │
+
+│   └── NO
+
+│       │
+
+│       └── Continue assessment
+
+│
+
+├── 5. IS THE PATIENT STABLE?
+
+│   │
+
+│   ├── UNSTABLE
+
+│   │   ├── Identify cause
+
+│   │   ├── Immediate stabilization
+
+│   │   ├── Minimize unnecessary delay
+
+│   │   ├── Consider transport priority
+
+│   │   └── Reassess continuously
+
+│   │
+
+│   └── STABLE
+
+│       └── Continue focused assessment
+
+│
+
+├── 6. IDENTIFY THE CHIEF PROBLEM
+
+│   │
+
+│   ├── Chest pain
+
+│   ├── Dyspnea
+
+│   ├── Altered mental status
+
+│   ├── Abdominal pain
+
+│   ├── Weakness
+
+│   ├── Syncope
+
+│   ├── Seizure
+
+│   ├── Trauma
+
+│   ├── Bleeding
+
+│   ├── Allergic reaction
+
+│   ├── Poisoning / overdose
+
+│   ├── Fever / infection
+
+│   ├── Cardiac complaint
+
+│   └── Other
+
+│
+
+├── 7. HISTORY
+
+│   │
+
+│   ├── OPQRST
+
+│   ├── SAMPLE
+
+│   ├── Medications
+
+│   ├── Allergies
+
+│   ├── Medical history
+
+│   ├── Recent illness
+
+│   ├── Recent procedures
+
+│   ├── Substance exposure
+
+│   ├── Baseline function
+
+│   └── Events leading to illness/injury
+
+│
+
+├── 8. FOCUSED EXAM
+
+│   │
+
+│   ├── Vital signs
+
+│   ├── Physical examination
+
+│   ├── ECG when indicated
+
+│   ├── SpO2
+
+│   ├── EtCO2 when indicated
+
+│   ├── Blood glucose when indicated
+
+│   ├── Temperature
+
+│   ├── Neurologic assessment
+
+│   └── Other protocol-appropriate diagnostics
+
+│
+
+├── 9. BUILD DIFFERENTIAL DIAGNOSIS
+
+│   │
+
+│   ├── Most likely diagnosis
+
+│   ├── Most dangerous diagnosis
+
+│   ├── Other plausible diagnoses
+
+│   └── Diagnosis that could be easily missed
+
+│
+
+├── 10. TEST THE DIFFERENTIAL
+
+│   │
+
+│   ├── What findings support diagnosis?
+
+│   ├── What findings contradict diagnosis?
+
+│   ├── What information is missing?
+
+│   ├── What test could distinguish diagnoses?
+
+│   └── Is there another dangerous possibility?
+
+│
+
+├── 11. TREATMENT
+
+│   │
+
+│   ├── Immediate life-saving treatment
+
+│   ├── Protocol-directed treatment
+
+│   ├── Medication
+
+│   ├── Oxygen / ventilation
+
+│   ├── Procedure
+
+│   ├── Monitoring
+
+│   └── Supportive care
+
+│
+
+├── 12. REASSESS
+
+│   │
+
+│   ├── Better?
+
+│   ├── Worse?
+
+│   ├── No change?
+
+│   ├── New findings?
+
+│   ├── Treatment working?
+
+│   └── Does the differential need to change?
+
+│
+
+├── 13. TRANSPORT / DESTINATION
+
+│   │
+
+│   ├── How sick is the patient?
+
+│   ├── How time-sensitive is the condition?
+
+│   ├── What resources are required?
+
+│   ├── What destination is appropriate?
+
+│   ├── Is notification required?
+
+│   └── Is medical control required?
+
+│
+
+└── 14. CONTINUOUS LOOP
+
+│
+
+└── ASSESS → TREAT → REASSESS → UPDATE DIFFERENTIAL
+
+↑                    │
+
+└────────────────────┘
+
+3. THE MOST IMPORTANT BRANCH
+
+The AI should repeatedly ask:
+
+"Could this patient die or deteriorate
+
+if I spend the next several minutes
+
+doing a routine assessment?"
+
+If YES:
+
+Prioritize:
+
+↓
+
+Life threat
+
+↓
+
+Immediate intervention
+
+↓
+
+Reassessment
+
+↓
+
+Transport / additional resources
+
+If NO:
+
+Continue:
+
+↓
+
+History
+
+↓
+
+Physical examination
+
+↓
+
+Diagnostics
+
+↓
+
+Differential diagnosis
+
+↓
+
+Treatment
+
+↓
+
+Reassessment
+
+4. SICK OR NOT SICK?
+
+The AI should make an early acuity assessment.
+
+Patient appears critically ill
+
+Possible findings:
+
+Severe respiratory distress
+
+Altered consciousness
+
+Shock
+
+Severe chest pain
+
+Major bleeding
+
+Cardiac arrest
+
+Severe airway problem
+
+Severe neurologic deficit
+
+Seizure with ongoing compromise
+
+Severe allergic reaction
+
+Significant trauma
+
+The AI should prioritize immediate stabilization and avoid unnecessary delays.
+
+Patient appears stable
+
+The AI can proceed through:
+
+Detailed history
+
+Physical examination
+
+Vital signs
+
+Diagnostic testing
+
+Differential diagnosis
+
+Protocol-directed treatment
+
+Reassessment
+
+5. THE "WHY?" LOOP
+
+The AI should not simply collect findings.
+
+For every important abnormal finding, ask:
+
+WHAT?
+
+↓
+
+What is abnormal?
+
+WHY?
+
+↓
+
+What could cause it?
+
+HOW DANGEROUS?
+
+↓
+
+Could it represent a life threat?
+
+WHAT ELSE?
+
+↓
+
+What other diagnoses could cause it?
+
+WHAT WOULD I EXPECT?
+
+↓
+
+What additional findings should be present?
+
+WHAT WOULD CHANGE MY MIND?
+
+↓
+
+What finding would argue against my current hypothesis?
+
+WHAT DO I NEED TO DO?
+
+↓
+
+Assessment / intervention / monitoring
+
+DID IT WORK?
+
+↓
+
+Reassess
+
+6. EXAMPLE: CHEST PAIN
+
+CHEST PAIN
+
+│
+
+├── Is the patient unstable?
+
+│   │
+
+│   ├── YES
+
+│   │   └── Stabilize immediately
+
+│   │
+
+│   └── NO
+
+│       └── Continue assessment
+
+│
+
+├── Characterize pain
+
+│   ├── Onset
+
+│   ├── Location
+
+│   ├── Quality
+
+│   ├── Radiation
+
+│   ├── Severity
+
+│   └── Timing
+
+│
+
+├── Associated symptoms
+
+│   ├── Dyspnea
+
+│   ├── Diaphoresis
+
+│   ├── Nausea
+
+│   ├── Syncope
+
+│   ├── Palpitations
+
+│   └── Neurologic symptoms
+
+│
+
+├── Consider dangerous causes
+
+│   ├── ACS
+
+│   ├── Aortic catastrophe
+
+│   ├── Pulmonary embolism
+
+│   ├── Pneumothorax
+
+│   └── Other time-critical causes
+
+│
+
+├── Gather discriminating information
+
+│   ├── ECG
+
+│   ├── Vital signs
+
+│   ├── Lung sounds
+
+│   ├── History
+
+│   └── Physical examination
+
+│
+
+├── Compare findings
+
+│
+
+├── Treat according to applicable protocol
+
+│
+
+└── Reassess
+
+The important concept is:
+
+Chest pain is not a diagnosis. It is a starting point for reasoning.
+
+7. EXAMPLE: SHORTNESS OF BREATH
+
+DYSPNEA
+
+│
+
+├── AIRWAY
+
+│   ├── Patent?
+
+│   ├── Stridor?
+
+│   └── Swelling/obstruction?
+
+│
+
+├── BREATHING
+
+│   ├── Respiratory rate
+
+│   ├── Work of breathing
+
+│   ├── Chest movement
+
+│   ├── SpO2
+
+│   ├── EtCO2
+
+│   └── Lung sounds
+
+│
+
+├── LUNG SOUNDS
+
+│   │
+
+│   ├── Wheezing
+
+│   │   ├── Asthma
+
+│   │   ├── COPD
+
+│   │   ├── Anaphylaxis
+
+│   │   └── Other
+
+│   │
+
+│   ├── Crackles
+
+│   │   ├── Pulmonary edema
+
+│   │   ├── Pneumonia
+
+│   │   └── Other
+
+│   │
+
+│   ├── Absent/unilateral
+
+│   │   ├── Pneumothorax
+
+│   │   ├── Obstruction
+
+│   │   └── Other
+
+│   │
+
+│   └── Clear
+
+│       ├── PE
+
+│       ├── Metabolic cause
+
+│       ├── Cardiac cause
+
+│       └── Other
+
+│
+
+├── CIRCULATION
+
+│   ├── HR
+
+│   ├── BP
+
+│   └── Perfusion
+
+│
+
+├── HISTORY
+
+│   ├── Asthma/COPD
+
+│   ├── Cardiac history
+
+│   ├── PE/DVT risk
+
+│   ├── Infection
+
+│   ├── Allergic exposure
+
+│   └── Medications
+
+│
+
+├── DIFFERENTIAL
+
+│
+
+├── TREAT
+
+│
+
+└── REASSESS
+
+8. EXAMPLE: ALTERED MENTAL STATUS
+
+The AI should not immediately label an altered patient as "intoxicated."
+
+ALTERED MENTAL STATUS
+
+│
+
+├── AIRWAY/BREATHING/CIRCULATION
+
+│
+
+├── BLOOD GLUCOSE
+
+│
+
+├── OXYGENATION / VENTILATION
+
+│
+
+├── NEUROLOGIC EXAM
+
+│   ├── Pupils
+
+│   ├── Speech
+
+│   ├── Facial symmetry
+
+│   ├── Motor deficits
+
+│   └── Seizure activity
+
+│
+
+├── POSSIBLE CAUSES
+
+│   │
+
+│   ├── Hypoglycemia
+
+│   ├── Hypoxia
+
+│   ├── Hypercapnia
+
+│   ├── Stroke
+
+│   ├── Intracranial hemorrhage
+
+│   ├── Seizure
+
+│   ├── Infection
+
+│   ├── Sepsis
+
+│   ├── Opioids
+
+│   ├── Sedatives
+
+│   ├── Alcohol
+
+│   ├── Metabolic abnormality
+
+│   ├── Trauma
+
+│   └── Other
+
+│
+
+├── WHAT IS MOST DANGEROUS?
+
+│
+
+├── WHAT IS MOST LIKELY?
+
+│
+
+├── WHAT CAN I REVERSE?
+
+│
+
+└── REASSESS
+
+9. THE THREE-DIAGNOSIS RULE
+
+For significant presentations, the AI should attempt to identify three categories:
+
+1. Most likely
+
+What diagnosis best explains the available findings?
+
+2. Most dangerous
+
+What diagnosis could seriously harm the patient if missed?
+
+3. Most easily missed
+
+What diagnosis could initially look benign but have serious consequences?
+
+Example:
+
+Patient with chest pain
+
+Most likely:
+
+ACS
+
+Most dangerous:
+
+Aortic dissection / PE / other time-critical pathology
+
+Easily missed:
+
+Alternative non-obvious cause based on presentation
+
+This prevents the AI from anchoring on the first diagnosis that seems plausible.
+
+10. SUPPORTING VS CONTRADICTING EVIDENCE
+
+The AI should maintain two lists.
+
+HYPOTHESIS: Acute coronary syndrome
+
+SUPPORTING
+
+├── Exertional discomfort
+
+├── Pressure-like quality
+
+├── Radiation
+
+├── Diaphoresis
+
+└── ECG findings if present
+
+CONTRADICTING
+
+├── Strongly positional symptoms
+
+├── Reproducible pain
+
+└── Alternative explanation strongly supported
+
+Then:
+
+Does the hypothesis still make sense?
+
+│
+
+├── YES → continue evaluating
+
+│
+
+└── NO → reconsider differential
+
+11. AVOIDING ANCHORING
+
+The AI should recognize common cognitive errors.
+
+Anchoring
+
+"The patient has anxiety, so this must be anxiety."
+
+Correct approach:
+
+"Anxiety may be present, but what medical conditions could produce the same findings?"
+
+Premature closure
+
+"I found one possible diagnosis, so I'm done."
+
+Correct approach:
+
+"What dangerous alternative could still explain the presentation?"
+
+Confirmation bias
+
+"I think it's asthma, so I only look for findings supporting asthma."
+
+Correct approach:
+
+"What findings would argue against asthma?"
+
+Search satisfaction
+
+"I found an abnormality, so that's the cause."
+
+Correct approach:
+
+"Is this abnormality actually responsible for the patient's presentation?"
+
+Base-rate neglect
+
+"This unusual diagnosis is possible, therefore it must be the answer."
+
+Correct approach:
+
+Consider both probability and severity.
+
+12. PROBABILITY × DANGER
+
+The AI should conceptually rank diagnoses using two dimensions:
+
+HIGH DANGER
+
+↑
+
+│
+
+MUST CONSIDER   │   MUST NOT MISS
+
+│
+
+│
+
+LOW PROBABILITY ────────┼──────── HIGH PROBABILITY
+
+│
+
+│
+
+UNLIKELY        │   COMMON
+
+│
+
+↓
+
+LOW DANGER
+
+A diagnosis can deserve consideration even when it is not the most likely if missing it would have severe consequences.
+
+13. TREATMENT SHOULD FOLLOW THE PROBLEM
+
+The AI should reason:
+
+What is killing the patient?
+
+↓
+
+Treat that first.
+
+What is causing instability?
+
+↓
+
+Address the cause.
+
+What is the underlying disease?
+
+↓
+
+Continue diagnostic evaluation.
+
+What can wait?
+
+↓
+
+Address after immediate threats.
+
+This prevents the AI from giving a long list of medications before identifying the patient's actual priorities.
+
+14. DIAGNOSTIC TESTS SHOULD ANSWER QUESTIONS
+
+The AI should not recommend tests simply because they are available.
+
+Instead:
+
+QUESTION
+
+↓
+
+What am I trying to determine?
+
+↓
+
+Which test can help answer it?
+
+↓
+
+What result would change my management?
+
+↓
+
+Perform test
+
+↓
+
+Interpret result in clinical context
+
+Example:
+
+Possible dysrhythmia
+
+↓
+
+What rhythm is occurring?
+
+↓
+
+ECG / cardiac monitoring
+
+↓
+
+Interpret rhythm
+
+↓
+
+Does patient have instability?
+
+↓
+
+Management according to applicable protocol
+
+15. VITAL SIGNS ARE CLUES, NOT DIAGNOSES
+
+The AI should avoid:
+
+HR 120
+
+↓
+
+"Tachycardia diagnosis"
+
+↓
+
+Give medication
+
+Instead:
+
+HR 120
+
+↓
+
+Why is the heart rate elevated?
+
+│
+
+├── Pain
+
+├── Fever
+
+├── Hypovolemia
+
+├── Hypoxia
+
+├── Anxiety
+
+├── Infection
+
+├── Dysrhythmia
+
+├── Medication
+
+└── Other
+
+The same principle applies to:
+
+Blood pressure
+
+Respiratory rate
+
+SpO2
+
+Temperature
+
+EtCO2
+
+Blood glucose
+
+16. REASSESSMENT IS A NEW DECISION POINT
+
+After every significant intervention:
+
+INTERVENTION
+
+↓
+
+REASSESS
+
+↓
+
+Did the patient improve?
+
+│
+
+├── YES
+
+│    ├── Continue monitoring
+
+│    └── Continue evaluating cause
+
+│
+
+├── NO CHANGE
+
+│    ├── Was intervention appropriate?
+
+│    ├── Was dose/route correct?
+
+│    ├── Is diagnosis correct?
+
+│    └── Is another cause present?
+
+│
+
+└── WORSE
+
+├── Reassess ABCs
+
+├── Identify new life threat
+
+├── Escalate care
+
+└── Reconsider differential
+
+This is critical.
+
+Failure to improve is clinical information.
+
+17. THE "WHAT AM I MISSING?" QUESTION
+
+At major decision points, the AI should ask:
+
+"What important diagnosis have I not considered?"
+
+Then:
+
+Could it kill the patient?
+
+│
+
+├── YES → actively evaluate
+
+│
+
+└── NO → continue current pathway
+
+This is particularly important with:
+
+Chest pain
+
+Dyspnea
+
+Syncope
+
+Altered mental status
+
+Abdominal pain
+
+Severe headache
+
+Seizure
+
+Shock
+
+Trauma
+
+18. PARAMEDIC THINKING LOOP
+
+The complete cognitive loop is:
+
+┌───────────────┐
+
+│   ASSESS      │
+
+└───────┬───────┘
+
+↓
+
+┌───────────────┐
+
+│ IDENTIFY      │
+
+│ PROBLEMS      │
+
+└───────┬───────┘
+
+↓
+
+┌───────────────┐
+
+│ PRIORITIZE    │
+
+│ LIFE THREATS  │
+
+└───────┬───────┘
+
+↓
+
+┌───────────────┐
+
+│ DIFFERENTIAL  │
+
+└───────┬───────┘
+
+↓
+
+┌───────────────┐
+
+│ TEST /        │
+
+│ INVESTIGATE   │
+
+└───────┬───────┘
+
+↓
+
+┌───────────────┐
+
+│ TREAT         │
+
+└───────┬───────┘
+
+↓
+
+┌───────────────┐
+
+│ REASSESS      │
+
+└───────┬───────┘
+
+↓
+
+┌─────────────┐
+
+│ BETTER?     │
+
+└──────┬──────┘
+
+YES │ NO
+
+│
+
+┌──────────┘
+
+↓
+
+UPDATE DIFFERENTIAL
+
+↓
+
+REASSESS
+
+19. HOW THE AI SHOULD THINK
+
+The AI should internally organize information into:
+
+PATIENT
+
+│
+
+├── Immediate threats
+
+│
+
+├── Stability
+
+│
+
+├── Chief complaint
+
+│
+
+├── Objective findings
+
+│
+
+├── Subjective symptoms
+
+│
+
+├── Relevant history
+
+│
+
+├── Risk factors
+
+│
+
+├── Differential diagnoses
+
+│
+
+├── Dangerous alternatives
+
+│
+
+├── Available diagnostics
+
+│
+
+├── Protocol
+
+│
+
+├── Intervention
+
+│
+
+└── Response
+
+The AI should then produce an answer based on priority, rather than simply matching keywords.
+
+20. EXAMPLE AI REASONING
+
+Input
+
+64-year-old patient with shortness of breath, chest pressure, diaphoresis, HR 118, RR 28, BP 92/60.
+
+The AI should conceptually process:
+
+CHEST PRESSURE + DYSPNEA
+
+↓
+
+Potential cardiovascular emergency
+
+↓
+
+Is patient unstable?
+
+↓
+
+BP 92/60 + significant symptoms
+
+↓
+
+YES / potentially unstable
+
+↓
+
+Prioritize immediate assessment and stabilization
+
+↓
+
+Consider dangerous causes
+
+├── ACS
+
+├── Dysrhythmia
+
+├── Pulmonary embolism
+
+├── Acute heart failure
+
+├── Aortic pathology
+
+└── Other shock states
+
+↓
+
+Obtain focused assessment / ECG / monitoring
+
+↓
+
+Compare findings
+
+↓
+
+Protocol-directed treatment
+
+↓
+
+REASSESS
+
+The AI should not immediately respond:
+
+"This is a heart attack."
+
+Instead:
+
+"This presentation is concerning for a potentially serious cardiopulmonary emergency. Acute coronary syndrome is an important consideration, but other causes of chest discomfort, dyspnea, tachycardia, and hypotension must also be considered."
+
+That distinction is extremely important for your AI.
+
+21. PARAMEDIC PRIORITY HIERARCHY
+
+The AI should generally prioritize:
+
+1. Scene safety
+
+↓
+
+2. Immediate life threats
+
+↓
+
+3. Airway
+
+↓
+
+4. Breathing / ventilation / oxygenation
+
+↓
+
+5. Circulation / perfusion
+
+↓
+
+6. Mental status / neurologic threats
+
+↓
+
+7. Major bleeding / trauma
+
+↓
+
+8. Patient stability
+
+↓
+
+9. Chief complaint
+
+↓
+
+10. Differential diagnosis
+
+↓
+
+11. Diagnostics
+
+↓
+
+12. Treatment
+
+↓
+
+13. Reassessment
+
+↓
+
+14. Transport / destination
+
+↓
+
+15. Documentation
+
+This should be adapted to the actual clinical situation rather than treated as a rigid script.
+
+22. AI "STOP CONDITIONS"
+
+The AI should interrupt normal reasoning if it detects:
+
+CARDIAC ARREST
+
+↓
+
+Immediate resuscitation pathway
+
+SEVERE AIRWAY COMPROMISE
+
+↓
+
+Immediate airway pathway
+
+RESPIRATORY FAILURE
+
+↓
+
+Immediate ventilation/oxygenation pathway
+
+SEVERE SHOCK
+
+↓
+
+Immediate circulatory stabilization pathway
+
+MAJOR HEMORRHAGE
+
+↓
+
+Immediate hemorrhage-control pathway
+
+SEVERE ALTERED MENTAL STATUS
+
+↓
+
+Immediate ABC/glucose/neurologic/toxicologic assessment
+
+SEVERE ANAPHYLAXIS
+
+↓
+
+Immediate emergency treatment pathway
+
+ONGOING SEIZURE
+
+↓
+
+Immediate seizure/emergency pathway
+
+The normal history-taking pathway should not delay treatment of an obvious life threat.
+
+23. FINAL QUESTION BEFORE COMMITTING TO A DIAGNOSIS
+
+Before the AI gives a strong diagnostic impression, it should ask:
+
+1. What is the most likely diagnosis?
+
+2. What is the most dangerous alternative?
+
+3. What findings support my leading diagnosis?
+
+4. What findings contradict it?
+
+5. What important information am I missing?
+
+6. Could the patient be deteriorating?
+
+7. What intervention is needed now?
+
+8. What would I expect to see if my diagnosis is correct?
+
+9. What finding would make me change my mind?
+
+10. After treatment, did the patient improve?
+
+24. CORE RULE FOR THE PARAMEDIC AI
+
+The AI should follow:
+
+Don't anchor on the complaint.
+
+Don't anchor on the first diagnosis.
+
+Don't treat a number instead of a patient.
+
+Don't let a normal finding erase a dangerous presentation.
+
+Don't let a single abnormal finding become the diagnosis.
+
+Always consider what could kill the patient first.
+
+Always reassess after an intervention.
+
+If the patient doesn't respond as expected, reconsider the diagnosis.
+
+25. ONE-SENTENCE VERSION
+
+The entire tree can be reduced to:
+
+IS THE SCENE SAFE?
+
+↓
+
+IS THE PATIENT DYING?
+
+↓
+
+WHAT IS KILLING THEM?
+
+↓
+
+WHAT IS MOST LIKELY CAUSING IT?
+
+↓
+
+WHAT ELSE COULD KILL THEM?
+
+↓
+
+WHAT INFORMATION WILL DISTINGUISH THESE?
+
+↓
+
+WHAT DOES THE PROTOCOL RECOMMEND?
+
+↓
+
+DID THE PATIENT RESPOND?
+
+↓
+
+REASSESS AND CHANGE COURSE IF NECESSARY.
+
+26. Knowledge-Base Implementation
+
+Recommended file:
+
+knowledge/
+
+└── clinical_reasoning/
+
+├── paramedic_thinking_tree.md
+
+├── primary_survey.md
+
+├── secondary_assessment.md
+
+├── differential_diagnosis.md
+
+├── cognitive_biases.md
+
+├── reassessment.md
+
+├── clinical_red_flags.md
+
+└── decision_making.md
+
+The AI should use this document as the reasoning framework, while separate documents provide the actual clinical/protocol information.
+
+This separation is important:
+
+THINKING TREE
+
++
+
+SIGNS & SYMPTOMS
+
++
+
+ECG KNOWLEDGE
+
++
+
+MEDICATION KNOWLEDGE
+
++
+
+PROTOCOLS
+
++
+
+MEDICAL DOCUMENTATION
+
+↓
+
+PARAMEDIC AI
+
+The current AHA guidelines emphasize structured algorithms and evidence-based recommendations, while EMS core content explicitly includes primary assessment/emergency stabilization, secondary assessment, differential diagnosis/clinical judgment, interventions, and reassessment.
+
+For your project, I'd make this the "brain" of the system. Then your ECG, medications, signs/symptoms, trauma, respiratory, cardiac, neuro, and toxicology documents become the knowledge it consults while following this tree. That architecture is much closer to how you want a clinical-reference AI to behave than simply throwing all the PDFs into a vector database.

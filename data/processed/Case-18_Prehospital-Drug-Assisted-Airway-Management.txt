@@ -1,0 +1,1375 @@
+[Page 1]
+Prehospital Emergency Care
+ISSN: 1090-3127 (Print) 1545-0066 (Online) Journal homepage: www.tandfonline.com/journals/ipec20
+Prehospital Drug Assisted Airway Management:
+An NAEMSP Position Statement and Resource
+Document
+Jeﬀrey L. Jarvis, John W. Lyng, Brian L. Miller, Michael C. Perlmutter, Heidi
+Abraham & Ritu Sahni
+To cite this article: Jeﬀrey L. Jarvis, John W. Lyng, Brian L. Miller, Michael C. Perlmutter, Heidi
+Abraham & Ritu Sahni (2022) Prehospital Drug Assisted Airway Management: An NAEMSP
+Position Statement and Resource Document, Prehospital Emergency Care, 26:sup1, 42-53, DOI:
+10.1080/10903127.2021.1990447
+To link to this article:  https://doi.org/10.1080/10903127.2021.1990447
+© 2021 The Author(s). Published with
+license by Taylor & Francis Group, LLC.
+Published online: 10 Jan 2022.
+Submit your article to this journal 
+Article views: 14032
+View related articles 
+View Crossmark data
+Citing articles: 14 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ipec20
+
+[Page 2]
+PREHOSPITAL DRUG ASSISTED AIRWAY MANAGEMENT:A N NAEMSP
+POSITION STATEMENT AND RESOURCE DOCUMENT
+Jeffrey L. Jarvis , John W. Lyng , Brian L. Miller, Michael C. Perlmutter ,
+Heidi Abraham, and Ritu Sahni
+ABSTRACT
+Airway management is a critical intervention for patients
+with airway compromise, respiratory failure, and cardiac
+arrest. Many EMS agencies use drug-assisted airway man-
+agement (DAAM) - the administration of sedatives alone
+or in combination with neuromuscular blockers - to facili-
+tate advanced airway placement in patients with airway
+compromise or impending respiratory failure who also
+have altered mental status, agitation, or intact protective
+airway reflexes. While DAAM provides several benefits
+including improving laryngoscopy and making insertion
+of endotracheal tubes and supraglottic airways easier,
+DAAM also carries important risks.
+NAEMSP recommends:
+/C15DAAM is an appropriate tool for EMS clinicians
+in systems with clear guidelines, sufficient train-
+ing, and close EMS physician oversight. DAAM
+should not be used in settings without
+adequate resources.
+/C15EMS physicians should develop clinical guidelines
+informed by evidence and oversee the training and
+credentialing for safe and effective DAAM.
+/C15DAAM programs should include best practices of
+airway management including patient selection,
+assessmenct and positioning, preoxygenation strat-
+egies including apneic oxygenation, monitoring and
+management of physiologic abnormalities, selection
+of medications, post-intubation analgesia and sed-
+ation, equipment selection, airway confirmation and
+monitoring, and rescue airway techniques.
+/C15Post-DAAM airway placement must be con-
+firmed and continually monitored with wave-
+form capnography.
+/C15EMS clinicians must have the necessary equipment
+and training to manage patients with failed
+DAAM, including bag mask ventilation, supraglot-
+tic airway devices and surgical airway approaches.
+/C15Continuous quality improvement for DAAM
+must include assessment of individual and aggre-
+gate performance metrics. Where available for
+review, continuous physiologic recordings (vital
+signs, pulse oximetry, and capnography), audio
+and video recordings, and assessment of patient
+outcomes should be part of DAAM continuous
+quality improvement.
+Key words: prehospital; out-of-hospital; airway management;
+rapid sequence intubation; rapid sequence airway; delayed
+sequence airway; apneic oxygenation; capnography
+PREHOSPITAL EMERGENCY CARE 2022;26:42 –53
+INTRODUCTION
+In select prehospital patients, efforts to manage the air-
+w a ym a yb ei n f l u e n c e db yt h ep r e s e n c eo fp r o t e c t i v e
+airway reflexes or the need to preserve the patient ’s
+hemodynamic condition. Previously known as drug-
+assisted intubation (DAI), drug-assisted airway man-
+a g e m e n t( D A A M )i st h et e c h n i q u eo fu s i n gm e d i c a -
+tions to overcome the body’s protective airway reflexes
+to facilitate airway insertion, typically through the indi-
+vidual or combined use of sedatives and paralytics.
+The most common DAAM technique is rapid
+sequence intubation (RSI), the rapid sequential adminis-
+tration of both a sedative and a paralytic to accomplish
+endotracheal intubation. However, current variations of
+DAAM in clinical practice include sedation-assisted
+intubation (SAI - the use of a sedative alone to facilitate
+intubation), delayed sequence intubation (DSI - initial
+administration of a sedative, with delayed administra-
+tion of a paralytic to facilitate intubation), and rapid
+Received September 1, 2021 from Williamson County EMS,
+Georgetown, Texas, USA (JLJ); Baylor Scott & White/Texas A&M
+College of Medicine, Temple, Texas, USA (JLJ); University of
+Minnesota Medical School, Minneapolis, Minnesota, USA (JWL);
+University of Texas Southwestern Medical Center, Dallas, Texas,
+USA (BLM); MedStar Mobile Healthcare, Metropolitan Area EMS
+Authority, Fort Worth, Texas, USA(BLM); North Memorial
+Health Air Care, Brooklyn Center, Minnesota, USA (JWL, MCP);
+Austin/Travis County EMS, Austin, Texas, USA (HA);
+Clackamas County EMS, Oregon City, Oregon, USA (RS);
+Washington County EMS, Hillsboro, Oregon, USA (RS); Oregon
+Health & Sciences University, Portland, Oregon, USA (RS).
+Revision received September 27, 2021; accepted for publication
+October 1, 2021.
+All authors were involved in the creation of the manuscript.
+No authors have any conflicts to disclose.
+Address correspondence to Jeffrey L. Jarvis at jjarvis@wilco.org
+/C2232021 The Author(s). Published with license by Taylor &
+Francis Group, LLC.
+This is an Open Access article distributed under the terms of the
+Creative Commons Attribution-NonCommercial-NoDerivatives
+License ( http://creativecommons.org/licenses/by-nc-nd/4.0/),
+which permits non-commercial re-use, distribution, and
+reproduction in any medium, provided the original work is
+properly cited, and is not altered, transformed, or built upon in
+any way.
+doi:10.1080/10903127.2021.1990447
+42
+
+[Page 3]
+sequence airway (RSA– use of a sedative and paralytic
+to facilitate rapid supraglottic airway insertion).
+While increasingly adopted by EMS agencies to
+facilitate intubation and improve first-pass success,
+DAAM has also been associated with important
+adverse events ( 1, 2). Ongoing controversies sur-
+rounding DAAM include the necessary components
+for training and credentialing, optimal approaches
+to preoxygenation, medication selection, airway
+placement confirmation strategies, and essential
+components of quality management. This resource
+document summarizes key recommendations for the
+deployment of DAAM in the prehospital setting.
+SYSTEM AVAILABILITY OF AND PROTOCOLS
+FOR DRUG-ASSISTED AIRWAY MANAGEMENT
+DAAM is an Appropriate Tool for EMS
+Clinicians in Systems with Clear
+Guidelines, Sufficient Training, and Close
+EMS Physician Oversight. DAAM Should
+Not Be Used in Settings without
+Adequate Resources.
+DAAM is a powerful technique that can potentially
+improve patient care by optimizing airway first-pass
+success while mitigating physiologic harm from airway
+insertion efforts. However, DAAM also entails signifi-
+cant risks to patients and training burdens for EMS
+agencies. Implementation of DAAM extends beyond
+the clinical protocol; it necessitates optimization of the
+agency’s entire airway management program. When
+deciding whether to implement DAAM, EMS medical
+directors must carefully weigh the potential clinical
+gains from DAAM against the risks of the procedure,
+the training costs to the agency, and the skill set of the
+EMS clinicians. EMS medical directors must ensure
+commitment from the entire agency leadership to sup-
+port the increased budget for proper equipment, train-
+ing, and oversight that comes with implementing a
+DAAM program. Within this commitment, medical
+directors must select appropriate drugs and equipment,
+and develop protocols, training, credentialing, and
+quality management practices that address all aspects
+of the DAAM process.
+EMS Physicians Should Develop Clinical
+Guidelines Informed by Evidence and
+Oversee the Training and Credentialing
+for Safe and Effective DAAM.
+While there are few randomized trials of DAAM in
+the prehospital or hospital setting, there are
+observational data to help inform and guide the
+selection of DAAM techniques. Critical decisions
+include selection of equipment, techniques, pharma-
+cologic agents, and approaches to preoxygenation,
+physiologic monitoring, airway confirmation, and
+post airway management.
+DAAM programs should entail physician-led cre-
+dentialing to assure clinician competence in all
+aspects of the technique. The concept of credential-
+ing in the EMS setting is discussed in detail in the
+NAEMSP position statement: Clinical Credentialing of
+EMS Providers (3). Initial DAAM credentialing
+should include a baseline cognitive and psycho-
+motor assessment that covers best practices of
+patient selection, positioning, preoxygenation, medi-
+cation selection, difficult/failed airway manage-
+ment, and post-placement confirmation, analgesia,
+and sedation. Credentialing should include direct
+observation with scenario-based testing and demon-
+stration of proficiency in all of the agency ’s avail-
+able airway management approaches.
+While airway management training in the hospital
+setting (for example, the operating room) is often
+desired, this is not always available and should not
+be considered a requirement for a DAAM program
+provided that alternative experiences such as simu-
+lations or cadaveric training are included in the pro-
+gram and compliance with evidenced-based
+performance measures is high. The concept of skill
+dilution (where there are more clinicians than pro-
+cedural opportunities) is important, but the optimal
+balance between the number of clinicians, the num-
+ber of encounters, and the need for adequate
+resource availability is unknown. Future research is
+needed to further inform this topic.
+BEST PRACTICES
+DAAM Programs Should Include Best
+Practices of Airway Management
+Including Patient Selection, Assessment
+and Positioning, Preoxygenation
+Strategies Including Apneic Oxygenation,
+Monitoring and Management of
+Physiologic Abnormalities, Selection of
+Medications, Post-Intubation Analgesia
+and Sedation, Equipment Selection,
+Airway Confirmation and Monitoring,
+and Rescue Airway Techniques.
+Airway management using DAAM requires psycho-
+motor skills, knowledge, and critical thinking that can
+be challenging to apply in the prehospital
+J. L. Jarvis et al. P REHOSPITAL DRUG-ASSISTED AIRWAY MANAGEMENT 43
+
+[Page 4]
+environment. Multiple studies in both the emergency
+department and EMS settings estimate peri-intubation
+cardiac arrest occurs in 1-4% of RSIs, highlighting that
+physiologic monitoring and management are critical
+aspects of DAAM ( 4–9).
+DAAM presents challenges with airway insertion
+because of the rapid and complete loss of protective
+airway reflexes and respiratory drive, and the
+potential of medications to exacerbate existing
+physiologic abnormalities. Therefore, EMS clinicians
+must be especially attentive to fundamental ele-
+ments of airway management such as patient selec-
+tion, preoxygenation, correction of physiologic
+abnormalities, medication and equipment selection,
+airway placement confirmation and monitoring,
+ongoing analgesia and sedation, and availability of
+rescue airway techniques.
+Patient Selection. While many conditions may lead
+to respiratory depression or loss of airway protec-
+tion, conditions likely to require DAAM include
+stroke, traumatic brain injury (TBI), and respiratory
+failure from pulmonary or cardiac disease. There is
+conflicting evidence of the effect of DAAM on the
+outcomes of patients with these conditions. For
+example, data from Fouche et al. suggest that
+patients experiencing stroke have worse outcomes
+when undergoing DAAM, however several con-
+founders may have contributed to this observation,
+including the effects of hypoxia, hypotension, and
+stroke severity ( 10). In patients with TBI ( 11, 12),
+Bossers and Davis observed that EMS clinician
+experience is associated with improved outcomes
+(13, 14). The choice of medications may affect
+DAAM TBI outcomes, as evidenced by Bulger et al.
+who noted that the use of paralytics was associated
+with improved TBI outcomes ( 15). Finally, multiple
+studies by Davis et al. underscore the potential for
+DAAM to adversely affect TBI outcomes through
+iatrogenic post-intubation hyperventilation ( 16, 17).
+There are limited observational data on the need for
+DAAM in patients undergoing resuscitation for car-
+diac arrest-associated trismus and currently there is
+insufficient evidence to adequately inform this prac-
+tice ( 18).
+Difficult Airway Anatomy. One of the salient chal-
+lenges of DAAM is achieving rapid successful air-
+way placement. Therefore, EMS clinicians should
+incorporate strategies to optimize airway insertion
+efforts, including the recognition of difficult airway
+anatomy. EMS clinicians should be aware of and
+prepared to manage difficult airway characteristics
+such as extremes of size, neck immobility, restricted
+mouth opening, soiled airway, and bleeding
+(19–22).While not absolute contraindications to
+DAAM, in select scenarios the risk of complications
+may outweigh the potential benefits.
+Patient Positioning. Optimization of patient position-
+ing is a critical but sometimes overlooked step in pre-
+hospital airway management. Proper patient
+positioning can improve intubating conditions and
+prolong safe apnea time, both of which are especially
+important in DAAM given the loss of protective air-
+way reflexes and spontaneous respiration. Removing
+the patient from an environment with limited access
+and placing the patient on an elevated stretcher can
+improve first-pass success ( 23). Elevation of the
+patient’s head has been associated with better glottic
+visualization, higher first-pass success rates, longer
+safe apnea times, and fewer complications such as
+esophageal intubation, hypoxia, and aspiration
+(
+23–26). Positioning for success of airway management
+is equally important in pediatric patients as in adults.
+Multiple studies have shown that in children 3 to
+8 years of age, a "sniffing" position improves laryngo-
+scopic view as well as the ability to perform manual
+bag-valve-mask ventilation (27–35).
+Preoxygenation/Denitrogenation. Peri-intubation hyp-
+oxia is common and potentially harmful as it can
+lead to hemodynamically significant bradycardia
+and cardiac arrest. Multiple observational studies
+have demonstrated peri-intubation hypoxia occur-
+ring in 36% to 45% of RSIs in both the emergency
+department and EMS settings ( 5, 9, 36, 37).
+However, peri-intubation hypoxia is frequently
+unrecognized, often because of the combined factors
+of transient loss of pulse oximetry data during
+intubation and ‘pulse oximetry lag ’, i.e., delay in
+measurement response to changes in blood oxygen
+concentration ( 38–40). For example, Davis et al.
+noted that 79% of patients undergoing prehospital
+RSI had loss of pulse oximetry data during the peri-
+intubation period, most commonly due to inadvert-
+ent probe displacement or placement of the probe
+distal to blood pressure cuffs ( 40). In a separate
+study, Davis found that the oximetry signal is a lag-
+ging indicator of oxygenation status in up to 55% of
+RSI cases, leading to inappropriate extubation ( 38).
+Close and continuous monitoring along with appro-
+priate preoxygenation can assure recognition of
+hypoxia and reduce the effect of pulse oximetry lag.
+Efforts to achieve preoxygenation and denitroge-
+nation (henceforth referred to simply as preoxygena-
+tion) are vital to reducing the risk of peri-intubation
+hypoxia ( 41). Adequate preoxygenation increases
+safe apnea time and reduces the risk of peri-intub-
+ation hypoxia. A common approach to
+44 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 5]
+preoxygenation in the emergency setting is to pro-
+vide 100% oxygen by non-rebreather mask for at
+least 3 minutes. In the apneic or hypoventilating
+patient, delivery of preoxygenation by bag-valve-
+mask may be necessary. While non-rebreather mask
+and bag-valve-mask are the most commonly used
+modalities for providing preoxygenation, noninvasive
+positive pressure ventilation (NIPPV) may be more
+effective (42–44). In 30 healthy volunteers undergoing
+a 3-minute trial of preoxygenation, Groombridge et al.
+observed mean fraction of expired oxygen levels of
+0.64 with non-rebreather masks compared with 95%
+with NIPPV ( 44). Baillard found similar results in
+intensive care unit patients undergoing intub-
+ation (42).
+The effectiveness of current prehospital pre-oxy-
+genation practices is unknown since there is cur-
+rently no prehospital physiologic measurement that
+accurately reflects denitrogenation of the lungs. In
+the operating room, end-tidal expired oxygen (EtO 2)
+is used to assess pre-oxygenation; anesthesia prac-
+tice uses EtO 2 values above 90% as an objective
+indicator of preoxygenation ( 41). Emergency depart-
+ment studies using EtO 2 suggest that up to 75% of
+patients undergoing RSI may not receive adequate
+preoxygenation ( 9, 45). Incorporating EtO 2 technol-
+ogy in field monitors may improve prehospital pre-
+oxygenation, but future research should evaluate its
+feasibility and usefulness ( 41, 46).
+Apneic Oxygenation. Apneic oxygenation involves the
+use of a nasal cannula to deliver oxygen at “flush”
+rates (as high as the regulator will go) during the
+intubation attempt. A nasal cannula can be applied
+under a tight-fitting NIPPV mask during prepar-
+ation without decreasing the efficacy of preoxygena-
+tion ( 47–49). Apneic oxygenation is associated with
+decreased peri-intubation hypoxia in the field, emer-
+gency department, and intensive care unit ( 50–54).
+Three systematic reviews and meta-analyses con-
+firmed improved first-pass success and reduced
+peri-intubation desaturation with apneic oxygen-
+ation ( 50, 51, 53). With a targeted bundle of inter-
+ventions including head-up positioning, NIPPV
+preoxygenation, apneic oxygenation, DSI, and tar-
+geted saturation goals, Jarvis et al. reported a reduc-
+tion in peri-intubation hypoxia episodes from 44%
+to 3.5% ( 5). EMS clinicians should consider apneic
+oxygenation during DAAM.
+Management of Physiologic Abnormalities. Physiologic
+abnormalities such as hypoxia and hypotension
+should be corrected prior to initiation of DAAM
+efforts. Failure to do so places patients at risk for
+peri-intubation cardiac arrest ( 6, 55–57). A shock
+index > 0.9 in apparently hemodynamically stable
+patients was associated with two-fold increased
+odds of peri-intubation hypotension ( 57). Similarly,
+based on an analysis of the National Emergency
+Airway Registry, April et al. found that the odds of
+peri-intubation cardiac arrest were increased six-fold
+with hypotension, three-fold with hypoxia, and
+almost two-fold with an inability to properly pre-
+pare for intubation ( 55). Potential interventions
+include the rapid infusion of intravenous fluids or,
+where appropriate and available, blood products.
+The use of vasopressors prior to DAAM may be
+appropriate in select hypotensive conditions.
+DAAM Medications
+DAAM encompasses several strategies that use dif-
+ferent types of drugs to facilitate placement of either
+an endotracheal tube or a supraglottic airway. The
+most common drugs and dosages used for DAAM
+in the EMS setting are detailed in Table 1 .
+Sedatives. While ketamine, etomidate, and midazo-
+lam are commonly used sedatives in prehospital
+DAAM and the optimal sedative for DAAM is unclear,
+evidence suggests that midazolam may be a subopti-
+mal choice because of excess hypotension (58, 59).
+Ketamine is considered to have minimal effects
+on hemodynamics. Recent evidence in patients with
+sepsis, however, suggests that hypotension may
+occur more frequently with the use of ketamine
+compared to other agents ( 60). Contrasting evidence
+suggests no difference in hypotension between keta-
+mine and etomidate ( 61). One potential explanation
+for these mixed findings is that patients may have
+different hemodynamic responses to ketamine
+depending on the pre-intubation shock-index. In
+patients induced with ketamine, Miller et al. found
+more frequent hypotension in those with a shock
+index > 0.9 (26%) than those with lower shock
+index (2%) ( 62). Ketamine was previously consid-
+ered detrimental in patients with increased intracra-
+nial pressure, intraocular pressure, and underlying
+mental illness but recent literature has demonstrated
+no meaningful differences in patient-oriented out-
+comes ( 63–66).
+Etomidate is also commonly thought to have min-
+imal hemodynamic effects. While there is some
+observational evidence of post-intubation hypoten-
+sion with etomidate, it was transient and not associ-
+ated with worse mortality ( 67). However, in a
+randomized controlled trial comparing ketamine
+and etomidate for emergency intubation, there was
+no difference in adverse events including hypoten-
+sion or mortality, but there was a greater incidence
+of transient adrenal insufficiency of unclear clinical
+J. L. Jarvis et al. P REHOSPITAL DRUG-ASSISTED AIRWAY MANAGEMENT 45
+
+[Page 6]
+significance ( 68). Additional studies of single-dose
+etomidate for induction in sepsis patients, including
+a randomized controlled trial comparing etomidate
+to midazolam, found no differences in mortality or
+hospital or intensive care unit length of stay ( 69–71).
+There is conflicting evidence regarding the effect of
+etomidate or ketamine on first-pass success rates,
+though most of the evidence shows there is no dif-
+ference in first-pass success when comparing these
+drugs ( 61, 72, 73).
+Midazolam has also been used for sedation in RSI
+but is not an optimal medication for this purpose.
+Midazolam is often significantly underdosed and,
+despite this, associated with more peri-intubation
+hypotension than either etomidate or ketamine ( 58,
+74, 75). Hypotension with midazolam is likely dose-
+dependent ( 76).
+Neuromuscular Blocking Agents (Paralytics). RSI,
+RSA, and DSI use a sedative agent paired with a
+paralytic to achieve rapid relaxation of protective
+airway reflexes and to facilitate insertion of ET tube
+or supraglottic airway. Multiple studies have shown
+that the use of any paralytic has been associated
+with higher first-pass success rates when compared
+with sedation-only intubation ( 1, 77–83). The two
+most common agents used in for prehospital RSI are
+succinylcholine and rocuronium, however other
+agents, such as vecuronium, are used by some agen-
+cies. The optimal agent for prehospital DAAM is
+unclear. Succinylcholine was initially promoted for
+emergency use because its shorter duration of action
+would, theoretically, allow for more rapid return of
+spontaneous respirations in the case of failed
+intubation. Others have argued that the longer dur-
+ation of rocuronium is beneficial because it allows
+for optimal muscle relaxation, facilitating ventilation
+between airway insertion attempts. Succinylcholine
+is associated with shorter time to desaturation when
+compared with rocuronium ( 84, 85). There is con-
+flicting evidence concerning intubation success and
+mortality with succinylcholine and rocuronium ( 84,
+86, 87). If using rocuronium, intubation success is
+higher when using larger doses (above 1.2 mg/kg)
+(88, 89).
+Some clinicians have used paralysis without con-
+current sedation. In a series of 212 intubations,
+Chong et al. found that 18% received long-acting
+paralytics without sedation ( 90). Paralytics should
+not be used without sedatives; this practice is asso-
+ciated with an increase in unrecognized awareness
+during paralysis leading to post-traumatic stress dis-
+order, complex phobias, and clinical depression
+(91–93). In clinical situations where a patient is
+unresponsive but has persistent muscle tone, admin-
+istration of sedative medications prior to paralytics
+remains a critical action. There is no published evi-
+dence to guide whether these sedative drugs should
+be given in standard or reduced doses in these sit-
+uations, although under-dosing may not sufficiently
+mitigate the risk of awareness with paralysis.
+Alternatives to RSI
+Sedation-Assisted Intubation. SAI is an approach to
+DAAM using sedation alone to facilitate airway place-
+ment. SAI has been suggested as a safer alternative to
+a sedation-plus-paralytic (RSI) combination because it
+TABLE 1. Common medications used for Drug Assisted Airway Management (DAAM) in the prehospital setting.
+Category Drug Common IV dosing Onset of effect Duration of effect Caveats
+Sedatives Ketamine 1 and 2 mg/kg 30 sec 10 –20 mins May precipitate hypotension if
+shock index >0.9
+Etomidate 0.3 mg/kg
+up to 30 mg
+60 sec 4 –10 minutes Concerns for adrenal suppression
+especially in sepsis patients
+Midazolam 0.1 –0.3 mg/kg Variable,
+60 sec to
+5 mins
+15–30 minutes No longer recommended for
+DAAM due to extremely
+variable patient response,
+severe respiratory depression,
+and hypotension
+Paralytics Succinylcholine 1 and 2 mg/kg 45 sec 6 –10 mins Can precipitate hyperkalemia in
+patients >5 days after severe
+burn, crush, denervation, or
+severe infection.
+Can cause malignant
+hyperthermia
+Rocuronium 1 and 1.2 mg/kg 55 sec
+(at 1.2 mg/kg
+dosing)
+45 mins
+(at 1 mg/kg) up to
+60–75 mins
+(at 1.2 mg/kg)
+Increased potential for awareness
+with paralysis if effective post-
+intubation analgosedation is
+not provided
+46 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 7]
+allows the patient to continue spontaneously breathing
+and protecting his or her own airway. However, SAI
+is associated with lower first-pass success rates and
+more complications when compared with the com-
+bined use of sedatives and paralytics ( 1, 91, 94–98).
+Given its significant associated risks and lower first-
+pass success, SAI should be performed only by expert
+practitioners in select scenarios in which the risk of
+paralysis is greater than the risk of vomiting. In select
+clinical scenarios where paralytic use is unsafe, EMS
+clinicians should consider supportive airway techni-
+ques as an alternative to SAI until arrival at the emer-
+gency department.
+Rapid Sequence Airway. RSA is an adaptation of RSI
+that uses a combination of sedation and paralysis
+for the purpose of inserting a supraglottic device
+instead of an endotracheal tube ( 99). This is a useful
+practice for EMS agencies that do not have the
+resources to safely perform endotracheal intubation,
+or for whom supraglottic insertion is a more oper-
+ationally feasible approach than RSI.
+RSA may confer benefits over traditional RSI in
+patients who are predicted to be anatomically chal-
+lenging to intubate or those whose physiology can-
+not be adequately optimized. Though the
+hemodynamic effects of the drugs used for RSA
+must still be considered and the patient ’s physi-
+ology optimized as much as possible before per-
+forming RSA, the relative speed of RSA compared
+to RSI may be of benefit ( 100). The extra time
+needed to perform endotracheal intubation may
+lead to more desaturation and hemodynamic
+instability. Braude et al. evaluated this in a simu-
+lated trauma patient managed by experienced pre-
+hospital flight crews and found that crews managed
+the patient with RSA 145 seconds faster and with
+4.8% (90.8% vs 86%) higher peri-intubation oxygen
+saturations than with RSI ( 101).
+Delayed Sequence Intubation (DSI). In select situa-
+tions, the patient requiring emergent airway man-
+agement may be too agitated to cooperate with
+preoxygenation efforts. DSI is a modification of
+traditional RSI where ketamine is initially given as
+the sedative agent to allow for proper preoxygena-
+tion while maintaining native respiratory effort
+prior to the delayed administration of the paralytic
+drug ( 102, 103). While DSI has shown promising
+results in observational studies, future research
+efforts are needed to verify its safety and merits
+compared with traditional RSI technique.
+Post-DAAM Analgesia and Sedation
+Patients undergoing invasive airway management
+in the emergency setting must be provided with
+ongoing sedation and analgesia; however, such
+practice is ( 104–106)commonly overlooked
+(104–106). Paralysis without sedation is associated
+with patient discomfort and post-traumatic stress
+disorder ( 92). Lack of post-intubation sedation is
+especially common and most concerning when lon-
+ger lasting paralytics are used ( 93).
+Equipment Selection
+DAAM removes a patient ’s protective airway
+reflexes and respiratory drive, making rapid and
+successful airway placement on the first attempt
+even more important. Video laryngoscopy, particu-
+larly among low-frequency intubators, has been
+associated with improved first-pass success
+(107–110). Similarly, use of the bougie, particularly
+with direct laryngoscopy, has also been associated
+with increased first-pass success ( 111, 112). These
+adjuncts may enhance the safety of DAAM.
+CONFIRMATION OF AIRWAY PLACEMENT
+Post-DAAM Airway Placement Must Be
+Confirmed and Continually Monitored
+with Waveform Capnography.
+Continuous waveform capnography is the standard of
+c a r ea n ds h o u l db ec o n s i d e r e dm a n d a t o r yf o ra n y
+DAAM ( 113, 114). Confirmation of airway placement
+in patients undergoing DAAM is particularly import-
+ant because traditional approaches to airway place-
+ment confirmation (breath sounds, tube condensation,
+absence of epigastric sounds) are unreliable ( 115, 116).
+Continuous capnography has been demonstrated to
+have higher sensitivity for esophageal intubations
+than colorimetric or esophageal detector devices in
+low output states like cardiac arrest ( 117–121).
+Waveform capnography is also much faster at detect-
+ing airway displacement than pulse oximetry due to
+pulse oximetry lag and the beneficial effects of preoxy-
+genation (122, 123). Failure to use waveform capnog-
+raphy was associated with 23% esophageal
+intubations in one study, while some systems have
+eliminated unrecognized misplaced intubations with
+consistent capnography use (120).
+J. L. Jarvis et al. P REHOSPITAL DRUG-ASSISTED AIRWAY MANAGEMENT 47
+
+[Page 8]
+MANAGING PATIENTS AFTER
+UNSUCCESSFUL DAAM
+EMS Clinicians Must Have the Necessary
+Equipment and Training to Manage
+Patients with Failed DAAM, Including
+Supraglottic Airway Devices and Surgical
+Airway Approaches.
+Even with the use of sedation and paralytics, intub-
+ation efforts are often unsuccessful ( 2). EMS clini-
+cians must be prepared to rescue failed intubation
+efforts with backup devices ( 124). Common techni-
+ques include bag mask ventilation, supraglottic and
+surgical airways ( 2, 124, 125). Equipment to deploy
+these techniques must be immediately available dur-
+ing any DAAM, and a plan for when to use them
+should be discussed ahead of time. Specific supra-
+glottic airway and surgical airway techniques are
+discussed in depth in other NAEMSP position state-
+ments/resource documents ( 126, 127).
+QUALITY MANAGEMENT OF DAAM
+Continuous Quality Improvement for
+DAAM Must Include Assessment of
+Individual and Aggregate Performance
+Metrics. Where Available Continuous
+Physiologic Recordings (Vital Signs, Pulse
+Oximetry, and Capnography), Audio and
+Video Recordings, and Assessment of
+Patient Outcomes Should Be Part of
+DAAM Continuous Quality Improvement.
+Given its complexity and risks, DAAM programs
+must be monitored with rigorous quality manage-
+ment practices that should include a review of the
+patient care record and all biometric data/record-
+ings of each DAAM case. Debriefing and live field
+observation should be done at every opportunity.
+Because the lack of clinical opportunity may result
+in cognitive and psychomotor skill decay, quality
+management activities require longitudinal efforts to
+identify opportunities for performance improve-
+ment. Credentialing should also include a process of
+periodic cognitive, psychomotor, and affective
+reassessment to assure ongoing competence.
+Additional detailed discussion of education and
+quality management programs focused on airway
+management in the EMS setting can be found in
+partner documents to this position paper ( 128–130).
+Measurement is an important aspect of quality
+improvement, and consistent measurement depends
+on uniform data definitions. NAEMSP ’s position
+statement on data elements defines an airway
+attempt as “passage of the laryngoscope or
+advanced airway into the oropharynx ” (131).
+First-pass success with intubation is an important
+measure because it is associated with fewer adverse
+events ( 132, 133). However, first-pass success alone
+is not a sufficient measure of successful invasive air-
+way management, as it does not account for peri-
+intubation hypoxia, hypotension, and other adverse
+events. For example, Walker et al. found that 70% of
+desaturation events occurred during the first
+attempt at intubation even with high rates of first-
+pass success ( 9). A novel metric is the evaluation for
+first-pass success without associated hypoxia or
+hypotension, also referred to as DASH-1A (defini-
+tive airway sans hypoxia/hypotension on first
+attempt) ( 134). Additional research is needed to val-
+idate the application and utility of this measure.
+CONCLUSION
+DAAM programs are an important tool for EMS
+clinicians and have the potential to make the inser-
+tion of invasive airways easier; however, they have
+associated risks. To assure patient safety and to
+fully realize these benefits there should be broad
+commitment from all EMS leadership, clear clinical
+guidelines, adequate equipment, training, credential-
+ing and EMS physician oversight, appropriate
+patient selection and optimization, and rigorous
+quality management practices. Further research is
+warranted and ongoing in many of these areas to
+inform future best practices.
+ORCID
+Jeffrey L. Jarvis http://orcid.org/0000-0002-1435-5115
+John W. Lyng http://orcid.org/0000-0001-5191-5700
+Michael C. Perlmutter http://orcid.org/0000-0002-
+9710-1523
+References
+1. Driver BE, Prekker ME, Reardon RF, et al. Brown CA,
+Success and complications of the ketamine-only intubation
+method in the emergency department. J Emerg Med. 2020.
+2. Wang HE, Donnelly JP, Barton D, Jarvis JL. Assessing
+advanced airway management performance in a national
+cohort of emergency medical services agencies. Ann Emerg
+Med. 2018;71(5):597 –607.e3. doi: 10.1016/j.annemergmed.
+2017.12.012.
+3. NAEMSP. Clinical credentialing of EMS providers. Prehosp
+Emerg Care. 2017; 21:397 –8.
+4. Heffner AC, Swords DS, Neale MN, Jones AE. Incidence
+and factors associated with cardiac arrest complicating
+48 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 9]
+emergency airway management. Resuscitation. 2013;84(11):
+1500–4. doi: 10.1016/j.resuscitation.2013.07.022.
+5. Jarvis JL, Gonzales J, Johns D, Sager L. Implementation of a
+clinical bundle to reduce out-of-hospital peri-intubation
+hypoxia. Ann Emerg Med. 2018;72(3):272 –9. doi: 10.1016/j.
+annemergmed.2018.01.044.
+6. Kim WY, Kwak MK, Ko BS, Yoon JC, Sohn CH, Lim KS,
+Andersen LW, Donnino MW. Factors associated with the
+occurrence of cardiac arrest after emergency tracheal intub-
+ation in the emergency department. PLoS One. 2014;9(11):
+e112779. doi: 10.1371/journal.pone.0112779.
+7. Mort TC. The incidence and risk factors for cardiac arrest
+during emergency tracheal intubation: a justification for
+incorporating the ASA Guidelines in the remote location. J
+Clin Anesth. 2004;16(7):508 –16. doi: 10.1016/j.jclinane.2004.
+01.007.
+8. Russotto V, Myatra SN, Laffey JG, Tassistro E, Antolini L,
+Bauer P, Lascarrou JB, Szuldrzynski K, Camporota L, Pelosi
+P, INTUBE Study Investigators, et al. Intubation practices
+and adverse peri-intubation events in critically ill patients
+from 29 countries. JAMA . 2021;325(12):1164 –72. I. doi: 10.
+1001/jama.2021.1727.
+9. Walker RG, White LJ, Whitmore GN, et al. Nania JM,
+Evaluation of physiologic alterations during prehospital
+paramedic-performed rapid sequence intubation. Prehosp
+Emerg Care. 2018;22(3):300 –311.
+10. Fouche PF, Smith K, Jennings PA, Boyle M, Bernard S. The
+association of paramedic rapid sequence intubation and sur-
+vival in out-of-hospital stroke. Emerg Med J. 2019;36(7):
+416–22. doi: 10.1136/emermed-2019-208613.
+11. Denninghoff KR, Nu ~no T, Pauls Q, Yeatts SD, Silbergleit R,
+Palesch YY, Merck LH, Manley GT, Wright DW.
+Prehospital intubation is associated with favorable out-
+comes and lower mortality in ProTECT III. Prehosp Emerg
+Care. 2017;21(5):539 –44. doi: 10.1080/10903127.2017.1315201.
+12. Wang HE, Peitzman AB, Cassidy LD, Adelson PD, Yealy
+DM. Out-of-hospital endotracheal intubation and outcome
+after traumatic brain injury. Ann Emerg Med. 2004;44(5):
+439–50. doi: 10.1016/j.annemergmed.2004.04.008.
+13. Bossers SM, Schwarte LA, Loer SA, Twisk JWR, Boer C,
+Schober P. Experience in prehospital endotracheal intub-
+ation significantly influences mortality of patients with
+severe traumatic brain injury. PLOS One. 2015;10(10):
+e0141034. doi: 10.1371/journal.pone.0141034.
+14. Davis D, Stern JBS, Ochs MMD, Sise M, Hoyt D. A follow-
+up analysis of factors associated with head-injury mortality
+after paramedic rapid sequence intubation. J Trauma-Injury
+Infect Crit Care. 2005; 59:484 –8.
+15. Bulger EM, Copass MK, Sabath DR, Maier RV, Jurkovich
+GJ. The use of neuromuscular blocking agents to facilitate
+prehospital intubation does not impair outcome after trau-
+matic brain injury. J Trauma. 2005;58:718 –23. discussion 723.
+16. Davis DP, Heister R, Poste JC, Hoyt DB, Ochs M, Dunford
+JV. Ventilation patterns in patients with severe traumatic
+brain injury following paramedic rapid sequence intubation.
+NCC. 2005;2(2):165 –71. doi: 10.1385/NCC:2:2:165.
+17. Davis DP, Dunford JV, Ochs M, Park K, Hoyt DB. The use
+of quantitative end-tidal capnometry to avoid inadvertent
+severe hyperventilation in patients with head injury after
+paramedic rapid sequence intubation. J Trauma. 2004;56(4):
+808–14.
+18. Kwok H, Prekker M, Grabinsky A, Carlbom D, Rea TD. Use
+of rapid sequence intubation predicts improved survival
+among patients intubated after out-of-hospital cardiac
+arrest. Resuscitation. 2013;84(10):1353 –8. doi: 10.1016/j.resus-
+citation.2013.04.015.
+19. Burns B, Habig K, Eason H, Ware S. Difficult intubation fac-
+tors in prehospital rapid sequence intubation by an austra-
+lian helicopter emergency medical service. Air Med J. 2016;
+35(1):28–32. doi: 10.1016/j.amj.2015.10.002.
+20. Davis DP, Olvera DJ. HEAVEN Criteria: Derivation of a
+new difficult airway prediction tool. Air Med J. 2017;36(4):
+195–7. doi: 10.1016/j.amj.2017.04.001.
+21. Jarvis JL, Wampler D, Wang HE. Association of patient age
+with first Pass Success in out-of-hospital advanced airway
+management. Resuscitation. 2019;141:136 –43. doi: 10.1016/j.
+resuscitation.2019.06.002.
+22. Nausheen F, Niknafs NP, MacLean DJ, Olvera DJ, Wolfe
+AC, Pennington TW, Davis DP. The HEAVEN criteria pre-
+dict laryngoscopic view and intubation success for both dir-
+ect and video laryngoscopy: a cohort analysis. Scand J
+Trauma Resusc Emerg Med. 2019;27(1):50. doi: 10.1186/
+s13049-019-0614-6.
+23. Clemency BM, Roginski M, Lindstrom HA, Billittier AJ.
+Paramedic intubation: patient position might matter.
+Prehosp Emerg Care. 2014;18(2):239 –43. doi: 10.3109/
+10903127.2013.864352.
+24. Khandelwal N, Khorsand S, Mitchell SH, Joffe AM. Head-
+elevated patient positioning decreases complications of
+emergent tracheal intubation in the ward and intensive care
+unit. Anesth Analg. 2016;122(4):1101 –7. doi: 10.1213/ANE.
+0000000000001184.
+25. Murphy DL, Rea TD, McCoy AM, Sayre MR, Fahrenbruch
+CE, Yin L, Tonelli BA, Joffe AM, Mitchell SH. Inclined pos-
+ition is associated with improved first pass success and lar-
+yngoscopic view in prehospital endotracheal intubations.
+The American Journal of Emergency Medicine. 2019;37(5):
+937–41. doi: 10.1016/j.ajem.2019.02.038.
+26. Stoecklein HH, Kelly C, Kaji AH, Fantegrossi A, Carlson M,
+Fix ML, Madsen T, Walls RM, Brown CA, on behalf of the
+NEAR Investigators. NEAR I. Multicenter comparison of
+non-supine versus supine positioning during intubation in
+the emergency department: A National Emergency Airway
+Registry (NEAR) Study. Acad Emerg Med. 2019;26(10):
+1144–51. doi: 10.1111/acem.13805.
+27. Alfahel W, Gopinath A, Arheart KL, Gensler T, Lerman J.
+The effects of a shoulder roll during laryngoscopy in
+infants: a randomized, single-blinded, crossover Study.
+Anesth Analg. 2020;131(4):1210 –6. doi: 10.1213/ANE.
+0000000000004802.
+28. Cuvas O, Dikmen B, Yucel F. Sniffing position combined
+with mouth opening improves facemask ventilation in chil-
+dren with adenotonsillar hypertrophy: Mouth-Head-Neck
+Positions, Mask Ventilation. Acta Anaesthesiol Scand. 2011;
+55(5):530–4. doi: 10.1111/j.1399-6576.2011.02417.x.
+29. Di Cicco M, Kantar A, Masini B, Nuzzi G, Ragazzo V,
+Peroni D. Structural and functional development in airways
+throughout childhood: children are not small adults. Pediatr
+Pulmonol. 2021;56(1):240 –51. doi: 10.1002/ppul.25169.
+30. El-Orbany M, Woehlck H, Salem MR. Head and neck pos-
+ition for direct laryngoscopy. Anesth Analg. 2011;113(1):
+103–9. doi: 10.1213/ANE.0b013e31821c7e9c.
+31. Kim EH, Lee JH, Song IK, Kim JT, Kim BR, Kim HS. Effect
+of head position on laryngeal visualisation with the
+McGrath MAC videolaryngoscope in paediatric patients: a
+randomised controlled trial. Eur J Anaesthesiol. 2016;33(7):
+528–34. doi: 10.1097/EJA.0000000000000448.
+32. Kim EH, Ji SH, Song IK, Lee JH, Kim JT, Kim HS. Simple
+method for obtaining the optimal laryngoscopic view in
+children: a prospective observational study. Am J Emerg
+Med. 2017;35(6):867 –70. doi: 10.1016/j.ajem.2017.01.048.
+J. L. Jarvis et al. P REHOSPITAL DRUG-ASSISTED AIRWAY MANAGEMENT 49
+
+[Page 10]
+33. Koylu Gencay Z, Begec Z, Ozgul U, Colak C. The effect of
+placement of a support under the shoulders on laryngeal
+visualization with a C-MAC Miller Video Laryngoscope in
+children younger than 2 years of age. Paediatr Anaesth.
+2019; 29:814 –20.
+34. Vialet R, Nau A, Chaumo ^ıtre K, Martin C. Effects of head
+posture on the oral, pharyngeal and laryngeal axis align-
+ment in infants and young children by magnetic resonance
+imaging. Paediatr Anaesth. 2008;18(6):525 –31. doi: 10.1111/j.
+1460-9592.2008.02530.x.
+35. Vialet R, Nau A. Effect of head posture on pediatric oropha-
+ryngeal structures: implications for airway management in
+infants and children. Curr Opin Anaesthesiol. 2009;22(3):
+396–9. doi: 10.1097/aco.0b013e3283294cc7.
+36. Bodily JB, Webb HR, Weiss SJ, Braude DA. Incidence and
+duration of continuously measured oxygen desaturation
+during emergency department intubation. Ann Emerg Med.
+2016;67(3):389–95.
+37. Davis DP, Lemieux J, Serra J, Koenig W, Aguilar SA.
+Preoxygenation reduces desaturation events and improves
+intubation success. Air Med J. 2015;34(2):82 –5. doi: 10.1016/j.
+amj.2014.12.007.
+38. Aguilar SA, Davis DP. Latency of pulse oximetry signal
+with use of digital probes associated with inappropriate
+extubation during prehospital rapid sequence intubation in
+head injury patients: case examples. J Emerg Med. 2012;
+42(4):424–8. doi: 10.1016/j.jemermed.2011.06.127.
+39. Cemalovic N, Scoccimarro A, Arslan A, Fraser R, Kanter M,
+Caputo N. Human factors in the emergency department: Is
+physician perception of time to intubation and desaturation
+rate accurate? Emerg Med Australas. 2016;28(3):295 –9. doi:
+10.1111/1742-6723.12575.
+40. Davis DP, Aguilar S, Sonnleitner C, Cohen M, Jennings M.
+Latency and loss of pulse oximetry signal with the use of
+digital probes during prehospital rapid-sequence intubation.
+Prehosp Emerg Care. 2011;15(1):18 –22. doi: 10.3109/
+10903127.2010.514091.
+41. Nimmagadda U, Salem MR, Crystal GJ. Preoxygenation:
+physiologic basis, benefits, and potential risks. Anesth Analg.
+2017;124(2):507–17. doi:10.1213/ANE.0000000000001589.
+42. Baillard C, Fosse J-P, Sebbane M, Chanques G, Vincent F,
+Courouble P, Cohen Y, Eledjam J-J, Adnet F, Jaber S.
+Noninvasive ventilation improves preoxygenation before
+intubation of hypoxic patients. Am J Respir Crit Care Med.
+2006;174(2):171–7. doi: 10.1164/rccm.200509-1507OC.
+43. Groombridge C, Chin CW, Hanrahan B, Holdgate A.
+Assessment of common preoxygenation strategies outside
+of the operating room environment. Acad Emerg Med.
+2016;23(3):342–6. doi: 10.1111/acem.12889.
+44. Groombridge CJ, Ley E, Miller M, Konig T. A prospective,
+randomised trial of pre-oxygenation strategies available in
+the pre-hospital environment. Anaesthesia. 2017;72(5):580 –4.
+doi:10.1111/anae.13852.
+45. Caputo ND, Oliver M, West JR, Hackett R, Sakles JC. Use
+of end tidal oxygen monitoring to assess preoxygenation
+during rapid sequence intubation in the emergency depart-
+ment. Ann Emerg Med. 2019;74(3):410 –5. doi: 10.1016/j.anne-
+mergmed.2019.01.038.
+46. Oliver M, Caputo ND, West JR, Hackett R, Sakles JC.
+Emergency physician use of end-tidal oxygen monitoring
+for rapidsequence intubation. J Am Coll of Emerg Phys
+Open. 2020;1(5):706 –13. doi: 10.1002/emp2.12260.
+47. Brown DJ, Carroll SM, April MD. Face mask leak with nasal
+cannula during noninvasive positive pressure ventilation: a
+randomized crossover trial. Am J Emerg Med. 2018;36(6):
+942–948.
+48. Brown DJ, Carmichael J, Carroll SM, April MD. End-tidal
+oxygen saturation with nasal cannula during noninvasive
+positive pressure ventilation: a randomized crossover trial. J
+Emerg Med . 2018;55(4):481 –8. doi: 10.1016/j.jemermed.2018.
+05.029.
+49. McQuade D, Miller MR, Hayes-Bradley C. Addition of
+nasal cannula can either impair or enhance preoxygenation
+with a bag valve mask: a randomized crossover design
+study comparing oxygen flow rates. Anesth Analg. 2018;
+126(4):1214–8. doi: 10.1213/ANE.0000000000002341.
+50. Binks MJ, Holyoak RS, Melhuish TM, Vlok R, Bond E,
+White LD. Apneic oxygenation during intubation in the
+emergency department and during retrieval: a systematic
+review and meta-analysis. Am J Emerg Med. 2017;35(10):
+1542–1546.
+51. Oliveira J E Silva L, Cabrera D, Barrionuevo P, Johnson RL,
+Erwin PJ, Murad MH, Bellolio MF. Effectiveness of apneic
+oxygenation during intubation: a systematic review and
+meta-analysis. Ann Emerg Med. 2017;70(4):483 –94.e11. doi:
+10.1016/j.annemergmed.2017.05.001.
+52. Pavlov I, Medrano S, Weingart S. Apneic oxygenation
+reduces the incidence of hypoxemia during emergency
+intubation: a systematic review and meta-analysis. Am J
+Emerg Med. 2017;35(8):1184 –1189.
+53. Sakles JC, Mosier JM, Patanwala AE, Dicken JM. Apneic
+oxygenation is associated with a reduction in the incidence
+of hypoxemia during the RSI of patients with intracranial
+hemorrhage in the emergency department. Intern Emerg
+Med. 2016;11(7):983 –92. doi: 10.1007/s11739-016-1396-8.
+54. Wimalasena Y, Burns B, Reid C, Ware S, Habig K. Apneic
+oxygenation was associated with decreased desaturation
+rates during rapid sequence intubation by an Australian
+helicopter emergency medicine service. Ann Emerg Med.
+2015;65(4):371–6. doi: 10.1016/j.annemergmed.2014.11.014.
+55. April MD, Arana A, Reynolds JC, Carlson JN, Davis WT,
+Schauer SG, Oliver JJ, Summers SM, Long B, Walls RM,
+Investigators NEAR, et al. Peri-intubation cardiac arrest in
+the Emergency Department: A National Emergency Airway
+Registry (NEAR) study. Resuscitation. 2021;162:403 –11. doi:
+10.1016/j.resuscitation.2021.02.039.
+56. Kim J, Kim K, Kim T, Rhee JE, Jo YH, Lee JH, Kim YJ, Park
+CJ, Chung H-J, Hwang SS. The clinical significance of a
+failed initial intubation attempt during emergency depart-
+ment resuscitation of out-of-hospital cardiac arrest patients.
+Resuscitation. 2014;85(5):623 –7. doi: 10.1016/j.resuscitation.
+2014.01.017.
+57. Trivedi S, Demirci O, Arteaga G, Kashyap R, Smischney NJ.
+Evaluation of Preintubation Shock Index and Modified
+Shock Index as predictors of postintubation hypotension
+and other short-term outcomes. J Crit Care. 2015;30(4):
+861.e1-7–861.e7. doi: 10.1016/j.jcrc.2015.04.013.
+58. Choi YF, Wong TW, Lau CC. Midazolam is more likely to
+cause hypotension than etomidate in emergency department
+rapid sequence intubation. Emerg Med J. 2004;21(6):700 –2.
+doi:
+10.1136/emj.2002.004143.
+59. Upchurch CP, Grijalva CG, Russ S, Collins SP, Semler MW,
+Rice TW, Liu D, Ehrenfeld JM, High K, Barrett TW, et al.
+Comparison of etomidate and ketamine for induction dur-
+ing rapid sequence intubation of adult trauma patients.
+Ann Emerg Med. 2017;69(1):24 –33.e2. doi: 10.1016/j.anne-
+mergmed.2016.08.009.
+60. Mohr NM, Pape SG, Runde D, Kaji AH, Walls RM, Brown
+CA. Etomidate use is associated with less hypotension than
+ketamine for emergency department sepsis intubations: a
+NEAR cohort study. Acad Emerg Med. 2020;27(11):1140 –9.
+doi:10.1111/acem.14070.
+50 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 11]
+61. Price B, Arthur AO, Brunko M, Frantz P, Dickson JO, Judge
+T, Thomas SH. Hemodynamic consequences of ketamine vs
+etomidate for endotracheal intubation in the air medical set-
+ting. Am J Emerg Med. 2013;31(7):1124 –32. doi: 10.1016/j.
+ajem.2013.03.041.
+62. Miller M, Kruit N, Heldreich C, Ware S, Habig K, Reid C,
+Burns B. Hemodynamic response After rapid sequence
+induction with ketamine in out-of-hospital patients at risk
+of shock as defined by the Shock Index. Ann Emerg Med.
+2016;68(2):181–8 e2. doi: 10.1016/j.annemergmed.2016.03.041.
+63. Baekgaard JS, Eskesen TG, Sillesen M, Rasmussen LS,
+Steinmetz J. Ketamine as a rapid sequence induction agent in
+the trauma population: a systematic review. Anesth Analg.
+2019;128(3):504–10. doi:10.1213/ANE.0000000000003568.
+64. Drayna PC, Estrada C, Wang W, Saville BR, Arnold DH.
+Ketamine sedation is not associated with clinically meaning-
+ful elevation of intraocular pressure. Am J Emerg Med.
+2012;30(7):1215–8. doi: 10.1016/j.ajem.2011.06.001.
+65. Filanovsky Y, Miller P, Kao J. Myth: Ketamine should not
+be used as an induction agent for intubation in patients
+with head injury. Cjem. 2010;12(2):154 –7. doi: 10.1017/
+s1481803500012197.
+66. Lebin JA, Akhavan AR, Hippe DS, Gittinger MH, Pasic J,
+McCoy AM, Vrablik MC. Psychiatric outcomes of patients
+with severe agitation following administration of prehospi-
+tal ketamine. Acad Emerg Med. 2019;26(8):889 –96. doi: 10.
+1111/acem.13725.
+67. Bastin ML, Baker SN, Weant KA. Effects of etomidate on
+adrenal suppression: a review of intubated septic patients.
+Hosp Pharm. 2014;49(2):177 –83. doi: 10.1310/hpj4902-177.
+68. Jabre P, Combes X, Lapostolle F, Dhaouadi M, Ricard-
+Hibon A, Vivien B, Bertrand L, Beltramini A, Gamand P,
+Albizzati S, KETASED Collaborative Study Group, et al.
+Etomidate versus ketamine for rapid sequence intubation in
+acutely ill patients: a multicentre randomised controlled
+trial. Lancet. 2009;374(9686):293 –300., Prof. doi: 10.1016/
+S0140-6736(09)60949-1.
+69. McPhee LC, Badawi O, Fraser GL, Lerwick PA, Riker RR,
+Zuckerman IH, Franey C, Seder DB. Single-dose etomidate
+is not associated with increased mortality in ICU patients
+with sepsis: analysis of a large electronic ICU database. Crit
+Care Med. 2013;41(3):774 –83. doi: 10.1097/CCM.
+0b013e318274190d.
+70. Schenarts CL, Burton JH, Riker RR. Adrenocortical dysfunc-
+tion following etomidate induction in emergency depart-
+ment patients. Acad Emerg Med. 2001;8(1):1 –7. doi: 10.1111/
+j.1553-2712.2001.tb00537.x.
+71. Tekwani KL, Watts HF, Sweis RT, Rzechula KH, Kulstad
+EB. A comparison of the effects of etomidate and midazo-
+lam on hospital length of stay in patients with suspected
+sepsis: a prospective, randomized study. Ann Emerg Med.
+2010;56(5):481–9. doi: 10.1016/j.annemergmed.2010.05.034.
+72. Farrell NM, Killius K, Kue R, Langlois BK, Nelson KP,
+Golenia P. A comparison of etomidate, ketamine, and
+methohexital in emergency department rapid sequence
+intubation. J Emerg Med. 2020;59(4):508 –14. doi: 10.1016/j.
+jemermed.2020.06.054
+.
+73. Patanwala AE, McKinney CB, Erstad BL, Sakles JC.
+Retrospective analysis of etomidate versus ketamine for
+first-pass intubation success in an academic emergency
+department. Acad Emerg Med. 2014;21(1):87 –91. doi: 10.
+1111/acem.12292.
+74. Ishimaru T, Goto T, Takahashi J, Okamoto H, Hagiwara Y,
+Watase H, Hasegawa K, Japanese EMNI. Association of
+ketamine use with lower risks of post-intubation hypoten-
+sion in hemodynamically-unstable patients in the
+emergency department. Sci Rep. 2019;9(1):17230. doi: 10.
+1038/s41598-019-53360-6.
+75. Sagarin MJ, Chiang V, Sakles JC, Walls Rapid sequence
+intubation for pediatric emergency airway management.
+Pediatr Emerg Care. 2002;18:417 –23. RM.
+76. Davis DP, Kimbro TA, Vilke GM. The use of midazolam for
+prehospital rapid-sequence intubation may be associated wtih
+dose-related increase in hypotension. Prehospital Emergency
+Care. 2001;5(2):163–8. doi:10.1080/10903120190940065.
+77. Bouvet L, Albert M-L, Augris C, Boselli E, Ecochard R,
+Rabilloud M, Chassard D, Allaouchiche B. Real-time detec-
+tion of gastric insufflation related to facemask pressure-con-
+trolled ventilation using ultrasonography of the antrum and
+epigastric auscultation in nonparalyzed patients: a prospect-
+ive, randomized, double-blind study. Anesthesiology. 2014;
+120(2):326–34. doi: 10.1097/ALN.0000000000000094.
+78. Joffe AM, Ramaiah R, Donahue E, Galgon RE, Thilen SR,
+Spiekerman CF, Bhananker SM. Ventilation by mask before
+and after the administration of neuromuscular blockade: a
+pragmatic non-inferiority trial. BMC Anesthesiol. 2015;15(1):
+134. doi: 10.1186/s12871-015-0111-z.
+79. Okubo M, Gibo K, Hagiwara Y, Nakayama Y, Hasegawa K,
+Japanese EMNI. The effectiveness of rapid sequence intub-
+ation (RSI) versus non-RSI in emergency department: an
+analysis of multicenter prospective observational study. Int
+J Emerg Med. 2017; 10 (1):1. doi: 10.1186/s12245-017-0129-8.
+80. Priebe HJ. Should anesthesiologists have to confirm effect-
+ive facemask ventilation before administering the muscle
+relaxant. J Anesth. 2016;30(1):132 –7. doi: 10.1007/s00540-015-
+2072-2.
+81. Seet MM, Soliman KM, Sbeih ZF. Comparison of three
+modes of positive pressure mask ventilation during induc-
+tion of anaesthesia: a prospective, randomized, crossover
+study. Eur J Anaesthesiol. 2009; 26:913 –6.
+82. Solt /C19esz S, Alm P, Mathes A, Hellmich M, Hinkelbein J. The
+effect of neuromuscular blockade on the efficiency of face-
+mask ventilation in patients difficult to facemask ventilate:
+a prospective trial. Anaesthesia. 2017;72(12):1484 –90. doi: 10.
+1111/anae.14035.
+83. Warters RD, Szabo TA, Spinale FG, DeSantis SM, Reves JG.
+The effect of neuromuscular blockade on mask ventilation.
+Anaesthesia. 2011;66(3):163 –7. doi: 10.1111/j.1365-2044.2010.
+06601.x.
+84. Patanwala AE, Erstad BL, Roe DJ, Sakles JC.
+Succinylcholine is associated with increased mortality when
+used for rapid sequence intubation of severely brain injured
+patients in the emergency department. Pharmacotherapy.
+2016;36(1):57–63. doi: 10.1002/phar.1683.
+85. Taha SK, El-Khatib MF, Baraka AS, Haidar YA, Abdallah
+FW, Zbeidy RA, Siddik-Sayyid SM. Siddik-Sayyid SM.
+Effect of suxamethonium vs rocuronium on onset of oxygen
+desaturation during apnoea following rapid sequence
+induction. Anaesthesia. 2010;65(4):358 –61. doi: 10.1111/j.
+1365-2044.2010.06243.x.
+86. April MD, Arana A, Pallin DJ, Schauer SG, Fantegrossi A,
+Fernandez J, Maddry JK, Summers SM, Antonacci MA, Brown
+CA, NEAR IEmergency Department Intubation Success With
+Succinylcholine Versus Rocuronium: A National Emergency
+Airway Registry Study. Ann Emerg Med. 2018;72(6):645 –53.
+doi:10.1016/j.annemergmed.2018.03.042.
+87. Guihard B, Chollet-X /C19emard C, Lakhnati P, Vivien B, Broche
+C, Savary D, Ricard-Hibon A, Marianne Dit Cassou P-J,
+Adnet F, Wiel E, et al. Effect of rocuronium vs succinylcho-
+line on endotracheal intubation success rate among patients
+undergoing out-of-hospital rapid sequence intubation: a
+J. L. Jarvis et al. P REHOSPITAL DRUG-ASSISTED AIRWAY MANAGEMENT 51
+
+[Page 12]
+randomized clinical Trial. JAMA . 2019;322(23):2303 –12. doi:
+10.1001/jama.2019.18254.
+88. Levin NM, Fix ML, April MD, Arana AA, Brown CA, Near
+I. The association of rocuronium dosing and first-attempt
+intubation success in adult emergency department patients.
+CJEM. 2021;23(4):518 –527. doi: 10.1007/s43678-021-00119-6.
+89. Tran DT, Newton EK, Mount VA, Lee JS, Wells GA, Perry
+JJ. Rocuronium versus succinylcholine for rapid sequence
+induction intubation. Cochrane Database Syst Rev. 2015;
+CD002788.
+90. Chong ID, Sandefur BJ, Rimmelin DE, Arbelaez C, Brown
+CA, Walls RM, Pallin DJ. Long-acting neuromuscular par-
+alysis without concurrent sedation in emergency care. Am J
+Emerg Med. 2014;32(5):452 –6. doi: 10.1016/j.ajem.2014.01.002.
+91. Bozeman WP, Kleiner DM, Huggett V. A comparison of
+rapid-sequence intubation and etomidate-only intubation in
+the prehospital air medical setting. Prehosp Emerg Care.
+2006;10(1):8–13. doi: 10.1080/10903120500366854.
+92. Leslie K, Chan MT, Myles PS, Forbes A, McCulloch TJ.
+Posttraumatic stress disorder in aware patients from the B-
+aware trial. Anesth Analg. 2010;110(3):823 –8. doi: 10.1213/
+ANE.0b013e3181b8b6ca.
+93. Pappal RD, Roberts BW, Mohr NM, Ablordeppey E,
+Wessman BT, Drewry AM, Winkler W, Yan Y, Kollef MH,
+Avidan MS, et al. The ED-AWARENESS Study: a prospect-
+ive, observational cohort study of awareness with paralysis
+in mechanically ventilated patients admitted from the emer-
+gency department. Ann Emerg Med. 2021;77(5):532 –44. doi:
+10.1016/j.annemergmed.2020.10.012.
+94. Bozeman WP, Young S. Etomidate as a sole agent for endo-
+tracheal intubation in the prehospital air medical setting.
+Air Med J. 2002;21(4):32 –5. discussion 35. doi: 10.1067/mmj.
+2002.125935.
+95. Jacoby J, Heller M, Nicholas J, Patel N, Cesta M, Smith G,
+Jacob S, Reed J. Etomidate versus midazolam for out-of-hos-
+pital intubation: a prospective, randomized trial. Ann
+Emerg Med. 2006;47(6):525 –30. doi: 10.1016/j.annemergmed.
+2005.12.009.
+96. Merelman AH, Perlmutter MC, Strayer RJ. Alternatives to
+rapid sequence intubation: contemporary airway manage-
+ment with ketamine. West J Emerg Med. 2019;20(3):466 –71.
+doi:10.5811/westjem.2019.4.42753.
+97. Reed D, Snyder G, Hogue T. Regional EMS experience with
+etomidate for facilitated intubation. Prehosp Emerg Care.
+2002 Jan-Mar;6(1):50 –3. doi: 10.1080/10903120290938779.
+98. Wang HE, O'Connor RE, Megargel RE, Bitner M, Stuart R,
+Bratton-Heck B, Lamborn M, Tan L. The utilization of mida-
+zolam as a pharmacologic adjunct to endotracheal intub-
+ation by paramedics. Prehosp Emerg Care. 2000;4(1):14 –8.
+99. Braude D, Richards M. Rapid sequence airway (RSA)-a novel
+approach to prehospital airway management . Prehosp Emerg
+Care. 2007;11(2):250–2. doi:10.1080/10903120701206032.
+100. Timmermann A, Russo SG, Crozier TA, Eich C, Mundt B,
+Albrecht B, Graf BM. Novices ventilate and intubate quicker
+and safer via intubating laryngeal mask than by conventional
+bag-mask ventilation and laryngoscopy. Anesthesiology. 2007;
+107(4):570–6. doi:10.1097/01.anes.0000281940.92807.23.
+101. Southard A, Braude D, Crandall C. Rapid sequence airway
+vs rapid sequence intubation in a simulated trauma airway
+by flight crew. Resuscitation. 2010;81(5):576 –8. doi: 10.1016/j.
+resuscitation.2009.12.026.
+102. Weingart SD, Trueger NS, Wong N, Scofi J, Singh N,
+Rudolph SS. Delayed sequence intubation: a prospective
+observational study. Ann Emerg Med. 2015;65(4):349 –55.
+doi:10.1016/j.annemergmed.2014.09.025.
+103. Weingart SD, Levitan RM. Preoxygenation and prevention
+of desaturation during emergency airway management.
+Ann Emerg Med. 2012;59(3):165 –75 e1. doi: 10.1016/j.anne-
+mergmed.2011.10.002.
+104. Bonomo JB, Butler AS, Lindsell CJ, Venkat A. Inadequate
+provision of postintubation anxiolysis and analgesia in the
+ED. Am J Emerg Med. 2008;26(4):469 –72. doi: 10.1016/j.ajem.
+2007.05.024.
+105. Johnson EG, Meier A, Shirakbari A, Weant K, Baker Justice
+S. Impact of rocuronium and succinylcholine on sedation
+initiation after rapid sequence intubation. J Emerg Med.
+2015;49(1):43–9. doi: 10.1016/j.jemermed.2014.12.028.
+106. Lembersky O, Golz D, Kramer C, Fantegrossi A, Carlson
+JN, Walls RM, Brown CA, NEAR IFactors associated with
+post-intubation sedation after emergency department intub-
+ation: A Report from The National Emergency Airway
+Registry. Am J Emerg Med. 2020;38(3):466 –70. doi: 10.1016/j.
+ajem.2019.05.010.
+107. Boehringer B, Choate M, Hurwitz S, Tilney PV, Judge T.
+Impact of video laryngoscopy on advanced airway manage-
+ment by critical care transport paramedics and nurses using
+the CMAC pocket monitor. Biomed Res Int. 2015; 2015:
+821302. doi: 10.1155/2015/821302.
+108. Brown CA, Kaji AH, Fantegrossi A, Carlson JN, April MD,
+Kilgo RW, Walls RM, National EARNEARI. Video
+Laryngoscopy compared to augmented direct laryngoscopy
+in adult emergency department tracheal intubations: A
+National Emergency Airway Registry (NEAR) Study. Acad
+Emerg Med. 2020;27(2):100 –8. doi: 10.1111/acem.13851.
+109. Jarvis JL, McClure SF, Johns D. EMS Intubation improves
+with king vision video laryngoscopy. Prehosp Emerg Care.
+2015;19(4):482–9. doi: 10.3109/10903127.2015.1005259.
+110. Okamoto H, Goto T, Wong ZSY, Hagiwara Y, Watase H,
+Hasegawa K, Japanese EMNI. Comparison of video laryn-
+goscopy versus direct laryngoscopy for intubation in emer-
+gency department patients with cardiac arrest: A
+multicentre study. Resuscitation. 2019; 136:70 –7. doi: 10.
+1016/j.resuscitation.2018.10.005.
+111. Driver B, Dodd K, Klein LR, Buckley R, Robinson A, McGill
+JW, Reardon RF, Prekker ME. The Bougie and first-pass
+success in the emergency department. Ann Emerg Med.
+2017;70(4):473–8.e1. doi: 10.1016/j.annemergmed.2017.04.033.
+112. Latimer AJ, Harrington B, Counts CR, Sayre MR. Routine
+use of a bougie improves first-attempt intubation success in
+the out-of-hospital setting. Ann Emerg Med. 2021;77(3):
+296–304. doi: 10.1016/j.annemergmed.2020.10.016.
+113. Parameters COSAP. Standards for Basic Anesthetic
+Monitoring. American Society of Anesthesiologists 2020.
+114. Panchal AR, Bartos JA, Caba ~nas JG, Donnino MW, Drennan
+I R ,H i r s c hK G ,K u d e n c h u kP J ,K u r zM C ,L a v o n a sE J ,M o r l e y
+P T ,A d u l tB A A L S W G ,e ta l .P a r t3 :A d u l tb a s i ca n da d v a n c e d
+life support: 2020 American Heart Association Guidelines for
+cardiopulmonary resuscitation and emergency cardiovascular
+care. Circulation. 2020;142(16_suppl_2):S366–S468. doi:10.1161/
+CIR.0000000000000918.
+115. Jemmett ME, Kendal KM, Fourre MW, Burton JH.
+Unrecognized misplacement of endotracheal tubes in a
+mixed urban to rural emergency medical services setting.
+Acad Emergency Med . 2003;10(9):961 –5. doi: 10.1111/j.1553-
+2712.2003.tb00652.x.
+116. Katz SH, Falk JL. Misplaced endotracheal tubes by para-
+medics in an urban emergency medical services system.
+Ann Emerg Med. 2001;37(1):32 –7. doi: 10.1067/mem.2001.
+112098.
+52 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 13]
+117. Grmec S. Comparison of three different methods to confirm
+tracheal tube placement in emergency intubation. Intensive
+Care Med. 2002;28(6):701 –4. doi: 10.1007/s00134-002-1290-x.
+118. Ornato JP, Shipley JB, Racht EM, Slovis CM, Wrenn KD,
+Pepe PE, Almeida SL, Ginger VF, Fotre TV. Multicenter
+study of a portable, hand-size, colorimetric end-tidal carbon
+dioxide detection device. Ann Emerg Med. 1992;21(5):
+518–23. doi: 10.1016/S0196-0644(05)82517-X.
+119. Pelucio M, Halligan L, Dhindsa H. Out-of-Hospital
+Experience with the Syringe Esophageal Detector Device.
+Acad Emerg Med. 1997;4(6):563 –8. doi: 10.1111/j.1553-2712.
+1997.tb03579.x.
+120. Silvestri S, Ralls GA, Krauss B, Thundiyil J, Rothrock SG,
+Senn A, Carter E, Falk J. The effectiveness of out-of-hospital
+use of continuous end-tidal carbon dioxide monitoring on the
+rate of unrecognized misplaced intubation within a regional
+emergency medical services system. Ann Emerg Med. 2005;
+45(5):497–503. doi:10.1016/j.annemergmed.2004.09.014.
+121. Silvestri S, Ladde JG, Brown JF, Roa JV, Hunter C, Ralls GA,
+Papa L. Endotracheal tube placement confirmation: 100% sen-
+sitivity and specificity with sustained four-phase capnographic
+waveforms in a cadaveric experimental model. Resuscitation.
+2017; 115:192–8. doi:10.1016/j.resuscitation.2017.01.002.
+122. Langhan ML, Ching K, Northrup V, Alletag M, Kadia P,
+Santucci K, Chen L. A randomized controlled trial of cap-
+nography in the correction of simulated endotracheal tube
+dislodgement. Acad Emerg Med. 2011;18(6):590 –6. doi: 10.
+1111/j.1553-2712.2011.01090.x.
+123. Poirier MP, Gonzalez Del-Rey JA, McAneney CM, Digiulio
+GA. Utility of monitoring capnography, pulse oximetry,
+and vital signs in the detection of airway mishaps: A hyper-
+oxemic animal model. Am J Emerg Med. 1998;16(4):350 –2.
+doi:10.1016/S0735-6757(98)90125-5.
+124. Jarvis JL, Barton D, Wang H. Defining the plateau point:
+When are further attempts futile in out-of-hospital
+advanced airway management. Resuscitation. 2018; 130:
+57–60. doi: 10.1016/j.resuscitation.2018.07.002.
+125. Hubble MW, Wilfong DA, Brown LH, Hertelendy A,
+Benner RW. A meta-analysis of prehospital airway control
+techniques part II: alternative airway devices and cricothyr-
+otomy success rates. Prehosp Emerg Care. 2010;14(4):
+515–30. doi: 10.3109/10903127.2010.497903.
+126. Lyng JW, Baldino KT, Braude D, Fritz C, March JA,
+Peterson TD, Yee A. Prehospital supraglottic airways: an
+NAEMSP Position Statement and Resource Document.
+Prehosp Emerg Care. 2022;26(S1):32–41. doi:10.1080/10903127.
+2021.1983680.
+127. Reardon RF, Robinson AE, Kornas R, Ho JD, Anzalone B,
+Carlson J, Levy M, Driver B. Prehospital surgical airway
+management: an NAEMSP Position Statement and Resource
+Document. Prehosp Emerg Care. 2022;26(S1):96 –101. doi: 10.
+1080/10903127.2021.1995552.
+128. Dorsett M, Panchal AR, Stephens C, Farcas A, Leggio W,
+Galton C, Tripp R, Grawey T. Prehospital airway manage-
+ment training and education: an NAEMSP Position
+Statement and Resource Document. Prehosp Emerg Care.
+2022;26(S1):3–13. doi: 10.1080/10903127.2021.1977877.
+129. Vithalani V, Sondheim S, Cornelius A, Gonzales J, Mercer
+MP, Burton B, Redlener M. Quality management of preho-
+spital airway programs: an NAEMSP Position Statement
+and Resource Document. Prehosp Emerg Care. 2022;26(S1):
+14–22. doi: 10.1080/10903127.2021.1989530.
+130. Mandt M, Harris M, Lyng J, Moore B, Gross T, Gausche-
+Hill M, Donofrio-Odmann JJ. Quality management of pre-
+hospital pediatric respiratory distress and airway programs:
+an NAEMSP Position Statement and Resource Document.
+Prehosp Emerg Care. 2022;26(S1):111–7. doi: 10.1080/10903127.
+2021.1986184.
+131. Wang HE, Domeier RM, Kupas DF, Greenwood MJ,
+O'Connor RE. Recommended Guidelines for uniform
+reporting of data from out-of-hospital airway management:
+position statement of NAEMSP. Prehospital Emergency
+Care. 2004;8(1):58 –72. doi: 10.1080/31270300282X.
+132. Hasegawa K, Shigemitsu K, Hagiwara Y, Chiba T, Watase
+H, Brown CA, Brown DFM, Japanese Emergency Medicine
+Research Alliance InvestigatorsJapanese Emergency
+Medicine Research Alliance I. Association between repeated
+intubation attempts and adverse events in emergency
+departments: an analysis of a multicenter prospective obser-
+vational study. Ann Emerg Med. 2012;60(6):749 –54 e2. doi:
+10.1016/j.annemergmed.2012.04.005.
+133. Sakles JC, Chiu S, Mosier J, Walker C, Stolz U. The import-
+ance of first pass success when performing orotracheal
+intubation in the emergency department. Acad Emerg Med.
+2013;20(1):71–8. doi: 10.1111/acem.12055.
+134. Powell EK, Hinckley WR, Stolz U, Golden AJ, Ventura A,
+McMullan JT. Predictors of definitive airway sans hypoxia/
+hypotension on first attempt (DASH-1A) success in trau-
+matically injured patients undergoing prehospital intub-
+ation. Prehosp Emerg Care. 2020;24(4):470 –7. doi: 10.1080/
+10903127.2019.1670299.
+J. L. Jarvis et al. P REHOSPITAL DRUG-ASSISTED AIRWAY MANAGEMENT 53

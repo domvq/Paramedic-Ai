@@ -1,0 +1,1977 @@
+ECG / EKG Interpretation Reference
+
+1. Purpose
+
+An electrocardiogram (ECG or EKG) records the electrical activity of the heart over time. ECG interpretation can provide information about:
+
+Heart rate
+
+Cardiac rhythm
+
+Atrial activity
+
+AV conduction
+
+Ventricular conduction
+
+Cardiac axis
+
+Repolarization
+
+Myocardial ischemia or injury patterns
+
+Conduction abnormalities
+
+Certain electrolyte, medication, and toxicologic effects
+
+An ECG should always be interpreted in the context of the patient's clinical presentation, vital signs, history, medications, and previous ECGs when available.
+
+A computerized ECG interpretation is an aid and should not be accepted without clinical review.
+
+2. Standard 12-Lead ECG
+
+A conventional 12-lead ECG uses 10 electrodes to produce 12 electrical views of the heart.
+
+Limb leads
+
+Lead I
+
+Views the heart from the left lateral direction.
+
+Lead II
+
+Views the heart from the inferior direction and commonly provides a useful rhythm strip.
+
+Lead III
+
+Also views the inferior portion of the heart.
+
+aVR
+
+Views the heart from the right shoulder direction.
+
+aVL
+
+Provides a high-lateral view.
+
+aVF
+
+Provides an inferior view.
+
+Precordial leads
+
+V1
+
+Primarily views the right anterior/septal region.
+
+V2
+
+Views the septal/anterior region.
+
+V3
+
+Provides an anterior transition view.
+
+V4
+
+Views the anterior/apical region.
+
+V5
+
+Views the lateral wall.
+
+V6
+
+Views the lateral wall.
+
+Lead placement matters. Incorrect placement can produce misleading ECG morphology and may create apparent abnormalities that are not actually present. Standardization of ECG acquisition and lead placement is addressed in AHA/ACC/HRS recommendations.
+
+3. ECG Calibration
+
+A common standard ECG setting is:
+
+Paper speed: 25 mm/sec
+
+Voltage calibration: 10 mm/mV
+
+At 25 mm/sec:
+
+1 small box = 0.04 seconds
+
+1 large box = 0.20 seconds
+
+5 large boxes = 1 second
+
+At standard calibration:
+
+1 small vertical box = 0.1 mV
+
+10 small vertical boxes = 1 mV
+
+Always verify the displayed paper speed and calibration before calculating intervals or rate.
+
+4. Systematic ECG Interpretation
+
+A systematic approach reduces the chance of missing an important abnormality.
+
+Recommended sequence:
+
+Confirm ECG quality and calibration.
+
+Determine heart rate.
+
+Determine rhythm.
+
+Examine P waves.
+
+Measure PR interval.
+
+Examine QRS complexes.
+
+Determine QRS axis.
+
+Evaluate R-wave progression.
+
+Examine ST segments.
+
+Examine T waves.
+
+Evaluate QT/QTc.
+
+Look for conduction abnormalities.
+
+Look for ischemic/injury patterns.
+
+Compare with previous ECGs when available.
+
+Interpret the ECG in clinical context.
+
+A structured rate-rhythm-axis approach is commonly used in ECG education.
+
+5. Heart Rate
+
+Normal adult resting rate
+
+A typical adult sinus rate is approximately:
+
+60–100 beats/minute
+
+A rate below 60 beats/minute is generally described as bradycardia.
+
+A rate above 100 beats/minute is generally described as tachycardia.
+
+These terms describe rate and do not by themselves establish the underlying rhythm or cause.
+
+6. Calculating Rate
+
+Regular rhythm
+
+At 25 mm/sec:
+
+Rate ≈ 300 ÷ number of large boxes between consecutive R waves
+
+Examples:
+
+1 large box → approximately 300/min
+
+2 large boxes → approximately 150/min
+
+3 large boxes → approximately 100/min
+
+4 large boxes → approximately 75/min
+
+5 large boxes → approximately 60/min
+
+Six-second method
+
+Count QRS complexes occurring during a 6-second interval and multiply by 10.
+
+This method is particularly useful when the rhythm is irregular.
+
+7. Rhythm
+
+Determine whether the rhythm is:
+
+Regular
+
+Regularly irregular
+
+Irregularly irregular
+
+Then evaluate:
+
+Presence of P waves
+
+P-wave morphology
+
+Relationship between P waves and QRS complexes
+
+PR interval
+
+QRS width
+
+Atrial rate versus ventricular rate
+
+A rhythm should not be classified solely by whether it is fast or slow.
+
+8. P Wave
+
+The P wave represents atrial depolarization.
+
+When assessing P waves, determine:
+
+Are P waves present?
+
+Are they occurring before every QRS?
+
+Does every P wave have a QRS?
+
+Are they uniform?
+
+Is their morphology appropriate?
+
+Is there more than one P wave per QRS?
+
+Are P waves hidden within QRS complexes or T waves?
+
+Sinus P-wave pattern
+
+A sinus rhythm generally demonstrates:
+
+Consistent P-wave morphology
+
+P waves preceding QRS complexes
+
+Consistent PR intervals
+
+Appropriate atrial-to-ventricular relationship
+
+Lead II is commonly useful for evaluating P-wave morphology.
+
+9. PR Interval
+
+The PR interval represents conduction from atrial depolarization through the AV node and His-Purkinje system until ventricular depolarization begins.
+
+Typical adult PR interval:
+
+0.12–0.20 seconds
+
+Assess whether the PR interval is:
+
+Normal
+
+Prolonged
+
+Short
+
+Variable
+
+Progressively changing
+
+Completely unrelated to QRS complexes
+
+Abnormal PR relationships can indicate AV conduction abnormalities or pre-excitation.
+
+10. QRS Complex
+
+The QRS complex represents ventricular depolarization.
+
+Evaluate:
+
+Duration
+
+Amplitude
+
+Morphology
+
+Axis
+
+R-wave progression
+
+Presence of pathologic Q waves
+
+Bundle branch block patterns
+
+A narrow QRS generally suggests that ventricular activation is occurring through the normal His-Purkinje conduction system.
+
+A wide QRS can result from:
+
+Ventricular rhythm
+
+Bundle branch block
+
+Aberrant conduction
+
+Pre-excitation
+
+Pacemaker activity
+
+Certain toxicologic or metabolic abnormalities
+
+A wide-complex tachycardia should be approached cautiously because ventricular tachycardia is an important diagnostic consideration.
+
+11. QRS Axis
+
+The QRS axis describes the general direction of ventricular depolarization in the frontal plane.
+
+A commonly used adult reference range is approximately:
+
+−30° to +90°
+
+Possible descriptions include:
+
+Normal axis
+
+Left axis deviation
+
+Right axis deviation
+
+Extreme/northwest axis
+
+Axis determination can provide clues about:
+
+Fascicular block
+
+Chamber enlargement
+
+Conduction disease
+
+Prior myocardial injury
+
+Certain congenital or structural abnormalities
+
+Axis should always be interpreted with the rest of the ECG.
+
+12. R-Wave Progression
+
+Evaluate the progression of the R wave from V1 through V6.
+
+Normally, the R wave generally becomes progressively larger across the precordial leads while the S wave becomes smaller.
+
+Poor R-wave progression may be associated with:
+
+Prior anterior myocardial injury
+
+Lead-placement error
+
+Left ventricular hypertrophy
+
+Conduction abnormalities
+
+Normal variation
+
+Poor R-wave progression is not, by itself, diagnostic of prior myocardial infarction.
+
+13. ST Segment
+
+The ST segment represents the period between ventricular depolarization and repolarization.
+
+Evaluate for:
+
+ST elevation
+
+ST depression
+
+Morphology
+
+Distribution
+
+Contiguous lead involvement
+
+Reciprocal changes
+
+Dynamic changes compared with previous ECGs
+
+ST-segment abnormalities must be interpreted in clinical context.
+
+Possible causes of ST elevation include:
+
+Acute coronary occlusion/injury
+
+Early repolarization
+
+Pericarditis
+
+Left ventricular hypertrophy
+
+Bundle branch block
+
+Ventricular aneurysm
+
+Other structural or metabolic conditions
+
+Possible causes of ST depression include:
+
+Myocardial ischemia
+
+Reciprocal changes
+
+Rate-related changes
+
+LVH with repolarization abnormality
+
+Bundle branch block
+
+Other causes of abnormal repolarization
+
+14. T Wave
+
+The T wave represents ventricular repolarization.
+
+Assess:
+
+Direction
+
+Amplitude
+
+Symmetry
+
+Morphology
+
+Distribution
+
+Relationship to QRS complexes
+
+Abnormal T waves may include:
+
+T-wave inversion
+
+Tall or peaked T waves
+
+Flattened T waves
+
+Biphasic T waves
+
+Hyperacute-appearing T waves
+
+T-wave abnormalities are nonspecific and should be interpreted according to the clinical situation and distribution across leads.
+
+15. QT Interval
+
+The QT interval represents ventricular depolarization and repolarization.
+
+The QT interval varies with heart rate, so a corrected QT interval (QTc) is commonly used.
+
+QT prolongation can increase the risk of certain ventricular arrhythmias, including torsades de pointes.
+
+Potential contributors to prolonged QT include:
+
+Medications
+
+Electrolyte abnormalities
+
+Congenital long-QT syndromes
+
+Bradycardia
+
+Other medical conditions
+
+When evaluating QT, consider both the measured QT and the correction method used by the ECG system.
+
+16. Sinus Bradycardia
+
+Typical characteristics:
+
+Sinus P waves
+
+P wave before each QRS
+
+Consistent PR interval
+
+Usually narrow QRS
+
+Rate below approximately 60/min in adults
+
+Potential causes include:
+
+Normal physiologic state
+
+Increased vagal tone
+
+Athletic conditioning
+
+Inferior myocardial infarction
+
+Hypothermia
+
+Medication effects
+
+Metabolic abnormalities
+
+Conduction system disease
+
+Clinical significance depends heavily on symptoms and hemodynamic status.
+
+17. Sinus Tachycardia
+
+Typical characteristics:
+
+Sinus P waves
+
+P wave before each QRS
+
+Consistent atrial-to-ventricular relationship
+
+Usually narrow QRS
+
+Rate above approximately 100/min
+
+Common causes include:
+
+Exercise
+
+Pain
+
+Anxiety
+
+Fever
+
+Hypovolemia
+
+Hypoxia
+
+Infection
+
+Anemia
+
+Medication effects
+
+Stimulants
+
+Shock
+
+Sinus tachycardia is generally a physiologic response rather than a primary tachyarrhythmia.
+
+The underlying cause should be sought.
+
+18. Atrial Fibrillation
+
+Typical ECG characteristics:
+
+No consistent organized P waves
+
+Irregularly irregular ventricular rhythm
+
+Variable R-R intervals
+
+Fibrillatory baseline may be present
+
+Usually narrow QRS unless another conduction abnormality exists
+
+Atrial fibrillation may be associated with:
+
+Hypertension
+
+Structural heart disease
+
+Heart failure
+
+Valvular disease
+
+Hyperthyroidism
+
+Alcohol or stimulant exposure
+
+Acute illness
+
+Other cardiac conditions
+
+A rapid ventricular response may produce significant symptoms or hemodynamic compromise.
+
+19. Atrial Flutter
+
+Typical characteristics can include:
+
+Organized atrial activity
+
+Flutter waves
+
+Often prominent in inferior leads
+
+Atrial activity frequently occurring around 250–350/min
+
+Variable AV conduction
+
+Common conduction ratios include:
+
+2:1
+
+3:1
+
+4:1
+
+Atrial flutter with 2:1 conduction can produce a ventricular rate near 150/min and may be mistaken for another regular tachycardia.
+
+20. Supraventricular Tachycardia
+
+Paroxysmal supraventricular tachycardia (SVT) commonly presents as:
+
+Rapid rhythm
+
+Usually narrow QRS
+
+Often regular
+
+P waves may be hidden within QRS complexes or appear immediately before/after them
+
+Sudden onset and termination may occur
+
+Potential mechanisms include:
+
+AV nodal re-entry
+
+AV re-entry
+
+Atrial tachycardia
+
+The ECG appearance should be interpreted alongside patient presentation and history.
+
+21. Ventricular Tachycardia
+
+Ventricular tachycardia (VT) is a ventricular-origin tachyarrhythmia.
+
+Typical ECG characteristics can include:
+
+Wide QRS complexes
+
+Rapid ventricular rate
+
+AV dissociation
+
+Capture beats
+
+Fusion beats
+
+Extreme axis
+
+Concordance
+
+Other ventricular morphology patterns
+
+Important principle:
+
+A regular wide-complex tachycardia should be treated as VT until an alternative diagnosis has been established by an appropriately qualified clinician.
+
+SVT with aberrant conduction can also produce a wide-complex tachycardia, so morphology and clinical context matter.
+
+22. Ventricular Fibrillation
+
+Ventricular fibrillation is characterized by:
+
+Chaotic ventricular electrical activity
+
+No organized QRS complexes
+
+No effective coordinated ventricular contraction
+
+VF is a cardiac arrest rhythm and requires immediate recognition within the applicable resuscitation protocol.
+
+23. AV Conduction Blocks
+
+First-Degree AV Block
+
+Typical ECG finding:
+
+PR interval > 0.20 seconds
+
+Every atrial impulse is still conducted to the ventricles.
+
+Second-Degree AV Block — Mobitz I
+
+Also called Wenckebach.
+
+Typical pattern:
+
+Progressive PR prolongation
+
+Then a nonconducted P wave
+
+Pattern repeats
+
+The ventricular rhythm may be irregular.
+
+Second-Degree AV Block — Mobitz II
+
+Typical pattern:
+
+Constant PR intervals in conducted beats
+
+Intermittent nonconducted P waves
+
+Sudden dropped QRS complexes
+
+This is a clinically important conduction abnormality and may progress to more advanced AV block.
+
+Third-Degree AV Block
+
+Also called complete heart block.
+
+Typical characteristics:
+
+Atrial activity continues independently
+
+Ventricular activity continues independently
+
+No consistent PR relationship
+
+AV dissociation
+
+The ventricular escape rhythm may be narrow or wide depending on the origin of the escape rhythm.
+
+24. Bundle Branch Blocks
+
+Right Bundle Branch Block
+
+Typical features may include:
+
+Prolonged QRS
+
+Right-precordial terminal conduction abnormalities
+
+Characteristic QRS morphology in V1/V2
+
+Broad terminal S waves in lateral leads
+
+Left Bundle Branch Block
+
+Typical features may include:
+
+Prolonged QRS
+
+Abnormal septal depolarization
+
+Broad/notched R waves in lateral leads
+
+Secondary ST-T abnormalities
+
+Bundle branch block patterns can complicate assessment of ischemia.
+
+25. ST-Elevation Myocardial Infarction / Acute Coronary Occlusion
+
+When evaluating a patient with possible acute coronary syndrome:
+
+Obtain and interpret a 12-lead ECG promptly.
+
+Assess symptoms and clinical presentation.
+
+Examine contiguous leads.
+
+Look for reciprocal changes.
+
+Compare with previous ECGs when available.
+
+Look for dynamic ECG changes.
+
+Consider posterior or right-sided involvement when clinically indicated.
+
+Follow applicable local STEMI/ACS protocols.
+
+AHA/ACC/HRS standards recognize the ECG as an important tool in the evaluation of acute coronary syndromes.
+
+The ECG should not be interpreted in isolation from the patient's symptoms and clinical condition.
+
+26. Inferior Lead Group
+
+Inferior leads:
+
+II
+
+III
+
+aVF
+
+These leads primarily view the inferior portion of the heart.
+
+When inferior ischemic/injury patterns are suspected, evaluate:
+
+ST elevation/depression
+
+Reciprocal changes
+
+Rhythm
+
+AV conduction
+
+Right-sided involvement when clinically appropriate
+
+27. Anterior Lead Group
+
+Anterior precordial leads generally include:
+
+V1
+
+V2
+
+V3
+
+V4
+
+Abnormalities in these leads may indicate anterior/septal pathology but should be interpreted using the complete ECG pattern.
+
+28. Lateral Lead Group
+
+Lateral leads include:
+
+I
+
+aVL
+
+V5
+
+V6
+
+Evaluate these leads together when assessing lateral ischemic or injury patterns.
+
+29. Posterior Myocardial Injury
+
+The posterior wall is not directly viewed by the standard 12-lead ECG.
+
+Posterior involvement may produce reciprocal changes in the anterior leads.
+
+When clinically appropriate, additional posterior leads may be obtained, commonly:
+
+V7
+
+V8
+
+V9
+
+The interpretation should follow local protocol and the clinical context.
+
+30. Right-Sided ECG
+
+Right-sided precordial leads may be useful when right ventricular involvement is suspected, particularly in appropriate inferior myocardial infarction presentations.
+
+V4R is commonly used to assess the right ventricle.
+
+Additional leads may be obtained according to local protocol.
+
+31. Electrolyte and Metabolic Patterns
+
+ECG abnormalities can occur with electrolyte disturbances.
+
+Examples include:
+
+Hyperkalemia
+
+Possible findings can include:
+
+Tall/peaked T waves
+
+PR prolongation
+
+QRS widening
+
+P-wave abnormalities
+
+Progressive conduction abnormalities
+
+Severe cases may progress toward a sine-wave appearance
+
+ECG findings vary and a normal ECG does not reliably exclude hyperkalemia.
+
+Hypokalemia
+
+Possible findings can include:
+
+Flattened T waves
+
+ST depression
+
+Prominent U waves
+
+Apparent QT/QU prolongation
+
+ECG findings should be interpreted with laboratory results when available.
+
+32. ECG Artifacts
+
+Artifacts can mimic clinically important ECG abnormalities.
+
+Potential sources include:
+
+Patient movement
+
+Muscle tremor
+
+Poor electrode contact
+
+Electrical interference
+
+Loose cables
+
+Incorrect lead placement
+
+Equipment problems
+
+Before interpreting an unusual ECG, verify that the tracing is technically adequate.
+
+If the ECG does not fit the patient's clinical presentation, repeat the ECG after correcting possible technical problems.
+
+33. Common ECG Interpretation Errors
+
+Avoid:
+
+Relying exclusively on the computerized interpretation
+
+Ignoring lead placement
+
+Ignoring calibration
+
+Calling every wide-complex tachycardia SVT
+
+Calling every ST elevation STEMI
+
+Ignoring reciprocal changes
+
+Ignoring the clinical presentation
+
+Failing to compare with previous ECGs
+
+Interpreting a single lead without reviewing the entire tracing
+
+Assuming an abnormal ECG automatically identifies the patient's diagnosis
+
+34. Recommended AI Response Structure
+
+When the Paramedic AI is given an ECG description, it should organize its response as:
+
+1. Rate
+
+State the approximate ventricular rate.
+
+2. Rhythm
+
+State whether the rhythm appears regular, irregular, or irregularly irregular and describe the likely rhythm.
+
+3. P waves
+
+Describe presence, morphology, and relationship to QRS complexes.
+
+4. PR interval
+
+State whether it appears normal, prolonged, shortened, or variable when measurable.
+
+5. QRS
+
+Describe width and morphology.
+
+6. Axis
+
+State the apparent QRS axis when sufficient information is available.
+
+7. ST segments
+
+Describe significant ST elevation/depression and its distribution.
+
+8. T waves
+
+Describe significant T-wave abnormalities.
+
+9. QT/QTc
+
+Describe whether QT/QTc appears prolonged when measurable.
+
+10. Overall interpretation
+
+Provide a concise interpretation based only on the available ECG information.
+
+11. Clinical correlation
+
+Identify important clinical considerations without presenting the ECG interpretation as a definitive diagnosis.
+
+12. Urgency
+
+If the described ECG contains a potentially life-threatening pattern, explicitly state that the finding warrants immediate clinical assessment according to the applicable EMS/local protocol.
+
+35. AI Safety Rules
+
+The Paramedic AI should follow these rules:
+
+Do not claim certainty when the ECG description is incomplete.
+
+Do not invent ECG measurements that were not provided.
+
+Do not infer a diagnosis solely from heart rate.
+
+Do not rely solely on automated ECG interpretation.
+
+Distinguish ECG findings from clinical diagnoses.
+
+State when additional leads or a repeat ECG may be clinically relevant.
+
+Encourage comparison with prior ECGs when available.
+
+Follow the user's local EMS protocols when those protocols are provided to the system.
+
+Do not provide treatment instructions that conflict with local protocols.
+
+For unstable or potentially life-threatening presentations, prioritize immediate clinical assessment and established emergency protocols.
+
+Clearly identify uncertainty.
+
+Cite the underlying documentation used to produce the answer whenever possible.
+
+36. Suggested ECG Knowledge-Base Categories
+
+For retrieval-augmented AI, ECG information should preferably be divided into separate documents or chunks:
+
+ECG Basics
+
+ECG Lead Placement
+
+ECG Calibration
+
+Rate Calculation
+
+Rhythm Interpretation
+
+P Waves
+
+PR Interval
+
+QRS Complex
+
+QRS Axis
+
+R-Wave Progression
+
+ST Segment
+
+T Waves
+
+QT/QTc
+
+Sinus Rhythms
+
+Atrial Fibrillation
+
+Atrial Flutter
+
+SVT
+
+Ventricular Tachycardia
+
+Ventricular Fibrillation
+
+AV Blocks
+
+Bundle Branch Blocks
+
+Fascicular Blocks
+
+Pre-excitation
+
+Pacemaker Rhythms
+
+STEMI/Acute Coronary Occlusion
+
+Inferior MI
+
+Anterior MI
+
+Posterior MI
+
+Right Ventricular MI
+
+Electrolyte Effects
+
+Toxicologic ECG Findings
+
+ECG Artifacts
+
+Pediatric ECG
+
+ECG Differential Diagnosis
+
+ECG Red Flags
+
+This structure allows a retrieval system to return focused information instead of feeding the entire ECG reference into the model for every question.
+
+37. Source Hierarchy
+
+For a paramedic-focused AI, sources should ideally be prioritized approximately as follows:
+
+Current local EMS protocols and medical-director-approved documents
+
+Current national/international professional guidelines
+
+Peer-reviewed medical literature
+
+Established emergency medicine and cardiology educational references
+
+General educational websites
+
+The system should preserve the source title, publication/update date, organization, and URL whenever possible.
+
+An ECG educational reference such as the LITFL ECG Library can be useful for teaching concepts and examples, but it should not supersede the user's current local EMS protocols. LITFL provides extensive material covering ECG basics, rhythm interpretation, axis, waves, intervals, conduction blocks, and clinical diagnoses.
+
+38. Important Limitation
+
+This documentation is an educational foundation for a paramedic reference AI. It is not a substitute for:
+
+Medical direction
+
+Local EMS protocols
+
+Current cardiology guidelines
+
+Formal ECG education
+
+Patient assessment
+
+Physician/cardiologist interpretation when required
+
+Clinical protocols and recommendations should be updated when authoritative guidelines change.
+
+When to Obtain and How to Interpret a 12-Lead ECG
+
+1. Purpose
+
+A 12-lead ECG is a rapid diagnostic tool used to evaluate cardiac electrical activity, identify dysrhythmias and conduction abnormalities, and recognize patterns that may indicate myocardial ischemia or injury.
+
+An ECG should not be interpreted in isolation. Interpretation should be integrated with:
+
+Patient history
+
+Presenting complaint
+
+Vital signs
+
+Physical examination
+
+Cardiac monitoring
+
+Previous ECGs
+
+Laboratory testing when available
+
+Local EMS protocols
+
+Medical direction
+
+The ECG is a diagnostic test, not a diagnosis by itself.
+
+2. When Should a 12-Lead ECG Be Obtained?
+
+A 12-lead ECG should be considered whenever the patient has symptoms or findings that could represent cardiac disease.
+
+Strong indications
+
+Obtain a 12-lead ECG when the patient has:
+
+Chest pain or pressure
+
+Chest discomfort
+
+Epigastric discomfort potentially representing an anginal equivalent
+
+Unexplained dyspnea
+
+Syncope or near-syncope
+
+Palpitations
+
+Unexplained weakness or diaphoresis
+
+Suspected acute coronary syndrome
+
+Suspected dysrhythmia
+
+Bradycardia
+
+Tachycardia
+
+New irregular pulse
+
+Suspected heart failure
+
+Suspected myocardial ischemia
+
+Hemodynamic instability potentially related to a cardiac cause
+
+A significant change in cardiac status
+
+Chest pain should not be interpreted narrowly. Anginal-equivalent symptoms can include discomfort in the shoulders, arms, neck, back, upper abdomen, or jaw, as well as shortness of breath and fatigue.
+
+3. Acute Chest Pain
+
+In a patient presenting with acute chest pain or suspected ACS:
+
+Obtain and review the 12-lead ECG as early as possible.
+
+Current AHA/ACC guidance recommends that an ECG be acquired and reviewed for STEMI within 10 minutes of arrival in patients with acute chest pain.
+
+For EMS systems, local protocols may specify an even more aggressive prehospital timeline.
+
+The ECG should be interpreted immediately rather than simply transmitted and left for later review when the patient's condition or presentation suggests a time-sensitive cardiac emergency.
+
+4. Do Not Stop After a Normal ECG
+
+A normal initial ECG does not rule out acute coronary syndrome.
+
+If:
+
+Symptoms continue,
+
+Symptoms recur,
+
+The patient's condition changes, or
+
+Clinical suspicion for ACS remains high,
+
+additional ECGs should be considered according to the applicable protocol.
+
+Serial ECGs can reveal dynamic ischemic changes that were absent on the initial tracing. AHA/ACC guidance specifically notes that an initial normal or nondiagnostic ECG is not sufficient by itself to exclude ACS.
+
+5. Other Situations Requiring ECG Evaluation
+
+Bradycardia
+
+A 12-lead ECG can help determine:
+
+Sinus versus non-sinus rhythm
+
+AV block
+
+Escape rhythm
+
+QRS width
+
+Conduction abnormalities
+
+QT abnormalities
+
+Possible metabolic or medication-related abnormalities
+
+A resting ECG is an important component of the evaluation of suspected bradycardia or conduction disease.
+
+Tachycardia
+
+Obtain a 12-lead ECG when possible to determine:
+
+Narrow versus wide QRS
+
+Regular versus irregular rhythm
+
+Atrial versus ventricular activity
+
+Possible SVT
+
+Atrial fibrillation
+
+Atrial flutter
+
+Ventricular tachycardia
+
+Pre-excitation
+
+Other conduction abnormalities
+
+If the patient is unstable, treatment and resuscitation should not be delayed merely to obtain a perfect 12-lead ECG.
+
+Syncope or Near-Syncope
+
+Consider a 12-lead ECG when evaluating unexplained syncope or near-syncope.
+
+Look particularly for:
+
+Bradyarrhythmia
+
+AV block
+
+QT prolongation
+
+Pre-excitation
+
+Brugada-pattern abnormalities
+
+Significant conduction disease
+
+Ventricular arrhythmia patterns
+
+Evidence of prior myocardial injury
+
+The ECG is one component of the overall syncope evaluation.
+
+Palpitations
+
+A 12-lead ECG can help determine whether symptoms are associated with:
+
+Sinus tachycardia
+
+Atrial fibrillation
+
+Atrial flutter
+
+SVT
+
+PVCs
+
+Ventricular tachycardia
+
+Pre-excitation
+
+Other conduction abnormalities
+
+If symptoms are intermittent, the ECG obtained between episodes may be normal.
+
+6. Obtain the ECG Correctly
+
+Before interpretation, verify:
+
+Patient identification
+
+Confirm:
+
+Correct patient
+
+Correct time/date
+
+Correct ECG
+
+Appropriate clinical information
+
+Lead placement
+
+Ensure electrodes are placed correctly.
+
+Incorrect lead placement can produce significant changes in:
+
+QRS morphology
+
+R-wave progression
+
+Axis
+
+ST segments
+
+T waves
+
+If an ECG looks inconsistent with the patient's presentation, consider repeating it after verifying electrode placement.
+
+Calibration
+
+Verify:
+
+Paper/display speed
+
+Gain/calibration
+
+Filter settings when relevant
+
+Do not calculate intervals or rate without knowing the recording settings.
+
+7. The Systematic ECG Interpretation Sequence
+
+The AI should use a consistent interpretation sequence.
+
+Step 1 — Check the ECG quality
+
+Ask:
+
+Is there significant artifact?
+
+Are all leads present?
+
+Is lead placement plausible?
+
+Is calibration standard?
+
+Is the tracing interpretable?
+
+Do not attempt a detailed interpretation of a technically inadequate ECG without acknowledging the limitation.
+
+Step 2 — Determine the Rate
+
+Determine:
+
+Atrial rate when identifiable
+
+Ventricular rate
+
+For a regular rhythm at 25 mm/sec:
+
+Rate ≈ 300 ÷ number of large boxes between R waves
+
+For an irregular rhythm:
+
+Use an appropriate timed-strip method or the ECG machine's rate while recognizing its limitations.
+
+8. Step 3 — Determine the Rhythm
+
+Ask:
+
+Is the rhythm regular?
+
+Is it irregular?
+
+Is it irregularly irregular?
+
+Are P waves present?
+
+Does every P wave precede a QRS?
+
+Does every QRS have a preceding P wave?
+
+Is the PR relationship consistent?
+
+Is there AV dissociation?
+
+Possible rhythm categories include:
+
+Sinus rhythm
+
+Sinus bradycardia
+
+Sinus tachycardia
+
+Atrial fibrillation
+
+Atrial flutter
+
+SVT
+
+Ventricular tachycardia
+
+Junctional rhythm
+
+AV block
+
+Paced rhythm
+
+9. Step 4 — Evaluate P Waves
+
+Determine:
+
+Present or absent
+
+Morphology
+
+Regularity
+
+Relationship to QRS
+
+Number of P waves per QRS
+
+Ask:
+
+Are the P waves sinus in appearance?
+
+If P waves are absent, consider:
+
+Atrial fibrillation
+
+Junctional rhythm
+
+Fine flutter activity
+
+Artifact
+
+Other possibilities
+
+Do not automatically diagnose atrial fibrillation solely because P waves are difficult to see.
+
+10. Step 5 — Measure the PR Interval
+
+Evaluate whether the PR interval is:
+
+Normal
+
+Prolonged
+
+Short
+
+Variable
+
+Progressively increasing
+
+Unrelated to QRS complexes
+
+A typical adult PR interval is approximately:
+
+0.12–0.20 seconds
+
+Important patterns include:
+
+Prolonged PR
+
+Consider first-degree AV block.
+
+Progressive PR prolongation followed by a dropped QRS
+
+Consider Mobitz I/Wenckebach.
+
+Constant PR intervals with intermittent dropped QRS complexes
+
+Consider Mobitz II.
+
+No consistent relationship between P waves and QRS complexes
+
+Consider complete AV block.
+
+11. Step 6 — Evaluate the QRS
+
+Determine:
+
+Narrow or wide
+
+Duration
+
+Morphology
+
+Bundle branch pattern
+
+R-wave progression
+
+Pathologic Q waves
+
+Capture/fusion beats when evaluating wide-complex tachycardia
+
+A wide QRS may result from:
+
+Ventricular rhythm
+
+Bundle branch block
+
+Aberrant conduction
+
+Pre-excitation
+
+Pacemaker activity
+
+Metabolic/toxicologic causes
+
+A wide-complex tachycardia should be approached cautiously.
+
+When the mechanism is uncertain, ventricular tachycardia is an important consideration.
+
+12. Step 7 — Determine Axis
+
+Evaluate the frontal-plane QRS axis.
+
+Describe it as:
+
+Normal axis
+
+Left axis deviation
+
+Right axis deviation
+
+Extreme axis
+
+Axis abnormalities can provide clues regarding:
+
+Fascicular block
+
+Chamber enlargement
+
+Conduction disease
+
+Prior myocardial injury
+
+Structural disease
+
+Axis is supportive information and should not be interpreted independently.
+
+13. Step 8 — Evaluate R-Wave Progression
+
+Review V1 through V6.
+
+Assess whether the R wave progresses appropriately across the precordial leads.
+
+Poor R-wave progression can result from:
+
+Lead-placement error
+
+Prior anterior myocardial injury
+
+LVH
+
+Conduction abnormalities
+
+Normal variation
+
+Do not diagnose previous myocardial infarction solely because R-wave progression is poor.
+
+14. Step 9 — Evaluate the ST Segments
+
+Evaluate the ST segment in every lead.
+
+Look for:
+
+ST elevation
+
+ST depression
+
+Horizontal changes
+
+Downsloping changes
+
+Reciprocal changes
+
+Distribution across contiguous leads
+
+Dynamic changes compared with previous ECGs
+
+Never interpret ST elevation from one lead in isolation.
+
+Ask:
+
+Where are the changes?
+
+Are they in anatomically related leads?
+
+Are reciprocal changes present?
+
+Does the clinical presentation support acute coronary occlusion?
+
+ST elevation has multiple causes and does not automatically equal STEMI.
+
+15. Step 10 — Evaluate T Waves
+
+Look for:
+
+T-wave inversion
+
+Tall/peaked T waves
+
+Hyperacute-appearing T waves
+
+Flattened T waves
+
+Biphasic T waves
+
+Symmetry
+
+Distribution
+
+T-wave abnormalities should be interpreted in the context of the QRS, ST segment, symptoms, and lead distribution.
+
+16. Step 11 — Evaluate QT/QTc
+
+Evaluate the QT interval and corrected QT.
+
+Potential causes of prolonged QT include:
+
+Medications
+
+Electrolyte abnormalities
+
+Congenital long-QT syndromes
+
+Bradycardia
+
+Other medical conditions
+
+Marked QT prolongation can increase the risk of certain ventricular arrhythmias.
+
+17. Step 12 — Look for Ischemia and Injury Patterns
+
+After evaluating the individual components, step back and examine the ECG as a whole.
+
+Ask:
+
+Are there ST changes?
+
+Are the changes in contiguous leads?
+
+Are reciprocal changes present?
+
+Are there hyperacute T waves?
+
+Is there a new conduction abnormality?
+
+Is there a new Q-wave pattern?
+
+Does the ECG differ from a previous tracing?
+
+Does the ECG fit the patient's symptoms?
+
+18. Compare With Previous ECGs
+
+Whenever a previous ECG is available, compare it.
+
+Look for:
+
+New ST changes
+
+New T-wave changes
+
+New Q waves
+
+New conduction abnormalities
+
+New axis changes
+
+New rhythm
+
+Changes in QT
+
+Changes in QRS morphology
+
+A previously abnormal ECG can be much less concerning if the abnormality is known to be chronic.
+
+Conversely, a previously normal ECG becoming abnormal can be highly significant.
+
+19. Consider Additional Leads
+
+A standard 12-lead ECG does not directly visualize every region of the heart equally.
+
+When clinically appropriate, additional leads may be useful.
+
+Right-sided leads
+
+Consider when right ventricular involvement is suspected.
+
+V4R is commonly used.
+
+Posterior leads
+
+Consider when posterior myocardial involvement is suspected.
+
+Common additional leads:
+
+V7
+
+V8
+
+V9
+
+A normal standard 12-lead ECG does not exclude all coronary occlusions, including some posterior or circumflex-territory events.
+
+Follow local EMS protocols for when and how additional leads are obtained.
+
+20. Computerized ECG Interpretation
+
+The computer interpretation should be treated as:
+
+Decision support — not the final diagnosis.
+
+The clinician should independently review:
+
+Rate
+
+Rhythm
+
+Intervals
+
+QRS
+
+ST segments
+
+T waves
+
+Overall morphology
+
+Computer algorithms can miss clinically important abnormalities and can also generate false-positive interpretations.
+
+A computer-generated interpretation should never replace clinical assessment.
+
+21. A Practical 60-Second ECG Method
+
+For rapid field interpretation, use:
+
+RATE
+
+What is the ventricular rate?
+
+RHYTHM
+
+Regular or irregular?
+
+P WAVES
+
+Present? Sinus? Relationship to QRS?
+
+PR
+
+Normal, prolonged, shortened, or variable?
+
+QRS
+
+Narrow or wide?
+
+AXIS
+
+Normal, left, right, or extreme?
+
+R-WAVE PROGRESSION
+
+Normal or abnormal?
+
+ST
+
+Elevation? Depression? Reciprocal changes?
+
+T WAVES
+
+Normal? Inverted? Hyperacute? Peaked?
+
+QT
+
+Normal or prolonged?
+
+COMPARE
+
+What does the previous ECG show?
+
+CONTEXT
+
+Does the ECG fit the patient's presentation?
+
+22. ECG Red Flags
+
+The AI should immediately flag potentially high-risk patterns such as:
+
+Ventricular fibrillation
+
+Sustained ventricular tachycardia
+
+Significant symptomatic bradycardia
+
+High-grade AV block
+
+Complete heart block
+
+Significant ST-segment elevation/injury pattern
+
+Significant ST depression with concerning symptoms
+
+New ischemic changes
+
+Dangerous wide-complex tachycardia
+
+Markedly prolonged QT with concerning rhythm
+
+Significant hyperkalemia-associated ECG changes
+
+New concerning conduction abnormalities
+
+ECG abnormalities associated with hemodynamic instability
+
+The AI should not independently declare that a patient is having a specific life-threatening diagnosis solely from an ECG description when the available information is insufficient.
+
+23. ECG Interpretation Output for the Paramedic AI
+
+When the AI interprets a described ECG, use this format:
+
+ECG Interpretation
+
+Rate:
+Approximately ___ bpm.
+
+Rhythm:
+
+P Waves:
+
+PR Interval:
+
+QRS:
+
+Axis:
+
+R-Wave Progression:
+
+ST Segments:
+
+T Waves:
+
+QT/QTc:
+
+Comparison:
+
+Overall ECG Impression:
+
+Important Considerations:
+
+Confidence/Limitation:
+
+Source:
+
+24. Example
+
+ECG description
+
+Rate: 148 bpm
+
+Regular
+
+Narrow QRS
+
+P waves difficult to identify
+
+No obvious ST elevation
+
+Structured interpretation
+
+Rate:
+Approximately 148 bpm.
+
+Rhythm:
+Regular narrow-complex tachycardia.
+
+P Waves:
+Not clearly visible.
+
+QRS:
+Narrow.
+
+ST/T:
+No obvious ST-elevation pattern described.
+
+Overall impression:
+Regular narrow-complex tachycardia. SVT is a consideration, but the available description is insufficient to establish the mechanism with certainty.
+
+Important consideration:
+Interpret in conjunction with patient stability, symptoms, and the actual ECG morphology. Follow the applicable local tachycardia protocol.
+
+25. Important AI Safety Rules
+
+The AI should:
+
+Never invent an ECG measurement.
+
+Never claim to see a waveform that was not supplied.
+
+Distinguish between an ECG finding and a clinical diagnosis.
+
+State uncertainty when the description is incomplete.
+
+Never assume the computerized interpretation is correct.
+
+Never use one ECG finding in isolation.
+
+Compare with previous ECGs when available.
+
+Consider lead placement and artifact.
+
+Consider the clinical presentation.
+
+Follow the user's current local EMS protocol when available.
+
+Identify potentially life-threatening patterns promptly.
+
+Never delay emergency assessment because additional ECG interpretation is needed.
+
+Recommend repeat/serial ECGs when clinically appropriate rather than treating one normal ECG as definitive exclusion of ACS.
+
+Preserve the source used for the interpretation.
+
+Clearly distinguish educational information from protocol-directed patient care.
+
+26. Core Principle
+
+The correct way to interpret an ECG is not:
+
+"What diagnosis does this ECG show?"
+
+Instead ask:
+
+"What does the ECG show, where are the abnormalities, how do those findings fit together, and do they fit the patient's clinical presentation?"
+
+A systematic interpretation should move from:
+
+Technical quality → Rate → Rhythm → P waves → PR → QRS → Axis → R-wave progression → ST segments → T waves → QT/QTc → comparison → clinical context.
+
+The ECG is one component of patient assessment. It should be interpreted together with the history, physical examination, vital signs, monitoring, previous ECGs, and other diagnostic information.

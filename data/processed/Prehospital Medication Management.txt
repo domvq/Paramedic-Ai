@@ -1,0 +1,1161 @@
+Prehospital Medication Management
+
+1. Purpose
+
+This document provides a structured framework for medication use in the prehospital environment.
+
+It is designed to support a documentation-grounded paramedic AI by organizing medication information into consistent categories:
+
+Indications
+
+Contraindications
+
+Precautions
+
+Dose
+
+Route
+
+Concentration
+
+Administration rate
+
+Repeat dosing
+
+Maximum dose
+
+Expected effects
+
+Adverse effects
+
+Drug interactions
+
+Special populations
+
+Monitoring
+
+Reassessment
+
+Documentation
+
+Current local EMS protocols, medical-director orders, approved formulary, scope of practice, pharmacy guidance, manufacturer labeling, and applicable law take precedence over this general reference.
+
+2. Medication Source Hierarchy
+
+When answering medication questions, the AI should prioritize sources in the following order:
+
+Priority 1 — Current local EMS protocol
+
+The local EMS agency or medical director should be the controlling source for:
+
+Whether a paramedic may administer a medication
+
+Indications
+
+Contraindications
+
+Dose
+
+Concentration
+
+Route
+
+Repeat dosing
+
+Maximum dose
+
+Medical-control requirements
+
+Pediatric dosing
+
+Medication substitutions
+
+Required monitoring
+
+Scope of practice
+
+Priority 2 — Current medication/formulary documentation
+
+Use the agency's current medication formulary, medication cards, pharmacy documents, and approved standing orders.
+
+Priority 3 — Manufacturer labeling
+
+Use current manufacturer information for:
+
+Preparation
+
+Concentration
+
+Administration
+
+Compatibility
+
+Storage
+
+Warnings
+
+Contraindications
+
+Adverse reactions
+
+Priority 4 — Current clinical guidelines
+
+Use current authoritative clinical guidelines for evidence-based treatment recommendations.
+
+The 2025 AHA guidelines contain current recommendations for pharmacologic treatment during adult cardiac arrest and cardiovascular emergencies.
+
+Priority 5 — General medical knowledge
+
+General model knowledge should never override a current authoritative local medication protocol.
+
+3. Required Medication Record
+
+Every medication placed in the medication folder should ideally contain the following fields:
+
+Medication Name:
+
+Generic Name:
+
+Brand Name:
+
+Medication Class:
+
+Mechanism:
+
+Indications:
+
+Contraindications:
+
+Precautions:
+
+Adult Dose:
+
+Pediatric Dose:
+
+Geriatric Considerations:
+
+Pregnancy Considerations:
+
+Route:
+
+Concentration:
+
+Administration Rate:
+
+Repeat Dose:
+
+Maximum Dose:
+
+Onset:
+
+Duration:
+
+Expected Effects:
+
+Common Adverse Effects:
+
+Serious Adverse Effects:
+
+Drug Interactions:
+
+Relevant Reversal Agent:
+
+Required Monitoring:
+
+Special Considerations:
+
+Protocol Source:
+
+Protocol Version:
+
+Effective Date:
+
+Expiration/Review Date:
+
+4. Medication Verification
+
+Before administering a medication, verify:
+
+Correct patient
+
+Correct medication
+
+Correct indication
+
+Correct dose
+
+Correct concentration
+
+Correct route
+
+Correct timing
+
+Correct administration rate
+
+Allergies
+
+Relevant contraindications
+
+Relevant medication interactions
+
+Expiration date
+
+Medication integrity
+
+Appropriate monitoring
+
+Use an independent medication check when required by agency policy.
+
+5. Medication Administration
+
+Medication administration should occur according to the applicable protocol and medication-specific requirements.
+
+Consider:
+
+Patient condition
+
+Indication
+
+Contraindications
+
+Route
+
+Vascular access
+
+Dose
+
+Concentration
+
+Administration rate
+
+Compatibility
+
+Monitoring requirements
+
+Expected response
+
+Potential adverse effects
+
+Do not delay life-saving interventions while performing unnecessary medication-related tasks.
+
+6. Medication Routes
+
+Common prehospital routes include:
+
+IV
+
+Used when rapid systemic medication delivery is required and appropriate vascular access is available.
+
+IO
+
+May be used when IV access cannot be rapidly obtained or is not feasible, according to the applicable protocol.
+
+The 2025 AHA adult cardiac-arrest guidelines recommend attempting IV access first for drug administration and consider IO access reasonable when IV access is unsuccessful or not feasible.
+
+IM
+
+Useful for medications where rapid absorption through muscle is appropriate.
+
+Examples may include certain medications used for:
+
+Anaphylaxis
+
+Hypoglycemia
+
+Behavioral emergencies
+
+Opioid toxicity
+
+Other protocol-specific conditions
+
+IN
+
+Intranasal administration may be useful when vascular access is unavailable or undesirable.
+
+PO / Oral
+
+Appropriate only when the patient's condition, airway protection, level of consciousness, and medication indication permit oral administration.
+
+SL / Sublingual
+
+Used for medications specifically intended for sublingual administration.
+
+Nebulized / Inhaled
+
+Used for selected respiratory medications.
+
+ET
+
+Routine medication administration through an endotracheal tube should not be assumed to be an acceptable route. Current resuscitation guidance has removed endotracheal drug administration because drug absorption is unreliable.
+
+7. Medication Categories
+
+The medication folder should contain separate documents for the following categories.
+
+7.1 Cardiac Arrest Medications
+
+Examples include:
+
+Epinephrine
+
+Amiodarone
+
+Lidocaine
+
+Selected medications for special circumstances
+
+The 2025 AHA guidelines recommend epinephrine during adult cardiac arrest and state that amiodarone or lidocaine may be considered for VF/pulseless VT that remains unresponsive to defibrillation.
+
+Routine administration of calcium, sodium bicarbonate, or magnesium during adult cardiac arrest is not recommended unless a specific indication exists.
+
+8. Cardiac Medications
+
+The folder should contain dedicated documents for medications such as:
+
+Adenosine
+
+Amiodarone
+
+Atropine
+
+Diltiazem
+
+Metoprolol
+
+Nitroglycerin
+
+Aspirin
+
+Other medications authorized by the local cardiac protocol
+
+Each medication should specify which rhythms or clinical conditions it is intended to treat.
+
+For example, current AHA guidance supports atropine for adults with acute symptomatic bradycardia associated with hemodynamic compromise and describes additional therapies when bradycardia remains unstable despite atropine.
+
+9. Respiratory Medications
+
+Include medication references for:
+
+Albuterol
+
+Ipratropium
+
+Epinephrine
+
+Steroids
+
+Magnesium when specifically indicated
+
+Other bronchodilators authorized by local protocol
+
+Each respiratory medication should distinguish between conditions such as:
+
+Asthma
+
+COPD
+
+Anaphylaxis
+
+Upper-airway disease
+
+Other causes of bronchospasm
+
+10. Anaphylaxis Medications
+
+The anaphylaxis medication reference should address:
+
+Epinephrine
+
+Adjunctive antihistamines
+
+Corticosteroids
+
+Bronchodilators
+
+Other protocol-approved medications
+
+The AI should identify epinephrine as the primary treatment for anaphylaxis when indicated, rather than presenting adjunctive medications as equivalent alternatives.
+
+Special-circumstance resuscitation guidance from the AHA includes specific recommendations for anaphylaxis.
+
+11. Analgesia
+
+The analgesia section should include medication-specific information for authorized analgesics.
+
+For each medication, include:
+
+Indications
+
+Pain severity considerations
+
+Dose
+
+Route
+
+Contraindications
+
+Respiratory-depression risk
+
+Hemodynamic effects
+
+Sedation
+
+Drug interactions
+
+Reassessment requirements
+
+The AI should distinguish analgesia from sedation.
+
+12. Sedation
+
+Sedation medications should have dedicated references addressing:
+
+Indications
+
+Contraindications
+
+Dose
+
+Route
+
+Onset
+
+Duration
+
+Respiratory effects
+
+Hemodynamic effects
+
+Monitoring
+
+Rescue requirements
+
+Any medication capable of producing significant respiratory depression should be associated with an airway-management and monitoring reference.
+
+13. Medication-Assisted Airway Management
+
+If the local EMS system permits drug-assisted airway management, include separate medication documents for:
+
+Induction agents
+
+Paralytics
+
+Post-intubation analgesia
+
+Post-intubation sedation
+
+These documents should be linked to the airway folder.
+
+The medication AI should never provide an airway medication in isolation when the question involves RSI/DAAM. It should also retrieve the relevant:
+
+Airway protocol
+
+Patient-selection criteria
+
+Preoxygenation requirements
+
+Monitoring requirements
+
+Rescue-airway requirements
+
+Post-intubation management
+
+14. Hypoglycemia Medications
+
+Include references for:
+
+Oral glucose
+
+Dextrose
+
+Glucagon
+
+Other protocol-approved therapies
+
+The AI should determine whether the patient can safely receive an oral medication before recommending oral glucose.
+
+Assessment should include:
+
+Blood glucose
+
+Mental status
+
+Ability to protect the airway
+
+Ability to swallow
+
+Cause of hypoglycemia
+
+Response to treatment
+
+15. Opioid Toxicity
+
+Include a dedicated naloxone reference.
+
+It should address:
+
+Indications
+
+Routes
+
+Initial dosing according to local protocol
+
+Repeat dosing
+
+Monitoring
+
+Recurrent respiratory depression
+
+Precipitated withdrawal
+
+Need for ventilation
+
+Co-ingestants
+
+Naloxone should not be treated as a substitute for airway management and ventilation when respiratory failure is present.
+
+The 2025 AHA BLS guidelines incorporate opioid antagonists into the cardiac- and respiratory-arrest algorithms, with additional guidance in the special-circumstances section.
+
+16. Seizure Medications
+
+The seizure medication section should include authorized medications for:
+
+Active seizure
+
+Status epilepticus
+
+Recurrent seizure activity
+
+Each medication should include:
+
+Weight-based dosing where applicable
+
+Route
+
+Maximum dose
+
+Respiratory effects
+
+Sedation
+
+Monitoring
+
+Re-dosing requirements
+
+Special populations
+
+The AI should distinguish an actively seizing patient from a patient with a previous seizure who is now postictal.
+
+17. Behavioral Emergency Medications
+
+For medications used in severe agitation or behavioral emergencies, include:
+
+Indications
+
+Assessment requirements
+
+Contraindications
+
+Medication selection
+
+Dose
+
+Route
+
+Sedation depth
+
+Respiratory monitoring
+
+Cardiac monitoring when required
+
+Physical-restraint considerations
+
+Post-medication reassessment
+
+Medication should never replace assessment for potentially reversible medical causes of altered behavior.
+
+18. Shock and Hemodynamic Medications
+
+The folder may include medications such as:
+
+Epinephrine
+
+Norepinephrine
+
+Dopamine
+
+Other vasopressors authorized by local protocol
+
+Each medication should identify:
+
+Type of shock
+
+Indication
+
+Dose
+
+Route
+
+Infusion preparation
+
+Titration
+
+Blood-pressure goals when specified by protocol
+
+Extravasation considerations
+
+Monitoring
+
+Exact infusion concentrations and dosing must come from the current local protocol.
+
+19. Toxicology Medications
+
+Create dedicated references for medications used for:
+
+Opioid toxicity
+
+Organophosphate poisoning
+
+Beta-blocker toxicity
+
+Calcium-channel-blocker toxicity
+
+Tricyclic/sodium-channel-blocker toxicity
+
+Cyanide toxicity
+
+Digoxin toxicity
+
+Local-anesthetic systemic toxicity
+
+Methemoglobinemia
+
+Sympathomimetic toxicity
+
+The 2025 AHA special-circumstances guidelines specifically address multiple toxicologic emergencies and their resuscitation management.
+
+20. Electrolyte-Related Medications
+
+Include dedicated references for situations involving:
+
+Hyperkalemia
+
+Hypokalemia
+
+Hypomagnesemia
+
+Hypocalcemia
+
+Other clinically significant electrolyte abnormalities
+
+The AI should not recommend calcium, bicarbonate, magnesium, or other electrolyte therapies merely because a cardiac arrest is occurring.
+
+The indication must be established.
+
+The 2025 AHA guidelines specifically distinguish routine cardiac-arrest medication use from treatment of selected conditions such as hyperkalemia.
+
+21. Medication Contraindications
+
+Contraindications should be separated into:
+
+Absolute contraindications
+
+Conditions in which the medication should not be administered.
+
+Relative contraindications
+
+Conditions requiring risk-benefit assessment or medical direction.
+
+Precautions
+
+Conditions requiring additional monitoring or altered administration.
+
+The AI should avoid treating a precaution as an absolute contraindication unless the controlling protocol explicitly does so.
+
+22. Medication Interactions
+
+Each medication reference should identify clinically significant interactions.
+
+Consider:
+
+Additive hypotension
+
+Additive respiratory depression
+
+QT prolongation
+
+Bradycardia
+
+Tachycardia
+
+CNS depression
+
+Serotonergic interactions
+
+Anticoagulant interactions
+
+Renal clearance
+
+Hepatic metabolism
+
+Drug toxicity
+
+When a potential interaction exists, the AI should explain the concern rather than simply stating that an interaction exists.
+
+23. Pediatric Medications
+
+Pediatric medication references should be kept separate from adult references whenever possible.
+
+Each pediatric medication document should include:
+
+Weight-based dosing
+
+Maximum dose
+
+Concentration
+
+Route
+
+Equipment considerations
+
+Age-specific considerations
+
+Weight-estimation method if applicable
+
+Reassessment requirements
+
+Pediatric medication information should be sourced from the current pediatric EMS protocol.
+
+The AHA pediatric guidelines include dedicated recommendations for drug administration and weight-based dosing during pediatric resuscitation.
+
+24. Medication Errors
+
+Potential medication errors include:
+
+Wrong patient
+
+Wrong medication
+
+Wrong concentration
+
+Wrong dose
+
+Wrong route
+
+Wrong administration rate
+
+Duplicate administration
+
+Failure to recognize contraindication
+
+Expired medication
+
+Incorrect dilution
+
+Incorrect infusion preparation
+
+If a medication error occurs, follow the applicable agency medication-error and medical-control procedures.
+
+25. Adverse Medication Reactions
+
+After medication administration, monitor for:
+
+Hypotension
+
+Hypertension
+
+Bradycardia
+
+Tachycardia
+
+Dysrhythmia
+
+Respiratory depression
+
+Bronchospasm
+
+Altered mental status
+
+Allergic reaction
+
+Anaphylaxis
+
+Seizure
+
+Extrapyramidal effects
+
+Nausea/vomiting
+
+Local tissue injury
+
+Severe adverse reactions require immediate reassessment and treatment according to the applicable protocol.
+
+26. Medication Reassessment
+
+After administration, reassess:
+
+Vital signs
+
+Mental status
+
+Respiratory status
+
+Oxygenation
+
+Cardiac rhythm
+
+Symptoms
+
+Pain
+
+Blood glucose when applicable
+
+Medication-specific endpoints
+
+Adverse effects
+
+Document the patient's response.
+
+A medication should not be considered successful merely because it was administered.
+
+27. Medication Documentation
+
+Document:
+
+Medication name
+
+Dose
+
+Concentration
+
+Route
+
+Administration time
+
+Administration rate when relevant
+
+Indication
+
+Patient response
+
+Repeat doses
+
+Total dose
+
+Adverse effects
+
+Medical-control contact when applicable
+
+For infusions, document:
+
+Medication
+
+Concentration
+
+Starting rate
+
+Titration
+
+Rate changes
+
+Clinical response
+
+28. AI Medication Answering Rules
+
+When a user asks:
+
+"What dose of ___ do I give?"
+
+The AI should first determine:
+
+Patient age
+
+Adult vs pediatric
+
+Weight when relevant
+
+Indication
+
+Route
+
+Current local protocol
+
+Medication concentration
+
+Contraindications
+
+Relevant clinical circumstances
+
+The AI should not provide a dose based solely on the medication name.
+
+29. Conflict Resolution
+
+If two documents provide different doses:
+
+Prefer the current local protocol.
+
+Check document effective dates.
+
+Check whether the documents apply to different patient populations.
+
+Check whether the indication differs.
+
+Check whether the route differs.
+
+Check whether the concentration differs.
+
+Flag the discrepancy.
+
+The AI should not silently choose one dose when authoritative documents conflict.
+
+Recommended response:
+
+"The supplied documents contain conflicting dosing information. The current local protocol should be verified before administration."
+
+30. Missing Information
+
+If required medication information is absent, the AI should explicitly state what is missing.
+
+Example:
+
+"The provided medication documents identify epinephrine as an approved medication but do not provide the applicable dose for this indication."
+
+The AI should not fill missing information from memory when the system is intended to be documentation-grounded.
+
+31. Medication Safety Rule
+
+The AI should never fabricate:
+
+Medication doses
+
+Concentrations
+
+Dilutions
+
+Infusion rates
+
+Maximum doses
+
+Pediatric doses
+
+Contraindications
+
+Drug interactions
+
+Reversal agents
+
+Scope-of-practice rules
+
+If the answer cannot be established from the available authoritative documentation, the AI should say so.
+
+32. Recommended Medication Folder Structure
+
+Medications/
+
+│
+
+├── 00_Medication_Reference_Index/
+
+│   └── Medication_Formulary.pdf
+
+│
+
+├── 01_Cardiac/
+
+│   ├── Adenosine.pdf
+
+│   ├── Amiodarone.pdf
+
+│   ├── Aspirin.pdf
+
+│   ├── Atropine.pdf
+
+│   ├── Diltiazem.pdf
+
+│   ├── Metoprolol.pdf
+
+│   ├── Nitroglycerin.pdf
+
+│   └── Other_Cardiac_Medications.pdf
+
+│
+
+├── 02_Resuscitation/
+
+│   ├── Epinephrine.pdf
+
+│   ├── Amiodarone.pdf
+
+│   ├── Lidocaine.pdf
+
+│   └── Resuscitation_Medications.pdf
+
+│
+
+├── 03_Respiratory/
+
+│   ├── Albuterol.pdf
+
+│   ├── Ipratropium.pdf
+
+│   ├── Epinephrine.pdf
+
+│   └── Respiratory_Medications.pdf
+
+│
+
+├── 04_Analgesia/
+
+│   └── Analgesic_Medications.pdf
+
+│
+
+├── 05_Sedation/
+
+│   └── Sedation_Medications.pdf
+
+│
+
+├── 06_Airway/
+
+│   ├── Induction_Agents/
+
+│   ├── Paralytics/
+
+│   └── Post_Intubation_Medications/
+
+│
+
+├── 07_Neurologic/
+
+│   ├── Seizure_Medications.pdf
+
+│   └── Altered_Mental_Status.pdf
+
+│
+
+├── 08_Anaphylaxis/
+
+│   └── Anaphylaxis_Medications.pdf
+
+│
+
+├── 09_Toxicology/
+
+│   ├── Naloxone.pdf
+
+│   ├── Organophosphate_Treatment.pdf
+
+│   ├── Beta_Blocker_Toxicity.pdf
+
+│   ├── Calcium_Channel_Blocker_Toxicity.pdf
+
+│   └── Other_Toxicology_Medications.pdf
+
+│
+
+├── 10_Shock/
+
+│   ├── Vasopressors/
+
+│   └── Hemodynamic_Medications/
+
+│
+
+├── 11_Pediatric/
+
+│   └── Pediatric_Medication_Protocols.pdf
+
+│
+
+└── 12_Medication_Safety/
+
+├── Medication_Errors.pdf
+
+├── Drug_Interactions.pdf
+
+├── Adverse_Reactions.pdf
+
+└── Medication_Administration.pdf
+
+33. Recommended Individual Medication Format
+
+Every individual medication document should use the same structure:
+
+# [Medication Name]
+
+## Classification
+
+## Mechanism of Action
+
+## Indications
+
+## Contraindications
+
+## Precautions
+
+## Adult Dose
+
+## Pediatric Dose
+
+## Geriatric Considerations
+
+## Pregnancy Considerations
+
+## Route
+
+## Concentration
+
+## Administration Rate
+
+## Repeat Dose
+
+## Maximum Dose
+
+## Onset
+
+## Duration
+
+## Expected Clinical Effects
+
+## Adverse Effects
+
+## Serious Adverse Effects
+
+## Drug Interactions
+
+## Monitoring
+
+## Reassessment
+
+## Medication Errors
+
+## Special Considerations
+
+## Local Protocol
+
+Protocol:
+
+Version:
+
+Effective Date:
+
+Review Date:
+
+## Source
+
+Using the same schema for every medication will make your RAG system much better at retrieving the right information and comparing medications.
+
+34. Final AI Instruction
+
+When answering medication questions, the AI should prioritize:
+
+Current local protocol → current medication formulary → manufacturer information → current clinical guidelines → general medical knowledge.
+
+If the local protocol is unavailable or contradictory, the AI should clearly identify the limitation rather than inventing an answer.
+
+Document classification: General prehospital medication-management reference
+
+Protocol authority: Local EMS agency / medical director
+
+Review requirement: Medication information should be verified against the current local formulary and protocols before clinical use.

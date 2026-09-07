@@ -1,0 +1,613 @@
+Airway Assessment and Initial Management
+
+1. Purpose
+
+This document provides a structured framework for prehospital assessment and initial management of patients with actual or potential airway compromise.
+
+This document is intended as an educational and clinical-reference resource. Local EMS protocols, medical-director orders, scope of practice, manufacturer instructions, and applicable law take precedence over this document.
+
+Airway management should be approached as an organized system of care that includes assessment, oxygenation, ventilation, monitoring, airway-device selection, confirmation of airway placement, rescue strategies, and ongoing reassessment. NAEMSP recommends addressing hypoxemia and hypotension before advanced airway attempts when possible and using continuous physiologic monitoring during airway management.
+
+2. Airway Assessment
+
+Primary questions
+
+Assess:
+
+Is the airway currently patent?
+
+Can the patient maintain airway patency independently?
+
+Can the patient adequately oxygenate?
+
+Can the patient adequately ventilate?
+
+Are protective airway reflexes intact?
+
+Is there evidence of impending airway deterioration?
+
+Is a basic airway intervention sufficient?
+
+Is an advanced airway intervention indicated under the applicable protocol?
+
+Airway assessment should occur immediately in patients with respiratory distress, altered mental status, trauma, cardiac arrest, or other conditions that may compromise airway patency or ventilation.
+
+3. Signs of Airway Compromise
+
+Potential findings include:
+
+Inability to speak normally
+
+Abnormal or absent air movement
+
+Gurgling
+
+Snoring respirations
+
+Stridor
+
+Severe upper-airway obstruction
+
+Blood, vomitus, secretions, or foreign material obstructing the airway
+
+Facial or airway trauma
+
+Swelling of the tongue, pharynx, or airway
+
+Burns or suspected inhalation injury
+
+Decreased level of consciousness with loss of airway tone
+
+Cyanosis or other evidence of severe hypoxemia
+
+Increasing fatigue or inability to maintain adequate ventilation
+
+A patient may initially maintain airway patency but subsequently deteriorate. Reassessment is therefore required throughout patient care.
+
+4. Airway vs. Breathing Problem
+
+Airway and breathing problems frequently occur together but should be assessed separately.
+
+Airway problem
+
+The primary problem is inability to maintain or protect a patent airway.
+
+Examples include:
+
+Tongue obstruction
+
+Secretions or blood
+
+Vomitus
+
+Foreign-body obstruction
+
+Upper-airway edema
+
+Facial or airway trauma
+
+Decreased consciousness
+
+Breathing problem
+
+The airway may be patent, but ventilation or oxygenation is inadequate.
+
+Examples include:
+
+Severe asthma
+
+COPD exacerbation
+
+Pulmonary edema
+
+Pneumonia
+
+Opioid-associated respiratory depression
+
+Neuromuscular weakness
+
+Severe metabolic illness
+
+A patient may have both an airway and breathing problem simultaneously.
+
+5. Immediate Initial Interventions
+
+When airway compromise is identified, treatment should begin while assessment continues.
+
+Potential interventions include:
+
+Positioning the patient to optimize airway patency
+
+Manual airway maneuvers
+
+Removal of visible airway obstruction when appropriate
+
+Suctioning blood, vomitus, or secretions
+
+Oropharyngeal airway when appropriate
+
+Nasopharyngeal airway when appropriate
+
+Supplemental oxygen when indicated
+
+Assisted ventilation with a bag-valve-mask when spontaneous ventilation is inadequate
+
+Noninvasive ventilation when appropriate and permitted by protocol
+
+Supraglottic airway or endotracheal airway when indicated and within provider scope
+
+Rescue airway techniques when the initial airway strategy fails
+
+The least invasive intervention that adequately maintains oxygenation and ventilation may be appropriate; the choice of intervention should depend on patient condition, clinician capability, available equipment, and applicable protocol.
+
+6. Positioning
+
+Positioning should be used to optimize airway patency, oxygenation, and ventilation while accounting for the patient's clinical condition and mechanism of injury.
+
+Consider:
+
+Head and neck position
+
+Body habitus
+
+Pregnancy
+
+Trauma considerations
+
+Cervical spine considerations
+
+Obesity
+
+Airway anatomy
+
+Respiratory distress
+
+Need for airway intervention
+
+For advanced airway management, optimizing physiology before airway insertion is important. NAEMSP recommends correcting or preventing hypoxemia and hypotension before advanced airway attempts when possible.
+
+7. Suction
+
+Suction should be immediately available when airway contamination is possible.
+
+Potential indications include:
+
+Blood
+
+Vomitus
+
+Excessive secretions
+
+Foreign material
+
+Other material interfering with ventilation or airway visualization
+
+Suction should be used when needed to maintain airway patency and facilitate effective ventilation or airway management.
+
+Repeated suctioning should not unnecessarily delay effective oxygenation and ventilation.
+
+8. Basic Airway Adjuncts
+
+Oropharyngeal Airway
+
+An OPA may be considered when loss of airway tone causes upper-airway obstruction and the patient does not have an intact gag reflex.
+
+Consider:
+
+Level of consciousness
+
+Airway reflexes
+
+Oral trauma
+
+Correct sizing
+
+Correct placement
+
+Ongoing reassessment
+
+Nasopharyngeal Airway
+
+An NPA may be considered for selected patients who require an airway adjunct but cannot tolerate an OPA.
+
+Consider:
+
+Facial trauma
+
+Suspected basilar skull injury
+
+Nasal pathology or obstruction
+
+Bleeding risk
+
+Local protocol and contraindications
+
+Exact indications, contraindications, sizing, and insertion technique should follow the applicable EMS protocol and device instructions.
+
+9. Oxygenation and Ventilation
+
+Oxygenation and ventilation are different physiologic goals.
+
+Oxygenation
+
+Oxygenation concerns the amount of oxygen available to the patient.
+
+Assessment may include:
+
+Pulse oximetry
+
+Clinical appearance
+
+Skin findings
+
+Work of breathing
+
+Mental status
+
+Ventilation
+
+Ventilation concerns removal of carbon dioxide and movement of air.
+
+Assessment may include:
+
+Respiratory rate
+
+Respiratory effort
+
+Tidal volume
+
+Chest movement
+
+Mental status
+
+End-tidal carbon dioxide when available
+
+A patient can have inadequate ventilation even when pulse oximetry appears acceptable, particularly when supplemental oxygen is being administered.
+
+10. Bag-Valve-Mask Ventilation
+
+BVM ventilation should be considered when a patient is apneic or has inadequate spontaneous ventilation.
+
+Effective BVM ventilation requires:
+
+A patent airway
+
+An adequate mask seal
+
+Appropriate positioning
+
+Appropriate ventilation technique
+
+Adequate oxygen source when available
+
+Continuous reassessment of effectiveness
+
+Signs of effective ventilation may include:
+
+Visible chest rise
+
+Improving clinical appearance
+
+Appropriate oxygenation
+
+Appropriate exhaled carbon dioxide when monitored
+
+Two-person BVM techniques may improve mask seal and ventilation effectiveness in difficult circumstances.
+
+Avoid unnecessary excessive ventilation. Ventilation should be appropriate for the patient's clinical condition and applicable protocol.
+
+11. Advanced Airway Consideration
+
+An advanced airway may be considered when basic airway interventions cannot adequately maintain:
+
+Airway patency
+
+Oxygenation
+
+Ventilation
+
+Protection from aspiration
+
+Advanced airway options may include:
+
+Supraglottic airway
+
+Endotracheal tube
+
+Drug-assisted airway management
+
+Surgical airway in appropriately indicated circumstances
+
+The decision should consider the patient's condition, anticipated clinical course, provider competency, available equipment, transport environment, and local protocol.
+
+12. Confirmation of an Advanced Airway
+
+Advanced airway placement must be confirmed using objective methods.
+
+Waveform capnography is strongly supported for initial and ongoing confirmation of advanced airway placement. NAEMSP specifically recommends initial and continuous waveform-capnography confirmation for advanced airways and emphasizes continuous monitoring after placement.
+
+Assessment may also include:
+
+Waveform capnography
+
+Chest rise
+
+Bilateral breath sounds
+
+Absence of major air leak
+
+Clinical response
+
+Other objective confirmation methods specified by local protocol
+
+A single sign should not automatically be treated as definitive confirmation when more reliable objective methods are available.
+
+13. Supraglottic Airways
+
+Supraglottic airways can function as primary or rescue airway devices depending on the EMS system and clinical circumstances.
+
+NAEMSP recommends that EMS systems using endotracheal intubation also have appropriately selected SGA devices and ensure clinician training and competency. Initial and ongoing SGA placement confirmation with waveform capnography is strongly encouraged.
+
+If an SGA is functioning effectively, conversion to an endotracheal tube should not automatically occur. The decision should account for the patient's condition, effectiveness of ventilation, and clinical circumstances.
+
+14. Endotracheal Intubation
+
+Endotracheal intubation is an advanced airway intervention requiring appropriate training, credentialing, equipment, and ongoing competency assessment.
+
+Before attempting intubation, consider:
+
+Patient physiology
+
+Oxygenation
+
+Ventilation
+
+Hemodynamics
+
+Positioning
+
+Preoxygenation
+
+Equipment readiness
+
+Backup airway strategy
+
+Number of anticipated attempts
+
+Rescue plan
+
+Airway attempts should not be allowed to cause prolonged hypoxemia or other avoidable physiologic deterioration.
+
+15. Failed Airway
+
+Every advanced airway attempt should have a predefined rescue strategy.
+
+If an advanced airway attempt fails, priorities include:
+
+Recognize failure promptly.
+
+Re-establish effective oxygenation and ventilation.
+
+Reassess the airway.
+
+Correct reversible problems.
+
+Use an alternative airway strategy when indicated.
+
+Escalate to a rescue airway when appropriate.
+
+Continue objective physiologic monitoring.
+
+Potential rescue options include:
+
+Improved BVM ventilation
+
+OPA/NPA
+
+Supraglottic airway
+
+Alternative intubation approach when appropriate
+
+Surgical airway when indicated and authorized
+
+A failed intubation does not mean that ventilation has failed. The immediate priority remains adequate oxygenation and ventilation.
+
+16. Surgical Airway
+
+A surgical airway is a rescue intervention for selected situations in which the airway cannot be adequately secured or ventilated by less invasive means.
+
+NAEMSP describes surgical airway as an important component of advanced airway algorithms and recommends that appropriately credentialed EMS systems have the capability to perform it when indicated.
+
+Indications, contraindications, equipment, technique, and credentialing requirements must come from the applicable local protocol and training program.
+
+17. Drug-Assisted Airway Management
+
+Drug-assisted airway management may be used by appropriately trained and credentialed EMS clinicians when authorized by the applicable system.
+
+Drug-assisted airway management requires:
+
+Appropriate patient selection
+
+Airway assessment
+
+Adequate preoxygenation
+
+Physiologic monitoring
+
+Appropriate medication selection
+
+Backup airway equipment
+
+Rescue-airway capability
+
+Post-airway analgesia/sedation when applicable
+
+Waveform-capnography confirmation
+
+Ongoing monitoring
+
+NAEMSP emphasizes that systems performing drug-assisted airway management should have clear guidelines, adequate training, physician oversight, and the ability to manage failed airway attempts.
+
+Medication names, concentrations, doses, contraindications, and administration procedures should be taken from the current local EMS medication/protocol documents rather than this general reference.
+
+18. Special Populations
+
+Airway management may require modified assessment and intervention in:
+
+Pediatric patients
+
+Neonates
+
+Geriatric patients
+
+Patients with obesity
+
+Pregnant patients
+
+Trauma patients
+
+Patients with facial or neck trauma
+
+Patients with burns or suspected inhalation injury
+
+Patients with severe anaphylaxis
+
+Patients with foreign-body airway obstruction
+
+These populations should have dedicated protocol documents in the Airway folder.
+
+19. Ongoing Reassessment
+
+Airway management does not end when an airway device is inserted.
+
+Continuously reassess:
+
+Airway patency
+
+Respiratory effort
+
+Chest movement
+
+Oxygen saturation
+
+End-tidal CO₂/waveform when available
+
+Breath sounds
+
+Hemodynamics
+
+Mental status
+
+Airway-device position
+
+Ventilation effectiveness
+
+Patient response
+
+Advanced airway devices can become displaced after initially successful placement. Continuous monitoring is therefore important.
+
+20. Documentation Requirements
+
+Airway documentation should include, when applicable:
+
+Initial airway assessment
+
+Initial respiratory status
+
+Oxygenation and ventilation findings
+
+Airway interventions performed
+
+Airway adjunct/device used
+
+Device size
+
+Number of attempts
+
+Time of airway placement
+
+Confirmation method
+
+Waveform capnography findings
+
+Oxygen saturation
+
+Ventilation method
+
+Complications
+
+Rescue interventions
+
+Patient response
+
+Ongoing airway reassessment
+
+Provider identification/credentialing where required
+
+21. AI Retrieval Rules
+
+When this document is used by an AI system:
+
+Priority 1 — Local protocol
+
+If a current agency, county, state, or medical-director protocol is available, use it as the controlling source for:
+
+Indications
+
+Contraindications
+
+Medication dosing
+
+Device selection
+
+Scope of practice
+
+Number of attempts
+
+Specific procedures
+
+Transport requirements
+
+Medical-control requirements
+
+Priority 2 — Current clinical guidance
+
+Use recognized EMS/medical organizations and current clinical literature for general evidence and educational context.
+
+NAEMSP maintains a dedicated collection of prehospital airway resources covering airway education, drug-assisted airway management, manual and mechanical ventilation, pediatric airway management, supraglottic airways, surgical airways, and airway physiology.
+
+Priority 3 — General medical knowledge
+
+General model knowledge should not override a specific current local protocol.
+
+When documentation is insufficient
+
+If the supplied documentation does not contain an answer, the AI should explicitly state:
+
+"The provided documentation does not contain enough information to answer this reliably."
+
+The AI should not invent a protocol, medication dose, contraindication, or scope-of-practice rule.
+
+22. Safety Rule
+
+This reference is not a substitute for current EMS protocols, medical direction, formal airway training, competency verification, or clinical judgment.
+
+When a conflict exists between this document and a current authoritative local protocol, the current authoritative protocol takes precedence.
+
+Primary References
+
+National Association of EMS Physicians (NAEMSP), Prehospital Airway Management Training and Education.
+
+NAEMSP, Prehospital Supraglottic Airways.
+
+NAEMSP, Optimizing Physiology During Prehospital Airway Management.
+
+NAEMSP, Prehospital Drug Assisted Airway Management.
+
+NAEMSP, Prehospital Surgical Airway Management.
+
+NAEMSP, Prehospital Trauma Airway Management.
+
+Document classification: General prehospital airway reference
+Protocol authority: Local EMS agency / medical director
+Review requirement: Verify against current local protocols before clinical use

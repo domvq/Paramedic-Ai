@@ -1,0 +1,1067 @@
+Cardiology Assessment and Initial Management
+
+1. Purpose
+
+This document provides a structured framework for the prehospital assessment and initial management of patients with suspected cardiovascular disease or cardiovascular instability.
+
+It is intended as a general clinical-reference document for paramedics and as a knowledge source for a documentation-grounded paramedic AI.
+
+Current local EMS protocols, medical-director orders, scope of practice, medication protocols, and applicable law take precedence over this document.
+
+The 2025 American Heart Association (AHA) Guidelines for CPR and Emergency Cardiovascular Care provide current evidence-based guidance for adult basic life support, adult advanced life support, special circumstances of resuscitation, and post-cardiac-arrest care.
+
+2. Initial Cardiovascular Assessment
+
+The initial cardiovascular assessment should rapidly determine:
+
+Is the patient in cardiac arrest?
+
+Is there a pulse?
+
+Is the patient hemodynamically stable?
+
+Is there evidence of acute coronary syndrome?
+
+Is there a significant arrhythmia?
+
+Is there evidence of heart failure or cardiogenic shock?
+
+Is there another condition causing cardiovascular instability?
+
+Does the patient require immediate intervention?
+
+Assessment should occur simultaneously with treatment when the patient is unstable.
+
+3. Primary Cardiovascular Assessment
+
+Assess:
+
+Level of consciousness
+
+Airway
+
+Breathing
+
+Circulation
+
+Central and peripheral pulses
+
+Heart rate
+
+Blood pressure
+
+Skin temperature and appearance
+
+Skin color
+
+Capillary refill when clinically useful
+
+Respiratory effort
+
+Oxygen saturation
+
+Cardiac rhythm
+
+12-lead ECG when indicated
+
+Blood glucose when clinically indicated
+
+End-tidal carbon dioxide when indicated
+
+Signs of poor perfusion
+
+Potential signs of cardiovascular instability include:
+
+Altered mental status
+
+Hypotension
+
+Severe hypertension associated with acute illness
+
+Chest pain or pressure
+
+Severe dyspnea
+
+Syncope
+
+Weak or absent peripheral pulses
+
+Cool, pale, or diaphoretic skin
+
+Pulmonary edema
+
+Cyanosis
+
+Signs of shock
+
+Severe or symptomatic bradycardia
+
+Severe or symptomatic tachycardia
+
+The 2025 AHA Adult Advanced Life Support guidelines emphasize rapid assessment of clinical stability to determine appropriate treatment in patients with life-threatening cardiovascular emergencies.
+
+4. Cardiac Arrest Recognition
+
+Cardiac arrest should be suspected in an unresponsive patient with absent or abnormal breathing and no definite pulse.
+
+Immediate priorities include:
+
+Recognition of cardiac arrest
+
+Activation of the appropriate response system
+
+High-quality CPR
+
+Rapid rhythm assessment
+
+Defibrillation when indicated
+
+Appropriate airway and ventilation management
+
+Vascular access
+
+Reversible-cause assessment
+
+Ongoing reassessment
+
+The 2025 AHA Adult BLS guidelines address recognition of cardiac arrest, high-quality CPR, and AED use.
+
+5. Cardiac Arrest Rhythms
+
+Cardiac arrest rhythms are broadly divided into:
+
+Shockable rhythms
+
+Ventricular fibrillation (VF)
+
+Pulseless ventricular tachycardia (pVT)
+
+Nonshockable rhythms
+
+Asystole
+
+Pulseless electrical activity (PEA)
+
+Treatment should follow the current cardiac-arrest algorithm and applicable local protocol.
+
+The 2025 AHA Adult Advanced Life Support guidelines specifically address VF, pVT, asystole, PEA, defibrillation, medications, vascular access, airway management, and other advanced resuscitation interventions.
+
+6. High-Quality CPR
+
+When cardiac arrest is confirmed:
+
+Begin CPR promptly.
+
+Minimize interruptions in chest compressions.
+
+Maintain appropriate compression quality.
+
+Allow appropriate chest recoil.
+
+Avoid unnecessary pauses.
+
+Use a defibrillator/AED as soon as available.
+
+Coordinate rhythm assessment and defibrillation with minimal interruption.
+
+Provide ventilation appropriate to the patient's airway and resuscitation phase.
+
+Continuously reassess for ROSC.
+
+Mechanical CPR, when available, should be used according to local protocol and system-specific indications.
+
+The 2025 AHA guidelines emphasize high-quality CPR as a core component of cardiac-arrest management.
+
+7. Defibrillation
+
+Defibrillation is indicated for appropriate shockable cardiac-arrest rhythms.
+
+Key principles include:
+
+Rapid recognition of shockable rhythm
+
+Prompt defibrillation when indicated
+
+Appropriate pad placement
+
+Safe charging and shock delivery
+
+Immediate resumption of CPR after shock when indicated
+
+Rhythm reassessment according to the resuscitation algorithm
+
+Defibrillation energy settings must follow the specific defibrillator manufacturer's instructions and current local protocol.
+
+The 2025 AHA guidelines provide updated recommendations for defibrillation and advanced life support.
+
+8. Return of Spontaneous Circulation
+
+ROSC should be suspected when there is evidence of restored circulation.
+
+Potential findings include:
+
+Palpable pulse
+
+Abrupt increase in end-tidal CO₂
+
+Spontaneous arterial pressure
+
+Improvement in skin perfusion
+
+Return of consciousness
+
+Spontaneous movement
+
+Organized cardiac activity associated with circulation
+
+ROSC should be confirmed clinically and with appropriate monitoring.
+
+A patient who achieves ROSC requires immediate transition from cardiac-arrest management to post-cardiac-arrest care.
+
+9. Post-Cardiac Arrest Care
+
+Post-cardiac-arrest care includes management of:
+
+Airway
+
+Oxygenation
+
+Ventilation
+
+Blood pressure
+
+Cardiac rhythm
+
+Neurologic status
+
+Glucose
+
+Temperature
+
+Potential coronary occlusion
+
+Reversible causes
+
+Transport to an appropriate receiving facility
+
+The 2025 AHA post-cardiac-arrest guidelines address oxygen, ventilation, blood pressure, glucose, temperature control, diagnostic testing, coronary intervention, and other components of care after ROSC.
+
+10. Pulse With an Abnormal Rhythm
+
+Patients with a pulse should be assessed for:
+
+Rate
+
+Rhythm
+
+Regularity
+
+QRS width
+
+P-wave relationship
+
+Symptoms
+
+Hemodynamic stability
+
+Underlying cause
+
+A rhythm alone should not determine treatment.
+
+Determine whether the rhythm is:
+
+Slow
+
+Normal rate
+
+Fast
+
+Then determine whether the patient is:
+
+Stable
+
+Unstable
+
+11. Bradycardia
+
+Bradycardia is a slow heart rate that may or may not produce clinical instability.
+
+Assess for:
+
+Hypotension
+
+Altered mental status
+
+Syncope or near-syncope
+
+Signs of shock
+
+Ischemic chest discomfort
+
+Acute heart failure
+
+Poor perfusion
+
+Potential causes include:
+
+Medication effects
+
+Hypoxia
+
+Acute myocardial infarction
+
+Increased vagal tone
+
+Metabolic abnormalities
+
+Electrolyte abnormalities
+
+Conduction-system disease
+
+Hypothermia
+
+Treatment should be based on the patient's clinical condition and applicable bradycardia algorithm.
+
+The 2025 AHA Adult Advanced Life Support guidelines include an adult bradycardia-with-pulse algorithm.
+
+12. Tachycardia
+
+Tachycardia should be evaluated in the context of the patient's clinical condition.
+
+Determine:
+
+Heart rate
+
+Regularity
+
+QRS width
+
+P-wave characteristics
+
+Duration
+
+Symptoms
+
+Hemodynamic stability
+
+Possible underlying cause
+
+Potential causes include:
+
+Hypovolemia
+
+Hypoxia
+
+Infection
+
+Fever
+
+Pain
+
+Anxiety
+
+Metabolic abnormalities
+
+Drug effects
+
+Acute coronary syndrome
+
+Pulmonary embolism
+
+Primary cardiac arrhythmia
+
+A rapid rhythm may be either the primary problem or a physiologic response to another illness.
+
+13. Unstable Tachyarrhythmia
+
+Signs of clinically significant instability may include:
+
+Hypotension
+
+Altered mental status
+
+Shock
+
+Ischemic chest discomfort
+
+Acute pulmonary edema or heart failure
+
+When an unstable tachyarrhythmia is identified, treatment should follow the current tachyarrhythmia algorithm and local protocol.
+
+The 2025 AHA ALS guidelines include recommendations for tachyarrhythmias and electrical cardioversion.
+
+14. 12-Lead ECG
+
+A 12-lead ECG is an important diagnostic tool for patients with suspected acute coronary syndrome and other cardiovascular conditions.
+
+When indicated, assess:
+
+Rate
+
+Rhythm
+
+P waves
+
+PR interval
+
+QRS duration
+
+QT/QTc
+
+ST-segment changes
+
+T-wave changes
+
+Q waves
+
+Axis
+
+Conduction abnormalities
+
+Compare with previous ECGs when available.
+
+The ECG should be interpreted in the context of:
+
+Patient symptoms
+
+Physical examination
+
+Medical history
+
+Vital signs
+
+Time course
+
+Previous ECGs
+
+Other diagnostic information
+
+15. Acute Coronary Syndrome
+
+Suspect acute coronary syndrome (ACS) when a patient presents with symptoms potentially caused by myocardial ischemia.
+
+Possible symptoms include:
+
+Chest pressure or discomfort
+
+Chest pain
+
+Dyspnea
+
+Diaphoresis
+
+Nausea or vomiting
+
+Syncope
+
+Upper-extremity discomfort
+
+Jaw, neck, shoulder, or back discomfort
+
+Unexplained weakness
+
+ACS can occur without classic chest pain.
+
+Risk assessment should consider patient history and associated symptoms rather than relying on a single symptom.
+
+16. ECG Findings Suggestive of Acute Coronary Occlusion
+
+Potential concerning findings include:
+
+ST-segment elevation
+
+ST-segment depression
+
+Dynamic ST changes
+
+T-wave abnormalities
+
+New conduction abnormalities
+
+Other patterns associated with acute myocardial ischemia
+
+ECG interpretation should follow current clinical guidance and local STEMI/acute coronary occlusion protocols.
+
+The prehospital system should have a defined process for ECG acquisition, interpretation, transmission when available, and destination selection.
+
+17. STEMI / Acute Coronary Occlusion
+
+When a patient has suspected acute coronary occlusion:
+
+Obtain and interpret a 12-lead ECG promptly.
+
+Repeat ECGs when clinically indicated.
+
+Compare with prior ECGs when available.
+
+Consider appropriate STEMI/PCI-center notification.
+
+Minimize delays in definitive treatment.
+
+Monitor for dysrhythmia and hemodynamic deterioration.
+
+Follow the applicable local ACS/STEMI protocol.
+
+The receiving facility and transport destination should follow local regional STEMI system requirements.
+
+18. Chest Pain Assessment
+
+Obtain a focused history including:
+
+Onset
+
+Provocation/palliation
+
+Quality
+
+Region/radiation
+
+Severity
+
+Time course
+
+Associated symptoms
+
+Previous cardiac history
+
+Previous myocardial infarction
+
+Previous coronary intervention
+
+Medications
+
+Anticoagulants
+
+Antiplatelet medications
+
+Cardiovascular risk factors
+
+Do not assume that chest pain is cardiac solely because it is present, or noncardiac solely because it is atypical.
+
+19. Heart Failure and Acute Pulmonary Edema
+
+Potential findings include:
+
+Dyspnea
+
+Orthopnea
+
+Tachypnea
+
+Hypoxemia
+
+Crackles
+
+Peripheral edema
+
+Jugular venous distention
+
+Diaphoresis
+
+Hypertension or hypotension
+
+Pink or frothy sputum in severe cases
+
+Assess:
+
+Oxygenation
+
+Ventilation
+
+Blood pressure
+
+Work of breathing
+
+Mental status
+
+ECG
+
+Signs of poor perfusion
+
+Treatment should address oxygenation, ventilation, work of breathing, and the underlying cause according to local protocol.
+
+20. Cardiogenic Shock
+
+Cardiogenic shock occurs when cardiac dysfunction results in inadequate tissue perfusion.
+
+Potential findings include:
+
+Hypotension
+
+Altered mental status
+
+Cool extremities
+
+Weak pulses
+
+Diaphoresis
+
+Oliguria when known
+
+Tachycardia or bradycardia
+
+Pulmonary edema
+
+Chest pain
+
+Elevated lactate when available
+
+Consider:
+
+Acute myocardial infarction
+
+Severe arrhythmia
+
+Mechanical cardiac complication
+
+Severe cardiomyopathy
+
+Acute valvular disease
+
+Patients with suspected cardiogenic shock require rapid identification, supportive care, appropriate monitoring, and expedited transport.
+
+21. Syncope
+
+Syncope is transient loss of consciousness caused by temporary cerebral hypoperfusion with spontaneous recovery.
+
+Evaluate for potentially serious cardiovascular causes.
+
+Concerning features include:
+
+Syncope during exertion
+
+Syncope while supine
+
+Palpitations before syncope
+
+Known structural heart disease
+
+Known arrhythmia
+
+Abnormal ECG
+
+Family history of sudden cardiac death
+
+Chest pain
+
+Dyspnea
+
+Significant trauma
+
+Persistent abnormal vital signs
+
+Obtain an ECG when clinically indicated.
+
+22. Palpitations
+
+Palpitations may result from:
+
+Sinus tachycardia
+
+Premature atrial contractions
+
+Premature ventricular contractions
+
+Supraventricular tachycardia
+
+Atrial fibrillation
+
+Atrial flutter
+
+Ventricular tachycardia
+
+Medication effects
+
+Stimulants
+
+Metabolic abnormalities
+
+Anxiety or other noncardiac causes
+
+Attempt to document the rhythm during symptoms when possible.
+
+23. Atrial Fibrillation and Atrial Flutter
+
+Atrial fibrillation and atrial flutter may present with:
+
+Palpitations
+
+Tachycardia
+
+Dyspnea
+
+Chest discomfort
+
+Weakness
+
+Dizziness
+
+Syncope
+
+No symptoms
+
+Assess:
+
+Ventricular rate
+
+Hemodynamic stability
+
+Duration when known
+
+Associated symptoms
+
+Underlying causes
+
+Anticoagulation history
+
+Relevant cardiac history
+
+Management should follow the current rhythm-management algorithm and local protocol.
+
+24. Ventricular Tachycardia
+
+Ventricular tachycardia may occur with or without a pulse.
+
+VT with a pulse
+
+Assess for:
+
+Hemodynamic instability
+
+Chest discomfort
+
+Altered mental status
+
+Hypotension
+
+Signs of shock
+
+Acute heart failure
+
+Pulseless VT
+
+Treat as a shockable cardiac-arrest rhythm.
+
+The 2025 AHA ALS guidelines specifically address ventricular arrhythmias and cardiac arrest.
+
+25. Wide-Complex Tachycardia
+
+A wide-complex tachycardia should be treated cautiously.
+
+Potential causes include:
+
+Ventricular tachycardia
+
+Supraventricular tachycardia with aberrancy
+
+Pre-excitation
+
+Electrolyte abnormalities
+
+Drug toxicity
+
+Clinical management should follow the applicable tachyarrhythmia protocol.
+
+When the origin of a potentially dangerous wide-complex rhythm is uncertain, avoid assuming that it is benign.
+
+26. Electrolyte and Metabolic Causes
+
+Cardiovascular abnormalities may result from:
+
+Hyperkalemia
+
+Hypokalemia
+
+Hypomagnesemia
+
+Hypocalcemia
+
+Hypoglycemia
+
+Hypoxia
+
+Acidosis
+
+Hypothermia
+
+Hyperthermia
+
+Consider metabolic causes when the rhythm or clinical presentation is unexplained.
+
+The 2025 AHA special-circumstances guidelines include guidance for hyperkalemia, hypothermia, hyperthermia, poisoning, and other conditions that can cause life-threatening cardiovascular instability.
+
+27. Special Cardiovascular Emergencies
+
+The cardiology folder should include dedicated references for:
+
+Acute coronary syndrome
+
+STEMI
+
+Acute coronary occlusion
+
+Cardiac arrest
+
+Bradycardia
+
+Tachycardia
+
+Ventricular tachycardia
+
+Ventricular fibrillation
+
+Atrial fibrillation
+
+Atrial flutter
+
+SVT
+
+Heart failure
+
+Cardiogenic shock
+
+Pulmonary embolism
+
+Aortic emergencies
+
+Pericardial tamponade
+
+Myocarditis
+
+Endocarditis
+
+Hypertensive emergencies
+
+Pacemaker emergencies
+
+LVAD emergencies
+
+Electrolyte-related dysrhythmias
+
+Toxicologic cardiovascular emergencies
+
+The 2025 AHA special-circumstances guidelines specifically address several cardiovascular emergencies and toxicologic conditions, including pulmonary embolism, LVAD failure, hyperkalemia, hypothermia, pregnancy, and multiple cardiac toxicities.
+
+28. Cardiovascular Monitoring
+
+Depending on patient condition and available equipment, monitoring may include:
+
+Cardiac rhythm
+
+12-lead ECG
+
+Blood pressure
+
+Pulse oximetry
+
+End-tidal CO₂
+
+Temperature
+
+Blood glucose
+
+Serial ECGs
+
+Monitoring should continue during transport and after interventions when clinically indicated.
+
+29. IV and IO Access
+
+Vascular access may be required for:
+
+Medication administration
+
+Fluid administration
+
+Blood-product administration when applicable
+
+Management of cardiac arrest
+
+Management of unstable cardiovascular conditions
+
+The choice of IV versus IO access should follow current resuscitation guidance, local protocol, patient condition, and available resources.
+
+The 2025 AHA guidelines recommend initial IV access attempts over initial IO attempts for adults in cardiac arrest when feasible, with IO access if IV attempts are unsuccessful.
+
+30. Medication Management
+
+Cardiovascular medications may include agents used for:
+
+Cardiac arrest
+
+Bradycardia
+
+Tachyarrhythmias
+
+Acute coronary syndrome
+
+Heart failure
+
+Hypertensive emergencies
+
+Shock
+
+Electrolyte abnormalities
+
+Toxicologic emergencies
+
+Medication names, concentrations, indications, contraindications, doses, infusion rates, and repeat intervals should be sourced from the current local medication protocol.
+
+This document intentionally does not provide agency-specific medication dosing.
+
+31. Reassessment
+
+Cardiovascular patients should be reassessed after every significant intervention and whenever their condition changes.
+
+Reassess:
+
+Mental status
+
+Heart rate
+
+Rhythm
+
+Blood pressure
+
+Pulse quality
+
+Respiratory status
+
+Oxygen saturation
+
+Chest pain
+
+Perfusion
+
+ECG changes
+
+Response to treatment
+
+A patient who initially appears stable may deteriorate rapidly.
+
+32. Documentation
+
+Document, when applicable:
+
+Chief complaint
+
+History of present illness
+
+Relevant cardiac history
+
+Medications
+
+Allergies
+
+Initial vital signs
+
+Cardiac rhythm
+
+12-lead ECG findings
+
+Serial ECG findings
+
+Treatments
+
+Medication administration
+
+Defibrillation/cardioversion
+
+CPR
+
+ROSC
+
+Vascular access
+
+Patient response
+
+Repeat vital signs
+
+Destination decision
+
+Medical-control consultation
+
+Changes in patient condition
+
+33. AI Retrieval Rules
+
+When this document is used by a documentation-grounded paramedic AI:
+
+Priority 1 — Current local protocol
+
+Use the current local EMS protocol as the controlling source for:
+
+Medication selection
+
+Medication dosing
+
+Defibrillation energy
+
+Cardioversion energy
+
+Pacing settings
+
+STEMI destination
+
+Medical-control requirements
+
+Termination-of-resuscitation requirements
+
+Scope of practice
+
+Transport requirements
+
+Priority 2 — Current authoritative guidelines
+
+Use current AHA/ILCOR and other recognized professional guidance for evidence-based clinical context.
+
+The 2025 AHA guidelines are organized into dedicated modules covering BLS, ALS, pediatric resuscitation, special circumstances, and post-cardiac-arrest care.
+
+Priority 3 — General medical knowledge
+
+General model knowledge should not override a current authoritative protocol.
+
+Insufficient documentation
+
+If the supplied documentation does not contain enough information to answer a question, the AI should say:
+
+"The provided documentation does not contain enough information to answer this reliably."
+
+The AI should not fabricate:
+
+Medication doses
+
+Shock energies
+
+Pacing settings
+
+STEMI criteria
+
+Destination requirements
+
+Scope-of-practice rules
+
+Termination-of-resuscitation criteria
+
+34. Safety Rule
+
+This document is a general prehospital cardiology reference and is not a replacement for current EMS protocols, medical direction, formal training, or clinical judgment.
+
+When a conflict exists between this document and a current authoritative local protocol, the current authoritative local protocol takes precedence.
+
+Primary References
+
+American Heart Association, 2025 Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care.
+
+AHA, Part 7: Adult Basic Life Support.
+
+AHA, Part 9: Adult Advanced Life Support.
+
+AHA, Part 10: Adult and Pediatric Special Circumstances of Resuscitation.
+
+AHA, Part 11: Post-Cardiac Arrest Care.
+
+Document classification: General prehospital cardiology reference
+
+Protocol authority: Local EMS agency / medical director
+
+Review requirement: Verify against current local protocols before clinical use

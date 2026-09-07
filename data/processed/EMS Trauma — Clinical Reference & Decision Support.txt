@@ -1,0 +1,1765 @@
+EMS Trauma — Clinical Reference & Decision Support
+
+1. Purpose
+
+This document provides a structured reference for the assessment and management of trauma patients in the prehospital environment.
+
+It is intended to help the AI:
+
+Recognize traumatic emergencies
+
+Identify immediate life threats
+
+Perform systematic trauma assessment
+
+Understand mechanisms of injury
+
+Recognize shock
+
+Identify major hemorrhage
+
+Recognize traumatic brain injury
+
+Assess spinal injury
+
+Recognize chest trauma
+
+Recognize abdominal and pelvic trauma
+
+Assess extremity injuries
+
+Recognize burns
+
+Identify special trauma populations
+
+Understand trauma triage and destination considerations
+
+Support trauma training and simulation
+
+Local EMS protocols, medical-director orders, and regional trauma-system requirements take precedence over this document for actual patient care.
+
+Current professional trauma resources include guidance from NAEMSP, including recent trauma resources addressing hemorrhage, traumatic cardiac arrest, spinal cord injury, pelvic injury, femoral shaft fracture, geriatric trauma, and tranexamic acid.
+
+2. Trauma Assessment Philosophy
+
+The trauma patient should be assessed according to the principle:
+
+Find and treat immediate life threats before completing the full assessment.
+
+Recommended framework:
+
+Scene safety
+
+↓
+
+Mechanism / hazards
+
+↓
+
+General impression
+
+↓
+
+Primary assessment
+
+↓
+
+Immediate life threats
+
+↓
+
+Rapid interventions
+
+↓
+
+Hemorrhage control
+
+↓
+
+Focused / rapid trauma assessment
+
+↓
+
+Vital signs
+
+↓
+
+History
+
+↓
+
+Secondary assessment
+
+↓
+
+Reassessment
+
+↓
+
+Transport / destination
+
+↓
+
+Hospital handoff
+
+3. Scene Size-Up
+
+Before approaching the patient, consider:
+
+Scene safety
+
+Number of patients
+
+Mechanism of injury
+
+Need for additional resources
+
+Need for extrication
+
+Hazmat concerns
+
+Weapons/security concerns
+
+Traffic
+
+Fire
+
+Electrical hazards
+
+Structural instability
+
+Height of fall
+
+Potential secondary injuries
+
+Need for air medical transport
+
+Need for specialized rescue
+
+The AI should never encourage providers to enter an unsafe scene.
+
+4. Mechanism of Injury
+
+Mechanism helps determine what injuries may be present, but mechanism alone should not replace patient assessment.
+
+Consider:
+
+Blunt trauma
+
+Motor vehicle collision
+
+Motorcycle collision
+
+Bicycle collision
+
+Pedestrian struck
+
+Falls
+
+Assault
+
+Crush injuries
+
+Sports injuries
+
+Penetrating trauma
+
+Gunshot wounds
+
+Stab wounds
+
+Impalement
+
+Industrial penetration
+
+Blast injury
+
+Consider:
+
+Primary blast injury
+
+Secondary blast injury
+
+Tertiary blast injury
+
+Quaternary effects
+
+Environmental trauma
+
+Burns
+
+Drowning
+
+Electrocution
+
+Lightning
+
+Extreme temperatures
+
+5. Kinematics
+
+Consider forces involved:
+
+Direction
+
+Speed
+
+Energy transfer
+
+Deceleration
+
+Rotation
+
+Compression
+
+Penetration
+
+Crush forces
+
+Potential injuries should be predicted from the mechanism and then confirmed or excluded through assessment.
+
+6. Primary Trauma Assessment
+
+The primary assessment should rapidly identify conditions that threaten life.
+
+Airway
+
+Assess:
+
+Patency
+
+Ability to protect airway
+
+Obstruction
+
+Facial trauma
+
+Blood/vomitus
+
+Dental injury
+
+Burns
+
+Swelling
+
+Neck injury
+
+Breathing
+
+Assess:
+
+Respiratory effort
+
+Rate
+
+Chest movement
+
+Lung sounds
+
+Oxygenation
+
+Ventilation
+
+Chest wall injury
+
+Open chest wounds
+
+Signs of tension physiology
+
+Circulation
+
+Assess:
+
+Major external hemorrhage
+
+Pulse
+
+Skin
+
+Perfusion
+
+Mental status
+
+Signs of shock
+
+Pelvic injury
+
+Internal hemorrhage
+
+Disability
+
+Assess:
+
+Mental status
+
+GCS when appropriate
+
+Pupils
+
+Motor function
+
+Sensory findings
+
+Focal neurologic deficits
+
+Blood glucose when indicated
+
+Exposure
+
+Expose enough to identify life-threatening injuries while preventing:
+
+Hypothermia
+
+Loss of dignity
+
+Unnecessary exposure
+
+7. Major Hemorrhage
+
+Major hemorrhage is a time-critical trauma problem.
+
+Look for:
+
+Spurting bleeding
+
+Persistent bleeding
+
+Large-volume blood loss
+
+Blood-soaked clothing
+
+Partial or complete amputation
+
+Junctional bleeding
+
+Deep wounds
+
+Pelvic injury
+
+Signs of shock
+
+Current NAEMSP guidance includes a dedicated position statement on prehospital hemorrhage control and treatment.
+
+8. Hemorrhage Control
+
+Training should cover:
+
+Direct pressure
+
+Pressure dressings
+
+Tourniquets
+
+Wound packing
+
+Hemostatic dressings when authorized
+
+Junctional hemorrhage control
+
+Reassessment
+
+The AI should always distinguish between:
+
+What is clinically appropriate
+
+and
+
+What the local EMS protocol authorizes.
+
+9. Tourniquet Training
+
+Training should cover:
+
+Indications
+
+Proper placement
+
+Tightening
+
+Confirmation of hemorrhage control
+
+Documentation
+
+Reassessment
+
+Time documentation
+
+Complications
+
+The AI should not invent a local agency's preferred tourniquet brand or protocol.
+
+10. Shock
+
+Trauma can cause multiple types of shock.
+
+Important categories include:
+
+Hemorrhagic shock
+
+Blood loss → reduced circulating volume → reduced perfusion.
+
+Obstructive shock
+
+Examples include:
+
+Tension pneumothorax
+
+Cardiac tamponade
+
+Neurogenic shock
+
+May occur with significant spinal cord injury and has a distinct physiology from hemorrhagic shock.
+
+Traumatic cardiac arrest
+
+Requires a trauma-specific approach rather than simply treating the patient as a conventional medical cardiac arrest.
+
+11. Shock Recognition
+
+Possible findings include:
+
+Altered mental status
+
+Weak or absent peripheral pulses
+
+Tachycardia
+
+Hypotension
+
+Cool skin
+
+Pale skin
+
+Delayed capillary refill
+
+Increasing respiratory rate
+
+Weakness
+
+Anxiety/restlessness
+
+Decreased urine output when known
+
+Progressive deterioration
+
+Do not rely on hypotension alone to identify shock.
+
+12. Head Trauma
+
+Assess for:
+
+Mechanism
+
+Loss of consciousness
+
+Amnesia
+
+Headache
+
+Vomiting
+
+Seizure
+
+Altered mental status
+
+GCS
+
+Pupils
+
+Motor deficits
+
+Sensory deficits
+
+Skull deformity
+
+Scalp injury
+
+Blood/fluid from ears or nose
+
+Signs of basilar skull injury
+
+Anticoagulant use when relevant
+
+Watch for deterioration.
+
+13. Traumatic Brain Injury
+
+Consider:
+
+Mild TBI
+
+Moderate TBI
+
+Severe TBI
+
+Intracranial hemorrhage
+
+Cerebral edema
+
+Herniation
+
+Secondary brain injury
+
+The AI should emphasize prevention of secondary injury through appropriate management of:
+
+Oxygenation
+
+Ventilation
+
+Perfusion
+
+Hypotension
+
+Hypoxia
+
+Specific treatment targets should come from current local protocols and applicable trauma guidance.
+
+14. Facial Trauma
+
+Assess for:
+
+Airway compromise
+
+Facial fractures
+
+Bleeding
+
+Dental injury
+
+Loose teeth
+
+Foreign bodies
+
+Eye injury
+
+Nasal injury
+
+Midface instability
+
+Mandibular injury
+
+Facial trauma can rapidly become an airway problem.
+
+15. Cervical Spine / Spinal Trauma
+
+Assess:
+
+Mechanism
+
+Neck pain
+
+Midline tenderness
+
+Neurologic symptoms
+
+Weakness
+
+Numbness
+
+Paresthesias
+
+Deformity
+
+Altered mental status
+
+Distracting injuries
+
+Current consensus uses the term spinal motion restriction (SMR) rather than implying that EMS can completely immobilize the spine. NAEMSP's published guidance identifies factors including altered consciousness, midline neck/back pain or tenderness, focal neurologic findings, spinal deformity, and distracting injuries as indications in blunt trauma.
+
+Important: Your AI should use the patient's actual local trauma/SMR protocol when deciding whether SMR is indicated.
+
+16. Chest Trauma
+
+Consider:
+
+Rib fractures
+
+Flail chest
+
+Pneumothorax
+
+Tension pneumothorax
+
+Hemothorax
+
+Open pneumothorax
+
+Pulmonary contusion
+
+Cardiac injury
+
+Pericardial tamponade
+
+Aortic injury
+
+Assess:
+
+Chest symmetry
+
+Work of breathing
+
+Lung sounds
+
+Chest wall tenderness
+
+Crepitus
+
+Penetrating wounds
+
+Distended neck veins when relevant
+
+Tracheal position when relevant
+
+Oxygenation
+
+Ventilation
+
+17. Open Chest Wounds
+
+Assess:
+
+Location
+
+Size
+
+Air movement
+
+Bleeding
+
+Respiratory compromise
+
+Treatment should follow the current local trauma protocol.
+
+The AI should not invent dressing types, timing, or management requirements.
+
+18. Abdominal Trauma
+
+Consider:
+
+Solid-organ injury
+
+Hollow-organ injury
+
+Internal hemorrhage
+
+Penetrating injury
+
+Blunt injury
+
+Evisceration
+
+Assess:
+
+Pain
+
+Tenderness
+
+Guarding
+
+Rigidity
+
+Distention
+
+Bruising
+
+Penetrating wounds
+
+Evisceration
+
+Referred pain
+
+A patient can have significant internal injury despite minimal early external findings.
+
+19. Pelvic Trauma
+
+Consider significant pelvic injury with mechanisms such as:
+
+High-energy collision
+
+Crush injury
+
+Significant fall
+
+Pedestrian impact
+
+Look for:
+
+Pelvic pain
+
+Instability when clinically appropriate
+
+Lower abdominal pain
+
+Perineal bruising
+
+Leg-length abnormalities
+
+Shock
+
+Associated injuries
+
+Avoid unnecessary repeated manipulation of a potentially unstable pelvis.
+
+NAEMSP published a dedicated resource on suspected pelvic fractures in 2025.
+
+20. Genitourinary Trauma
+
+Assess for:
+
+Blood at urethral opening
+
+Hematuria
+
+Scrotal injury
+
+Penile injury
+
+Perineal injury
+
+Flank trauma
+
+Do not allow the AI to recommend invasive urinary procedures when contraindications are present.
+
+21. Extremity Trauma
+
+Assess:
+
+Deformity
+
+Open wounds
+
+Bleeding
+
+Pulse
+
+Motor function
+
+Sensory function
+
+Skin color
+
+Temperature
+
+Capillary refill
+
+Distal perfusion
+
+Document neurovascular status:
+
+Before intervention → after intervention → during reassessment.
+
+22. Fractures
+
+Training should cover:
+
+Closed fracture
+
+Open fracture
+
+Angulated fracture
+
+Displaced fracture
+
+Long-bone fracture
+
+Femur fracture
+
+Pelvic fracture
+
+Assess for:
+
+Bleeding
+
+Deformity
+
+Neurovascular compromise
+
+Compartment syndrome
+
+Associated injuries
+
+23. Splinting
+
+Training should include:
+
+Appropriate equipment
+
+Positioning
+
+Neurovascular assessment
+
+Splint application
+
+Reassessment
+
+Pain considerations
+
+Complications
+
+The AI should follow the local protocol for:
+
+Traction splints
+
+Specific fracture types
+
+Pelvic binders
+
+Spinal motion restriction
+
+Special populations
+
+24. Amputation
+
+Assess:
+
+Complete vs partial amputation
+
+Hemorrhage
+
+Mechanism
+
+Associated injuries
+
+Shock
+
+Contamination
+
+Preserve amputated tissue according to current clinical guidance and local protocol.
+
+The AI should not invent a preservation method if the applicable agency protocol is unavailable.
+
+25. Crush Injury
+
+Consider:
+
+Prolonged entrapment
+
+Muscle injury
+
+Rhabdomyolysis
+
+Hyperkalemia
+
+Shock
+
+Compartment syndrome
+
+Reperfusion-related deterioration
+
+Crush patients may deteriorate during or after extrication.
+
+26. Burns
+
+Classify burns by:
+
+Mechanism
+
+Depth
+
+Surface area
+
+Location
+
+Associated trauma
+
+Inhalation injury
+
+Chemical exposure
+
+Electrical exposure
+
+Important locations include:
+
+Face
+
+Neck
+
+Hands
+
+Feet
+
+Genitals
+
+Major joints
+
+Circumferential burns
+
+27. Thermal Burns
+
+Assess:
+
+Burn size
+
+Depth
+
+Airway
+
+Respiratory status
+
+Associated trauma
+
+Shock
+
+Hypothermia
+
+The AI should distinguish between burn treatment and trauma treatment when both are present.
+
+28. Inhalation Injury
+
+Consider with:
+
+Enclosed-space fire
+
+Facial burns
+
+Soot
+
+Hoarseness
+
+Stridor
+
+Carbonaceous sputum
+
+Respiratory distress
+
+Altered mental status
+
+Airway edema can progress over time.
+
+29. Chemical Burns
+
+Training should address:
+
+Scene safety
+
+Decontamination
+
+Removal of contaminated clothing
+
+Eye exposure
+
+Respiratory exposure
+
+Chemical identification when safely available
+
+Poison-control resources when appropriate
+
+Specific decontamination procedures should follow the substance-specific guidance and local protocol.
+
+30. Electrical Injury
+
+Consider:
+
+Entry wound
+
+Exit wound
+
+Internal injury
+
+Dysrhythmia
+
+Burns
+
+Neurologic injury
+
+Blast/throw injury
+
+Secondary trauma
+
+Lightning injuries require additional considerations.
+
+31. Pediatric Trauma
+
+Pediatric trauma requires consideration of:
+
+Age
+
+Weight
+
+Anatomy
+
+Development
+
+Mechanism
+
+Vital signs appropriate for age
+
+Airway size
+
+Medication dosing
+
+Equipment size
+
+Abuse/neglect
+
+The AI should never automatically apply adult trauma thresholds to children.
+
+32. Geriatric Trauma
+
+Older adults may have serious injury with apparently minor mechanisms.
+
+Consider:
+
+Anticoagulants
+
+Antiplatelet medications
+
+Osteoporosis
+
+Frailty
+
+Baseline cognitive impairment
+
+Implanted devices
+
+Delayed physiologic deterioration
+
+NAEMSP currently lists a dedicated 2025 resource on management of geriatric trauma patients.
+
+33. Pregnancy and Trauma
+
+Consider both:
+
+Mother
+
+and
+
+Fetus.
+
+Assess:
+
+Mechanism
+
+Gestational age
+
+Maternal injuries
+
+Bleeding
+
+Abdominal trauma
+
+Contractions
+
+Fetal movement when appropriate
+
+Shock
+
+Maternal stabilization is a major priority.
+
+34. Special Trauma Considerations
+
+Maintain separate references for:
+
+Pediatric trauma
+
+Geriatric trauma
+
+Pregnancy
+
+Bariatric patients
+
+Anticoagulated patients
+
+Patients with disabilities
+
+Patients with implanted medical devices
+
+Penetrating trauma
+
+Burns
+
+Crush injuries
+
+Mass-casualty incidents
+
+35. Trauma Triage
+
+Trauma triage should consider:
+
+Physiologic criteria
+
+Anatomic injuries
+
+Mechanism
+
+Special considerations
+
+Age
+
+Resources
+
+Trauma-center capability
+
+Destination criteria must come from the applicable regional trauma system.
+
+The AI should never invent a trauma-center destination.
+
+36. Trauma Transport
+
+The AI should consider:
+
+Patient stability
+
+Time-sensitive injuries
+
+Trauma-center availability
+
+Transport time
+
+Need for specialty care
+
+Need for air medical transport
+
+Local trauma-system criteria
+
+If local destination criteria are not in the documentation:
+
+"The applicable trauma destination criteria are not present in the supplied documentation."
+
+37. Reassessment
+
+Trauma patients require repeated reassessment.
+
+Repeat:
+
+Airway
+
+Breathing
+
+Circulation
+
+Hemorrhage
+
+Mental status
+
+Vital signs
+
+Neurovascular status
+
+Pain
+
+Treatment response
+
+A stable trauma patient can become unstable.
+
+38. Secondary Trauma Survey
+
+A systematic head-to-toe assessment may include:
+
+Head
+
+Scalp
+
+Skull
+
+Face
+
+Eyes
+
+Ears
+
+Nose
+
+Mouth
+
+Neck
+
+Cervical tenderness
+
+Deformity
+
+Vascular findings
+
+Chest
+
+Inspection
+
+Palpation
+
+Auscultation
+
+Abdomen
+
+Inspection
+
+Palpation
+
+Distention
+
+Tenderness
+
+Pelvis
+
+Injury findings
+
+Bleeding
+
+Extremities
+
+Deformity
+
+Pulses
+
+Motor
+
+Sensory
+
+Posterior
+
+Assess when appropriate and when it can be done safely.
+
+39. Trauma History
+
+Use a structured history.
+
+SAMPLE
+
+Signs/symptoms
+
+Allergies
+
+Medications
+
+Past medical history
+
+Last oral intake
+
+Events leading to injury
+
+OPQRST
+
+For pain/symptom assessment:
+
+Onset
+
+Provocation/Palliation
+
+Quality
+
+Region/Radiation
+
+Severity
+
+Time
+
+40. Trauma Documentation
+
+Document:
+
+Mechanism
+
+Time of injury when known
+
+Findings
+
+Vital signs
+
+GCS when applicable
+
+Injuries
+
+Hemorrhage
+
+Neurovascular status
+
+Interventions
+
+Medication
+
+Response
+
+Reassessment
+
+Transport
+
+Destination
+
+Medical control
+
+Handoff
+
+41. Trauma AI Decision Framework
+
+When a user presents a trauma scenario, the AI should reason through:
+
+1. Is the scene safe?
+
+↓
+
+2. Is there catastrophic hemorrhage?
+
+↓
+
+3. Is the airway threatened?
+
+↓
+
+4. Is ventilation adequate?
+
+↓
+
+5. Is there a life-threatening chest injury?
+
+↓
+
+6. Is perfusion adequate?
+
+↓
+
+7. Is there neurologic compromise?
+
+↓
+
+8. What is the mechanism?
+
+↓
+
+9. What injuries are suspected?
+
+↓
+
+10. What interventions are authorized?
+
+↓
+
+11. Did the patient respond?
+
+↓
+
+12. Where should the patient go?
+
+42. Trauma Protocol Integration
+
+Every trauma reference should link to the corresponding protocol.
+
+Example:
+
+Trauma Reference
+
+↓
+
+Trauma Protocol
+
+↓
+
+Medication Protocol
+
+↓
+
+Airway Protocol
+
+↓
+
+Cardiology Protocol
+
+↓
+
+Transport/Destination Protocol
+
+This allows the AI to separate:
+
+Clinical knowledge
+
+from
+
+Operational authorization.
+
+43. Trauma Training Mode
+
+If the user says:
+
+"Give me a trauma scenario."
+
+The AI should provide:
+
+Dispatch
+
+Scene
+
+Mechanism
+
+Initial appearance
+
+Initial vital signs
+
+Findings available on assessment
+
+Patient responses
+
+Deterioration if appropriate
+
+The AI should not immediately reveal the diagnosis.
+
+44. Trauma Quiz Mode
+
+Questions can test:
+
+Mechanism
+
+Assessment
+
+Hemorrhage
+
+Shock
+
+Airway
+
+Chest trauma
+
+Head trauma
+
+Spine
+
+Abdomen
+
+Pelvis
+
+Extremities
+
+Burns
+
+Pediatric trauma
+
+Geriatric trauma
+
+Trauma destination
+
+45. Trauma Scenario Progression
+
+Example:
+
+MVC
+
+↓
+
+Initial assessment
+
+↓
+
+Learner identifies major hemorrhage
+
+↓
+
+Treatment
+
+↓
+
+Reassessment
+
+↓
+
+Patient improves / deteriorates
+
+↓
+
+New finding
+
+↓
+
+Learner reassesses
+
+↓
+
+Transport decision
+
+↓
+
+Hospital handoff
+
+↓
+
+Debrief
+
+The AI should modify the scenario according to the learner's actions.
+
+46. Critical Trauma Errors
+
+Training scenarios should identify potentially serious errors such as:
+
+Failure to identify catastrophic hemorrhage
+
+Failure to recognize airway compromise
+
+Failure to recognize respiratory failure
+
+Failure to recognize tension physiology
+
+Failure to recognize shock
+
+Failure to reassess
+
+Failure to identify neurologic deterioration
+
+Failure to recognize major pelvic injury
+
+Incorrect medication
+
+Incorrect procedure
+
+Failure to consider hypothermia
+
+Failure to transport an unstable patient appropriately
+
+47. Trauma AI Safety Rules
+
+The AI must never:
+
+Invent trauma protocols
+
+Invent trauma-center criteria
+
+Invent medication doses
+
+Invent scope of practice
+
+Invent medical-control requirements
+
+Assume all trauma requires spinal immobilization
+
+Assume mechanism alone determines treatment
+
+Treat training material as operational authorization
+
+Ignore pediatric differences
+
+Ignore geriatric differences
+
+Ignore pregnancy
+
+Claim a patient is stable without adequate assessment
+
+48. Conflicting Sources
+
+If two trauma documents conflict:
+
+Identify both documents.
+
+Compare versions and dates.
+
+Determine whether one is local protocol and one is educational guidance.
+
+Use the current operational protocol for field care.
+
+Flag unresolved conflicts.
+
+Example:
+
+"The supplied trauma reference and current local protocol differ on this point. For an actual patient encounter, the current local protocol should control."
+
+49. Recommended Trauma Folder Structure
+
+Trauma/
+
+│
+
+├── 00_Trauma_Index/
+
+│   ├── Trauma_Index.pdf
+
+│   ├── Trauma_Assessment_Framework.pdf
+
+│   └── Trauma_Version_History.pdf
+
+│
+
+├── 01_Trauma_Assessment/
+
+│   ├── Primary_Assessment.pdf
+
+│   ├── Secondary_Assessment.pdf
+
+│   ├── Head_to_Toe.pdf
+
+│   └── Trauma_History.pdf
+
+│
+
+├── 02_Hemorrhage/
+
+│   ├── Hemorrhage_Control.pdf
+
+│   ├── Tourniquets.pdf
+
+│   ├── Wound_Packing.pdf
+
+│   └── Hemorrhagic_Shock.pdf
+
+│
+
+├── 03_Airway/
+
+│   ├── Facial_Trauma.pdf
+
+│   ├── Airway_Trauma.pdf
+
+│   └── Difficult_Trauma_Airway.pdf
+
+│
+
+├── 04_Chest/
+
+│   ├── Pneumothorax.pdf
+
+│   ├── Hemothorax.pdf
+
+│   ├── Flail_Chest.pdf
+
+│   ├── Open_Chest_Wound.pdf
+
+│   └── Cardiac_Trauma.pdf
+
+│
+
+├── 05_Head/
+
+│   ├── TBI.pdf
+
+│   ├── Concussion.pdf
+
+│   ├── Intracranial_Hemorrhage.pdf
+
+│   └── Facial_Trauma.pdf
+
+│
+
+├── 06_Spine/
+
+│   ├── Spinal_Injury.pdf
+
+│   ├── Spinal_Motion_Restriction.pdf
+
+│   └── Neuro_Assessment.pdf
+
+│
+
+├── 07_Abdomen_Pelvis/
+
+│   ├── Abdominal_Trauma.pdf
+
+│   ├── Pelvic_Trauma.pdf
+
+│   └── GU_Trauma.pdf
+
+│
+
+├── 08_Extremities/
+
+│   ├── Fractures.pdf
+
+│   ├── Dislocations.pdf
+
+│   ├── Amputations.pdf
+
+│   ├── Crush_Injuries.pdf
+
+│   └── Compartment_Syndrome.pdf
+
+│
+
+├── 09_Burns/
+
+│   ├── Thermal_Burns.pdf
+
+│   ├── Chemical_Burns.pdf
+
+│   ├── Electrical_Injury.pdf
+
+│   └── Inhalation_Injury.pdf
+
+│
+
+├── 10_Shock/
+
+│   ├── Hemorrhagic_Shock.pdf
+
+│   ├── Obstructive_Shock.pdf
+
+│   └── Traumatic_Cardiac_Arrest.pdf
+
+│
+
+├── 11_Special_Populations/
+
+│   ├── Pediatric_Trauma.pdf
+
+│   ├── Geriatric_Trauma.pdf
+
+│   ├── Pregnancy_Trauma.pdf
+
+│   └── Bariatric_Trauma.pdf
+
+│
+
+├── 12_Trauma_Triage/
+
+│   ├── Trauma_Triage.pdf
+
+│   ├── Trauma_Destination.pdf
+
+│   └── Air_Medical_Criteria.pdf
+
+│
+
+├── 13_Trauma_Scenarios/
+
+│   ├── Basic/
+
+│   ├── Intermediate/
+
+│   ├── Advanced/
+
+│   └── Critical/
+
+│
+
+├── 14_Trauma_Protocols/
+
+│   └── [Current Local Trauma Protocols]
+
+│
+
+└── 99_Archived/
+
+50. Recommended Source Material
+
+For your actual Trauma folder, I would prioritize current, authoritative documents rather than filling it with random EMS websites.
+
+Useful categories include:
+
+Local EMS trauma protocols
+
+Regional trauma-system guidelines
+
+State EMS protocols
+
+Medical-director policies
+
+Current trauma-system triage criteria
+
+NAEMSP trauma position statements
+
+ACS Committee on Trauma resources
+
+Relevant peer-reviewed trauma literature
+
+NAEMSP's current trauma collection is particularly useful because it includes recent resources on traumatic cardiac arrest, spinal cord injuries, pelvic fractures, femoral shaft fractures, geriatric trauma, hemorrhage control, and TXA.
+
+51. Final Trauma AI Rule
+
+When presented with a trauma patient, the AI should prioritize:
+
+Safety → Catastrophic hemorrhage → Airway → Breathing → Circulation → Neurologic status → Exposure → Reassessment → Transport
+
+Then:
+
+Retrieve the applicable local protocol.
+
+The AI should explain its clinical reasoning, but it must clearly distinguish general trauma knowledge from the actual protocol governing the paramedic's practice.
+
+Document classification: EMS Trauma Clinical Reference
+
+Primary operational authority: Current local EMS protocol / medical director / regional trauma system
+
+Primary educational purpose: Assessment, recognition, clinical reasoning, training, and simulation
+
+Safety principle: When the applicable local trauma protocol is unavailable, the AI must say so rather than inventing operational instructions.

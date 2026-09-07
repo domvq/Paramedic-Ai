@@ -1,0 +1,1317 @@
+EMS Protocols — Protocol Management and Clinical Decision Reference
+
+1. Purpose
+
+This document defines how EMS protocols should be organized, interpreted, prioritized, and presented by a documentation-grounded paramedic AI.
+
+The purpose is to ensure that the AI answers clinical questions using the current authoritative protocol rather than relying on general medical knowledge when a local protocol is available.
+
+Protocols may define:
+
+Scope of practice
+
+Indications
+
+Contraindications
+
+Assessment requirements
+
+Treatment decisions
+
+Medication administration
+
+Procedures
+
+Destination decisions
+
+Medical-control requirements
+
+Transport requirements
+
+Termination of resuscitation
+
+Special populations
+
+Documentation requirements
+
+The current authoritative local EMS protocol takes precedence over general educational material when the two differ.
+
+2. Protocol Authority
+
+The AI should identify the authority of every protocol document.
+
+Recommended authority hierarchy:
+
+Current agency/medical-director protocol
+
+Current county/regional EMS protocol
+
+Current state EMS protocol
+
+Current system-approved medication/formulary documents
+
+Current manufacturer instructions when relevant
+
+Current national clinical guidelines
+
+General medical references
+
+General model knowledge
+
+The exact hierarchy may vary by jurisdiction.
+
+If the agency explicitly states that a regional or state protocol supersedes an agency document, the AI should follow that documented hierarchy.
+
+3. Protocol Metadata
+
+Every protocol document should contain metadata.
+
+Recommended fields:
+
+Protocol Name:
+
+Protocol Number:
+
+Protocol Category:
+
+Provider Level:
+
+Agency:
+
+Medical Director:
+
+Jurisdiction:
+
+Version:
+
+Effective Date:
+
+Review Date:
+
+Expiration Date:
+
+Supersedes:
+
+Superseded By:
+
+Authority:
+
+Source:
+
+Status:
+
+Status values
+
+Use standardized values:
+
+CURRENT
+
+PENDING
+
+SUPERSEDED
+
+EXPIRED
+
+DRAFT
+
+UNKNOWN
+
+The AI should prefer CURRENT documents.
+
+4. Protocol Version Control
+
+Protocol documents should never be treated as interchangeable.
+
+If multiple versions exist:
+
+Identify the effective date.
+
+Identify the version number.
+
+Determine which document is current.
+
+Determine whether the older document has been superseded.
+
+Use the current document.
+
+Retain older versions for historical reference only.
+
+The AI should never combine treatment instructions from different protocol versions unless the user explicitly asks for historical comparison.
+
+5. Protocol Conflict Resolution
+
+If two protocols contain conflicting instructions:
+
+Step 1
+
+Determine whether they apply to different:
+
+Provider levels
+
+Patient populations
+
+Clinical conditions
+
+Locations
+
+Transport situations
+
+Medical-control circumstances
+
+Step 2
+
+Check effective dates.
+
+Step 3
+
+Determine which document has higher authority.
+
+Step 4
+
+Use the current authoritative document.
+
+Step 5
+
+If the conflict cannot be resolved, explicitly identify the conflict.
+
+Recommended AI response:
+
+"The provided protocol documents contain conflicting instructions. I cannot determine which instruction is currently authoritative from the available documentation."
+
+The AI should never silently choose one conflicting protocol.
+
+6. Protocol Categories
+
+The Protocols folder should contain dedicated sections for:
+
+Airway
+
+Cardiology
+
+Cardiac Arrest
+
+Respiratory
+
+Medical
+
+Neurologic
+
+Trauma
+
+Pediatrics
+
+Neonatal
+
+Obstetrics
+
+Gynecology
+
+Toxicology
+
+Environmental
+
+Behavioral
+
+Pain Management
+
+Sedation
+
+Medication
+
+Shock
+
+Stroke
+
+Sepsis
+
+Burns
+
+Hazmat
+
+Mass Casualty
+
+Special Operations
+
+Refusal
+
+Transport
+
+Destination
+
+Medical Control
+
+Termination of Resuscitation
+
+Death/Pronouncement
+
+Documentation
+
+Quality Assurance
+
+The exact categories should match the agency's actual protocol system.
+
+7. Provider-Level Restrictions
+
+Protocols may differ according to provider level.
+
+Examples:
+
+EMR
+
+EMT
+
+Advanced EMT
+
+Paramedic
+
+Critical Care Paramedic
+
+Flight Paramedic
+
+Specialty providers
+
+The AI must identify the provider level before giving instructions when the intervention is scope-dependent.
+
+If the provider level is unknown, the AI should ask for clarification when necessary.
+
+Example:
+
+"What provider level are you practicing under?"
+
+8. Standing Orders vs Medical Control
+
+Protocols should clearly distinguish:
+
+Standing order
+
+An intervention authorized without contacting medical control when the specified protocol criteria are met.
+
+Online medical control
+
+An intervention requiring communication with an authorized physician or medical-control facility.
+
+Consultation
+
+A situation in which medical control may be contacted for guidance even if not explicitly required.
+
+The AI should never tell a paramedic that an intervention is a standing order unless the protocol explicitly authorizes it.
+
+9. Indications
+
+Each protocol should clearly identify its indications.
+
+The AI should determine:
+
+Does the patient meet the stated criteria?
+
+Are required findings present?
+
+Is the patient in the correct population?
+
+Is the intervention permitted for the provider level?
+
+Are there exclusion criteria?
+
+The AI should not infer an indication solely from the medication or procedure name.
+
+10. Contraindications
+
+Protocols should distinguish:
+
+Absolute contraindications
+
+The intervention should not be performed.
+
+Relative contraindications
+
+The intervention may require additional assessment, risk-benefit consideration, or medical control.
+
+Precautions
+
+Additional monitoring or caution is required.
+
+The AI should preserve the distinction made by the protocol.
+
+11. Clinical Decision Algorithms
+
+Whenever possible, protocol documents should use structured decision pathways.
+
+Example:
+
+Patient presents with suspected ACS
+
+↓
+
+Initial assessment
+
+↓
+
+Obtain 12-lead ECG when indicated
+
+↓
+
+Evaluate for STEMI/acute coronary occlusion criteria
+
+↓
+
+Does patient meet protocol criteria?
+
+↓
+
+YES ─────────────── NO
+
+↓                    ↓
+
+Begin ACS protocol    Continue appropriate evaluation
+
+↓
+
+Determine destination
+
+↓
+
+Medical control if required
+
+Decision trees make protocols easier for both clinicians and retrieval systems to interpret.
+
+12. Medication Protocols
+
+Medication protocols should specify:
+
+Medication
+
+Indication
+
+Contraindications
+
+Dose
+
+Concentration
+
+Route
+
+Administration rate
+
+Repeat dose
+
+Maximum dose
+
+Pediatric dose
+
+Required monitoring
+
+Medical-control requirements
+
+Medication information should be linked to the Medication folder.
+
+The protocol should remain the controlling source for what the paramedic is authorized to administer and under what circumstances.
+
+13. Procedure Protocols
+
+Procedure protocols should identify:
+
+Indication
+
+Contraindications
+
+Required equipment
+
+Preparation
+
+Procedure
+
+Confirmation
+
+Complications
+
+Rescue strategy
+
+Monitoring
+
+Documentation
+
+Medical-control requirements
+
+Examples include:
+
+Airway management
+
+Supraglottic airway
+
+Endotracheal intubation
+
+IV access
+
+IO access
+
+Cardioversion
+
+Defibrillation
+
+Transcutaneous pacing
+
+Needle decompression
+
+Hemorrhage control
+
+Medication administration
+
+14. Assessment Requirements
+
+Protocols may require specific assessment before treatment.
+
+Examples:
+
+Vital signs
+
+Blood glucose
+
+ECG
+
+SpO₂
+
+EtCO₂
+
+Neurologic assessment
+
+Stroke scale
+
+Pain score
+
+Pregnancy status
+
+Temperature
+
+Weight
+
+The AI should identify required assessments before recommending protocol treatment.
+
+15. Treatment Sequence
+
+When a protocol provides a sequence, the AI should preserve that sequence.
+
+Example:
+
+Assessment
+
+↓
+
+Immediate life threat
+
+↓
+
+Initial intervention
+
+↓
+
+Reassessment
+
+↓
+
+Second-line intervention
+
+↓
+
+Reassessment
+
+↓
+
+Medical control if indicated
+
+↓
+
+Transport
+
+The AI should not rearrange protocol steps unless there is a documented reason or the user asks for an explanation.
+
+16. Reassessment Requirements
+
+Protocols should identify when reassessment is required.
+
+Reassessment may include:
+
+Vital signs
+
+Cardiac rhythm
+
+Respiratory status
+
+Mental status
+
+Pain
+
+Oxygenation
+
+Perfusion
+
+Medication response
+
+Procedure effectiveness
+
+After an intervention, the AI should retrieve the reassessment requirements associated with that intervention.
+
+17. Transport and Destination Protocols
+
+Create dedicated protocols for:
+
+STEMI
+
+Stroke
+
+Trauma
+
+Pediatric specialty centers
+
+Burn centers
+
+Poison centers
+
+Cardiac centers
+
+Obstetric emergencies
+
+Behavioral emergencies
+
+Specialty hospitals
+
+Destination recommendations should be based on the current regional transport system, not general medical knowledge.
+
+The AI should never invent a destination requirement.
+
+18. Medical Control
+
+Medical-control protocols should specify:
+
+When contact is mandatory
+
+When contact is optional
+
+What information must be provided
+
+What orders may be requested
+
+How orders should be documented
+
+What happens if medical control is unavailable
+
+When a protocol requires medical control, the AI should clearly state:
+
+"Medical control is required under the supplied protocol."
+
+It should not imply that the AI itself can provide medical direction.
+
+19. Refusal of Care
+
+The refusal protocol should address:
+
+Patient capacity
+
+Risks and benefits
+
+Alternative options
+
+Assessment
+
+Medical-control consultation
+
+Documentation
+
+Witness requirements
+
+Special considerations
+
+Minors
+
+Intoxication
+
+Altered mental status
+
+The AI should defer to the current jurisdiction-specific refusal protocol.
+
+20. Termination of Resuscitation
+
+Termination-of-resuscitation criteria must be treated as strict protocol criteria.
+
+The AI should identify:
+
+Patient population
+
+Required circumstances
+
+Required interventions
+
+Required time/assessment criteria
+
+Medical-control requirements
+
+Exclusions
+
+Documentation requirements
+
+The AI should never create or infer termination criteria from general knowledge.
+
+If the applicable protocol is not available, the AI should state that the criteria cannot be determined from the provided documentation.
+
+21. Special Populations
+
+Protocols should have dedicated sections for:
+
+Pediatrics
+
+Neonates
+
+Pregnancy
+
+Geriatrics
+
+Bariatric patients
+
+Patients with congenital heart disease
+
+Patients with implanted devices
+
+Patients with LVADs
+
+Patients with tracheostomies
+
+Patients with dialysis access
+
+Patients with complex medical needs
+
+The AI should retrieve the special-population protocol whenever applicable.
+
+22. Pediatric Protocols
+
+Pediatric protocols should be kept separate from adult protocols.
+
+They should specify:
+
+Age range
+
+Weight requirements
+
+Weight-based medication dosing
+
+Maximum doses
+
+Equipment sizing
+
+Vital-sign thresholds
+
+Defibrillation
+
+Cardioversion
+
+Fluid therapy
+
+Airway management
+
+Transport requirements
+
+The AI should not automatically apply adult protocols to pediatric patients.
+
+23. Neonatal Protocols
+
+Newborn-at-birth care should have a separate neonatal protocol section.
+
+Include:
+
+Initial newborn assessment
+
+Initial steps
+
+Positive-pressure ventilation
+
+Chest compressions
+
+Oxygen
+
+Medication
+
+Umbilical access
+
+Temperature management
+
+Post-resuscitation care
+
+Neonatal transport
+
+The neonatal section should use current neonatal resuscitation guidance and local neonatal protocols.
+
+24. Obstetric Protocols
+
+Include dedicated protocols for:
+
+Normal delivery
+
+Complicated delivery
+
+Breech presentation
+
+Shoulder dystocia
+
+Postpartum hemorrhage
+
+Eclampsia
+
+Preeclampsia
+
+Placental complications
+
+Prolapsed cord
+
+Neonatal resuscitation
+
+Maternal cardiac arrest
+
+Pregnancy should be treated as a special population rather than simply applying standard adult protocols.
+
+25. Trauma Protocols
+
+Trauma protocols should address:
+
+Hemorrhage
+
+Airway
+
+Breathing
+
+Shock
+
+Head injury
+
+Spinal injury
+
+Chest trauma
+
+Abdominal trauma
+
+Pelvic trauma
+
+Burns
+
+Amputation
+
+Crush injury
+
+Penetrating trauma
+
+Pediatric trauma
+
+Destination
+
+Trauma destination requirements should come from the local trauma system.
+
+26. Stroke Protocol
+
+The stroke protocol should specify:
+
+Stroke recognition
+
+Last-known-well time
+
+Stroke scale
+
+Blood glucose
+
+Anticoagulant history
+
+Neurologic findings
+
+Large-vessel-occlusion considerations
+
+Destination
+
+Pre-arrival notification
+
+Transport requirements
+
+The AI should distinguish:
+
+Last known well
+
+from
+
+Time symptoms were discovered.
+
+These are not necessarily the same.
+
+27. Sepsis Protocol
+
+The sepsis protocol should identify:
+
+Screening criteria
+
+Suspected source
+
+Vital-sign abnormalities
+
+Perfusion findings
+
+Lactate requirements when applicable
+
+Fluid strategy
+
+Vasopressor strategy
+
+Antibiotic considerations when within EMS scope
+
+Destination
+
+Medical control
+
+The AI should use the current local sepsis protocol rather than generating its own sepsis criteria.
+
+28. Protocol Documentation
+
+Every protocol-related clinical encounter should document applicable:
+
+Protocol used
+
+Patient findings
+
+Indications
+
+Treatments
+
+Medication administration
+
+Procedures
+
+Reassessment
+
+Medical-control contact
+
+Orders received
+
+Destination
+
+Patient response
+
+29. Protocol Search Rules for the AI
+
+When a user asks:
+
+"What does my protocol say?"
+
+The AI should:
+
+Identify the clinical condition.
+
+Identify patient age.
+
+Identify provider level when relevant.
+
+Identify jurisdiction/agency when relevant.
+
+Retrieve the current protocol.
+
+Verify protocol status.
+
+Use the applicable section.
+
+Quote or summarize the relevant instruction.
+
+Identify the protocol name/version.
+
+Identify uncertainty if information is missing.
+
+30. Protocol-First Answering
+
+If a current protocol is available, the AI should answer from that protocol first.
+
+Recommended format:
+
+Protocol: Adult Cardiac Arrest
+Version: 2026.1
+Applicable to: Paramedic
+
+Protocol says: [concise summary]
+
+Key conditions: [criteria]
+
+Next step: [protocol-directed action]
+
+Source: [document name/section]
+
+This makes the AI's answer auditable.
+
+31. Source Citations
+
+Every protocol-derived answer should identify its source.
+
+Preferred citation fields:
+
+Protocol name
+
+Protocol number
+
+Version
+
+Effective date
+
+Page
+
+Section
+
+Document filename
+
+Example:
+
+Source:
+
+Sacramento County EMS
+
+Adult Cardiac Arrest Protocol
+
+Version 2026.1
+
+Section 4.2
+
+Page 17
+
+The AI should avoid vague citations such as:
+
+"According to the protocols..."
+
+when a specific source is available.
+
+32. Missing Protocol
+
+If the requested protocol is not present:
+
+"I don't have the applicable protocol in the provided documentation."
+
+The AI should not substitute a generic treatment recommendation and present it as the user's protocol.
+
+It may provide general educational information only if the user asks for it and the system is configured to permit general medical knowledge.
+
+33. Outdated Protocol
+
+If the AI identifies an outdated document, it should state:
+
+"This document appears to be superseded or expired. I would not treat it as the current controlling protocol."
+
+If a current version exists, use the current version.
+
+34. Protocol Conflict
+
+If two current documents conflict:
+
+"I found conflicting instructions in the supplied protocol documents. I cannot determine which instruction is authoritative without additional information."
+
+The AI should identify both documents so the clinician can verify them.
+
+35. Protocol vs General Knowledge
+
+The AI should clearly distinguish:
+
+Protocol-based answer
+
+"Your supplied protocol states..."
+
+Evidence-based/general answer
+
+"General clinical guidance indicates..."
+
+Uncertain answer
+
+"The supplied documentation does not establish this."
+
+These categories should never be blended together without labeling them.
+
+36. AI Safety Rules
+
+The AI must never:
+
+Invent a protocol
+
+Invent a protocol number
+
+Invent a medication dose
+
+Invent a treatment criterion
+
+Invent a medical-control requirement
+
+Invent a destination requirement
+
+Invent scope of practice
+
+Combine conflicting protocols without disclosure
+
+Present an expired protocol as current
+
+Present general medical knowledge as local protocol
+
+Claim an intervention is authorized without documentation
+
+37. Protocol Update Procedure
+
+When new protocol documents are added:
+
+Identify protocol name.
+
+Identify version.
+
+Identify effective date.
+
+Identify expiration/review date.
+
+Identify which protocol it supersedes.
+
+Mark the previous version as SUPERSEDED.
+
+Mark the new version as CURRENT.
+
+Preserve the previous version for historical reference.
+
+Re-index the new document.
+
+Test common clinical questions against the updated protocol.
+
+38. Recommended Protocol Folder Structure
+
+Protocols/
+
+│
+
+├── 00_Protocol_Index/
+
+│   ├── Current_Protocol_Index.pdf
+
+│   ├── Protocol_Hierarchy.pdf
+
+│   └── Protocol_Version_History.pdf
+
+│
+
+├── 01_Airway/
+
+│   ├── Adult_Airway.pdf
+
+│   ├── Pediatric_Airway.pdf
+
+│   └── Difficult_Airway.pdf
+
+│
+
+├── 02_Cardiology/
+
+│   ├── Cardiac_Arrest.pdf
+
+│   ├── Bradycardia.pdf
+
+│   ├── Tachycardia.pdf
+
+│   ├── ACS.pdf
+
+│   └── STEMI.pdf
+
+│
+
+├── 03_Respiratory/
+
+│   ├── Respiratory_Distress.pdf
+
+│   ├── Asthma.pdf
+
+│   ├── COPD.pdf
+
+│   └── Pulmonary_Edema.pdf
+
+│
+
+├── 04_Medical/
+
+│   ├── Altered_Mental_Status.pdf
+
+│   ├── Sepsis.pdf
+
+│   ├── Syncope.pdf
+
+│   └── Diabetic_Emergencies.pdf
+
+│
+
+├── 05_Neurologic/
+
+│   ├── Stroke.pdf
+
+│   ├── Seizure.pdf
+
+│   └── Altered_Mental_Status.pdf
+
+│
+
+├── 06_Trauma/
+
+│   ├── Trauma.pdf
+
+│   ├── Hemorrhage.pdf
+
+│   ├── Head_Trauma.pdf
+
+│   └── Spinal_Trauma.pdf
+
+│
+
+├── 07_Pediatrics/
+
+│   ├── Pediatric_Arrest.pdf
+
+│   ├── Pediatric_Respiratory.pdf
+
+│   └── Pediatric_Medical.pdf
+
+│
+
+├── 08_Neonatal/
+
+│   └── Newborn_Resuscitation.pdf
+
+│
+
+├── 09_Obstetrics/
+
+│   ├── Delivery.pdf
+
+│   ├── Eclampsia.pdf
+
+│   └── Postpartum_Hemorrhage.pdf
+
+│
+
+├── 10_Toxicology/
+
+│   ├── Overdose.pdf
+
+│   ├── Opioid_Toxicity.pdf
+
+│   └── Poisoning.pdf
+
+│
+
+├── 11_Behavioral/
+
+│   ├── Behavioral_Emergency.pdf
+
+│   └── Excited_Delirium_or_Severe_Agitation.pdf
+
+│
+
+├── 12_Transport_Destination/
+
+│   ├── STEMI_Destination.pdf
+
+│   ├── Stroke_Destination.pdf
+
+│   ├── Trauma_Destination.pdf
+
+│   └── Pediatric_Destination.pdf
+
+│
+
+├── 13_Medical_Control/
+
+│   ├── Online_Medical_Control.pdf
+
+│   └── Required_Consultation.pdf
+
+│
+
+├── 14_Refusal/
+
+│   ├── Refusal_of_Care.pdf
+
+│   └── Capacity.pdf
+
+│
+
+├── 15_Termination/
+
+│   └── Termination_of_Resuscitation.pdf
+
+│
+
+└── 99_Archived/
+
+├── Superseded/
+
+└── Expired/
+
+39. Recommended Protocol Document Format
+
+Every individual protocol should ideally follow this structure:
+
+# [Protocol Name]
+
+## Protocol Number
+
+## Purpose
+
+## Applies To
+
+## Effective Date
+
+## Version
+
+## Indications
+
+## Contraindications
+
+## Assessment
+
+## Immediate Actions
+
+## Treatment Algorithm
+
+## Medications
+
+## Procedures
+
+## Reassessment
+
+## Medical Control
+
+## Transport
+
+## Destination
+
+## Special Populations
+
+## Documentation
+
+## Termination / Disposition
+
+## Exceptions
+
+## References
+
+## Version History
+
+Using a standardized structure makes protocol retrieval substantially easier because your AI can map questions such as “What are the indications?”, “What do I do next?”, or “When do I call medical control?” to predictable sections.
+
+40. Final AI Protocol Instruction
+
+When a clinician asks a protocol question, the AI should follow this sequence:
+
+Identify patient → identify condition → identify provider level → identify jurisdiction → retrieve current protocol → verify version → follow protocol → cite source → disclose uncertainty.
+
+If the applicable protocol cannot be located:
+
+Do not invent the protocol.
+
+If the protocol conflicts with general medical knowledge:
+
+The current authoritative protocol should be identified as controlling, unless the clinician is specifically asking for evidence-based comparison.
+
+If the protocol conflicts with another protocol:
+
+Flag the conflict rather than silently choosing one.
+
+Document classification: EMS protocol-management and clinical decision reference
+
+Primary authority: Current local EMS agency / medical director / jurisdictional EMS authority
+
+Review requirement: Protocol documents should be reviewed and re-indexed whenever the agency publishes a new version.

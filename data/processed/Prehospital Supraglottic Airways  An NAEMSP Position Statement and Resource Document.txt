@@ -1,0 +1,1186 @@
+[Page 1]
+Prehospital Emergency Care
+ISSN: 1090-3127 (Print) 1545-0066 (Online) Journal homepage: www.tandfonline.com/journals/ipec20
+Prehospital Supraglottic Airways: An NAEMSP
+Position Statement and Resource Document
+John W. Lyng, Kimberly T. Baldino, Darren Braude, Christie Fritz, Juan A.
+March, Timothy D. Peterson & Allen Yee
+To cite this article: John W. Lyng, Kimberly T. Baldino, Darren Braude, Christie Fritz, Juan A.
+March, Timothy D. Peterson & Allen Yee (2022) Prehospital Supraglottic Airways: An NAEMSP
+Position Statement and Resource Document, Prehospital Emergency Care, 26:sup1, 32-41, DOI:
+10.1080/10903127.2021.1983680
+To link to this article:  https://doi.org/10.1080/10903127.2021.1983680
+© 2021 The Author(s). Published with
+license by Taylor & Francis Group, LLC.
+Published online: 10 Jan 2022.
+Submit your article to this journal 
+Article views: 10486
+View related articles 
+View Crossmark data
+Citing articles: 12 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ipec20
+
+[Page 2]
+PREHOSPITAL SUPRAGLOTTIC AIRWAYS:A N NAEMSP P OSITION STATEMENT
+AND RESOURCE DOCUMENT
+John W. Lyng , Kimberly T. Baldino , Darren Braude, Christie Fritz ,
+Juan A. March , Timothy D. Peterson, and Allen Yee
+ABSTRACT
+Supraglottic airway (SGA) devices provide effective conduits
+for oxygenation and ventilation and may offer protection from
+gastric aspiration. SGA devices are widely used by EMS clini-
+cians as both rescue and primary airway management devices.
+W h i l ei nc o m m o nu s ef o rm o r et h a nf o u rd e c a d e s ,m a j o r
+developments in SGA education, science, and technology have
+influenced clinical strategies of SGA insertion and use in preho-
+spital airway management for patients of all ages.
+NAEMSP recommends:
+/C15SGAs have utility as a primary or secondary
+EMS airway intervention. EMS agencies should
+select SGA strategies that best suit available
+resources and local clinician skillset, as well as
+the nature of their clinical practice setting.
+/C15EMS agencies that perform endotracheal intubation
+must also equip their clinicians with SGA devices
+and ensure adequate training and competence.
+/C15In select situations, drug-assisted airway manage-
+ment may be used by properly credentialed EMS
+clinicians to facilitate SGA insertion.
+/C15Confirmation of initial and continuous SGA
+placement using waveform capnography is
+strongly encouraged as a best practice.
+/C15When it is functioning properly, EMS clinicians
+should refrain from converting an SGA to an endo-
+tracheal tube. The decision to convert an SGA to an
+endotracheal tube must consider the patient’sc o n d i -
+tion, the effectiveness of SGA ventilations, and the
+clinical context and course of initial SGA insertion
+/C15SGA training, competency, and clinical use must
+be continuously evaluated by EMS agencies
+using focused quality management programs.
+Key words: supraglottic airway; RSA; EMS; SGA;
+airway management
+PREHOSPITAL EMERGENCY CARE 2022;26:32 –41
+INTRODUCTION
+Supraglottic airways (SGAs) are advanced airway devi-
+ces intended to be inserted into the oropharynx with-
+out the use of laryngoscopy. While varying in design,
+SGAs are devised to situate in the hypopharyngeal
+space overlying or outside of the glottic opening, pro-
+viding indirect oxygen delivery to the trachea. SGAs
+have also been referred to as “blind insertion, ”
+“extraglottic,”“ periglottic,” and “infraglottic” airway
+devices. While these terms are technically more precise,
+they are functionally synonymous, and “supraglottic
+airway” i st h em o r ew i d e l yu s e dt e r m .W h i l et r a d i t i o n -
+ally used as a rescue device after failed intubation
+attempts, several factors have resulted in increasing use
+of SGAs in the prehospital setting (1–3).
+UTILITY AND SELECTION OF SGAS
+SGAs have utility as a primary or secondary
+EMS airway intervention. EMS agencies should
+select SGA strategies that best suit available
+resources and local clinician skillset, as well as
+the nature of their clinical practice setting.
+The decision to use an SGA as a primary or second-
+ary prehospital airway intervention depends on
+several factors including clinician skills and
+Received August 10, 2021 from Department of Emergency
+Medicine, University of Minnesota School of Medicine,
+Minneapolis, MN, USA (JWL); National Association of EMS
+Physicians
+VR
+, Overland Park, KS, USA (JWL, KTB, DB, CF, JAM,
+TDP, AY); St Joseph's University Medical Center, Hackensack
+Meridian School of Medicine, Rowan University School of
+Osteopathic Medicine, Patterson, NJ, USA (KTB); Departments of
+Emergency Medicine and Anesthesiology, University of New
+Mexico, Albuquerque, NM, USA (DB); Beth Israel Deaconess
+Medical Center EMS Division, Boston, MA, USA (CF); Division
+of EMS Department of Emergency Medicine Brody School of
+Medicine, East Carolina University, Greenville, NC, USA (JAM);
+Southeast Region EMS Council, Sitka, AK; Capital City Fire &
+Rescue, Juneau, AK; Assistant Clinical Professor, University of
+New Mexico School of Medicine, Albuquerque, NM, USA (TDP);
+Chesterfield Fire and EMS, Virginia Commonwealth University
+Health System, Richmond, VA, USA (AY). Revision received
+September 7, 2021; accepted for publication September 17, 2021.
+Approved by: National Association of EMS Physicians – 20
+July 2021
+Address correspondence to John W. Lyng, MD, Paramedic, at
+jlyngmd@gmail.com
+/C2232021 The Author(s). Published with license by Taylor &
+Francis Group, LLC.
+This is an Open Access article distributed under the terms of the
+Creative Commons Attribution-NonCommercial-NoDerivatives
+License ( http://creativecommons.org/licenses/by-nc-nd/4.0/), which
+permits non-commercial re-use, distribution, and reproduction in any
+medium, provided the original work is properly cited, and is not
+altered, transformed, or built upon in any way.
+doi:10.1080/10903127.2021.1983680
+32
+
+[Page 3]
+opportunities to perform airway interventions.
+Although older SGAs like the Combitube were
+developed as primary airway devices, historically
+paramedics were typically instructed to prioritize
+use of ETI and only used SGAs as rescue devices.
+Several studies support use of SGAs as rescue air-
+ways in the setting of failed ETI ( 4, 5).
+Over the past decade three factors have helped to
+shift use of SGAs from a role as rescue devices for
+failed ETI to a role as the primary airway interven-
+tion in the EMS setting: 1) newer, functionally
+superior devices (King LTS-D, i-gel, and various
+LMAs), 2) better recognition of the pitfalls of ETI in
+the EMS setting, and 3) several randomized con-
+trolled trials that demonstrated better outcomes and
+faster processes of care with SGA over ETI in out-
+of-hospital cardiac arrest (OHCA).
+There is mixed evidence that using SGAs may be
+more easily and rapidly placed than ETTs ( 6, 7). In
+contrast to Frascone et al. who found no difference
+in success rate or time to insertion when comparing
+the King LTS-D to ETI, Russi et al. identified that
+placement of a Combitube is faster than ETI ( 8, 9).
+The ease and speed of SGA insertion is likely
+dependent on features of the device and the compe-
+tency of the EMS clinician as shown by Russi et al.
+who showed that insertion of a Combitube is slower
+than that of a single lumen SGA and by March
+et al. who showed that i-gel insertion was faster
+than the King LT ( 8, 10). Studies by Jarvis et al.,
+Bernhard et al., and Middleton et al. have also
+shown that the success of SGA placement, including
+both first-pass and overall success rates, varies
+between different SGA devices ( 11–13). Though
+these studies suggest that various device-specific
+factors may affect training needs and successful use,
+no studies have demonstrated the superiority of any
+particular SGA device.
+Factors that may influence EMS agency use and
+selection of SGAs include the skillset and scope of
+practice of the clinicians (e.g., ALS vs BLS); whether
+the clinicians also perform ETI, including how often
+and how well they perform it; integration with
+neighboring first responder, rescue, and transport
+agencies; whether the clinicians can perform drug-
+assisted airway management; and whether the
+agency intends for SGAs to be used as a primary or
+secondary airway.
+SGAS AND EMS C LINICIAN SCOPE
+OF PRACTICE
+In the United States, the NHTSA 2019 National EMS
+S c o p eo fP r a c t i c eM o d e lestablishes insertion of SGAs as
+one of the minimum competencies for Advanced
+EMT (AEMT) and Paramedic level clinicians.
+However, the guidelines exclude use of SGAs as a
+minimum competency from Emergency Medical
+Technician (EMT) and Emergency Medical Responder
+(EMR) practice ( 14). This decision was based on con-
+cerns regarding added time and expense of educating
+E M T sa n dE M R si nS G Au s ea n di nt h et e c h n o l o g y
+needed to ensure appropriate SGA placement and
+function. However, the National Scope of Practice Model
+defines the minimum competencies, not the highest-
+permitted skillset for each clinician type. In fact, sev-
+eral studies have demonstrated successful use of
+SGAs by basic-level clinicians and use of SGAs by
+EMTs and EMRs might be reasonable if certain condi-
+tions are met ( 15–19).
+Patients who might be appropriate for use of an
+SGA by a BLS clinician include OHCA patients and
+patients who are severely obtunded by severe head
+trauma or severe sedative-hypnotic toxicity. Other
+patients may require use of drug-assisted airway
+management by ALS clinicians to facilitate place-
+ment of an SGA. It must be recognized, though, that
+training and use of SGAs cannot substitute for train-
+ing and competent use of bag-valve-mask ventila-
+tion by all types of EMS clinicians ( 15).
+The decision to include or exclude SGA use ultim-
+ately falls upon more local levels of EMS govern-
+ance. Several states, regional EMS authorities, and
+local EMS agencies have included SGAs within
+EMR and EMT scope of practice. Outside the U.S.
+SGAs are included as a minimum competency for
+basic level EMS clinicians though their use by such
+clinicians is predicated on use of end-tidal capnog-
+raphy to confirm device placement ( 20, 21).
+AVAILABILITY OF SGA D EVICES
+EMS agencies that perform endotracheal
+intubation must also equip their clinicians with
+SGA devices and ensure adequate training
+and competence.
+EMS ETI success rates range from 53% to 90%, indi-
+cating that a substantial portion of cases will require
+management with rescue airway interventions
+(22–25). Though all EMS clinicians should be facile
+with manual ventilation using a bag-valve-mask
+device, there are circumstances where BVM use
+may prove difficult ( 26). Historically some EMS
+agencies have also used surgical airway techniques
+as a backup strategy for failed ETI; however, these
+are difficult to perform, even for the most experi-
+enced clinicians. Many studies have described
+J. W. Lyng et al. P REHOSPITAL SUPRAGLOTTIC AIRWAYS 33
+
+[Page 4]
+successful use of SGAs after failed ETI, and SGAs
+are recommended as rescue devices for failed ETI
+by several organizations ( 4, 22, 23, 27).
+Use of SGAs should be protocolized and integrated
+with ETI strategies, such as in the algorithmic approach
+to airway management suggested by Wang et al. ( 28).
+Planning for failed intubation, including ensuring avail-
+ability of both BVM ventilation and supraglottic air-
+ways, should always be part of the pre-intubation
+briefing. Further, a 2020 joint organizational position
+statement regarding essential equipment for ground
+BLS and ALS ambulances recommends that ALS
+ambulances should be stocked with supraglottic air-
+ways in sizes to fit neonates to adults ( 29).
+DRUG ASSISTED SGA I NSERTION
+In select situations, drug assisted airway
+management may be used by properly
+credentialed EMS clinicians to facilitate
+SGA insertion.
+Drug-assisted airway management, which includes
+more commonly known rapid sequence intubation
+(RSI), also includes Rapid Sequence Airway (RSA),
+the concept of using sedative and paralytic medica-
+tions to facilitate SGA insertion by ALS clinicians.
+Series reported by Frascone and Braude affirm the
+safety and effectiveness of RSA ( 30–33). The most
+recent and largest case series published by Braude
+et al. reported a success rate of 94% and aspiration
+rates equivalent to other methods of emergency air-
+way management ( 33). The potential ease and speed
+of SGA insertion vs ETI may make it easier to achieve
+first-pass success with RSA than RSI and may help
+reduce hypoxemia and airway trauma associated with
+prolonged and repeated intubation attempts (34).
+The potential disadvantages of RSA include more
+difficult ventilation via an SGA if high airway pres-
+sures are required, inability to access the airway reli-
+ably for suction, and perceptions that SGAs are less
+effective in protecting against aspiration than endo-
+tracheal tubes. The risk of aspiration with SGA is
+lower than previously thought. Several studies suggest
+that if aspiration occurs it likely happens before inva-
+sive airway placement rather than during or following
+insertion (35–41). Second-generation SGAs with gastric
+aspiration lumens allow for evacuation of gastric con-
+tents, further reducing the risk for aspiration. The
+need for an Emergency Department (ED) exchange of
+the SGA to an endotracheal tube has also been sug-
+gested as a disadvantage of RSA; however, the con-
+trolled exchange to an ETT in the ED setting is likely
+not a major risk to the patient.
+Prior to embarking on RSA, EMS clinicians should
+assess for risk factors of unsuccessful SGA place-
+ment and ALS clinicians should plan for potential
+failed RSA attempt by preparing for manual ventila-
+tion, ETI, or surgical airway procedures if a can ’t
+intubate/can’t ventilate situation develops ( 42).
+Though RSI and RSA are used in nearly identical
+patient populations and clinical environments, there
+are no published direct comparisons of RSA and
+RSI strategies in the EMS setting. More research
+comparing RSA with RSI and other EMS-based
+drug-assisted airway management strategies is
+necessary to further describe the utility of this
+approach in the EMS setting and to define its effects
+on patient outcomes.
+CONFIRMATION OF SGA P LACEMENT
+Confirmation of initial and continuous SGA
+placement using waveform capnography is
+strongly encouraged as a best practice.
+Extensive data inform the requirement for inde-
+pendent confirmation of ETT placement using wave-
+form capnography and other subjective and
+objective measures of successful placement ( 43–45).
+Despite this emphasis on ETT confirmation, and
+possibly because of the simplicity of most SGA
+insertion techniques, many programs have placed
+relatively little attention on confirmation of SGA
+placement. However, emerging case reports and ser-
+ies highlight the pitfalls of SGA placement, includ-
+ing airway malposition or misplacement ( 1, 46, 47).
+Though initial confirmation of device location is
+important SGA dislodgement after initial successful
+placement is possible. These considerations motivate
+the recommendation for SGA placement confirm-
+ation both immediately after insertion and on a con-
+tinuing basis.
+Common methods for confirming SGA placement
+include auscultation of breath sounds, visualization
+of chest rise, and observation for presence of
+exhaled condensation in the lumen of the SGA,
+though these techniques vary in reliability and
+availability. Waveform capnography represents the
+most reliable method to confirm initial and ongoing
+placement of advanced airways and is recom-
+mended as a best practice for SGAs. Vithalani et al.
+were the first to use capnography to objectively
+describe the incidence of unrecognized misplaced
+supraglottic airways in the EMS setting. They identi-
+fied a two-fold problem when subjective means of
+placement confirmation were used in isolation by
+clinicians: failed recognition of misplaced SGAs in
+34 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 5]
+35% of cases, and unnecessary removal of properly
+placed SGAs in 1.5% of cases. Use of capnography
+would have helped correctly identify SGA place-
+ment in both of these situations. Though this study ’s
+findings are limited to a single EMS agency and
+evaluation of a single SGA device, the study high-
+lights the importance of using objective measure-
+ments to confirm initial and ongoing SGA
+placement ( 1).
+An important issue with requiring capnography
+to confirm SGA placement is that though both ALS
+and BLS clinicians may use SGAs, typically only
+ALS clinicians are trained in ETCO
+2 interpretation
+and use. BLS clinicians who are inserting SGAs
+should ideally use waveform capnography for initial
+and ongoing airway placement confirmation, how-
+ever lack of resources to train BLS clinicians to
+interpret waveform capnography as well as lack of
+funding to purchase waveform capnography equip-
+ment are barriers to adoption of this practice. In
+cases where waveform capnography is not included
+in local EMR or EMT scope of care, we recommend
+that BLS clinicians cautiously use alternative meth-
+ods to assess SGA placement.
+While recommended by some experts, colori-
+metric end-tidal carbon dioxide detection is unre-
+liable for confirming SGA placement. First, it is
+possible to qualitatively detect enough residual
+carbon dioxide through an SGA to result in a
+“positive ” colorimetric result even when the pos-
+ition of the device is suboptimal. Second, colori-
+metric EtCO
+2 devices can give false-positive
+results in some settings and are not reliable if they
+become contaminated with liquids ( 48–50).
+Therefore, qualitative colorimetric EtCO
+2 detection
+should not be used in isolation to assess the
+proper position and function of an SGA on either
+an initial or ongoing basis. The use of devices that
+provide continuous quantitative capnometry may
+help avoid these pitfalls of colorimetric devices,
+though there are no focused studies on use of
+such technology by BLS clinicians.
+Although pulse oximetry is typically accessible to
+both BLS and ALS clinicians, determination of SGA
+placement should be based on assessment of
+adequate ventilation, not oxygen saturation. Poor
+oxygenation in the setting of adequate ventilation
+through an SGA usually indicates a failed oxygen
+supply or respiratory pathology resulting in a shunt,
+V/Q mismatch, or disordered diffusion, not dys-
+function of the SGA itself. Additionally, pulse oxim-
+etry is limited by a significant lag-time between
+onset of inadequate ventilation and drops in pulse
+oximetry values ( 51–54). Also, failure to recognize
+that an SGA may be properly placed and providing
+appropriate ventilation despite low pulse oximetry
+values may lead to premature removal of a func-
+tioning invasive airway ( 55).
+Ideally proper SGA placement is determined by
+any EMS clinician by using waveform capnography
+in addition to assessment for effective chest rise,
+presence of symmetric lungs sounds, and absent
+signs of major air leakage ( 56).
+CONVERSION OF AN SGA TO AN ETT
+When it is functioning properly, EMS clinicians
+should refrain from converting an SGA to an
+endotracheal tube. The decision to convert an
+SGA to an ET tube must consider the patient ’s
+condition, the effectiveness of SGA ventilations,
+and the clinical context and course of initial
+SGA insertion.
+If functioning properly, prehospital SGAs should
+not be exchanged for an ET tube in the prehospital
+setting. If an SGA is not properly ventilating and
+the function of the SGA cannot be improved via
+immediate troubleshooting the EMS clinician should
+remove the SGA and begin manual ventilation
+using a bag-valve-mask. In very rare circumstances
+exchange of a SGA for an ETT may be considered.
+Clinical scenarios that might favor exchange
+include the need for high ventilation pressures, the
+need for tracheal suctioning, presence of copious
+oropharyngeal secretions, bleeding, or emesis, and
+anticipated swelling below the level of the SGA that
+might eventually render it ineffective for ventilation.
+While SGAs have been associated with significant
+airway swelling after prolonged placement, devel-
+opment of this complication typically requires sev-
+eral hours and prolonged transport is rarely an
+indication for SGA exchange. Complications related
+to duration of SGA placement have been reported
+by Gaither et al. for the King LT at 3 hours and by
+Gerstein et al. for the LMA-Fastrach at 5 hours.
+Braude et al. reported there were no complications
+associated with an LMA-Supreme SGA being left in
+place for 9 hours ( 57–59).
+Any clinician considering SGA-ETT exchange
+should first determine why the SGA was originally
+placed. This is especially true if an SGA was placed
+as a rescue device after failed ETI attempts because
+if the patient underwent multiple unsuccessful
+intubation attempts, additional intubation attempts
+will likely be unsuccessful ( 23).
+Regardless of the clinical setting, if an SGA-ETT
+exchange is determined to be necessary, clinicians
+J. W. Lyng et al. P REHOSPITAL SUPRAGLOTTIC AIRWAYS 35
+
+[Page 6]
+considering exchange should assess for potential
+difficulty in mask ventilation, intubation, or chal-
+lenging surgical airway access in case exchange
+attempts fail ( 60–65). Further, the procedure should
+be tailored to the patient condition, clinician
+experience, available tools, and the specific SGA in
+situ. Inappropriately or prematurely performing an
+SGA-ETT exchange while a patient is hypoxic may
+result in further desaturation and anoxic injury or
+cardiac arrest. Prior to exchange clinicians should
+maximize patient oxygenation, decompress the
+stomach, consider use of drug-assisted airway
+management, and prepare contingency airway
+management plans.
+Depending on the type of SGA being exchanged,
+several general approaches can be used including
+extraluminal, endoluminal, and bougie-assisted
+blind techniques, Exchange of an SGA via an extra-
+luminal approach by displacing or removing the
+SGA and performing intubation via direct or video
+laryngoscopy may result in inadvertent loss of air-
+way control. One endoluminal approach includes
+use of a fiberoptic bronchoscope and is best suited
+for exchanging most LMA-style SGAs, however this
+technology is not typically available in the prehospi-
+tal setting ( 66, 67). Endoluminal bougie-assisted
+blind exchange has been described for the King LT,
+i-gel, and LMA-style SGAs, though use bougie-
+exchange of the King LT is discouraged due to sig-
+nificant risk for airway perforation ( 68–72). Blind
+direct passage of an endotracheal tube has been
+described for two devices, with success rates rang-
+ing from 15% to 90% ( 73–76). These techniques have
+been further well-described by Braude et al. and
+Driver et al. ( 56, 77).
+SGA T RAINING AND CLINICAL USE
+SGA training, competency, and clinical use
+must be continuously evaluated by EMS
+agencies using focused quality
+management programs.
+Supraglottic airway use is a low-frequency, high
+risk intervention that should be subject to the same
+rigorous quality management practices that are
+used to oversee endotracheal intubation in the EMS
+setting, including use of high-quality training ses-
+sions and focused application of quality manage-
+ment programs to help reduce risk and improve
+patient outcomes. SGA quality management pro-
+grams must ensure that clinicians receive appropri-
+ate training, that they are periodically assessed for
+their cognitive, psychomotor, and affective
+competencies related to SGA use, and that clinical
+use is providing appropriate patient benefit while
+minimizing patient harms. The principles of preho-
+spital airway management training and education
+and quality management of prehospital airway
+programs, including pediatric-focused topics, are
+discussed in companion documents to this manu-
+script, but certain SGA-specific concepts deserve
+further discussion.
+Training and Competency. In order to safely and cor-
+rectly utilize an SGA an EMS clinician must first
+demonstrate competency in several domains. These
+include the cognitive domain pertaining to recogni-
+tion of SGA indications, contraindications, and com-
+plications; and the psychomotor domain pertaining
+to delivery of oxygen via nasal cannulas and face-
+masks, manual bag-valve-mask ventilation, oro/
+nasopharyngeal airway placement, and upper air-
+way suctioning.
+A number of studies have investigated the ability
+of EMS clinicians to perform SGA insertion, though
+many of these studies are limited to manikin-based
+training encounters ( 78–86). Notably, not all training
+manikins are alike, as some models are easier or
+harder for SGA insertion depending on the make/
+model of SGA being used ( 87). Further, successful
+SGA placement in a manikin may not translate to
+successful use on actual patients. A few studies
+have evaluated insertion of various SGA devices by
+different EMS clinicians on anesthetized patients in
+the operating room, however access to such clinical
+settings for purposes of EMS clinician training has
+become increasingly limited ( 12, 88, 89).
+Training in the use of SGAs requires more than
+developing a psychomotor skill. EMS clinicians
+must also receive education in cognitive and critical
+thinking domains including knowledge of indica-
+tions and contraindications for SGA use as defined
+in local protocol, recognition of and mitigation strat-
+egies for SGA malfunctions, and awareness of
+potential complications related to SGA use.
+Competency in less-invasive airway management
+strategies must also be demonstrated as entry-level
+proficiencies prior to embarking on SGA education
+and clinical use. Unfortunately published studies
+have typically focused only on the psychomotor
+component of SGA insertion in artificial environ-
+ments and also have not assessed EMS clinician cog-
+nitive aptitudes pertaining to SGA use. This makes
+it difficult to extrapolate whether these studies sup-
+port whether clinicians can perform SGA insertion
+in actual clinical practice. Further, attrition of cogni-
+tive knowledge and decay of psychomotor skill are
+significant issues that affect the successful use of
+36 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 7]
+SGAs by EMS clinicians. However, studies by
+Fischer et al., Ruetzler et al., and Maddocks have
+shown that rates of skill decay may be affected by
+which type of SGA is being used and may be slower
+than decay of ETI skills ( 90–92).
+Complications Associated with SGAs. In addition to
+establishing robust training and monitoring per-
+formance of EMS clinicians in successfully inserting
+SGAs, quality management programs should also
+maintain surveillance for potential complications of
+SGA use. A case series by Bernhard et al. describes
+several complications associated with King-style
+SGAs including airway obstruction due to inadvert-
+ent tracheal intubation, massive tongue and pharyn-
+geal edema, air-leak associated hypoventilation, and
+device obstruction by foreign material ( 93). Other
+case reports of SGA-related injuries occurring in the
+prehospital and surgical settings include hypophar-
+yngeal perforation, pneumomediastinum, subcuta-
+neous emphysema, pneumoperitoneum,
+pneumothorax, upper airway bleeding, esophageal
+laceration or perforation, and pressure-related tissue
+injuries of the tongue, pharynx, and hypopharyng-
+eal structures. ( 47, 94–98). Notably the Combitube
+has been shown to have up to a 40% complication
+rate ( 95–98).
+One other important concern related to SGAs is
+the potential to impair cerebral blood flow. Two
+swine studies by Segal et al. and Kim et al. that
+measured carotid artery blood flow during induced
+cardiac arrest found that the King LTS-D, LMA,
+Combitube, and i-gel SGAs each significantly
+reduced carotid blood flow relative to the ETT ( 99,
+100). However, several human studies evaluating
+the effect of SGAs on the cervical vasculature and
+blood flow have shown mixed results. Radiographic
+studies of SGAs by Niell et al. (MRI), and White
+et al. (CT scans) found no significant compression of
+the internal carotid artery. ( 101, 102). In several
+device-specific studies, Rasulo et al. (LMA-Unique)
+did not demonstrate significant reductions in cere-
+bral blood flow, Eismann et al. (King LTS-D and
+LMA) showed no impairment of internal carotid
+artery blood flow, and Nandwani et al. (LMA)
+found no evidence that either the carotid artery or
+the internal jugular vein was compressed signifi-
+cantly ( 103–105). In contrast, Colbert et al. and
+Zhang et al. showed several different SGAs caused
+anatomic displacement of the cervical vessels and
+reduced the velocity of blood flow through them
+(106, 107). The variable findings of these studies
+suggest that the effect of SGAs on blood flow
+through the cervical vessels may be influenced by
+the design of the SGA (e.g., cuffed vs uncuffed) as
+well as individual patient-specific factors.
+Unfortunately, this body of evidence only informs
+our understanding of the effect of SGAs on the cer-
+vical vessels and blood flow in hemodynamically
+stable patients, not on patients with low flow states
+such as shock or cardiac arrest. There is a significant
+need for prospective evaluation of cerebral perfu-
+sion in both hemodynamically stable and unstable
+patients whose airways are managed with SGAs.
+Patient Outcomes. Medical directors should under-
+stand how SGA use may impact clinical outcomes
+of different patient populations and use this under-
+standing when developing SGA-related protocols.
+Cardiac Arrest. Studies by Abo, Wang, and others
+have shown significantly shorter interruptions in
+chest compressions during OHCA resuscitation
+when airways were managed with SGAs compared
+to ETTs ( 82, 108). Further, the Pragmatic Airway
+Resuscitation Trial (PART) by Wang et al. demon-
+strated that 72-hour survival was greater in patients
+receiving SGAs compared to ETTs ( 109). Secondary
+outcomes from PART also found increased rates of
+return of spontaneous circulation, hospital survival,
+and favorable neurologic exam with SGA manage-
+ment. However, a subsequent systematic review
+performed by Carney et al. showed no difference in
+outcomes when comparing bag-valve-mask manual
+ventilation, SGAs, and ETT use in OHCA patients
+(34). Yet another study by Benger et al. also failed
+to show a survival benefit in OHCA when compar-
+ing use of the i-gel SGA to ETI ( 110). Finally, the
+AIRWAYS-2 trial by Benger et al. did not identify a
+more favorable 30-day functional outcome for SGAs
+vs ETI in OHCA ( 110
+).
+Trauma. Limited studies regarding use of SGAs in
+the trauma setting have shown potential associa-
+tions of SGA use with worse patient outcomes,
+though it is unclear whether this is a reflection of
+the severity of patient injuries or if there is a more
+direct connection between outcomes and SGA use
+(111, 112).
+FUTURE RESEARCH
+Future research should attempt to identify which, if
+any, SGA devices are easiest to use by all levels of
+EMS clinician, and more importantly, whether any
+SGA device is superior to others with respect to
+positively affecting patient outcomes. Research is
+also needed to help identify techniques to assess
+SGA function and placement that are accessible to
+all levels of EMS clinician. Further, studies
+J. W. Lyng et al. P REHOSPITAL SUPRAGLOTTIC AIRWAYS 37
+
+[Page 8]
+investigating the best methods for exchanging SGAs
+for ETTs in the emergency department should also
+be conducted. Finally, there is a critical need for
+prospective research regarding the safety of SGAs in
+the EMS setting, especially their effect on cerebral
+blood flow in low-flow states such as shock and car-
+diac arrest.
+CONCLUSION
+In summary, SGAs can be used as a reasonable
+alternative to ETT by ALS clinicians and may
+expand the ability of BLS clinicians to perform bet-
+ter ventilation and oxygenation of certain patients.
+However, data regarding patient-based outcomes of
+SGAs compared to use of a bag-valve-mask or ETT
+remains mixed, and optimal SGA utilization strat-
+egies have yet to be fully defined.
+ORCID
+John W. Lyng http://orcid.org/0000-0001-5191-5700
+Kimberly T. Baldino http://orcid.org/0000-0003-
+3935-4538
+Christie Fritz http://orcid.org/0000-0002-0206-6164
+Juan A. March http://orcid.org/0000-0002-8780-4882
+References
+1. Vithalani VD, Vlk S, Davis SQ, Richmond NJ. Unrecognized
+failed airway management using a supraglottic airway
+device. Resuscitation. 2017;119:1 –4. doi: 10.1016/j.resuscita-
+tion.2017.07.019.
+2. Dunford JV, Davis DP, Ochs M, Doney M, Hoyt DB.
+Incidence of transient hypoxia and pulse rate reactivity dur-
+ing paramedic rapid sequence intubation. Ann Emerg Med.
+2003;42(6):721–8. doi: 10.1016/S0196-0644(03)00660-7.
+3. Deakin CD, King P, Thompson F. Prehospital advanced air-
+way management by ambulance technicians and paramed-
+ics: is clinical practice sufficient to maintain skills? Emerg
+Med J. 2009;26(12):888 –91. doi: 10.1136/emj.2008.064642.
+4. Shavit I, Aviram E, Hoffmann Y, Biton O, Glassberg E.
+Laryngeal mask airway as a rescue device for failed endo-
+tracheal intubation during scene-to-hospital air transport of
+combat casualties. Eur J Emerg Med. 2018;25(5):368 –71.
+5. Lockey D, Crewdson K, Weaver A, Davies G. Observational
+study of the success rates of intubation and failed intub-
+ation airway rescue techniques in 7256 attempted intuba-
+tions of trauma patients by pre-hospital physicians. Br J
+Anaesth. 2014;113(2):220 –5. doi: 10.1093/bja/aeu227.
+6. Cook T, Howes B. Recent developments in efficacy and
+safety of supraglottic airway devices. Contin Educ Anaesth
+Crit Care Pain. 2011;11(2):56 –61. doi: 10.1093/bjaceaccp/
+mkq058.
+7. Wang HE, Szydlo D, Stouffer JA, Lin S, Carlson JN,
+Vaillancourt C, Sears G, Verbeek RP, Fowler R, Idris AH,
+ROC Investigators, et al. Endotracheal intubation versus
+supraglottic airway insertion in out-of-hospital cardiac
+arrest. Resuscitation. 2012;83(9):1061 –6. doi: 10.1016/j.resusci-
+tation.2012.05.018.
+8. Russi CS, Miller L, Hartley MJ. A comparison of the King-
+LT to endotracheal intubation and combitube in a simulated
+difficult airway. Prehosp Emerg Care. 2008;12(1):35 –41. doi:
+10.1080/10903120701710488.
+9. Frascone RJ, Russi C, Lick C, Conterato M, Wewerka SS,
+Griffith KR, Myers L, Conners J, Salzman JG. Comparison
+of prehospital insertion success rates and time to insertion
+between standard endotracheal intubation and a supraglot-
+tic airway. Resuscitation. 2011;82(12):1529 –36. doi: 10.1016/j.
+resuscitation.2011.07.009.
+10. March JA, Tassey TE, Resurreccion NB, Portela RC, Taylor
+SE. Comparison of the i-gel supraglottic and king
+Laryngotracheal airways in a simulated tactical environ-
+ment. Prehosp Emerg Care. 2018;22(3):385 –9. doi: 10.1080/
+10903127.2017.1399183.
+11. Jarvis JL, Barton D, Wang H. Defining the plateau point:
+When are further attempts futile in out-of-hospital
+advanced airway management? Resuscitation. 2018;130:
+57–60. doi: 10.1016/j.resuscitation.2018.07.002.
+12. Bernhard M, Gries A, Ramshorn-Zimmer A, Wenzel V,
+Hossfeld B. Insertion success of the laryngeal tube in emer-
+gency airway management. Biomed Res Int. 2016;2016:1 –13.
+doi:10.1155/2016/3619159.
+13. Middleton PM, Simpson PM, Thomas RE, Bendall JC.
+Higher insertion success with the i-gel supraglottic airway
+in out-of-hospital cardiac arrest: a randomised controlled
+trial. Resuscitation. 2014;85(7):893 –7. doi: 10.1016/j.resuscita-
+tion.2014.02.021.
+14. National Association of State EMS Officials. National EMS
+Scope of Practice Model 2019 (Report No. DOT HS 812-666).
+Washington (DC): National Highway Traffic Safety
+Administration; 2019. https://www.ems.gov/pdf/
+National_EMS_Scope_of_Practice_Model_2019.pdf
+15. Fiala A, Lederer W, Neumayr A, Egger T, Neururer S,
+Toferer E, Baubin M, Paal P. EMT-led laryngeal tube vs.
+face-mask ventilation during cardiopulmonary resuscitation
+– a multicenter prospective randomized trial. Scand J
+Trauma Resusc Emerg Med. 2017;25(1):104. doi: 10.1186/
+s13049-017-0446-1.
+16. Roth D, Hafner C, Aufmesser W, Hudabiunigg K, Wutti C,
+Herkner H, Schreiber W. Safety and Feasibility of the laryn-
+geal tube when used by EMTs during out-of-hospital car-
+diac arrest. Am J Emerg Med. 2015;33(8):1050 –5. doi: 10.
+1016/j.ajem.2015.04.048.
+17. L €ankim€aki S, Alahuhta S, Kurola J. Feasibility of a laryngeal
+tube for airway management during cardiac arrest by first
+responders. Resuscitation. 2013;84(4):446 –9. doi: 10.1016/j.
+resuscitation.2012.08.326.
+18. Gahan K, Studnek JR, Vandeventer S. King LT-D use by
+urban basic life support first responders as the primary air-
+way device for out-of-hospital cardiac arrest. Resuscitation.
+2011;82(12):1525–8. doi: 10.1016/j.resuscitation.2011.06.036.
+19. Hart D, Driver B, Kartha G, Reardon R, Miner J. Efficacy of
+laryngeal tube versus bag mask ventilation by inexperi-
+enced providers. WestJEM. 2020;21(3):688 –93. doi: 10.5811/
+westjem.2020.3.45844.
+20. Service UKNH. East of England Ambulance Service: Scope
+of Practice Policy. Trust EoEASN, editor. National Health
+Service Trust, UK: East of England Ambulance Service:
+Scope of Practice Policy; 2021. https://www.eastamb.nhs.
+uk/Policies/clinical/Scope-of-Practice-Policy.pdf
+21. Association OP. Ontario Paramedics Scope of Practice.
+Ontario Paramedic Association, Toronto, ON. 2021. https://
+38 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 9]
+www.ontarioparamedic.ca/misc/Scope%20of%20Practice%
+20v4.1.pdf.
+22. Ochs M, Davis D, Hoyt D, Bailey D, Marshall L, Rosen P.
+Paramedic-performed rapid sequence intubation of patients
+with severe head injuries. Ann Emerg Med. 2002;40(2):
+159–67. doi: 10.1067/mem.2002.126397.
+23. Nwanne T, Jarvis J, Barton D, Donnelly JP, Wang HE.
+Advanced airway management success rates in a national
+cohort of emergency medical services agencies.
+Resuscitation. 2020;146:43 –9. doi: 10.1016/j.resuscitation.2019.
+11.006.
+24. Hubble MW, Brown L, Wilfong DA, Hertelendy A, Benner
+RW, Richards ME. A meta-analysis of prehospital airway
+control techniques Part I: orotracheal and nasotracheal
+intubation success rates. Prehosp Emerg Care. 2010;14(3):
+377–401. doi: 10.3109/10903121003790173.
+25. Warner KJ, Sharar SR, Copass MK, Bulger EM. Prehospital
+management of the difficult airway: a prospective cohort
+study. J Emerg Med. 2009;36(3):257 –65. doi: 10.1016/j.
+jemermed.2007.10.058.
+26. Jabre P, Penaloza A, Pinero D, Duchateau F-X, Borron SW,
+Javaudin F, Richard O, de Longueville D, Bouilleau G,
+Devaud M-L, et al. Effect of bag-mask ventilation vs endo-
+tracheal intubation during cardiopulmonary resuscitation
+on neurological outcome after out-of-hospital cardiorespira-
+tory arrest: a randomized clinical trial. JAMA. 2018;319(8):
+779–87. doi: 10.1001/jama.2018.0156.
+27. Cooper RM. Preparation for and management of “failed”
+laryngoscopy and/or intubation. Anesthesiology. 2019;
+130(5):833–49. doi: 10.1097/ALN.0000000000002555.
+28. Wang HE, Kupas DF, Greenwood MJ, Pinchalk ME,
+Mullins T, Gluckman W, Sweeney TA, Hostler D. An algo-
+rithmic approach to prehospital airway management.
+Prehosp Emerg Care. 2005;9(2):145 –55. doi: 10.1080/
+10903120590924618.
+29. Lyng J, Adelgais K, Alter R, Beal J, Chung B, Gross T, et al.
+Recommended essential equipment for basic life support
+and advanced life support ground ambulances 2020: a joint
+position statement. Prehosp Emerg Care. 2021;25(3):451 –459.
+doi:10.1080/10903127.2021.1886382.
+30. Braude D, Richards M. Rapid sequence airway (RSA)-a
+novel approach to prehospital airway management.
+Prehosp Emerg Care. 2007;11(2):250 –2. doi: 10.1080/
+10903120701206032.
+31. Frascone RJ, Wewerka SS, Burnett AM, Griffith KR,
+Salzman JG. Supraglottic airway device use as a primary
+airway during rapid sequence intubation. Air Med J. 2013;
+32(2):93–7. doi: 10.1016/j.amj.2012.06.008.
+32. Frascone RJ, Wewerka SS, Griffith KR, Salzman JG. Use of
+the King LTS-D during medication-assisted airway manage-
+ment. Prehosp Emerg Care. 2009;13(4):541 –5. doi: 10.1080/
+10903120903144817.
+33. Braude D, Dixon D, Torres M, Martinez JP, O ’
+Brien S,
+Bajema T. Brief research report: prehospital rapid sequence
+airway. Prehosp Emerg Care. 2021;25(4):583 –7. doi: 10.1080/
+10903127.2020.1792015.
+34. Carney N, Cheney T, Totten AM, Jungbauer R, Neth MR,
+Weeks C, et al. Prehospital airway management: a system-
+atic review. Prehosp Emerg Care. 2021;1 –28.
+35. Steuerwald MT, Braude DA, Petersen TR, Peterson K,
+Torres MA. Preliminary report: comparing aspiration rates
+between prehospital patients managed with extraglottic air-
+way devices and endotracheal intubation. Air Med J. 2018;
+37(4):240–3. doi: 10.1016/j.amj.2018.04.004.
+36. Steuerwald MT, Robinson BR, Hanseman DJ, Makley A,
+Pritts TA. Prehospital airway technique does not influence
+incidence of ventilator-associated pneumonia in trauma
+patients. J Trauma Acute Care Surg. 2016;80(2):283 –8. doi:
+10.1097/TA.0000000000000886.
+37. Evans HL, Warner K, Bulger EM, Sharar SR, Maier RV,
+Cuschieri J. Pre-hospital intubation factors and pneumonia
+in trauma patients. Surg Infect (Larchmt). 2011;12(5):339 –44.
+doi:10.1089/sur.2010.074.
+38. Evans HL, Zonies DH, Warner KJ, Bulger EM, Sharar SR,
+Maier RV, et al. Timing of intubation and ventilator-associ-
+ated pneumonia following injury. Arch Surg. 2010;145(11):
+1041–6. doi: 10.1001/archsurg.2010.239.
+39. John RE, Hill S, Hughes TJ. Airway protection by the laryn-
+geal mask. A barrier to dye placed in the pharynx.
+Anaesthesia. 1991;46(5):366 –7. doi: 10.1111/j.1365-2044.1991.
+tb09545.x.
+40. Mercer MH. An assessment of protection of the airway
+from aspiration of oropharyngeal contents using the
+Combitube airway. Resuscitation. 2001;51(2):135 –8. doi: 10.
+1016/s0300-9572(01)00390-2.
+41. Bercker S, Schmidbauer W, Volk T, Bogusch G, Bubser HP,
+Hensel M, Kerner T. A comparison of seal in seven supra-
+glottic airway devices using a cadaver model of elevated
+esophageal pressure. Anesth Analg. 2008;106(2):445 –8, table
+of contents. doi: 10.1213/ane.0b013e3181602ae1.
+42. Martin-Gill C, Prunty HA, Ritter SC, Carlson JN, Guyette
+FX. Risk factors for unsuccessful prehospital laryngeal tube
+placement. Resuscitation. 2015;86:25 –30. doi: 10.1016/j.resus-
+citation.2014.10.015.
+43. Grmec S. Comparison of three different methods to confirm
+tracheal tube placement in emergency intubation. Intensive
+Care Med. 2002;28(6):701 –4. doi: 10.1007/s00134-002-1290-x.
+44. Li J. Capnography alone is imperfect for endotracheal tube
+placement confirmation during emergency intubation 11
+Original Contributions is coordinated by John A. Marx,
+MD, of Carolinas Medical Center, Charlotte, North
+Carolina. The Journal of Emergency Medicine. 2001;20(3):
+223–9. doi: 10.1016/S0736-4679(00)00318-8.
+45. DeBoer S, Seaver M, Arndt K. Verification of endotracheal
+tube placement: a comparison of confirmation techniques
+and devices. J Emerg Nurs. 2003;29(5):444 –50. doi: 10.1016/
+S0099-1767(03)00268-X.
+46. Van Zundert AA, Kumar CM, Van Zundert TC.
+Malpositioning of supraglottic airway devices: preventive
+and corrective strategies. Br J Anaesth. 2016;116(5):579 –82.
+doi:10.1093/bja/aew104.
+47. Michalek P, Donaldson W, Vobrubova E, Hakl M.
+Complications associated with the use of supraglottic air-
+way devices in perioperative medicine. Biomed Res Int.
+2015;2015:746560. doi: 10.1155/2015/746560.
+48. Keller WR, Biehler J, Linares MY-R, Garcia-Pena BM. False-
+positive colorimetric capnometry after ingestion of carbo-
+nated beverages. Pediatr Emerg Care. 2009;25(2):69 –73.
+49. Hughes S, Blake B, Woods S, Lehmann C. False-positive
+results on colorimetric carbon dioxide analysis in neonatal
+resuscitation: potential for serious patient harm. J Perinatol.
+2007;27(12):800–1. doi: 10.1038/sj.jp.7211831.
+50. Vargese JH. Use of disposable end tidal carbon dioxide
+detector device for checking endotracheal tube placement. J
+Clin Diagnos Res. 2007;1:204 –9.
+51. Sinex JE. Pulse oximetry: principles and limitations. Am J
+Emerg Med. 1999;17(1):59 –67. doi: 10.1016/s0735-
+6757(99)90019-0.
+52. Farmery AD, Roe PG. A model to describe the rate of oxy-
+haemoglobin desaturation during apnoea. Br J Anaesth.
+1996;76(2):284–91. doi: 10.1093/bja/76.2.284.
+J. W. Lyng et al. P REHOSPITAL SUPRAGLOTTIC AIRWAYS 39
+
+[Page 10]
+53. Cacho G, Perez-Calle JL, Barbado A, Lledo JL, Ojea R,
+Fernandez-Rodriguez CM. Capnography is superior to
+pulse oximetry for the detection of respiratory depression
+during colonoscopy. Rev Esp Enferm Dig. 2010;102(2):86 –9.
+54. Keidan I, Gravenstein D, Berkenstadt H, Ziv A, Shavit I,
+Sidi A. Supplemental oxygen compromises the use of pulse
+oximetry for detection of apnea and hypoventilation during
+sedation in simulated pediatric patients. Pediatrics. 2008;
+122(2):293–8. doi: 10.1542/peds.2007-2385.
+55. Aguilar SA, Davis DP. Latency of pulse oximetry signal
+with use of digital probes associated with inappropriate
+extubation during prehospital rapid sequence intubation in
+head injury patients: case examples. J Emerg Med. 2012;
+42(4):424–8. doi: 10.1016/j.jemermed.2011.06.127.
+56. Braude D, Steuerwald M, Wray T, Galgon R. Managing the
+out-of-hospital extraglottic airway device. Ann Emerg Med.
+2019;74(3):416–22. doi: 10.1016/j.annemergmed.2019.03.002.
+57. Gaither JB, Matheson J, Eberhardt A, Colwell CB. Tongue
+engorgement associated with prolonged use of the King-LT
+laryngeal tube device. Ann Emerg Med. 2010;55(4):367 –9.
+doi:10.1016/j.annemergmed.2009.07.009.
+58. Gerstein NS, Braude D, Harding JS, Douglas A. Lingual
+ischemia from prolonged insertion of a fastrach laryngeal
+mask airway. West J Emerg Med. 2011;12(1):124 –7.
+59. Braude D, Southard A, Bajema T, Sims E, Martinez J. Rapid
+sequence airway using the LMA-supreme as a primary air-
+way for 9 h in a multi-system trauma patient. Resuscitation.
+2010;81(9):1217. doi: 10.1016/j.resuscitation.2010.06.001.
+60. Kheterpal S, Han R, Tremper KK, Shanks A, Tait AR,
+O’Reilly M, Ludwig TA. Incidence and predictors of diffi-
+cult and impossible mask ventilation. Anesthesiology. 2006;
+105(5):885–91. doi: 10.1097/00000542-200611000-00007.
+61. Corso RM, Cattano D, Buccioli M, Carretta E, Maitan S.
+[Post analysis simulated correlation of the El-Ganzouri air-
+way difficulty score with difficult airway] . Rev Bras
+Anestesiol. 2016;66(3):298 –303. doi: 10.1016/j.bjan.2016.02.
+007.
+62. el-Ganzouri AR, McCarthy RJ, Tuman KJ, Tanck EN,
+Ivankovich AD. Preoperative airway assessment: predictive
+value of a multivariate risk index. Anesth Analg. 1996;82(6):
+1197–204. doi: 10.1097/00000539-199606000-00017.
+63. El-Orbany M, Woehlck HJ. Difficult mask ventilation.
+Anesth Analg. 2009;109(6):1870 –80. doi: 10.1213/ANE.
+0b013e3181b5881c.
+64. Vannucci A, Cavallone LF. Bedside predictors of difficult
+intubation: a systematic review. Minerva Anestesiol. 2016;
+82(1):69–83.
+65. Gupta S, Sharma R, Jain D. Airway assessment: predictors
+of difficult airway. Indian J Anaesth. 2005;49(4):257 –62.
+66. Ueki R, Komasawa N, Nishimoto K, Sugi T, Hirose M,
+Kaminoh Y. Utility of the Aintree Intubation Catheter in
+fiberoptic tracheal intubation through the three types of
+intubating supraglottic airways: a manikin simulation
+study. J Anesth. 2014;28(3):363 –7. doi: 10.1007/s00540-013-
+1724-3.
+67. Koumpan Y, Murdoch J, Beyea JA, Kahn M, Colbeck J. A
+case report: establishing a definitive airway in a trauma
+patient with a king laryngeal tube in situ in the presence of
+a closed head injury and difficult airway: “Between the
+Devil and the Deep Blue Sea. ” A&A Practice. 2017;8(6):
+139–41.
+68. Lopez NT, McCoy SK, Carroll C, Jones E, Miller JA. Non-
+conventional utilization of the aintree intubating catheter to
+facilitate exchange between three supraglottic airways and
+an endotracheal tube: a cadaveric trial. Mil Med. 2019;184(1-
+2):e222–e8. doi: 10.1093/milmed/usy144.
+69. Lutes M, Worman DJ. An unanticipated complication of a
+novel approach to airway management. J Emerg Med. 2010;
+38(2):222–4. doi: 10.1016/j.jemermed.2008.08.011.
+70. Wong DT, Yang JJ, Mak HY, Jagannathan N. Use of intub-
+ation introducers through a supraglottic airway to facilitate
+tracheal intubation: a brief review. Can J Anaesth. 2012;
+59(7):704–15. doi: 10.1007/s12630-012-9714-8.
+71. Howath A, Brimacombe J, Keller C. Gum-elastic bougie-
+guided insertion of the ProSeal laryngeal mask airway: a
+new technique. Anaesth Intensive Care. 2002;30(5):624 –7.
+doi:10.1177/0310057X0203000514.
+72. Stancil S, Miller J, Riddle M. Laryngeal mask airway
+exchange using a gum elastic bougie with a rotational twist
+technique. J Spec Oper Med. 2014;14(3):74 –7.
+73. Gerstein NS, Braude DA, Hung O, Sanders JC, Murphy MF.
+The fastrach intubating laryngeal mask airway: an overview
+and update. Can J Anaesth. 2010;57(6):588 –601. doi: 10.1007/
+s12630-010-9272-x.
+74. Theiler L, Kleine-Brueggeney M, Urwyler N, Graf T, Luyet
+C, Greif R. Randomized clinical trial of the i-gel and Magill
+tracheal tube or single-use ILMA and ILMA tracheal tube
+for blind intubation in anaesthetized patients with a pre-
+dicted difficult airway. Br J Anaesth. 2011;107(2):243 –50.
+doi:10.1093/bja/aer102.
+75. Bhandari G, Shahi KS, Asad M, Parmar NK, Bhakuni R. To
+assess the efficacy of i-gel for ventilation, blind tracheal
+intubation and nasogastric tube insertion. Anesth Essays
+Res. 2013;7(1):94 –9. doi: 10.4103/0259-1162.114012.
+76. Sastre JA, Lopez T, Garzon JC. [Blind tracheal intubation
+through two supraglottic devices: i-gel versus Fastrach intu-
+bating laryngeal mask airway (ILMA)]. Rev Esp Anestesiol
+Reanim. 2012;59(2):71 –6. doi: 10.1016/j.redar.2012.02.016.
+77. Driver BE, Scharber SK, Horton GB, Braude DA, Simpson
+NS, Reardon RF. Emergency department management of
+out-of-hospital laryngeal tubes. Ann Emerg Med. 2019;74(3):
+403–9. doi: 10.1016/j.annemergmed.2019.01.025.
+78. Burns JB, Jr., Branson R, Barnes SL, Tsuei BJ. Emergency
+airway placement by EMS providers: comparison between
+the King LT supralaryngeal airway and endotracheal intub-
+ation. Prehosp Disaster Med. 2010;25(1):92 –5. doi: 10.1017/
+S1049023X00007743.
+79. Tumpach EA, Lutes M, Ford D, Lerner EB. The King LT
+versus the Combitube: flight crew performance and prefer-
+ence. Prehosp Emerg Care. 2009;13(3):324 –8. doi: 10.1080/
+10903120902935322.
+80. Russi CS, Wilcox CL, House HR. The laryngeal tube device:
+a simple and timely adjunct to airway management. Am J
+Emerg Med. 2007;25(3):263 –7. doi: 10.1016/j.ajem.2006.03.018.
+81. Bollig G, Lovhaug SW, Sagen O, Svendsen MV, Steen PA,
+Wik L. Airway management by paramedics using endo-
+tracheal intubation with a laryngoscope versus the oesopha-
+geal tracheal Combitube and EasyTube on manikins: a
+randomised experimental trial. Resuscitation. 2006;71(1):
+107–11. doi: 10.1016/j.resuscitation.2006.02.016.
+82. Abo BN, Hostler D, Wang HE. Does the type of out-of-hos-
+pital airway interfere with other cardiopulmonary resuscita-
+tion tasks? Resuscitation. 2007;72(2):234 –9. doi: 10.1016/j.
+resuscitation.2006.06.028.
+83. Ritter SC, Guyette FX. Prehospital pediatric King LT-D use:
+a pilot study. Prehosp Emerg Care. 2011;15(3):401 –4. doi: 10.
+3109/10903127.2011.561400.
+84. Saeedi M, Hajiseyedjavadi H, Seyedhosseini J, Eslami V,
+Sheikhmotaharvahedi H. Comparison of endotracheal intub-
+ation, combitube, and laryngeal mask airway between inex-
+perienced and experienced emergency medical staff: A
+40 PREHOSPITAL EMERGENCY CARE JANUARY 2022 V OLUME 26 / N UMBER S1
+
+[Page 11]
+manikin study. Int J Crit Illn Inj Sci. 2014;4(4):303 –8. doi: 10.
+4103/2229-5151.147533.
+85. Castle N, Owen R, Hann M, Naidoo R, Reeves D.
+Assessment of the speed and ease of insertion of three
+supraglottic airway devices by paramedics: a manikin
+study. Emerg Med J. 2010;27(11):860 –3. doi: 10.1136/emj.
+2009.084343.
+86. Leventis C, Chalkias A, Sampanis MA, Foulidou X, Xanthos
+T. Emergency airway management by paramedics: compari-
+son between standard endotracheal intubation, laryngeal
+mask airway, and I-gel. Eur J Emerg Med. 2014;21(5):371 –3.
+doi:10.1097/MEJ.0000000000000101.
+87. Jackson KM, Cook TM. Evaluation of four airway training
+manikins as patient simulators for the insertion of eight
+types of supraglottic airway devices. Anaesthesia. 2007;
+62(4):388–93. doi: 10.1111/j.1365-2044.2007.04983.x.
+88. Genzwuerker HV, Fritz A, Hinkelbein J, Finteis T, Schlaefer
+A, Schaeffer M, Thil E, Rapp HJ. Prospective, randomized
+comparison of laryngeal tube and laryngeal mask airway in
+pediatric patients. Paediatr Anaesth. 2006;16(12):1251 –6. doi:
+10.1111/j.1460-9592.2006.01984.x.
+89. Henlin T, Sotak M, Kovaricek P, Tyll T, Balcarek L,
+Michalek P. Comparison of five 2nd-generation supraglottic
+airway devices for airway management performed by nov-
+ice military operators. Biomed Res Int. 2015;2015:1 –8. doi: 10.
+1155/2015/201898.
+90. Maddocks W. Skill fade in military medical training: A lit-
+erature review of Supraglottic airway use in the prehospital
+environment. Journal of Military and Veterans Health.
+2020;28(3):35–42.
+91. Fischer H, Hochbrugger E, Fast A, Hager H, Steinlechner B,
+Koinig H, Eisenburger P, Frantal S, Greif R. Performance of
+supraglottic airway devices and 12 month skill retention: a
+randomized controlled study with manikins. Resuscitation.
+2011;82(3):326–31. doi: 10.1016/j.resuscitation.2010.11.014.
+92. Ruetzler K, Roessler B, Potura L, Priemayr A, Robak O,
+Schuster E, Frass M. Performance and skill retention of
+intubation by paramedics using seven different airway
+devices-a manikin study. Resuscitation. 2011;82(5):593 –7.
+doi:10.1016/j.resuscitation.2011.01.008.
+93. Bernhard M, Beres W, Timmermann A, Stepan R, Greim C-
+A, Kaisers UX, Gries A. Prehospital airway management
+using the laryngeal tube. An emergency department point
+of viewAnaesthesist. 2014;63(7):589 –96. doi: 10.1007/s00101-
+014-2348-1.
+94. Chinn M, Biedrzycki L. Prehospital laryngeal tube airway
+device placement resulting in hypopharyngeal perforation:
+a case report. Prehosp Emerg Care. 2020;24(4):590 –4. doi: 10.
+1080/10903127.2019.1671565.
+95. Vezina MC, Trepanier CA, Nicole PC, Lessard MR.
+Complications associated with the esophageal-tracheal com-
+bitube in the pre-hospital setting. Can J Anaesth. 2007;54(2):
+124–8. doi: 10.1007/BF03022008.
+96. V /C19ezina D, Lessard MR, Bussi /C18eres J, Topping C, Tr
+/C19epanier
+CA. Complications associated with the use of the esopha-
+geal-tracheal combitube. Can J Anaesth. 1998;45(1):76 –80.
+doi:10.1007/BF03011999.
+97. Calkins TR, Miller K, Langdorf MI. Success and complica-
+tion rates with prehospital placement of an esophageal-tra-
+cheal combitube as a rescue airway. Prehosp Disaster Med.
+2006;21(2):97–100. doi: 10.1017/s1049023x00003423.
+98. Oczenski W, Krenn H, Dahaba AA, Binder M, El-Schahawi-
+Kienzl I, Kohout S, Schwarz S, Fitzgerald RD.
+Complications following the use of the Combitube, tracheal
+tube and laryngeal mask airway. Anaesthesia. 1999;54(12):
+1161–5. doi: 10.1046/j.1365-2044.1999.01107.x.
+99. Segal N, Yannopoulos D, Mahoney BD, Frascone RJ,
+Matsuura T, Cowles CG, McKnite SH, Chase DG.
+Impairment of carotid artery blood flow by supraglottic air-
+way use in a swine model of cardiac arrest. Resuscitation.
+2012;83(8):1025–30. doi: 10.1016/j.resuscitation.2012.03.025.
+100. Kim TH, Hong KJ, Shin SD, Lee JC, Choi DS, Chang I, Joo YH,
+Ro YS, Song KJ. Effect of endotracheal intubation and supra-
+glottic airway device placement during cardiopulmonary
+resuscitation on carotid blood flow over resuscitation time: An
+experimental porcine cardiac arrest study. Resuscitation. 2019;
+139:269–74. doi:10.1016/j.resuscitation.2019.04.020.
+101. White JMB, Braude DA, Lorenzo G, Hart BL. Radiographic
+evaluation of carotid artery compression in patients with
+extraglottic airway devices in place. Acad Emerg Med. 2015;
+22(5):636–8. doi: 10.1111/acem.12647.
+102. Neill A, Ducanto J, Amoli S. Anatomical relationships of
+the Air-Q supraglottic airway during elective MRI scan of
+brain and neck. Resuscitation. 2012;83(12):e231 –e232. doi: 10.
+1016/j.resuscitation.2012.08.322.
+103. Nandwani N, Fairfield MC, Krarup K, Thompson J. The
+effect of laryngeal mask airway insertion on the position of
+the internal jugular vein. Anaesthesia. 1997;52(1):77 –9. doi:
+10.1111/j.1365-2044.1997.012-az012.x.
+104. Rasulo F, Zugni N, Piva S, Fagoni N, Pe F, Toninelli A, et al.
+Influence of supraglottic airway device placement on cere-
+bral hemodynamics. Minerva Anestesiol. 2016;82(8):850 –7.
+105. Eismann H, Sieg L, Otten O, Leffler A, Palmaers T. Impact
+of the laryngeal tube as supraglottic airway device on blood
+flow of the internal carotid artery in patients undergoing
+general anaesthesia. Resuscitation. 2019;138:141 –5. doi: 10.
+1016/j.resuscitation.2019.03.010.
+106. Colbert S-A, Ohanlon DM, Flanagan F, Page R, Moriarty
+DC. The laryngeal mask airway reduces blood flow in the
+common carotid artery bulb. Can J Anaesth. 1998;45(1):23 –7.
+doi:10.1007/BF03011987.
+107. Zhang J-J, Qu Z-Y, Hua Z, Zuo M-Z, Zhang H-Y. Effect of dif-
+ferent types of laryngeal mask airway placement on the right
+internal jugular vein: A prospective randomized controlled
+trial. WJCC. 2019;7(24):4245–53. doi:10.12998/wjcc.v7.i24.4245.
+108. Ruetzler K, Gruber C, Nabecker S, Wohlfarth P, Priemayr
+A, Frass M, Kimberger O, Sessler DI, Roessler B. Hands-off
+time during insertion of six airway devices during cardio-
+pulmonary resuscitation: a randomised manikin trial.
+Resuscitation. 2011;82(8):1060 –
+3. doi: 10.1016/j.resuscitation.
+2011.03.027.
+109. Wang HE, Schmicker RH, Daya MR, Stephens SW, Idris AH,
+Carlson JN, Colella MR, Herren H, Hansen M, Richmond NJ,
+et al. Effect of a strategy of initial laryngeal tube insertion vs
+endotracheal intubation on 72-hour survival in adults with
+out-of-hospital cardiac arrest: a randomized clinical trial.
+JAMA. 2018;320(8):769–78. doi:10.1001/jama.2018.7044.
+110. Benger JR, Kirby K, Black S, Brett SJ, Clout M, Lazaroo MJ,
+Nolan JP, Reeves BC, Robinson M, Scott LJ, et al. Effect of a
+strategy of a supraglottic airway device vs tracheal intub-
+ation during out-of-hospital cardiac arrest on functional
+outcome: the AIRWAYS-2 randomized clinical trial. JAMA.
+2018;320(8):779–91. doi: 10.1001/jama.2018.11597.
+111. Hardy G, Maddry JK, Ng PC, Savell SC, Arana AA, Kester
+A, Bebarta VS. Impact of prehospital airway management
+on combat mortality. Am J Emerg Med. 2019;37(2):349 –50.
+doi:10.1016/j.ajem.2018.02.007.
+112. Hernandez MC, Antiel RM, Balakrishnan K, Zielinski MD,
+Klinkner DB. Definitive airway management after prehospi-
+tal supraglottic rescue airway in pediatric trauma. Journal
+of Pediatric Surgery. 2018;53(2):352 –6. doi: 10.1016/j.jped-
+surg.2017.10.004.
+J. W. Lyng et al. P REHOSPITAL SUPRAGLOTTIC AIRWAYS 41

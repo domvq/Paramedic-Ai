@@ -1,0 +1,1723 @@
+EMS Training and Education Reference
+
+1. Purpose
+
+This document defines the structure and use of EMS training materials for a paramedic AI.
+
+Training documentation is intended to support:
+
+Clinical education
+
+Skill development
+
+Scenario-based learning
+
+Protocol understanding
+
+Clinical reasoning
+
+Assessment preparation
+
+Simulation
+
+Review of procedures
+
+Recognition of patient deterioration
+
+Continuing education
+
+Training material is educational and does not replace current local EMS protocols, medical-director orders, agency policy, or applicable scope-of-practice requirements.
+
+2. Training vs Protocol
+
+The AI must distinguish between training information and operational protocol.
+
+Protocol
+
+Answers:
+
+"What does my EMS system authorize or require?"
+
+Training
+
+Answers:
+
+"How does this work, why is it done, and how should I think through the situation?"
+
+Example
+
+Protocol:
+
+"Administer medication X under these specified conditions."
+
+Training:
+
+"Medication X is used for this physiologic problem. Here is its mechanism, expected effect, adverse effects, and monitoring considerations."
+
+The AI should never convert a training recommendation into a claim that an intervention is authorized by the user's EMS system.
+
+3. Training Authority
+
+Training materials should be classified by source.
+
+Recommended hierarchy:
+
+Agency-approved training material
+
+Medical-director-approved education
+
+Current EMS education standards
+
+Current recognized resuscitation guidelines
+
+Peer-reviewed clinical education
+
+Manufacturer training material
+
+General educational references
+
+Local protocol remains the controlling source for operational decisions.
+
+4. Training Document Metadata
+
+Every training document should contain:
+
+Title:
+
+Topic:
+
+Training Category:
+
+Provider Level:
+
+Patient Population:
+
+Author:
+
+Organization:
+
+Version:
+
+Publication Date:
+
+Review Date:
+
+Status:
+
+Prerequisites:
+
+Related Protocol:
+
+Related Medication:
+
+Related Procedure:
+
+Source:
+
+Status
+
+Use:
+
+CURRENT
+
+UNDER REVIEW
+
+OUTDATED
+
+ARCHIVED
+
+DRAFT
+
+5. Recommended Training Categories
+
+Create separate sections for:
+
+01_Assessment
+
+02_Airway
+
+03_Respiratory
+
+04_Cardiology
+
+05_Cardiac_Arrest
+
+06_Medications
+
+07_IV_IO_Access
+
+08_Procedures
+
+09_Trauma
+
+10_Medical
+
+11_Neurology
+
+12_Pediatrics
+
+13_Neonatal
+
+14_Obstetrics
+
+15_Toxicology
+
+16_Behavioral
+
+17_Emergency_Driving
+
+18_Communication
+
+19_Documentation
+
+20_Clinical_Reasoning
+
+21_Simulation
+
+22_Scenarios
+
+23_Exam_Preparation
+
+24_Quality_Improvement
+
+25_Special_Populations
+
+6. Learning Objectives
+
+Every training document should identify what the learner should be able to do after completing it.
+
+Example:
+
+Learning Objectives
+
+After completing this module, the learner should be able to:
+
+Describe the relevant anatomy and physiology.
+
+Recognize common presentations.
+
+Identify life threats.
+
+Perform the appropriate assessment.
+
+Explain the treatment rationale.
+
+Recognize treatment complications.
+
+Reassess the patient.
+
+Identify when escalation or medical control is required.
+
+Apply the appropriate local protocol.
+
+7. Anatomy and Physiology
+
+Training documents should explain the relevant anatomy and physiology before discussing treatment when appropriate.
+
+Include:
+
+Relevant anatomy
+
+Normal physiology
+
+Pathophysiology
+
+Compensatory mechanisms
+
+Clinical consequences
+
+Expected physical findings
+
+The AI should use this information to explain why a patient may present in a particular way.
+
+8. Pathophysiology
+
+Training materials should explain:
+
+Disease mechanism
+
+Common causes
+
+Physiologic changes
+
+Expected symptoms
+
+Expected signs
+
+Progression
+
+Complications
+
+Life-threatening manifestations
+
+The AI should connect pathophysiology to clinical findings.
+
+Example:
+
+Disease process
+
+↓
+
+Physiologic change
+
+↓
+
+Clinical finding
+
+↓
+
+Potential complication
+
+↓
+
+Assessment priority
+
+9. Patient Assessment Training
+
+Assessment training should teach a systematic approach.
+
+Recommended structure:
+
+Scene
+
+↓
+
+General impression
+
+↓
+
+Primary assessment
+
+↓
+
+Immediate life threats
+
+↓
+
+Vital signs
+
+↓
+
+Focused history
+
+↓
+
+Physical examination
+
+↓
+
+Diagnostic information
+
+↓
+
+Differential diagnosis
+
+↓
+
+Treatment
+
+↓
+
+Reassessment
+
+10. Primary Assessment
+
+Training should emphasize:
+
+Airway
+
+Is it patent?
+
+Is there obstruction?
+
+Can the patient protect the airway?
+
+Breathing
+
+Is ventilation adequate?
+
+Is oxygenation adequate?
+
+Is respiratory effort appropriate?
+
+Circulation
+
+Is there adequate perfusion?
+
+Is there hemorrhage?
+
+Is the rhythm appropriate?
+
+Disability
+
+Mental status
+
+Pupils
+
+Neurologic deficits
+
+Blood glucose when indicated
+
+Exposure
+
+Temperature
+
+Injuries
+
+Rash
+
+Bleeding
+
+Other relevant findings
+
+11. Differential Diagnosis
+
+Training materials should teach clinicians to avoid anchoring on the first apparent diagnosis.
+
+The AI should encourage consideration of:
+
+Most likely diagnosis
+
+Most dangerous diagnosis
+
+Reversible causes
+
+Conditions that mimic the presentation
+
+Example:
+
+A patient with altered mental status may have:
+
+Hypoglycemia
+
+Hypoxia
+
+Stroke
+
+Seizure
+
+Infection
+
+Trauma
+
+Toxicologic exposure
+
+Metabolic disturbance
+
+12. Clinical Reasoning
+
+Training should teach:
+
+Recognition
+
+What is happening?
+
+Interpretation
+
+What does it mean?
+
+Differential
+
+What could cause it?
+
+Prioritization
+
+What is immediately life-threatening?
+
+Intervention
+
+What can be done now?
+
+Reassessment
+
+Did the patient improve?
+
+Escalation
+
+What should happen if the patient deteriorates?
+
+13. Airway Training
+
+Airway training should include:
+
+Airway anatomy
+
+Airway assessment
+
+Positioning
+
+Suction
+
+Basic airway adjuncts
+
+Bag-valve-mask ventilation
+
+Supraglottic airways
+
+Endotracheal intubation when applicable
+
+Difficult airway recognition
+
+Failed airway management
+
+Confirmation of ventilation
+
+Capnography
+
+Airway complications
+
+Post-intubation management
+
+Each skill should have:
+
+Indications
+
+Contraindications
+
+Equipment
+
+Preparation
+
+Technique
+
+Confirmation
+
+Complications
+
+Troubleshooting
+
+Reassessment
+
+Operational permission should come from the appropriate local protocol.
+
+14. Respiratory Training
+
+Training should cover:
+
+Respiratory anatomy
+
+Oxygenation
+
+Ventilation
+
+Work of breathing
+
+Respiratory distress
+
+Respiratory failure
+
+Asthma
+
+COPD
+
+Pulmonary edema
+
+Pneumonia
+
+Upper-airway obstruction
+
+Pneumothorax
+
+Drowning
+
+Mechanical ventilation when applicable
+
+The learner should understand the difference between:
+
+Respiratory distress
+
+and
+
+Respiratory failure.
+
+15. Cardiology Training
+
+Include:
+
+Cardiac anatomy
+
+Cardiac physiology
+
+Electrical conduction
+
+ECG fundamentals
+
+12-lead ECG interpretation
+
+Dysrhythmias
+
+Acute coronary syndromes
+
+Heart failure
+
+Cardiogenic shock
+
+Bradycardia
+
+Tachycardia
+
+Cardiac arrest
+
+ROSC
+
+Post-arrest care
+
+16. ECG Training
+
+ECG training should include:
+
+Rate
+
+Rhythm
+
+P waves
+
+PR interval
+
+QRS
+
+QT/QTc
+
+Axis
+
+ST segments
+
+T waves
+
+Ischemic changes
+
+STEMI patterns
+
+Conduction abnormalities
+
+Dysrhythmias
+
+Training should emphasize systematic interpretation rather than pattern recognition alone.
+
+Recommended sequence:
+
+Rate
+
+↓
+
+Rhythm
+
+↓
+
+P waves
+
+↓
+
+PR interval
+
+↓
+
+QRS
+
+↓
+
+QT
+
+↓
+
+Axis
+
+↓
+
+ST/T changes
+
+↓
+
+Clinical correlation
+
+17. Cardiac Arrest Training
+
+Training should include:
+
+Recognition of arrest
+
+High-quality CPR
+
+Ventilation
+
+Defibrillation
+
+Rhythm recognition
+
+Reversible causes
+
+Medication concepts
+
+Airway management
+
+Team dynamics
+
+ROSC
+
+Post-arrest care
+
+Simulation should be used to reinforce timing, communication, and team coordination.
+
+18. Medication Training
+
+Each medication training document should contain:
+
+Medication:
+
+Class:
+
+Mechanism:
+
+Indications:
+
+Contraindications:
+
+Precautions:
+
+Onset:
+
+Duration:
+
+Expected effects:
+
+Adverse effects:
+
+Serious adverse effects:
+
+Interactions:
+
+Monitoring:
+
+Special populations:
+
+Common errors:
+
+Related protocol:
+
+Actual medication dosing should be retrieved from the current applicable protocol/formulary when the question concerns field administration.
+
+19. Medication Calculation Training
+
+Training should cover:
+
+Weight-based calculations
+
+Concentration
+
+Volume
+
+Dose
+
+Infusion rates
+
+Unit conversions
+
+Maximum doses
+
+Example educational relationship:
+
+Volume to administer =
+
+Required dose ÷ Concentration
+
+The AI should clearly distinguish calculation practice from an actual patient medication order.
+
+20. IV and IO Training
+
+Training may include:
+
+IV
+
+Vein selection
+
+Equipment
+
+Preparation
+
+Technique
+
+Securing the line
+
+Complications
+
+Infiltration
+
+Extravasation
+
+Reassessment
+
+IO
+
+Indications
+
+Contraindications
+
+Site selection
+
+Equipment
+
+Placement
+
+Confirmation
+
+Medication/fluid administration
+
+Complications
+
+Removal
+
+Follow current agency training and protocol requirements for actual clinical use.
+
+21. Trauma Training
+
+Include:
+
+Mechanism of injury
+
+Trauma assessment
+
+Hemorrhage control
+
+Shock
+
+Head trauma
+
+Chest trauma
+
+Abdominal trauma
+
+Pelvic trauma
+
+Extremity trauma
+
+Burns
+
+Spinal considerations
+
+Crush injuries
+
+Amputation
+
+Penetrating trauma
+
+Pediatric trauma
+
+Training should emphasize treatment of immediate life threats before less urgent injuries.
+
+22. Medical Training
+
+Include:
+
+Altered mental status
+
+Diabetes
+
+Sepsis
+
+Stroke
+
+Seizures
+
+Syncope
+
+Allergic reactions
+
+Anaphylaxis
+
+Gastrointestinal emergencies
+
+Renal emergencies
+
+Endocrine emergencies
+
+Infectious disease
+
+Environmental emergencies
+
+23. Pediatric Training
+
+Include:
+
+Pediatric anatomy
+
+Pediatric physiology
+
+Pediatric assessment
+
+Pediatric airway
+
+Pediatric respiratory emergencies
+
+Pediatric shock
+
+Pediatric cardiac arrest
+
+Pediatric trauma
+
+Pediatric medication safety
+
+Pediatric communication
+
+Child abuse recognition
+
+Pediatric training should remain separate from adult training.
+
+24. Neonatal Training
+
+Maintain a dedicated neonatal section covering:
+
+Newborn transition
+
+Initial assessment
+
+Neonatal airway
+
+Ventilation
+
+Chest compressions
+
+Medication concepts
+
+Temperature management
+
+Prematurity
+
+Neonatal transport
+
+Newborn-at-birth resuscitation should use current neonatal resuscitation training and applicable local protocols.
+
+25. Obstetric Training
+
+Include:
+
+Pregnancy physiology
+
+Normal delivery
+
+Complicated delivery
+
+Breech presentation
+
+Shoulder dystocia
+
+Eclampsia
+
+Preeclampsia
+
+Postpartum hemorrhage
+
+Placental emergencies
+
+Neonatal care
+
+Maternal cardiac arrest
+
+26. Toxicology Training
+
+Include:
+
+Toxidromes
+
+Medication overdose
+
+Opioids
+
+Sympathomimetics
+
+Anticholinergics
+
+Cholinergics
+
+Sedative-hypnotics
+
+Alcohol
+
+Carbon monoxide
+
+Household exposures
+
+Pediatric poisoning
+
+Training should emphasize recognition and supportive care concepts while local protocols determine authorized treatment.
+
+27. Behavioral Emergency Training
+
+Include:
+
+Scene safety
+
+De-escalation
+
+Mental-status assessment
+
+Medical causes of agitation
+
+Substance-related presentations
+
+Suicidal behavior
+
+Psychosis
+
+Severe agitation
+
+Restraint principles
+
+Monitoring
+
+Documentation
+
+The AI should avoid assuming that abnormal behavior is purely psychiatric until medical causes have been considered.
+
+28. Communication Training
+
+Include:
+
+Patient communication
+
+Family communication
+
+Handoff
+
+Radio reports
+
+Medical-control communication
+
+Team communication
+
+Closed-loop communication
+
+Difficult conversations
+
+29. Radio / Medical-Control Training
+
+Teach a structured report:
+
+Unit identification
+
+↓
+
+Patient age/sex
+
+↓
+
+Chief complaint
+
+↓
+
+Relevant history
+
+↓
+
+Initial findings
+
+↓
+
+Vital signs
+
+↓
+
+Assessment
+
+↓
+
+Treatment performed
+
+↓
+
+Response
+
+↓
+
+Current condition
+
+↓
+
+Request/question
+
+The exact radio format should follow local agency requirements.
+
+30. Patient Handoff Training
+
+A handoff should communicate:
+
+Patient identification
+
+Chief complaint
+
+Relevant history
+
+Baseline condition
+
+Assessment
+
+Vital signs
+
+Important findings
+
+Treatments
+
+Response
+
+Medications
+
+Allergies
+
+Pertinent changes
+
+Concerns
+
+Training should emphasize concise communication of information that affects immediate patient care.
+
+31. Simulation Training
+
+Create scenario-based training documents.
+
+Each scenario should contain:
+
+Scenario title:
+
+Difficulty:
+
+Provider level:
+
+Learning objectives:
+
+Environment:
+
+Dispatch information:
+
+Initial presentation:
+
+Initial vital signs:
+
+Physical findings:
+
+History:
+
+Expected differential:
+
+Expected actions:
+
+Expected deterioration:
+
+Expected treatment:
+
+Reassessment:
+
+Critical errors:
+
+Debrief:
+
+32. Scenario Progression
+
+Scenarios should evolve based on learner actions.
+
+Example:
+
+Initial presentation
+
+↓
+
+Learner assessment
+
+↓
+
+Correct intervention?
+
+↙       ↘
+
+YES        NO
+
+↓          ↓
+
+Improve     Deteriorate
+
+↓          ↓
+
+Reassess    New findings
+
+This allows the AI to conduct interactive simulations.
+
+33. Scenario Difficulty
+
+Classify scenarios:
+
+Level 1 — Basic
+
+Single problem with obvious findings.
+
+Level 2 — Intermediate
+
+Multiple findings requiring prioritization.
+
+Level 3 — Advanced
+
+Multiple simultaneous problems.
+
+Level 4 — Critical
+
+Complex patient requiring rapid decision-making, reassessment, and team coordination.
+
+34. Critical Errors
+
+Training scenarios should identify actions that represent significant clinical errors.
+
+Examples may include:
+
+Failure to recognize cardiac arrest
+
+Failure to ventilate an apneic patient
+
+Failure to recognize severe hypoglycemia
+
+Failure to treat life-threatening hemorrhage
+
+Failure to recognize deteriorating respiratory failure
+
+Incorrect medication
+
+Incorrect medication concentration
+
+Failure to reassess
+
+Failure to recognize deterioration
+
+Critical errors should be tied to the relevant training material or protocol.
+
+35. Debriefing
+
+After every scenario, provide:
+
+What went well?
+
+What could be improved?
+
+What was missed?
+
+What was the most important finding?
+
+What was the primary life threat?
+
+What alternative diagnoses should have been considered?
+
+What should happen next time?
+
+Debriefing should focus on clinical reasoning rather than simply whether the learner reached the correct final diagnosis.
+
+36. Skills Training
+
+Each hands-on skill should have:
+
+Skill:
+
+Purpose:
+
+Indications:
+
+Contraindications:
+
+Equipment:
+
+Preparation:
+
+Procedure:
+
+Confirmation:
+
+Complications:
+
+Troubleshooting:
+
+Reassessment:
+
+Documentation:
+
+Related protocol:
+
+Examples:
+
+BVM ventilation
+
+Supraglottic airway
+
+Endotracheal intubation
+
+IV placement
+
+IO placement
+
+12-lead ECG
+
+Defibrillation
+
+Cardioversion
+
+Pacing
+
+Hemorrhage control
+
+Splinting
+
+Pelvic stabilization
+
+37. Knowledge Checks
+
+Training documents may include questions such as:
+
+Recall
+
+What are the components of the primary assessment?
+
+Application
+
+A patient presents with severe respiratory distress. What should be assessed first?
+
+Interpretation
+
+What does this ECG finding suggest?
+
+Prioritization
+
+Which problem represents the immediate life threat?
+
+Scenario
+
+What would you do next?
+
+Answers should be based on the appropriate training source.
+
+38. Training Question Format
+
+For AI-generated quizzes:
+
+Question:
+
+Difficulty:
+
+Topic:
+
+Learning objective:
+
+Answer choices:
+
+Correct answer:
+
+Explanation:
+
+Why other answers are incorrect:
+
+Related training:
+
+Related protocol:
+
+39. Avoiding Training Hallucinations
+
+The AI must not invent:
+
+Agency policies
+
+Training requirements
+
+Certification requirements
+
+Scope of practice
+
+Medication doses
+
+Protocol requirements
+
+Skill-checkoff requirements
+
+Instructor requirements
+
+Examination requirements
+
+If the information isn't in the training documentation:
+
+"This information is not present in the supplied training material."
+
+40. Training vs Current Protocol
+
+If training material and protocol conflict:
+
+Identify the conflict.
+
+Determine which document is newer.
+
+Determine whether the training material is educational or operational.
+
+Use the current operational protocol for patient-care decisions.
+
+Flag outdated training material for review.
+
+Example:
+
+"The training document describes technique X, but the current protocol specifies technique Y. For an actual patient encounter, follow the current protocol."
+
+41. Outdated Training Material
+
+Training documents should be reviewed when:
+
+Protocols change
+
+Guidelines change
+
+Medication formulations change
+
+Equipment changes
+
+Scope of practice changes
+
+Agency policy changes
+
+Significant safety information changes
+
+Outdated material should be moved to:
+
+Training/
+
+└── 99_Archived/
+
+rather than deleted.
+
+42. Training Folder Structure
+
+Recommended structure:
+
+Training/
+
+│
+
+├── 00_Training_Index/
+
+│   ├── Training_Index.pdf
+
+│   ├── Training_Standards.pdf
+
+│   └── Training_Version_History.pdf
+
+│
+
+├── 01_Assessment/
+
+│   ├── Primary_Assessment.pdf
+
+│   ├── Secondary_Assessment.pdf
+
+│   ├── Vital_Signs.pdf
+
+│   └── Clinical_Reasoning.pdf
+
+│
+
+├── 02_Airway/
+
+│   ├── Airway_Anatomy.pdf
+
+│   ├── BVM.pdf
+
+│   ├── SGA.pdf
+
+│   ├── Intubation.pdf
+
+│   └── Difficult_Airway.pdf
+
+│
+
+├── 03_Respiratory/
+
+│   ├── Respiratory_Assessment.pdf
+
+│   ├── Asthma.pdf
+
+│   ├── COPD.pdf
+
+│   └── Respiratory_Failure.pdf
+
+│
+
+├── 04_Cardiology/
+
+│   ├── ECG_Basics.pdf
+
+│   ├── 12_Lead_ECG.pdf
+
+│   ├── Dysrhythmias.pdf
+
+│   └── Cardiac_Arrest.pdf
+
+│
+
+├── 05_Medications/
+
+│   ├── Pharmacology_Basics.pdf
+
+│   ├── Medication_Safety.pdf
+
+│   └── Medication_Calculations.pdf
+
+│
+
+├── 06_Procedures/
+
+│   ├── IV.pdf
+
+│   ├── IO.pdf
+
+│   ├── Defibrillation.pdf
+
+│   └── Cardioversion.pdf
+
+│
+
+├── 07_Trauma/
+
+│   ├── Trauma_Assessment.pdf
+
+│   ├── Hemorrhage.pdf
+
+│   ├── Head_Trauma.pdf
+
+│   └── Burns.pdf
+
+│
+
+├── 08_Medical/
+
+│   ├── Stroke.pdf
+
+│   ├── Seizures.pdf
+
+│   ├── Diabetes.pdf
+
+│   └── Sepsis.pdf
+
+│
+
+├── 09_Pediatrics/
+
+│   ├── Pediatric_Assessment.pdf
+
+│   ├── Pediatric_Airway.pdf
+
+│   ├── Pediatric_Respiratory.pdf
+
+│   └── Pediatric_Cardiology.pdf
+
+│
+
+├── 10_Neonatal/
+
+│   └── Neonatal_Training.pdf
+
+│
+
+├── 11_Obstetrics/
+
+│   ├── Delivery.pdf
+
+│   ├── Eclampsia.pdf
+
+│   └── Postpartum_Hemorrhage.pdf
+
+│
+
+├── 12_Toxicology/
+
+│   ├── Toxidromes.pdf
+
+│   └── Common_Overdoses.pdf
+
+│
+
+├── 13_Communication/
+
+│   ├── Handoff.pdf
+
+│   ├── Radio_Report.pdf
+
+│   └── Medical_Control.pdf
+
+│
+
+├── 14_Simulation/
+
+│   ├── Basic_Scenarios/
+
+│   ├── Intermediate_Scenarios/
+
+│   ├── Advanced_Scenarios/
+
+│   └── Critical_Scenarios/
+
+│
+
+├── 15_Exam_Preparation/
+
+│   ├── Practice_Questions/
+
+│   ├── Flashcards/
+
+│   └── Review_Guides/
+
+│
+
+├── 16_Quality_Improvement/
+
+│   ├── Common_Errors.pdf
+
+│   ├── Case_Reviews.pdf
+
+│   └── Lessons_Learned.pdf
+
+│
+
+└── 99_Archived/
+
+43. AI Training Mode
+
+Your AI can use a dedicated training mode.
+
+When the user says:
+
+"Quiz me on cardiology."
+
+The AI should:
+
+Determine difficulty.
+
+Select the requested topic.
+
+Ask one question at a time.
+
+Wait for the answer.
+
+Grade the response.
+
+Explain the reasoning.
+
+Identify the relevant training source.
+
+Increase or decrease difficulty based on performance.
+
+44. Scenario Mode
+
+When the user says:
+
+"Give me a scenario."
+
+The AI should:
+
+Provide dispatch information.
+
+Present the initial patient.
+
+Wait for the learner's assessment/action.
+
+Reveal findings based on the learner's actions.
+
+Allow the patient condition to evolve.
+
+Avoid giving away the diagnosis.
+
+Provide a debrief at the end.
+
+The AI should behave like a simulation instructor rather than immediately providing the answer.
+
+45. Protocol Drill Mode
+
+When the user says:
+
+"Test me on protocols."
+
+The AI should ask questions that test:
+
+Indications
+
+Contraindications
+
+Medication
+
+Sequence
+
+Medical control
+
+Transport
+
+Exceptions
+
+Special populations
+
+The answer should come from the current protocol documentation.
+
+46. Skill Drill Mode
+
+When the user says:
+
+"Test me on airway."
+
+The AI should be able to switch between:
+
+Knowledge questions
+
+Equipment identification
+
+Procedure sequencing
+
+Troubleshooting
+
+Scenario questions
+
+Complication management
+
+Protocol questions
+
+47. Training Source Citation
+
+Every training answer should ideally provide:
+
+Training Source:
+
+Document:
+
+Section:
+
+Page:
+
+Version:
+
+This makes it possible for the learner to verify the answer.
+
+48. Final AI Training Rule
+
+When answering training questions, the AI should determine whether the user wants:
+
+Education → Explain the concept.
+
+Skill training → Teach the procedure.
+
+Scenario → Simulate the patient.
+
+Quiz → Test knowledge.
+
+Protocol → Retrieve the applicable protocol.
+
+Clinical question → Use the current authoritative clinical documentation.
+
+Never assume these are the same thing.
+
+49. Core Principle
+
+The Training folder should teach the paramedic:
+
+Recognize → Assess → Interpret → Prioritize → Intervene → Reassess → Escalate → Reflect
+
+The Protocol folder determines what the paramedic is authorized or required to do.
+
+The Training folder explains the knowledge and reasoning needed to perform those actions safely and effectively.
+
+Document classification: EMS education and training reference
+
+Primary operational authority: Current local EMS protocol and medical-director guidance
+
+Training status: Educational reference; not a substitute for current operational protocol

@@ -1,0 +1,299 @@
+Abstract
+
+Although pediatric airway and respiratory emergencies represent high-acuity situations, the ability of EMS clinicians to effectively manage these patients is hampered by infrequent clinical exposure and shortcomings in pediatric-specific education. Cognitive gaps in EMS clinicians’ understanding of the differences between pediatric and adult airway anatomy and respiratory physiology and pathology, variability in the training provided to EMS clinicians, and decay of the psychomotor skills necessary to safely and effectively manage pediatric patients experiencing respiratory emergencies collectively pose significant threats to the quality and safety of care delivered to pediatric patients.
+
+NAEMSP recommends:
+
+Pediatric airway education should include discussion of the factors that make pediatric airway management challenging.
+
+EMS agencies should provide pediatric-specific education that addresses recognition and treatment of pediatric respiratory distress based upon pathophysiology affecting upper airways, lower airways, cardiovascular systems, or extrinsic causes of disordered breathing. Pediatric airway training should also differentiate between hypoxic and hypercapnic respiratory failure. Education should emphasize that the cognitive and psychomotor skills requisite in management of pediatric respiratory emergencies will differ across patient age groups.
+
+EMS clinicians should be provided education and training in technology-dependent children and children and youth with special health care needs.
+
+EMS clinicians should receive initial and ongoing education and training in pediatric airway and respiratory conditions that emphasizes the principle of using the least invasive most effective strategies to achieve oxygenation and ventilation.
+
+Initial and continuing pediatric-focused education should be structured to maintain EMS clinician competency in the assessment and management of pediatric airway and respiratory emergencies and should be provided on a recurring basis to mitigate the decay of EMS clinicians’ knowledge and skills that occurs due to infrequent field-based clinical exposure.
+
+Integration of clinician education programs with quality management programs is essential for the development and delivery of initial and continuing education intended to help EMS clinicians attain and maintain proficiency in pediatric airway and respiratory management.
+
+Key words:
+
+pediatric airway emergencies
+
+pediatric intubation
+
+pediatric airway management
+
+pediatric airway education
+
+competency
+
+Previous articleView issue table of contentsNext article
+
+Introduction
+
+Pediatric respiratory emergencies are low-frequency, high-risk encounters for most EMS clinicians. Correcting and maintaining oxygenation, ventilation, and perfusion are critically important elements of care for adult and pediatric patients alike. However, helping EMS clinicians understand some key differences in pediatric versus adult patients may help them recognize a child in respiratory distress and intervene in a timely and appropriate manner. EMS education regarding pediatric respiratory emergencies is variable and often limited by competing interests for education resources including time and funding (
+
+Citation
+
+1). Cognitive gaps are amplified by the challenges of limited exposure in clinical practice. It is necessary to recognize and address these challenges via educational initiatives to develop and maintain competency for both the cognitive and psychomotor skills required to manage pediatric respiratory and airway emergencies. To be most effective these educational initiatives must be paired with and supported by robust quality management programs.
+
+Pediatric Airway and Respiratory Characteristics and Assessment
+
+Pediatric airway education should include discussion of the factors that make pediatric airway management challenging.
+
+Pediatric patients are physiologically and anatomically different from their adult counterparts and fostering the fundamental knowledge of these important differences must be a critical goal of educational initiatives for EMS clinicians. Understanding these differences is crucial to the EMS clinician’s ability to form appropriate primary impressions and to develop therapeutic plans.
+
+Physiology
+
+From a physiologic standpoint EMS education initiatives should help clinicians understand that children, especially premature infants and young term infants, have a poor oxygen reserve as well as a higher metabolic oxygen demand, and that because of this the ability of pediatric patients to maintain adequate oxygenation rapidly declines in response to the physiologic stressors of infection, inflammation, or injury (
+
+Citation
+
+2). EMS clinicians must be able to apply this knowledge in a clinical setting and recognize that pediatric patients have a much earlier need for oxygenation and assisted ventilation than adult patients. EMS education initiatives should also help clinicians recognize that hypoxia, desaturation, and bradycardia in children are often late signs of progressive shock, and often signal impending cardiac arrest.
+
+Anatomy
+
+EMS education initiatives should help clinicians recognize the anatomic differences between pediatric and adult patients and how these differences affect the approach to pediatric airway management. Educating EMS clinicians about these differences can help guide their understanding of why different positioning techniques, equipment sizing, medication dosing, and airway insertion techniques need to be adapted based on the age of the patient. Vialet et al. provide an excellent description of the relationship of head posture to pediatric oropharyngeal structures and how these relationships affect pediatric airway management (
+
+Citation
+
+3). These features also make visualization, placement, and maintenance of correct positioning of invasive airway devices challenging in children. Education programs should also include instruction about the increasing number of surviving premature and dysmorphic infants who often have complex abnormal anatomy.
+
+An advisory document by Goyal et al. and a review article by Di Cicco et al. provide further excellent and thorough discussion of age-based anatomic and physiologic differences between pediatric and adult patients, how those differences evolve through growth and development, how those features affect pediatric airway management, and strategies to mitigate those various challenges (
+
+Citation
+
+4,
+
+Citation
+
+5).
+
+Pediatric Patient Assessment
+
+EMS clinicians should be educated to use a consistent and reproducible approach to patient assessment. One such approach is the “pediatric assessment triangle,” a cognitive model that guides clinicians to assess a patient’s work of breathing, circulation, and appearance (see Figure 1). Framing pediatric assessment using the “pediatric assessment triangle” construct has been shown to improve field management of children (
+
+Citation
+
+6). Within this framework, assessing the patient’s work of breathing includes physical examination for visual cues of accessory muscle use, retractions, excessive secretions, head bobbing, and cyanosis or pallor; auditory cues of stertor, stridor, and abnormal lung sounds; and assessment of the quality and rate of respirations.
+
+Figure 1. Pediatric Assessment Triangle. (Redrawn from: Ronald A, Brownstein D, Gausche-Hill M. The Pediatric Assessment Triangle: A Novel Approach fo rhte Rapid Evaluation of Children. Pediatric Emergency Care. April 2010 26(4):312–315. doi: 10.1097/PEC.0b013e3181d6db37.
+
+Display full size
+
+In addition to these physical examination components, EMS clinicians should also be educated on the use of technology like pulse oximetry and capnography to augment their physical exam and history as this technology can help differentiate between hypoxic and hypercapnic respiratory failure. Importantly, education must emphasize the use of appropriate pediatric-sized pulse-oximetry and capnography equipment, as use of sensors and equipment designed for the adult population may provide false readings when used to assess pediatric patients (
+
+Citation
+
+7–10). When used together, physical examination and diagnostic technology may help the EMS clinician to better identify the severity and possibly the causes of respiratory disturbances (
+
+Citation
+
+11).
+
+To reduce the need for invasive interventions, pediatric airway education should also stress early and rapid recognition of respiratory disturbances. Earlier recognition of respiratory issues in the time-course spanning from normal breathing to respiratory/cardiac arrest can likely translate to use of less invasive, easier, and less risk-prone interventions compared to the interventions needed when recognition of respiratory disturbances is delayed. The ability of EMS clinicians to rapidly recognize the severity of patient acuity, arrive at an accurate diagnostic impression, and provide appropriate pathology-specific care is critical. However limited data suggests EMS clinician performance is poor regarding the accurate recognition of pediatric respiratory distress and selection of appropriate interventions. In a study of 420 paramedics completing a multimedia case-based questionnaire, Schroter et al. found that while paramedics could correctly identify respiratory distress severity in 92% of cases, they performed poorly with correct identification of the disease process (50% of cases) and performance of appropriate interventions (38% of cases) (
+
+Citation
+
+12).
+
+Categories of Pediatric Respiratory Disturbances
+
+EMS agencies should provide pediatric-specific education that addresses recognition and treatment of pediatric respiratory distress based upon pathophysiology affecting upper airways, lower airways, cardiovascular systems, or extrinsic causes of disordered breathing. Pediatric airway training should also differentiate between hypoxic and hypercapnic respiratory failure. Education should emphasize that the cognitive and psychomotor skills requisite in management of pediatric respiratory emergencies will differ across patient age groups.
+
+The educational techniques used to help adult learners become competent in the cognitive and psychomotor domains of airway management are discussed in a companion to this document: Prehospital Airway Management Training and Education (
+
+Citation
+
+13). In addition to using these strategies, dividing pediatric respiratory disturbances into four categories may help some learners to differentiate between the potential causes of pediatric respiratory distress and to implement appropriate treatment protocols.
+
+Upper Airway Disturbances
+
+Key education includes awareness of nasopharynx-related causes of respiratory distress, including that infants 4 months of age and under are obligate nose breathers, and as such simple upper respiratory infections can result in nasal obstruction and respiratory failure. In patients with bronchiolitis, nasal suctioning is a minimally invasive treatment that can rapidly improve respiratory distress. Other areas for educational emphasis include proper nasopharyngeal airway sizing and placement.
+
+In addition to nasopharyngeal issues, younger pediatric patients and patients with various congenital diagnoses may have larger tongues, smaller jaws, larger occiputs, and increased secretions that may also impede airway patency (
+
+Citation
+
+5). Further, children often present with stridor due to anatomic subglottic narrowing and smaller diameter of the trachea. Multiple diagnoses can lead to stridor including infectious processes, congenital malformations, anaphylactic reactions, or foreign body obstruction. Education on airway positioning, jaw thrusting, suctioning, proper selection of oropharyngeal airway size and indications for use, and selection of inhaled medications appropriate for treatment of stridor are recommended.
+
+Lower Airway Disturbances
+
+Younger pediatric patients, especially infants and toddlers, have key lower anatomical distinctions such as smaller bronchiolar passages, flexible cartilaginous ribs, smaller lung volumes, and lower oxygen reserves. Lower airway-focused education should guide EMS clinicians to perform examination of the entire ribcage of younger patients to assess for intercostal, supraclavicular, and subcostal retractions. Further, EMS clinicians should be educated that smaller lower airway structures trap mucus more easily, which can cause patients with bronchiolitis to have wheezing that sounds like expiratory rales. EMS clinicians should be able to differentiate these sounds from the inspiratory rales associated with pneumonia or pulmonary edema.
+
+Mixed Upper/Lower Airway Disturbances: Bronchiolitis and Anaphylaxis
+
+Some conditions such as bronchiolitis and anaphylaxis can affect both upper and lower airways simultaneously, and clinicians should be educated to recognize they may need to tailor their interventions to address both anatomic regions. For example, in addition to providing a trial of nebulized albuterol for a wheezing bronchiolitis patient with respiratory distress, it is also key to educate the EMS clinician regarding recognition of obstructed nasal passages and the proper techniques for performing nasal suctioning.
+
+Although anaphylaxis most commonly manifests with wheezing and hives in pediatric patients, it can also present with stridor. Studies by Tiyagura et al. and Carrillo et al. confirm that rates of EMS clinician recognition of pediatric anaphylaxis are poor (
+
+Citation
+
+14,
+
+Citation
+
+15). Because treatment of anaphylaxis differs from other causes of pediatric stridor and wheezing, it is critical for EMS education initiatives to help clinicians differentiate anaphylaxis from other conditions.
+
+Cardiovascular Pathologies
+
+EMS pediatric education should also address pediatric cardiovascular conditions that may present with acute respiratory distress. Information obtained from the patient’s caregivers may help the EMS clinician recognize congenital cardiovascular conditions including persistent pulmonary hypertension (commonly associated with severe prematurity), single ventricle cardiac defects with staged repairs, and cyanotic congenital heart disorders. EMS clinicians should be educated on the importance of working with the guardians who are aware of the patient’s baseline, early notification to the hospital, and when possible, transporting the patient to a hospital within the patient’s medical home. The EMS clinician should also be aware of acute cardiac etiologies that may present as respiratory distress, such as supraventricular tachycardia and myocarditis, and how to assess and intervene in these scenarios.
+
+Extrinsic Causes of Disordered Breathing
+
+EMS clinician education should emphasize recognition of and intervention for three important presentations of extrinsic causes of disordered breathing:
+
+Apnea: All EMS clinicians should be educated to rapidly recognize absence of respiratory effort during physical exam and through identification of absent or low-amplitude waveforms on capnography when this technology is available. Clinicians should also be educated that pulse oximetry may not demonstrate hypoxia for several minutes after the onset of apnea and that apnea should be treated with immediate use of manual BVM ventilation prior to attempts at invasive airway insertion.
+
+Respiratory Alkalosis-related tachypnea: EMS clinicians should be aware that patients with metabolic acidosis from various causes often develop a compensatory respiratory alkalosis that can be differentiated from other causes of tachypnea by identifying concomitant low EtCO2 values. To maintain this compensatory state, clinicians should be educated regarding the critical need to match or exceed these patient’s tachypneic respiratory rate when initiating manual or mechanical ventilation.
+
+Hypoventilatory respiratory failure: EMS clinicians should understand that hypoventilation-induced hypoxia is often caused by head trauma, overt or subclinical status epilepticus, post-ictal states, toxic ingestions, and other conditions. Education should emphasize that relying on pulse oximetry to identify hypoventilation can lead to delayed recognition whereas use of continuous capnography or quantitative capnometry can lead to almost immediate recognition of hypoventilation.
+
+Pediatric airway education should also stress early and rapid recognition of respiratory disturbances. Earlier recognition of respiratory issues in the time-course spanning from normal breathing to respiratory/cardiac arrest can likely translate to use of less invasive, easier, and less risk-prone interventions compared to the interventions needed when recognition of respiratory disturbances is delayed. However limited data suggests EMS clinician performance is poor regarding the accurate recognition and treatment of pediatric respiratory distress. In a study of 420 paramedics completing a multimedia case-based questionnaire, Schroter, et al. found that while paramedics could correctly identify respiratory distress severity in 92% of cases, they performed poorly with correct identification of the disease process (50% of cases) and performance of appropriate interventions (38% of cases) (
+
+Citation
+
+12).
+
+Technology-Dependent Patients
+
+EMS clinicians should be provided education and training in technology-dependent children and children and youth with special health care needs.
+
+The number of pediatric patients with complex medical needs (e.g., tracheostomy, ventilator-dependence) receiving care at home continues to rise in the United States. EMS clinicians must be able to manage potential complications of these devices (
+
+Citation
+
+16). Educational programs should reinforce the importance of identifying resources to help troubleshoot issues, including using parents, pre-established clinical care plans, or consultation with the child’s physicians as valuable sources of guidance. Bedside trouble shooting guides and other just-in-time education tools or references may be useful for EMS clinicians to use at the point of care, though for such tools to be effective clinicians likely would need prior experience using these tools in a supervised training environment. Participation in specialized educational programs that focus on these patients and the different technologies used in their care can improve EMS clinician comfort and knowledge in providing them care (
+
+Citation
+
+17).
+
+Approach to Pediatric Airway and Respiratory Interventions
+
+EMS clinicians should receive initial and ongoing education and training in pediatric airway and respiratory conditions that emphasizes the principle of using the least invasive most effective strategies to achieve oxygenation and ventilation.
+
+To help achieve improvements in patient safety and outcomes, EMS education initiatives should emphasize the use of the least invasive yet most effective interventions to correct disturbances in airway patency, ventilation, or oxygenation. Many low frequency-high risk procedures such as endotracheal intubation are associated with significant risks to the patient, and in certain cases these risks can be avoided by using less invasive interventions, especially when lower-risk interventions can achieve similar outcomes. For example, recent studies of out-of-hospital cardiac arrest have shown equivalent outcomes for those patients managed with a BVM, a fundamental but challenging low-risk skill to perform, versus those managed with endotracheal intubation, a complex high-risk skill that is even more challenging to master than BVM ventilation (
+
+Citation
+
+18). As an alternative to committing substantial resources to help their clinicians maintain mastery of more invasive but equally efficacious skills, EMS agencies should instead consider focusing training efforts on simpler, less invasive but equally efficacious interventions.
+
+Unfortunately, the practice of using the least-invasive most effective interventions is not consistent across EMS agencies. Recent investigations across multiple facets of pediatric airway and respiratory management for conditions including croup, bronchiolitis, asthma, and anaphylaxis, reveal wide variation in protocols across agencies and inconsistent adoption of evidence-based recommendations (
+
+Citation
+
+15,
+
+Citation
+
+19). These inconsistencies likely hamper educational efforts by creating gaps or conflicts between the clinical medicine that is taught and the clinical care that is guided by protocols. The safety and efficacy of care provided in the EMS setting may be enhanced by educating EMS clinicians to tailor their interventions based on the category encompassing the patient’s respiratory disturbances and the severity of their illness, and ensuring protocols match this approach.
+
+EMS clinicians should be educated to intervene in pediatric patients with upper airway disturbances first with simple measures such as improving laminar airway flow by helping calm the patient. Then, as necessary and following a stepwise approach utilizing increasingly invasive interventions, the EMS clinician should progress to using medications such as inhaled epinephrine, intramuscular epinephrine, or steroids, and possibly ending with invasive procedures (
+
+Citation
+
+19,
+
+Citation
+
+20). A caveat to this stepwise approach to treating upper airway disturbances would be immediate progression from abdominal thrusts and back blows to use of Magill forceps to relieve a complete foreign body upper airway obstruction.
+
+An escalating approach to managing pediatric lower airway disturbances begins with optimizing oxygenation through administration of supplemental oxygen, progressing to delivery of nebulized medications and evaluating for response, then on to use of noninvasive positive pressure ventilation (NIPPV) using either a bag-valve-mask with a good mask seal or mechanical NIPPV strategies, and finally, potentially ending with invasive airway maneuvers for impending respiratory failure.
+
+The escalating approach to cardiovascular pathologies and extrinsic causes of disordered breathing is more condition-specific but should still follow a stepwise approach. Even when the need for invasive strategies appears imminent for these patients, initiation of respiratory care should begin with administration of supplemental oxygen and manual support of ventilation to optimize the patient’s physiology prior to embarking on invasive interventions.
+
+Longitudinal Education and Competency Assessment
+
+Initial and continuing pediatric-focused education should be structured to maintain EMS clinician competency in the assessment and management of pediatric airway and respiratory emergencies and should be provided on a recurring basis in order to mitigate the decay of EMS clinicians’ knowledge and skills that occurs due to infrequent field-based clinical exposure.
+
+Attainment of core cognitive and psychomotor competencies in pediatric airway and respiratory management is imperative as is the development of decision-making skills. However, the resources needed to support such pediatric educational initiatives are variable and often limited by competing interests for education resources including time and funding.(
+
+Citation
+
+1) As illustrated in Figure 2., the burden of resources and efforts needed to support use of different airway interventions in the EMS setting is influenced by complex relationships between each intervention’s frequency, difficulty, invasiveness, and the effort needed to attain and maintain the cognitive and psychomotor competencies involved with performing the intervention.
+
+Figure 2. Relative relationships of prehospital airway intervention invasiveness, frequency, difficulty, and effort needed to maintain competency. (Original artwork by John W. Lyng, MD)
+
+Display full size
+
+There is a paucity of literature that evaluates the content, quantity, quality, and frequency of pediatric airway education and the effects of those characteristics on EMS clinician proficiency in pediatric airway management. Of the literature that is available, most of it focuses on endotracheal intubation (ETI). Although ETI is a low-frequency high-risk skill that likely requires the most intense use of resources to help EMS clinicians attain and maintain mastery of the intervention, understanding the scope of educational activities needed to establish and maintain clinician competence in ETI may help construct a paradigm to guide other pediatric airway management education and training activities.
+
+Education Modalities
+
+There is significant variability in the modalities used to teach pediatric ETI, ranging from didactic lectures, operating room experience, low- and high-fidelity manikin use, and in-field care opportunities (
+
+Citation
+
+21). Ongoing live intubation experience has been shown to help students attain and maintain competency in ETI, though access to such training resources is commonly limited (
+
+Citation
+
+22–24). Though simulation-based practice has sometimes been shown to be preferred by learners, literature is mixed as to whether simulation-based practice truly improves the learner’s short- and long-term skill in performance of airway interventions (
+
+Citation
+
+25–29). Lammers et al. compared the effect of four different educational modalities on the improvement of paramedic airway management skill and highlighted three important findings: 1) 2 hours of training was insufficient to substantially improve paramedic airway skills, 2) high-fidelity simulators were not necessary for teaching pediatric resuscitation, and 3) an online refresher course did not provide any improvement in performance (
+
+Citation
+
+30).
+
+Minimum Procedural Exposure
+
+Attempts have been made to identify minimum levels of educational exposure to establish novice-level competency in ETI. For example, Toda et al. evaluated a training program for Japanese paramedics learning ETI for the first time and found that paramedic students required 31.5 ETI experiences to achieve a 90% success rate and 38.6 ETI experiences to obtain a 95% success rate (
+
+Citation
+
+31). Unfortunately, many training programs fall short of providing this many procedural encounters. A 2004 study of paramedic students across the U.S. by Wang et al showed nearly 70% of students had only 10 ETI encounters, 21% had 20, and only 9% had greater than 20 encounters during their training. Wang’s study also corroborates findings of Toda that success rates appear to improve with more clinical exposure, as the overall pooled success rate improved from 87.5% to over 95% when students had greater than 30 ETI experiences (
+
+Citation
+
+22).
+
+Duration of Training
+
+In comparison to the U.S. where minimum procedural exposure standards are highly variable, Australian training requirements are much more extensive. Paramedics there are required to complete an additional year of training beyond their standard paramedic curriculum before performing adult-only rapid sequence intubation in cardiac and respiratory arrest, and certification for pediatric ETI requires an additional 2 years of clinical practice followed by a year of training and supervision by a senior pediatric anesthetist (
+
+Citation
+
+32). However, it is not clear that this longer and more intense training translates to superior performance of ETI or other airway interventions.
+
+Skill Retention and Decay
+
+While initial training and education is important to help EMS clinicians attain competency in performing airway interventions, significant attrition of skill and knowledge can occur without continued clinical or educational exposure and opportunities to practice the skills and apply knowledge over time.
+
+It is unclear what measures are effective at helping EMS clinicians maintain these cognitive and psychomotor skills over time, however it is clear that ongoing pediatric skills training occurs infrequently. Hewes et al. reported that most U.S. EMS agencies include only one pediatric skills refresher per year and one third of agencies perform minimal or no psychomotor pediatric skills evaluations at all (
+
+Citation
+
+33,
+
+Citation
+
+34).
+
+Education programs should recognize that longitudinal skill retention is linked to the complexity of the procedure. Youngquist found that within 6 months of training, EMS clinicians exhibited greater skill decay with ETI (42% skill retention) than bag-valve-mask ventilation (66% skill retention). The observed skill decay was even more pronounced after 24-months (
+
+). In another example Ruetzler et al. found that skill retention for supraglottic airway insertion was less subject to decay than endotracheal intubation (
+
+To address the issue of decay, many have advocated for an increase in pediatric-focused EMS training, although the number, duration, and frequency of trainings needed to attain competency in these skills is unknown (
+
+Interestingly, while confidence wanes in the absence of education and training, even a single pediatric training experience can boost a clinician’s perceived confidence in skill performance (
+
+). However, self-perceived skill proficiency may not correlate with actual skill proficiency. The Youngquist study identified that clinicians were not self-aware of their skill decay, as evaluation of self-competency ratings did not predict actual skill performance. This disconnect reinforces that clinician competence must be evaluated by external evaluators, not by self-assessment.
+
+Though there is no evidence to define how often clinicians need to be exposed to certain conditions in a clinical or educational environment to achieve or maintain competency in interventions such as manual ventilation, application of NIPPV, or nebulized medication delivery, EMS medical directors should still use ongoing education as a tool to improve clinician proficiency in pediatric airway care. In some cases, agencies must consider whether providing additional education is the answer to issues of decay of invasive skills, or whether the agency should simplify care to include only those interventions that the agency can meaningfully devote resources toward assessing and maintaining clinician competency. Use of decision support tools including mobile technologies, point-of-care training modules, or telemedicine consultation with an EMS physician might help to overcome some of the barriers that limit the ability of educational programs to mitigate issues related to cognitive and psychomotor skill decay. However, there is no literature on which to base discussion of such resources.
+
+Integration of Clinician Education and Quality Management Programs
+
+Integration of clinician education programs with quality management programs is essential for the development and delivery of initial and continuing education intended to help EMS clinicians attain and maintain proficiency in pediatric airway and respiratory management.
+
+Integration of clinician education initiatives with quality management programs is integral to the provision of effective initial and continuing education intended to help EMS clinicians attain and maintain proficiency in management of pediatric respiratory emergencies (
+
+). Findings identified by quality management programs should direct the formulation of education and remediation initiatives that are scaled to the needs of both individual learners and the agency and/or system. Two other documents in this compendium provide further discussion of airway management quality management programs (
+
+Conclusion
+
+EMS education initiatives regarding pediatric respiratory emergencies are variable and often limited by competing interests for education resources. Clinical acumen must be based on a foundation of core cognitive and psychomotor competencies in pediatric airway and respiratory assessment and management. Use of a consistent and reproducible approach to patient assessment augmented by diagnostic technologies to differentiate causes of respiratory and airway disturbances is a suggested method to assist EMS clinicians in developing clinical impressions and therapeutic plans. Periodic competency evaluations in these domains are necessary to maintain knowledge, skills, and muscle memory associated with these critical interventions and to introduce EMS clinicians to updates in technology and clinical science. Additionally, recurring education and assessment of competency must be supported by ongoing quality management programs.
