@@ -496,9 +496,21 @@ if st.button(
                 "paramedic_tts.wav"
             )
 
-            engine = pyttsx3.init()
-            engine.setProperty("rate", 170)
-            engine.setProperty("volume", 1.0)
+           engine = pyttsx3.init()
+
+voices = engine.getProperty("voices")
+
+if voices:
+    # Try to select a clearer English voice
+    for voice in voices:
+        voice_name = voice.name.lower()
+
+        if "english" in voice_name or "en" in voice.id.lower():
+            engine.setProperty("voice", voice.id)
+            break
+
+engine.setProperty("rate", 145)
+engine.setProperty("volume", 1.0)
 
             engine.save_to_file(answer, audio_path)
             engine.runAndWait()
