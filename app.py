@@ -495,8 +495,8 @@ if st.button(
         )
 
     else:
-    try:
-        import tempfile
+        try:
+             import tempfile
         import os
 
         engine = pyttsx3.init()
@@ -523,6 +523,7 @@ if st.button(
     except Exception as error:
         st.error(f"Python TTS error: {error}")
 
+           
 # ============================================================
 # KNOWLEDGE MANAGER
 # ============================================================
