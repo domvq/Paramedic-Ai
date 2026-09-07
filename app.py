@@ -479,10 +479,6 @@ if st.session_state.voice_text:
 # PYTHON TEXT-TO-SPEECH
 # ============================================================
 
-st.divider()
-
-st.subheader("🔊 Python Text-to-Speech")
-
 if st.button(
     "🔊 Read Latest Response Aloud",
     use_container_width=True,
@@ -497,31 +493,30 @@ if st.button(
         )
 
     else:
-    try:
-        engine = pyttsx3.init()
+        try:
+            engine = pyttsx3.init()
 
-        engine.setProperty("rate", 170)
-        engine.setProperty("volume", 1.0)
+            engine.setProperty("rate", 170)
+            engine.setProperty("volume", 1.0)
 
-        with tempfile.NamedTemporaryFile(
-            suffix=".wav",
-            delete=False
-        ) as audio_file:
-            audio_path = audio_file.name
+            with tempfile.NamedTemporaryFile(
+                suffix=".wav",
+                delete=False
+            ) as audio_file:
+                audio_path = audio_file.name
 
-        engine.save_to_file(answer, audio_path)
-        engine.runAndWait()
+            engine.save_to_file(answer, audio_path)
+            engine.runAndWait()
 
-        if os.path.exists(audio_path):
-            with open(audio_path, "rb") as audio:
-                audio_bytes = audio.read()
+            if os.path.exists(audio_path):
+                with open(audio_path, "rb") as audio:
+                    audio_bytes = audio.read()
 
-            st.audio(audio_bytes, format="audio/wav")
-            st.success("🔊 Response ready to play.")
+                st.audio(audio_bytes, format="audio/wav")
+                st.success("🔊 Response ready to play.")
 
-    except Exception as error:
-        st.error(f"Python TTS error: {error}")
-
+        except Exception as error:
+            st.error(f"Python TTS error: {error}")
            
 # ============================================================
 # KNOWLEDGE MANAGER
