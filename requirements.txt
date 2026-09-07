@@ -1,0 +1,8 @@
+streamlit
+streamlit-mic-recorder
+pandas
+scikit-learn
+joblib
+groq
+python-docx
+pypdf
