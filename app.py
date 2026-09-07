@@ -483,40 +483,52 @@ if st.button(
     "🔊 Read Latest Response Aloud",
     use_container_width=True,
 ):
-
     answer = st.session_state.last_copilot_answer
 
     if not answer:
-
         st.warning(
             "There is no Copilot response to read yet."
         )
-
     else:
         try:
-            engine = pyttsx3.init()
+            audio_path = os.path.join(
+                tempfile.gettempdir(),
+                "paramedic_tts.wav"
+            )
 
+            engine = pyttsx3.init()
             engine.setProperty("rate", 170)
             engine.setProperty("volume", 1.0)
 
-            with tempfile.NamedTemporaryFile(
-                suffix=".wav",
-                delete=False
-            ) as audio_file:
-                audio_path = audio_file.name
-
             engine.save_to_file(answer, audio_path)
             engine.runAndWait()
+            engine.stop()
 
             if os.path.exists(audio_path):
-                with open(audio_path, "rb") as audio:
-                    audio_bytes = audio.read()
+                with open(audio_path, "rb") as audio_file:
+                    audio_data = audio_file.read()
 
-                st.audio(audio_bytes, format="audio/wav")
-                st.success("🔊 Response ready to play.")
+                if audio_data:
+                    st.audio(
+                        audio_data,
+                        format="audio/wav"
+                    )
+                    st.success(
+                        "🔊 Press ▶️ to hear the response."
+                    )
+                else:
+                    st.error(
+                        "TTS created an empty audio file."
+                    )
+            else:
+                st.error(
+                    "TTS did not create an audio file."
+                )
 
         except Exception as error:
-            st.error(f"Python TTS error: {error}")
+            st.error(
+                f"Python TTS error: {error}"
+            )
            
 # ============================================================
 # KNOWLEDGE MANAGER
