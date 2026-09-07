@@ -495,43 +495,33 @@ if st.button(
         )
 
     else:
+    try:
+        import tempfile
+        import os
 
-        try:
+        engine = pyttsx3.init()
 
-            engine = pyttsx3.init()
+        engine.setProperty("rate", 170)
+        engine.setProperty("volume", 1.0)
 
-            engine.setProperty(
-                "rate",
-                170,
-            )
+        with tempfile.NamedTemporaryFile(
+            suffix=".wav",
+            delete=False
+        ) as audio_file:
+            audio_path = audio_file.name
 
-            engine.setProperty(
-                "volume",
-                1.0,
-            )
+        engine.save_to_file(answer, audio_path)
+        engine.runAndWait()
 
-            engine.say(answer)
-import tempfile
-import os
+        if os.path.exists(audio_path):
+            with open(audio_path, "rb") as audio:
+                audio_bytes = audio.read()
 
-with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as audio_file:
-    audio_path = audio_file.name
+            st.audio(audio_bytes, format="audio/wav")
+            st.success("🔊 Response ready to play.")
 
-engine.save_to_file(answer, audio_path)
-engine.runAndWait()
-
-if os.path.exists(audio_path):
-    with open(audio_path, "rb") as audio:
-        audio_bytes = audio.read()
-
-    st.audio(audio_bytes, format="audio/wav")
-    st.success("🔊 Response ready to play.")
-
-        except Exception as error:
-
-            st.error(
-                f"Python TTS error: {error}"
-            )
+    except Exception as error:
+        st.error(f"Python TTS error: {error}")
 
 # ============================================================
 # KNOWLEDGE MANAGER
