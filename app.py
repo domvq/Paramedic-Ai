@@ -511,12 +511,21 @@ if st.button(
             )
 
             engine.say(answer)
+import tempfile
+import os
 
-            engine.runAndWait()
+with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as audio_file:
+    audio_path = audio_file.name
 
-            st.success(
-                "🔊 Response spoken using Python."
-            )
+engine.save_to_file(answer, audio_path)
+engine.runAndWait()
+
+if os.path.exists(audio_path):
+    with open(audio_path, "rb") as audio:
+        audio_bytes = audio.read()
+
+    st.audio(audio_bytes, format="audio/wav")
+    st.success("🔊 Response ready to play.")
 
         except Exception as error:
 
