@@ -26,12 +26,37 @@ client = Groq(
 # CHAT
 # ============================================================
 
-def chat(messages, temperature=0.2, max_tokens=1024):
+def chat(
+    messages,
+    context=None,
+    temperature=0.2,
+    max_tokens=1024,
+):
     """
-    Send a conversation to Groq and return the assistant response.
+    Send a conversation to Groq.
+
+    context is optional so existing app.py calls that provide
+    context=... continue to work.
     """
 
     try:
+        # Add knowledge context to the conversation when provided.
+        if context:
+            messages = list(messages)
+
+            messages.insert(
+                0,
+                {
+                    "role": "system",
+                    "content": (
+                        "Use the following medical/knowledge-base context "
+                        "when relevant. Do not invent information that is "
+                        "not supported by the context.\n\n"
+                        f"{context}"
+                    ),
+                },
+            )
+
         response = client.chat.completions.create(
             model=GROQ_MODEL,
             messages=messages,
@@ -43,4 +68,3 @@ def chat(messages, temperature=0.2, max_tokens=1024):
 
     except Exception as e:
         return f"Copilot error: {e}"
-
