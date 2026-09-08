@@ -1034,22 +1034,22 @@ with st.expander(
 
 st.divider()
 
-    st.markdown(
-        '<div class="compact-safety">',
-        unsafe_allow_html=True,
-    )
+st.markdown(
+'<div class="compact-safety">',
+unsafe_allow_html=True,
+)
 
-    st.warning(
-        "DEMO ONLY — NOT FOR CLINICAL DECISION MAKING."
-    )
+st.warning(
+"DEMO ONLY — NOT FOR CLINICAL DECISION MAKING."
+)
 
-    st.caption(
-        "Always follow current local EMS protocols, "
-        "medical direction, scope of practice, "
-        "manufacturer instructions, and applicable regulations."
-    )
+st.caption(
+"Always follow current local EMS protocols, "
+"medical direction, scope of practice, "
+"manufacturer instructions, and applicable regulations."
+)
 
-    st.markdown(
-        "</div>",
-        unsafe_allow_html=True,
-    )
+st.markdown(
+"</div>",
+unsafe_allow_html=True,
+)
