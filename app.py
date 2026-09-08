@@ -184,7 +184,11 @@ st.markdown("## 🚑 Clinical Overview")
 # ML ASSESSMENT
 # ============================================================
 
-st.header(" ML Risk Assessment")
+st.header("🧠 Paramedic Copilot")
+st.caption(
+    "Ask EMS education and decision-support questions using "
+    "your authorized knowledge sources."
+)
 
 if st.button(
     "Run ML Assessment",
