@@ -180,45 +180,6 @@ st.divider()
 
 st.markdown("## 🚑 Clinical Overview")
 
-overview_col1, overview_col2 = st.columns(2)
-
-with overview_col1:
-    st.markdown("""
-    <div style="
-        background-color: #F7FAFC;
-        border-left: 5px solid #0066CC;
-        padding: 18px;
-        border-radius: 10px;
-        margin-bottom: 15px;
-    ">
-        <h4 style="margin-top:0;">👤 Patient</h4>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.write(f"**Age:** {age} years")
-    st.write(f"**Respiratory Rate:** {respiratory_rate:.0f} breaths/min")
-
-with overview_col2:
-    st.markdown("""
-    <div style="
-        background-color: #FFF5F5;
-        border-left: 5px solid #D62828;
-        padding: 18px;
-        border-radius: 10px;
-        margin-bottom: 15px;
-    ">
-        <h4 style="margin-top:0;">⚠️ Clinical Safety</h4>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.warning(
-        "This application is an educational and decision-support "
-        "demonstration. It does not replace clinical judgment, "
-        "medical protocols, or local EMS direction."
-    )
-
-st.divider()
-
 # ============================================================
 # ML ASSESSMENT
 # ============================================================
