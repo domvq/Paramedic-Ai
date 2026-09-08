@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 import pyttsx3
 import tempfile
-import osst.set_page_config
+import os
 from streamlit_mic_recorder import speech_to_text
 
 from src.ml_model import (
@@ -90,8 +90,25 @@ st.markdown("""
 # SIDEBAR — PATIENT ASSESSMENT
 # ============================================================
 
-st.sidebar.header("🩺 Patient Assessment")
-
+st.sidebar.markdown("""
+<div style="
+    background: linear-gradient(135deg, #0B1F33, #0066CC);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+">
+    <h2 style="
+        color: white;
+        margin: 0;
+        font-size: 1.3rem;
+    ">🩺 Patient Assessment</h2>
+    <p style="
+        color: #E8F1F8;
+        margin: 5px 0 0 0;
+        font-size: 0.85rem;
+    ">Enter patient vital signs</p>
+</div>
+""", unsafe_allow_html=True)
 age = st.sidebar.number_input(
     "Age",
     min_value=0,
@@ -141,6 +158,27 @@ temperature = st.sidebar.number_input(
     value=98.6,
 )
 
+st.markdown("## 🩺 Patient Vital Signs")
+
+st.caption("Current patient assessment")
+
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.metric("❤️ Heart Rate", f"{heart_rate:.0f}", "bpm")
+
+with col2:
+    st.metric("🩸 Blood Pressure", f"{systolic_bp:.0f}/{diastolic_bp:.0f}", "mmHg")
+
+with col3:
+    st.metric("🫁 SpO₂", f"{spo2:.0f}", "%")
+
+with col4:
+    st.metric("🌡️ Temperature", f"{temperature:.1f}", "°F")
+
+st.divider()
+
+st.markdown("## 🚑 Clinical Overview")
 
 # ============================================================
 # ML ASSESSMENT
