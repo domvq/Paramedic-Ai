@@ -102,6 +102,50 @@ st.markdown("""
         margin: 0;
     }
 
+
+    /* ---------------------------------------------------------
+       Compact Knowledge Manager
+    --------------------------------------------------------- */
+
+    .knowledge-compact {
+        border-left: 4px solid #0066CC;
+        padding-left: 12px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+
+    .knowledge-compact h2 {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+
+    .knowledge-compact p {
+        font-size: 0.82rem;
+        opacity: 0.70;
+        margin: 3px 0 0 0;
+    }
+
+    /* Make the uploader more compact */
+    [data-testid="stFileUploader"] {
+        margin-top: -8px;
+        margin-bottom: -8px;
+    }
+
+    [data-testid="stFileUploader"] section {
+        padding: 10px;
+    }
+
+    /* Smaller safety notice */
+    .compact-safety {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .compact-safety p {
+        font-size: 0.78rem;
+        line-height: 1.35;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
