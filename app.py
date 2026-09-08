@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 import pyttsx3
 import tempfile
-import os
+import osst.set_page_config
 from streamlit_mic_recorder import speech_to_text
 
 from src.ml_model import (
@@ -51,13 +51,39 @@ st.set_page_config(
     page_title="Paramedic AI",
     page_icon="🚑",
     layout="wide",
+    initial_sidebar_state="expanded",
 )
 
-st.title("🚑 Paramedic AI")
+st.markdown("""
+<style>
+    .main-header {
+        background: linear-gradient(135deg, #0B1F33, #0066CC);
+        padding: 25px 30px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        color: white;
+    }
 
-st.caption(
-    "EMS education and decision-support demonstration"
-)
+    .main-header h1 {
+        color: white;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .main-header p {
+        color: #E8F1F8;
+        margin-top: 8px;
+        font-size: 1.1rem;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="main-header">
+    <h1>🚑 Paramedic AI</h1>
+    <p>EMS education and decision-support demonstration</p>
+</div>
+""", unsafe_allow_html=True)
 
 
 # ============================================================
