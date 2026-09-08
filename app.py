@@ -1,3 +1,4 @@
+
 import json
 import subprocess
 import sys
@@ -47,262 +48,15 @@ REGISTRY_PATH = (
 # ============================================================
 
 st.set_page_config(
-    page_title="Paramedic AI // Copilot",
+    page_title="Paramedic AI",
     page_icon="🚑",
     layout="wide",
 )
 
+st.title("🚑 Paramedic AI")
 
-# ============================================================
-# THEME — MATCHES runsheet.website EXACTLY
-# ============================================================
-# Same CSS variables, fonts, and component styling pulled straight
-# from the runsheet.website stylesheet (Oswald display font, IBM
-# Plex Sans body, IBM Plex Mono for labels/data, dark green cardiac
-# palette). Visual theme only — no functional logic below is
-# changed from the original app.
-
-BG = "#0a1210"
-BG_RAISED = "#101c19"
-BG_CARD = "#0e1a17"
-HAIRLINE = "#1e3229"
-TRACE_GREEN = "#3ce089"
-TRACE_AMBER = "#ffb020"
-TRACE_RED = "#ff5a5a"
-TEXT = "#e6f2ec"
-TEXT_DIM = "#7fa196"
-TEXT_DIMMER = "#4d685f"
-
-st.markdown(
-    f"""
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
-
-        html, body, [class*="css"] {{
-            font-family: 'IBM Plex Sans', sans-serif !important;
-        }}
-
-        .stApp {{
-            background:
-                radial-gradient(ellipse at top, #0d1a16 0%, {BG} 55%);
-            color: {TEXT};
-        }}
-
-        section[data-testid="stSidebar"] {{
-            background-color: {BG_RAISED};
-            border-right: 1px solid {HAIRLINE};
-        }}
-
-        section[data-testid="stSidebar"] * {{
-            color: {TEXT} !important;
-        }}
-
-        h1, h2, h3, h4 {{
-            font-family: 'Oswald', sans-serif !important;
-            font-weight: 600;
-            letter-spacing: 0.01em;
-            color: {TEXT} !important;
-        }}
-
-        code, pre, .stCode, div[data-testid="stMetricValue"] {{
-            font-family: 'IBM Plex Mono', monospace !important;
-        }}
-
-        /* top masthead, styled like the runsheet.website header bar */
-        .rs-masthead {{
-            border-bottom: 1px solid {HAIRLINE};
-            background: rgba(10,18,16,0.92);
-            padding: 0.9rem 1.2rem;
-            margin-bottom: 1.4rem;
-        }}
-
-        .rs-masthead h1 {{
-            margin: 0;
-            font-size: 1.4rem;
-            color: {TEXT} !important;
-            letter-spacing: 0.06em;
-        }}
-
-        .rs-masthead .rs-sub {{
-            color: {TEXT_DIM};
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 0.72rem;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            margin-top: 0.2rem;
-        }}
-
-        /* section dividers — mirrors the "eyebrow" label on runsheet.website */
-        .rs-section {{
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            margin: 1.6rem 0 0.6rem 0;
-        }}
-
-        .rs-section .rs-tag {{
-            color: {TRACE_GREEN};
-            font-family: 'IBM Plex Mono', monospace;
-            font-weight: 500;
-            letter-spacing: 0.22em;
-            text-transform: uppercase;
-            font-size: 0.7rem;
-            white-space: nowrap;
-        }}
-
-        .rs-section .rs-line {{
-            flex: 1;
-            height: 1px;
-            background: {HAIRLINE};
-        }}
-
-        /* panel / card container, matches .ecg-card / .result-card */
-        .rs-panel {{
-            border: 1px solid {HAIRLINE};
-            border-left: 3px solid {TRACE_GREEN};
-            background-color: {BG_CARD};
-            padding: 1rem 1.2rem;
-            border-radius: 10px;
-            margin-bottom: 1rem;
-        }}
-
-        /* disclaimer boxes — dashed hairline border, dim mono text,
-           exactly like .disclaimer on runsheet.website */
-        .rs-disclaimer {{
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 0.72rem;
-            color: {TEXT_DIMMER};
-            border: 1px dashed {HAIRLINE};
-            border-radius: 8px;
-            padding: 12px 14px;
-            line-height: 1.6;
-            margin: 0.6rem 0;
-        }}
-
-        .rs-disclaimer strong {{
-            color: {TRACE_AMBER};
-        }}
-
-        .rs-disclaimer.rs-red strong {{
-            color: {TRACE_RED};
-        }}
-
-        /* risk banners */
-        .rs-risk {{
-            border-radius: 10px;
-            padding: 0.9rem 1.1rem;
-            font-family: 'Oswald', sans-serif;
-            font-weight: 600;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            text-align: center;
-            border: 1px solid;
-        }}
-
-        .rs-risk-high {{
-            color: {TRACE_RED};
-            border-color: {TRACE_RED};
-            background: rgba(255,90,90,0.08);
-        }}
-
-        .rs-risk-mid {{
-            color: {TRACE_AMBER};
-            border-color: {TRACE_AMBER};
-            background: rgba(255,176,32,0.08);
-        }}
-
-        .rs-risk-low {{
-            color: {TRACE_GREEN};
-            border-color: {TRACE_GREEN};
-            background: rgba(60,224,137,0.08);
-        }}
-
-        div[data-testid="stMetric"] {{
-            background-color: {BG_CARD};
-            border: 1px solid {HAIRLINE};
-            border-radius: 10px;
-            padding: 0.6rem 0.9rem;
-        }}
-
-        div[data-testid="stMetricValue"] {{
-            color: {TRACE_GREEN} !important;
-        }}
-
-        /* buttons, matches .btn-primary / .btn-ghost */
-        .stButton > button {{
-            background-color: transparent;
-            color: {TEXT_DIM};
-            border: 1px solid {HAIRLINE};
-            border-radius: 8px;
-            font-family: 'IBM Plex Mono', monospace !important;
-            font-size: 0.75rem;
-            letter-spacing: 0.06em;
-            padding: 12px 18px;
-        }}
-
-        .stButton > button:hover {{
-            color: {TEXT};
-            border-color: {TEXT_DIM};
-        }}
-
-        .stButton > button[kind="primary"] {{
-            background-color: {TRACE_GREEN};
-            color: #04140d;
-            border: none;
-            font-family: 'Oswald', sans-serif !important;
-            font-weight: 600;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-        }}
-
-        .stButton > button[kind="primary"]:hover {{
-            box-shadow: 0 0 22px rgba(60,224,137,.35);
-        }}
-
-        div[data-testid="stChatMessage"] {{
-            background-color: {BG_CARD};
-            border: 1px solid {HAIRLINE};
-            border-radius: 10px;
-        }}
-
-        .rs-footer {{
-            border-top: 1px solid {HAIRLINE};
-            margin-top: 2rem;
-            padding-top: 1rem;
-            color: {TEXT_DIMMER};
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 0.72rem;
-            text-align: center;
-            letter-spacing: 0.05em;
-        }}
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-
-def rs_section(tag: str):
-    """Render a runsheet-style '// SECTION' divider."""
-
-    st.markdown(
-        f"""
-        <div class="rs-section">
-            <span class="rs-tag">// {tag}</span>
-            <span class="rs-line"></span>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
-
-st.markdown(
-    """
-    <div class="rs-masthead">
-        <h1>🚑 PARAMEDIC AI // COPILOT</h1>
-        <div class="rs-sub">EMS EDUCATION &amp; DECISION-SUPPORT DEMONSTRATION</div>
-    </div>
-    """,
-    unsafe_allow_html=True,
+st.caption(
+    "EMS education and decision-support demonstration"
 )
 
 
@@ -310,12 +64,7 @@ st.markdown(
 # SIDEBAR — PATIENT ASSESSMENT
 # ============================================================
 
-st.sidebar.markdown(
-    "<div class='rs-tag' style=\"color:#3ce089;font-family:'IBM Plex Mono',monospace;"
-    "font-weight:500;letter-spacing:0.22em;text-transform:uppercase;"
-    "font-size:0.7rem;\">// PATIENT ASSESSMENT</div>",
-    unsafe_allow_html=True,
-)
+st.sidebar.header("🩺 Patient Assessment")
 
 age = st.sidebar.number_input(
     "Age",
@@ -371,7 +120,7 @@ temperature = st.sidebar.number_input(
 # ML ASSESSMENT
 # ============================================================
 
-rs_section("ML Risk Assessment")
+st.header("🧠 ML Risk Assessment")
 
 if st.button(
     "Run ML Assessment",
@@ -424,23 +173,20 @@ if st.button(
 
             if category == "HIGHER RISK":
 
-                st.markdown(
-                    "<div class='rs-risk rs-risk-high'>⚠ HIGHER RISK</div>",
-                    unsafe_allow_html=True,
+                st.error(
+                    "HIGHER RISK"
                 )
 
             elif category == "INTERMEDIATE RISK":
 
-                st.markdown(
-                    "<div class='rs-risk rs-risk-mid'>◐ INTERMEDIATE RISK</div>",
-                    unsafe_allow_html=True,
+                st.warning(
+                    "INTERMEDIATE RISK"
                 )
 
             else:
 
-                st.markdown(
-                    "<div class='rs-risk rs-risk-low'>✓ LOWER RISK</div>",
-                    unsafe_allow_html=True,
+                st.success(
+                    "LOWER RISK"
                 )
 
         with st.expander(
@@ -452,18 +198,16 @@ if st.button(
                 use_container_width=True,
             )
 
-        st.markdown(
-            "<div class='rs-disclaimer'>This prediction is generated by a "
-            "demonstration machine-learning model and is <b>NOT</b> a "
-            "clinical diagnosis.</div>",
-            unsafe_allow_html=True,
+        st.info(
+            "This prediction is generated by a "
+            "demonstration machine-learning model "
+            "and is NOT a clinical diagnosis."
         )
 
     except Exception as error:
 
-        st.markdown(
-            f"<div class='rs-disclaimer rs-red'>ML prediction error: {error}</div>",
-            unsafe_allow_html=True,
+        st.error(
+            f"ML prediction error: {error}"
         )
 
 
@@ -473,7 +217,7 @@ if st.button(
 
 st.divider()
 
-rs_section("Paramedic Copilot")
+st.header("💬 Paramedic Copilot")
 
 
 # ============================================================
@@ -513,7 +257,7 @@ for message in st.session_state.copilot_messages:
 # ============================================================
 
 st.caption(
-    "🎙️ SPEAK YOUR QUESTION, THEN REVIEW THE TRANSCRIPTION BEFORE SENDING."
+    "🎙️ Speak your question, then review the transcription before sending."
 )
 
 voice_question = speech_to_text(
@@ -550,7 +294,7 @@ if typed_question:
 
 if st.session_state.voice_text:
 
-    st.markdown("##### 📝 REVIEW YOUR QUESTION")
+    st.markdown("### 📝 Review your question")
 
     reviewed_question = st.text_area(
         "Edit the transcription if needed:",
@@ -589,9 +333,8 @@ if st.session_state.voice_text:
 
         if not question:
 
-            st.markdown(
-                "<div class='rs-disclaimer'>Please enter or speak a question first.</div>",
-                unsafe_allow_html=True,
+            st.warning(
+                "Please enter or speak a question first."
             )
         else:
 
@@ -725,9 +468,12 @@ if st.session_state.voice_text:
 
                     except Exception as error:
 
-                        st.markdown(
-                            f"<div class='rs-disclaimer rs-red'>Copilot error: {error}</div>",
-                            unsafe_allow_html=True,
+                        error_message = (
+                            f"Copilot error: {error}"
+                        )
+
+                        st.error(
+                            error_message
                         )
 
 # ============================================================
@@ -743,9 +489,8 @@ if st.button(
 
     if not answer:
 
-        st.markdown(
-            "<div class='rs-disclaimer'>There is no Copilot response to read yet.</div>",
-            unsafe_allow_html=True,
+        st.warning(
+            "There is no Copilot response to read yet."
         )
 
     else:
@@ -777,29 +522,26 @@ if st.button(
                     format="audio/wav"
                 )
 
-            st.markdown(
-                "<div class='rs-disclaimer' style='border-color:#3ce089;"
-                "color:#c9f5df;'>🔊 Press ▶️ to hear the response.</div>",
-                unsafe_allow_html=True,
+            st.success(
+                "🔊 Press ▶️ to hear the response."
             )
 
         except Exception as error:
 
-            st.markdown(
-                f"<div class='rs-disclaimer rs-red'>Groq TTS error: {error}</div>",
-                unsafe_allow_html=True,
+            st.error(
+                f"Groq TTS error: {error}"
             )
-
+           
 # ============================================================
 # KNOWLEDGE MANAGER
 # ============================================================
 
 st.divider()
 
-rs_section("Knowledge Manager")
+st.header("📚 Knowledge Manager")
 
 st.caption(
-    "UPLOAD AND MANAGE AUTHORIZED EMS REFERENCE DOCUMENTS."
+    "Upload and manage authorized EMS reference documents."
 )
 
 
@@ -825,10 +567,8 @@ if uploaded_file:
         uploaded_file.getbuffer()
     )
 
-    st.markdown(
-        f"<div class='rs-disclaimer' style='border-color:#3ce089;"
-        f"color:#c9f5df;'>✓ Uploaded: {uploaded_file.name}</div>",
-        unsafe_allow_html=True,
+    st.success(
+        f"Uploaded: {uploaded_file.name}"
     )
 
 
@@ -988,10 +728,8 @@ if uploaded_file:
                 )
 
 
-            st.markdown(
-                "<div class='rs-disclaimer' style='border-color:#3ce089;"
-                "color:#c9f5df;'>✓ Metadata saved.</div>",
-                unsafe_allow_html=True,
+            st.success(
+                "Metadata saved."
             )
 
 
@@ -1015,9 +753,8 @@ if uploaded_file:
 
             if ingestion.returncode != 0:
 
-                st.markdown(
-                    "<div class='rs-disclaimer rs-red'>Document ingestion failed.</div>",
-                    unsafe_allow_html=True,
+                st.error(
+                    "Document ingestion failed."
                 )
 
                 st.code(
@@ -1042,9 +779,8 @@ if uploaded_file:
 
                 if index_result.returncode != 0:
 
-                    st.markdown(
-                        "<div class='rs-disclaimer rs-red'>Knowledge index rebuild failed.</div>",
-                        unsafe_allow_html=True,
+                    st.error(
+                        "Knowledge index rebuild failed."
                     )
 
                     st.code(
@@ -1053,10 +789,8 @@ if uploaded_file:
 
                 else:
 
-                    st.markdown(
-                        "<div class='rs-disclaimer' style='border-color:#3ce089;"
-                        "color:#c9f5df;'>✓ Knowledge index rebuilt successfully.</div>",
-                        unsafe_allow_html=True,
+                    st.success(
+                        "Knowledge index rebuilt successfully."
                     )
 
                     st.code(
@@ -1088,45 +822,55 @@ with st.expander(
             for filename, metadata in registry.items():
 
                 st.markdown(
-                    f"<div class='rs-panel'>"
-                    f"<b style='color:#3ce089;'>📄 "
-                    f"{metadata.get('title', filename)}</b><br>"
-                    f"<span style='color:#7c8b93;'>FILE:</span> {filename}<br>"
-                    f"<span style='color:#7c8b93;'>JURISDICTION:</span> "
-                    f"{metadata.get('jurisdiction', 'UNSPECIFIED')}<br>"
-                    f"<span style='color:#7c8b93;'>TYPE:</span> "
-                    f"{metadata.get('document_type', 'UNKNOWN')}<br>"
-                    f"<span style='color:#7c8b93;'>STATUS:</span> "
-                    f"{metadata.get('status', 'UNKNOWN')}"
-                    f"</div>",
-                    unsafe_allow_html=True,
+                    f"### 📄 {metadata.get('title', filename)}"
                 )
+
+                st.write(
+                    f"**File:** {filename}"
+                )
+
+                st.write(
+                    f"**Jurisdiction:** "
+                    f"{metadata.get('jurisdiction', 'UNSPECIFIED')}"
+                )
+
+                st.write(
+                    f"**Type:** "
+                    f"{metadata.get('document_type', 'UNKNOWN')}"
+                )
+
+                st.write(
+                    f"**Status:** "
+                    f"{metadata.get('status', 'UNKNOWN')}"
+                )
+
 
                 if metadata.get(
                     "review_required",
                     True,
                 ):
 
-                    st.markdown(
-                        "<div class='rs-disclaimer'>⚠️ Review required</div>",
-                        unsafe_allow_html=True,
+                    st.warning(
+                        "⚠️ Review required"
                     )
 
                 else:
 
-                    st.markdown(
-                        "<div class='rs-disclaimer' style='border-color:#3ce089;"
-                        "color:#c9f5df;'>✓ Review complete</div>",
-                        unsafe_allow_html=True,
+                    st.success(
+                        "✓ Review complete"
                     )
 
         else:
 
-            st.caption("NO REGISTERED SOURCES.")
+            st.info(
+                "No registered sources."
+            )
 
     else:
 
-        st.caption("NO KNOWLEDGE REGISTRY FOUND.")
+        st.info(
+            "No knowledge registry found."
+        )
 
 
 # ============================================================
@@ -1135,25 +879,12 @@ with st.expander(
 
 st.divider()
 
-st.markdown(
-    """
-    <div class="rs-disclaimer rs-red" style="text-align:center;
-    font-weight:700; letter-spacing:0.08em;">
-        ⚠ DEMO ONLY — NOT FOR CLINICAL DECISION MAKING
-    </div>
-    """,
-    unsafe_allow_html=True,
+st.warning(
+    "DEMO ONLY — NOT FOR CLINICAL DECISION MAKING."
 )
 
-st.markdown(
-    """
-    <div class="rs-footer">
-        Always follow current local EMS protocols, medical direction,
-        scope of practice, manufacturer instructions, and applicable
-        regulations.<br>
-        PARAMEDIC AI — companion tool, styled after
-        <b style="color:#3ce089;">RUNSHEET</b> // built for EMT / paramedic students.
-    </div>
-    """,
-    unsafe_allow_html=True,
+st.caption(
+    "Always follow current local EMS protocols, "
+    "medical direction, scope of practice, "
+    "manufacturer instructions, and applicable regulations."
 )
