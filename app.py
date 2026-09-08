@@ -87,6 +87,21 @@ st.markdown("""
         border-color: #0052A3;
         color: white;
     }
+
+   
+    /* Blue EMS input focus styling */
+    .stTextInput input:focus,
+    .stNumberInput input:focus,
+    .stTextArea textarea:focus {
+        border-color: #0066CC !important;
+        box-shadow: 0 0 0 1px #0066CC !important;
+    }
+
+    .stSelectbox div[data-baseweb="select"]:focus-within {
+        border-color: #0066CC !important;
+        box-shadow: 0 0 0 1px #0066CC !important;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
