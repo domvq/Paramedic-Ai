@@ -90,8 +90,25 @@ st.markdown("""
 # SIDEBAR — PATIENT ASSESSMENT
 # ============================================================
 
-st.sidebar.header("🩺 Patient Assessment")
-
+st.sidebar.markdown("""
+<div style="
+    background: linear-gradient(135deg, #0B1F33, #0066CC);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+">
+    <h2 style="
+        color: white;
+        margin: 0;
+        font-size: 1.3rem;
+    ">🩺 Patient Assessment</h2>
+    <p style="
+        color: #E8F1F8;
+        margin: 5px 0 0 0;
+        font-size: 0.85rem;
+    ">Enter patient vital signs</p>
+</div>
+""", unsafe_allow_html=True)
 age = st.sidebar.number_input(
     "Age",
     min_value=0,
