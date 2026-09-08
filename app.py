@@ -191,13 +191,12 @@ with col4:
 
 st.divider()
 
-st.markdown("## 🚑 Clinical Assessment")
 
 # ============================================================
 # ML ASSESSMENT
 # ============================================================
 
-st.markdown("### 📊 ML Risk Assessment")
+st.markdown("### 📊 ML Clinical Risk Assessment")
 st.caption(
     "Run a demonstration risk assessment using the current patient vitals."
 )
