@@ -158,6 +158,25 @@ temperature = st.sidebar.number_input(
     value=98.6,
 )
 
+st.markdown("## 🩺 Patient Vital Signs")
+
+st.caption("Current patient assessment")
+
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.metric("❤️ Heart Rate", f"{heart_rate:.0f}", "bpm")
+
+with col2:
+    st.metric("🩸 Blood Pressure", f"{systolic_bp:.0f}/{diastolic_bp:.0f}", "mmHg")
+
+with col3:
+    st.metric("🫁 SpO₂", f"{spo2:.0f}", "%")
+
+with col4:
+    st.metric("🌡️ Temperature", f"{temperature:.1f}", "°F")
+
+st.divider()
 
 # ============================================================
 # ML ASSESSMENT
