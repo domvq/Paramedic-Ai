@@ -135,6 +135,33 @@ st.markdown("""
         color: white !important;
     }
 
+    /* Force Streamlit input focus to EMS blue */
+    input:focus,
+    textarea:focus,
+    [data-baseweb="input"]:focus-within,
+    [data-baseweb="textarea"]:focus-within,
+    [data-baseweb="select"]:focus-within {
+        border-color: #0066CC !important;
+        box-shadow: 0 0 0 1px #0066CC !important;
+        outline: none !important;
+    }
+    
+    /* Number input controls */
+    div[data-testid="stNumberInput"] div[data-baseweb="input"] {
+        border-color: rgba(128, 128, 128, 0.35);
+    }
+
+    div[data-testid="stNumberInput"] div[data-baseweb="input"]:focus-within {
+        border-color: #0066CC !important;
+        box-shadow: 0 0 0 1px #0066CC !important;
+    }
+
+    /* Text input controls */
+    div[data-testid="stTextInput"] div[data-baseweb="input"]:focus-within {
+        border-color: #0066CC !important;
+        box-shadow: 0 0 0 1px #0066CC !important;
+    }
+    
 </style>
 """, unsafe_allow_html=True)
 
