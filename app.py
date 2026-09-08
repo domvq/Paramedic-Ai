@@ -196,7 +196,7 @@ st.caption(
 )
 
 if st.button(
-    "🔍 Run ML Assessment",
+    "🔵 Run ML Assessment",
     type="primary",
     use_container_width=True,
 ):
