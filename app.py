@@ -88,18 +88,51 @@ st.markdown("""
         color: white;
     }
 
-   
-    /* Blue EMS input focus styling */
-    .stTextInput input:focus,
-    .stNumberInput input:focus,
-    .stTextArea textarea:focus {
+    /* ---------------------------------------------------------
+       Blue EMS controls
+    --------------------------------------------------------- */
+
+    /* Number inputs */
+    div[data-testid="stNumberInput"] input:focus {
         border-color: #0066CC !important;
         box-shadow: 0 0 0 1px #0066CC !important;
     }
 
-    .stSelectbox div[data-baseweb="select"]:focus-within {
+    /* Text inputs */
+    div[data-testid="stTextInput"] input:focus {
         border-color: #0066CC !important;
         box-shadow: 0 0 0 1px #0066CC !important;
+    }
+
+    /* Text areas */
+    div[data-testid="stTextArea"] textarea:focus {
+        border-color: #0066CC !important;
+        box-shadow: 0 0 0 1px #0066CC !important;
+    }
+
+    /* Select boxes */
+    div[data-testid="stSelectbox"] div[data-baseweb="select"]:focus-within {
+        border-color: #0066CC !important;
+        box-shadow: 0 0 0 1px #0066CC !important;
+    }
+
+    /* Buttons */
+    .stButton > button:hover {
+        border-color: #0066CC !important;
+        color: #0066CC !important;
+    }
+
+    /* Primary buttons stay EMS blue */
+    .stButton > button[kind="primary"] {
+        background-color: #0066CC !important;
+        border-color: #0066CC !important;
+        color: white !important;
+    }
+
+    .stButton > button[kind="primary"]:hover {
+        background-color: #0052A3 !important;
+        border-color: #0052A3 !important;
+        color: white !important;
     }
 
 </style>
