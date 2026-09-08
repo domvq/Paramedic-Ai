@@ -120,7 +120,7 @@ temperature = st.sidebar.number_input(
 # ML ASSESSMENT
 # ============================================================
 
-st.header("🧠 ML Risk Assessment")
+st.header(" ML Risk Assessment")
 
 if st.button(
     "Run ML Assessment",
@@ -217,7 +217,7 @@ if st.button(
 
 st.divider()
 
-st.header("💬 Paramedic Copilot")
+st.header(" Paramedic Copilot")
 
 
 # ============================================================
