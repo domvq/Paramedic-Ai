@@ -308,7 +308,7 @@ if st.session_state.voice_text:
     with col1:
 
         send_question = st.button(
-            "📤 Send to Copilot",
+            " Send to Copilot",
             type="primary",
             use_container_width=True,
         )
