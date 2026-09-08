@@ -1,10 +1,10 @@
 # 🚑 Paramedic AI
 
-**Paramedic AI** is an educational EMS decision-support demonstration built with Python and Streamlit. It combines a demonstration machine-learning risk assessment, an AI copilot, voice input, a document-based knowledge system, and optional C++ text-to-speech.
+**Paramedic AI** is an educational EMS decision-support demonstration built with Python and Streamlit. It combines machine-learning risk assessment, an AI copilot, voice input, document-based knowledge retrieval, and optional C++ text-to-speech.
 
 > ⚠️ **DEMO ONLY — NOT FOR CLINICAL DECISION MAKING**
 >
-> This application is intended for education, software demonstration, and development purposes. It must not be used as a substitute for current local EMS protocols, medical direction, scope of practice, manufacturer instructions, or applicable regulations.
+> This application is intended for education, software demonstration, and development purposes. It must not be used as a substitute for current local EMS protocols, medical direction, scope of practice, manufacturer instructions, clinical guidelines, or applicable regulations.
 
 ---
 
@@ -12,7 +12,9 @@
 
 ### 🧠 ML Risk Assessment
 
-The application accepts basic patient information:
+The application provides a demonstration machine-learning risk assessment using basic patient information.
+
+Potential inputs include:
 
 * Age
 * Heart rate
@@ -22,33 +24,40 @@ The application accepts basic patient information:
 * SpO₂
 * Temperature
 
-The machine-learning component returns:
+The model can return:
 
 * Estimated risk probability
-* Risk category:
+* Risk category
+* Demonstration prediction output
 
-  * `LOWER RISK`
-  * `INTERMEDIATE RISK`
-  * `HIGHER RISK`
+Example risk categories may include:
 
-The application explicitly identifies the result as a demonstration prediction and not a clinical diagnosis.
+```text
+LOWER RISK
+INTERMEDIATE RISK
+HIGHER RISK
+```
+
+The result is explicitly intended as a **demonstration prediction**, not a clinical diagnosis or validated medical risk score.
 
 ---
 
 ### 💬 Paramedic Copilot
 
-The Copilot provides an interactive question-and-answer interface.
+The Paramedic Copilot provides an interactive question-and-answer interface for educational use.
 
 Users can:
 
 * Type questions
-* Record questions using a microphone
-* Review/edit speech transcription
+* Enter questions using voice input
+* Review and edit transcriptions
 * Submit questions to the Copilot
-* View previous conversation messages
-* Receive references from the knowledge system
+* Review previous conversation messages
+* Receive supporting references from the knowledge system
 
-The Copilot uses the project's knowledge-search functionality to provide relevant context before generating a response.
+The Copilot can use the project's knowledge-search functionality to retrieve relevant context before generating a response.
+
+> AI-generated responses may be incorrect, incomplete, outdated, or inappropriate for a particular situation. Always independently verify information using authorized and current EMS resources.
 
 ---
 
@@ -60,15 +69,17 @@ Voice questions can be recorded directly through the Streamlit interface using:
 streamlit-mic-recorder
 ```
 
-The application allows the user to review and edit the transcription before sending it to the Copilot.
+The transcription can be reviewed and edited before being submitted to the Copilot.
+
+This allows the application to demonstrate a more hands-free EMS-oriented interaction.
 
 ---
 
 ### 📚 Knowledge Manager
 
-The Knowledge Manager allows authorized reference documents to be uploaded.
+The Knowledge Manager allows reference documents to be uploaded and incorporated into the application's knowledge system.
 
-Supported document types:
+Supported document types include:
 
 * PDF
 * Microsoft Word (`.docx`)
@@ -90,19 +101,19 @@ Metadata can include:
 * Status
 * Review-required flag
 
-Metadata is stored in:
+Knowledge-source metadata is stored in:
 
 ```text
 data/knowledge/sources.json
 ```
 
-The application can also run the document ingestion and knowledge-index rebuilding scripts.
+The project also includes document ingestion and knowledge-index rebuilding functionality.
 
 ---
 
 ### 🔊 C++ Text-to-Speech
 
-The application includes an optional C++ text-to-speech component.
+The project includes an optional C++ text-to-speech component.
 
 The Streamlit application expects the compiled executable at:
 
@@ -110,15 +121,15 @@ The Streamlit application expects the compiled executable at:
 src/tts.exe
 ```
 
-The latest Copilot response is written to:
+The latest Copilot response can be written to:
 
 ```text
 data/tts_input.txt
 ```
 
-The application then launches the C++ executable to speak the response.
+The application can then launch the C++ executable to speak the response.
 
-This component is primarily intended for Windows environments where `tts.exe` has been compiled and configured.
+This component is primarily intended for Windows environments where the executable has been compiled and configured.
 
 ---
 
@@ -127,12 +138,13 @@ This component is primarily intended for Windows environments where `tts.exe` ha
 A typical project structure is:
 
 ```text
-paramedic_ai/
+Paramedic-Ai/
 │
 ├── app.py
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
+├── README.md
 │
 ├── backend/
 │
@@ -162,7 +174,7 @@ paramedic_ai/
 └── launch_paramedic_ai.bat
 ```
 
-Some files may be optional depending on the current version of the project.
+The exact contents may vary depending on the current version of the repository.
 
 ---
 
@@ -170,35 +182,45 @@ Some files may be optional depending on the current version of the project.
 
 The application requires:
 
-* Python
+* Python 3
 * Streamlit
 * Pandas
 * `streamlit-mic-recorder`
-* Additional Python packages listed in `requirements.txt`
+* Additional packages listed in `requirements.txt`
 
-The Copilot, machine-learning model, knowledge system, and document ingestion components may have additional dependencies.
+Depending on the enabled features, additional dependencies may be required for:
 
-For Windows, PowerShell can be used to run the application.
+* Machine learning
+* AI/Copilot functionality
+* Document processing
+* Knowledge retrieval
+* Text-to-speech
+
+For Windows development, PowerShell can be used to install dependencies and launch the application.
 
 ---
 
 # Installation
 
-## 1. Open PowerShell
+## 1. Clone the Repository
 
-Navigate to the project directory:
+Clone the project from GitHub:
 
 ```powershell
-cd "C:\Users\paypa\paramedic_ai"
+git clone https://github.com/domvq/Paramedic-Ai.git
 ```
 
-Replace the path if your project is located elsewhere.
+Move into the project directory:
+
+```powershell
+cd Paramedic-Ai
+```
 
 ---
 
 ## 2. Create a Virtual Environment
 
-If a `.venv` does not already exist:
+Create a Python virtual environment:
 
 ```powershell
 python -m venv .venv
@@ -208,13 +230,13 @@ python -m venv .venv
 
 ## 3. Install Dependencies
 
-Use the project's requirements file:
+Install the project's dependencies:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-If `streamlit-mic-recorder` is missing, install it directly:
+If `streamlit-mic-recorder` is not included in the requirements file, install it separately:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install streamlit-mic-recorder
@@ -224,7 +246,7 @@ If `streamlit-mic-recorder` is missing, install it directly:
 
 # Running the Application
 
-From the project directory:
+From the project root, run:
 
 ```powershell
 .\.venv\Scripts\python.exe -m streamlit run app.py
@@ -236,7 +258,7 @@ Streamlit should provide a local address similar to:
 http://localhost:8501
 ```
 
-Open that address in a web browser.
+Open the address in a web browser.
 
 ---
 
@@ -248,43 +270,31 @@ On some Windows systems, activating the virtual environment with:
 .\.venv\Scripts\Activate.ps1
 ```
 
-may produce an error stating that script execution is disabled.
+may produce an error indicating that script execution is disabled.
 
 You do **not** need to change the PowerShell execution policy.
 
-Instead, run Python directly from the virtual environment:
+Instead, run Streamlit directly through the virtual environment:
 
 ```powershell
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-This also ensures that the correct project's Python environment is being used.
+This also ensures that the correct Python environment is being used.
 
 ---
 
 # Running the Knowledge Pipeline
 
-After uploading a PDF or Word document through the Knowledge Manager, the application can run:
+The Knowledge Manager can be used to upload reference documents.
+
+Documents are placed in:
 
 ```text
-src/ingest.py
+data/documents/
 ```
 
-followed by:
-
-```text
-src/build_index.py
-```
-
-The Streamlit interface provides an:
-
-```text
-🔄 Ingest & Rebuild Knowledge Index
-```
-
-button for this process.
-
-The general pipeline is:
+The knowledge pipeline generally consists of:
 
 ```text
 Reference Document
@@ -293,13 +303,13 @@ Reference Document
 data/documents/
         │
         ▼
-ingest.py
+src/ingest.py
         │
         ▼
 Processed Knowledge
         │
         ▼
-build_index.py
+src/build_index.py
         │
         ▼
 Knowledge Index
@@ -311,35 +321,57 @@ search_knowledge()
 Paramedic Copilot
 ```
 
+The Streamlit interface may provide an:
+
+```text
+🔄 Ingest & Rebuild Knowledge Index
+```
+
+button to execute the process.
+
+If running the scripts manually, ingestion should be completed before rebuilding the knowledge index.
+
 ---
 
 # Environment Variables
 
-If the Copilot or other services require API credentials, configure them according to the project's `.env.example` file.
-
-Do **not** commit API keys, passwords, tokens, or other secrets to source control.
-
-For example:
-
-```text
-.env
-```
-
-should generally remain excluded from Git.
-
-The repository includes:
+If the Copilot or other services require API credentials, configure them using the project's:
 
 ```text
 .env.example
 ```
 
-as a template for required environment variables.
+Create a local:
+
+```text
+.env
+```
+
+file as needed.
+
+**Never commit API keys, passwords, access tokens, or other secrets to Git.**
+
+A typical workflow is:
+
+```text
+.env.example
+      │
+      ▼
+     .env
+      │
+      ▼
+Local development configuration
+```
+
+The `.env` file should remain excluded from source control.
 
 ---
 
 # Machine Learning
 
-The ML portion of the application uses:
+The ML portion of the application is organized around the project's model-loading and prediction functionality.
+
+Important functions may include:
 
 ```python
 load_model()
@@ -347,15 +379,13 @@ predict_risk()
 classify_risk()
 ```
 
-from:
+The ML implementation is contained in:
 
 ```text
 src/ml_model.py
 ```
 
-The application expects the model implementation and any required model files to be available in the project.
-
-A typical workflow may include:
+A typical workflow is:
 
 ```text
 Training Data
@@ -367,13 +397,25 @@ train_model.py
 Trained Model
      │
      ▼
-ml_model.py
+src/ml_model.py
      │
      ▼
 Streamlit Application
 ```
 
-The exact model format and training procedure depend on the implementation contained in the project.
+The exact model architecture, training procedure, datasets, and model format depend on the implementation included in the repository.
+
+### Important
+
+The ML output is a **software demonstration only**.
+
+It should not be interpreted as:
+
+* A diagnosis
+* A validated clinical score
+* A prediction of patient outcome
+* A replacement for clinical judgment
+* A replacement for EMS protocols or medical direction
 
 ---
 
@@ -385,15 +427,23 @@ The project contains a:
 tests/
 ```
 
-directory.
+directory for automated tests.
 
-Tests can be run using the project's configured test framework.
-
-If `pytest` is included in the project's dependencies:
+If `pytest` is included in the project's dependencies, run:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pytest
 ```
+
+Before submitting changes, it is recommended to verify that:
+
+* The application starts successfully
+* The ML functionality loads correctly
+* The Copilot interface works
+* Document ingestion works
+* Knowledge-index rebuilding works
+* Voice input works when supported
+* Optional TTS functionality works when configured
 
 ---
 
@@ -401,13 +451,13 @@ If `pytest` is included in the project's dependencies:
 
 ## `ModuleNotFoundError`
 
-Example:
+For example:
 
 ```text
 ModuleNotFoundError: No module named 'streamlit_mic_recorder'
 ```
 
-Install the missing dependency into the project's virtual environment:
+Install the missing package into the project's virtual environment:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install streamlit-mic-recorder
@@ -417,7 +467,7 @@ Then restart Streamlit.
 
 ---
 
-## Streamlit command not found
+## Streamlit Command Not Found
 
 Instead of:
 
@@ -431,11 +481,11 @@ use:
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-This guarantees that Streamlit is run using the project's virtual environment.
+This guarantees that Streamlit is executed using the project's virtual environment.
 
 ---
 
-## Missing `src` modules
+## Missing `src` Modules
 
 Errors such as:
 
@@ -443,12 +493,12 @@ Errors such as:
 ModuleNotFoundError: No module named 'src.ml_model'
 ```
 
-usually indicate that the application is not being launched from the project root or that the required source file is missing.
+may indicate that the application is not being launched from the project root or that a required source file is missing.
 
-Make sure you are in:
+Make sure you are inside:
 
 ```text
-paramedic_ai/
+Paramedic-Ai/
 ```
 
 before launching:
@@ -467,7 +517,7 @@ If the application displays:
 C++ TTS error
 ```
 
-check that:
+check whether:
 
 ```text
 src/tts.exe
@@ -475,13 +525,13 @@ src/tts.exe
 
 exists.
 
-The application currently expects a Windows executable named:
+The application expects a Windows executable named:
 
 ```text
 tts.exe
 ```
 
-If the executable has not been compiled, the rest of the Streamlit application can still be used, but the C++ text-to-speech feature will not work.
+If it has not been compiled or configured, the rest of the Streamlit application can still be used, but the optional text-to-speech functionality will not work.
 
 ---
 
@@ -489,69 +539,77 @@ If the executable has not been compiled, the rest of the Streamlit application c
 
 If document ingestion fails, inspect the error displayed by the Knowledge Manager.
 
-The application runs:
+The normal workflow is:
 
 ```text
 src/ingest.py
-```
-
-first and then:
-
-```text
+        │
+        ▼
+Successful ingestion
+        │
+        ▼
 src/build_index.py
 ```
 
-Only if ingestion succeeds does it attempt to rebuild the knowledge index.
+The index should be rebuilt after successfully processing new or updated reference documents.
 
 ---
 
 # Development
 
-When modifying the application, the main Streamlit entry point is:
+The primary Streamlit entry point is:
 
 ```text
 app.py
 ```
 
-Core functionality is separated into the `src` directory.
+Core functionality is organized into the `src/` directory.
 
 Important modules include:
 
-```text
-src/ml_model.py
-```
+### `src/ml_model.py`
 
-Machine-learning model loading and prediction.
+Machine-learning model loading, prediction, and risk classification.
 
-```text
-src/copilot.py
-```
+### `src/copilot.py`
 
-Copilot functionality.
+AI Copilot functionality.
 
-```text
-src/knowledge.py
-```
+### `src/knowledge.py`
 
-Knowledge search, context formatting, and references.
+Knowledge retrieval, context formatting, and reference handling.
 
-```text
-src/ingest.py
-```
+### `src/ingest.py`
 
-Document ingestion.
+Reference-document ingestion and processing.
 
-```text
-src/build_index.py
-```
+### `src/build_index.py`
 
 Knowledge-index construction.
 
 ---
 
+# Contributing
+
+Contributions are welcome for educational and software-development purposes.
+
+When contributing:
+
+1. Create a separate branch for your changes.
+2. Keep changes focused and documented.
+3. Add or update tests where appropriate.
+4. Do not commit secrets or private data.
+5. Do not commit patient-identifying information.
+6. Verify that the application still starts successfully.
+7. Clearly identify changes that affect the AI, ML, knowledge, or clinical-safety behavior.
+
+Because this is an EMS-related demonstration, changes should be reviewed carefully before being presented as clinically meaningful.
+
+---
+
 # Security and Privacy
 
-This application may process sensitive or potentially identifiable patient information if users enter it.
+This application may process sensitive information if users enter it into the interface.
 
 For development and testing:
 
@@ -560,15 +618,18 @@ For development and testing:
 * Do not commit API keys or credentials.
 * Protect uploaded reference documents appropriately.
 * Use authorized and current EMS reference material.
-* Review all AI-generated output before relying on it for educational purposes.
+* Review AI-generated output before relying on it for educational purposes.
+* Do not assume that locally stored documents or generated indexes are automatically secure.
+
+If this project is deployed outside a local development environment, additional authentication, authorization, logging, encryption, and data-retention controls may be required.
 
 ---
 
 # Clinical Safety Disclaimer
 
-**This application is a software demonstration and is NOT a medical device or clinical decision-making system.**
+**Paramedic AI is a software demonstration and is NOT a medical device or clinical decision-making system.**
 
-The machine-learning risk score and Copilot responses may be inaccurate, incomplete, outdated, or inappropriate for a particular patient.
+The machine-learning risk assessment and Copilot responses may be inaccurate, incomplete, outdated, or inappropriate for a particular patient or situation.
 
 Users must independently verify information against:
 
@@ -588,13 +649,14 @@ Users must independently verify information against:
 
 Add the project's applicable license here.
 
-If this project is not yet licensed, consider adding an appropriate license before distributing it publicly.
+If the repository is not currently licensed, consider adding an appropriate open-source license before distributing the project publicly.
 
 ---
 
 # Status
 
 **Project:** Paramedic AI
+**Repository:** `domvq/Paramedic-Ai`
 **Type:** EMS education and decision-support demonstration
 **Interface:** Streamlit
 **Primary Language:** Python
@@ -602,12 +664,16 @@ If this project is not yet licensed, consider adding an appropriate license befo
 
 ---
 
-## Quick Start
+# Quick Start
 
-For an existing Windows installation:
+For a new Windows installation:
 
 ```powershell
-cd "C:\Users\paypa\paramedic_ai"
+git clone https://github.com/domvq/Paramedic-Ai.git
+
+cd Paramedic-Ai
+
+python -m venv .venv
 
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 
@@ -620,4 +686,10 @@ Then open:
 http://localhost:8501
 ```
 
-🚑 **Paramedic AI — educational demonstration only.**
+---
+
+## 🚑 Paramedic AI
+
+**Educational demonstration only.**
+
+Not for clinical decision making.
