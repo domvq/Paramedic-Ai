@@ -1,4 +1,3 @@
-
 import json
 import subprocess
 import sys
@@ -48,15 +47,242 @@ REGISTRY_PATH = (
 # ============================================================
 
 st.set_page_config(
-    page_title="Paramedic AI",
+    page_title="Paramedic AI // Copilot",
     page_icon="🚑",
     layout="wide",
 )
 
-st.title("🚑 Paramedic AI")
 
-st.caption(
-    "EMS education and decision-support demonstration"
+# ============================================================
+# THEME — RUNSHEET-STYLE MONITOR / TERMINAL LOOK
+# ============================================================
+# Dark cardiac-monitor palette: near-black background, monospace
+# type, monitor-green primary accent, and the same red/amber/green
+# risk coding used across runsheet.website's rhythm + assessment
+# tools. This is a visual theme only — no functional logic below
+# is changed from the original app.
+
+MONITOR_GREEN = "#33ff99"
+MONITOR_GREEN_DIM = "#1c8f5c"
+MONITOR_AMBER = "#ffb020"
+MONITOR_RED = "#ff4d4f"
+BG_BLACK = "#07090c"
+PANEL_BLACK = "#0d1117"
+BORDER = "#1c2530"
+TEXT_MUTED = "#7c8b93"
+
+st.markdown(
+    f"""
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+        html, body, [class*="css"] {{
+            font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+        }}
+
+        .stApp {{
+            background-color: {BG_BLACK};
+            color: #e6f1ec;
+        }}
+
+        section[data-testid="stSidebar"] {{
+            background-color: {PANEL_BLACK};
+            border-right: 1px solid {BORDER};
+        }}
+
+        section[data-testid="stSidebar"] * {{
+            color: #e6f1ec !important;
+        }}
+
+        h1, h2, h3, h4 {{
+            font-family: 'JetBrains Mono', monospace !important;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #e6f1ec !important;
+        }}
+
+        /* top masthead, styled like the runsheet.website title bar */
+        .rs-masthead {{
+            border: 1px solid {MONITOR_GREEN_DIM};
+            border-left: 4px solid {MONITOR_GREEN};
+            background: linear-gradient(90deg, rgba(51,255,153,0.06), transparent);
+            padding: 0.9rem 1.2rem;
+            margin-bottom: 1.4rem;
+        }}
+
+        .rs-masthead h1 {{
+            margin: 0;
+            font-size: 1.4rem;
+            color: {MONITOR_GREEN} !important;
+            letter-spacing: 0.08em;
+        }}
+
+        .rs-masthead .rs-sub {{
+            color: {TEXT_MUTED};
+            font-size: 0.8rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            margin-top: 0.2rem;
+        }}
+
+        /* section dividers, echoing the "// SECTION" nav labels on runsheet.website */
+        .rs-section {{
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin: 1.6rem 0 0.6rem 0;
+        }}
+
+        .rs-section .rs-tag {{
+            color: {MONITOR_GREEN};
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }}
+
+        .rs-section .rs-line {{
+            flex: 1;
+            height: 1px;
+            background: {BORDER};
+        }}
+
+        /* panel / card container used for grouped content */
+        .rs-panel {{
+            border: 1px solid {BORDER};
+            background-color: {PANEL_BLACK};
+            padding: 1rem 1.2rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }}
+
+        /* disclaimer boxes, matching the amber "study tool" banners on runsheet.website */
+        .rs-disclaimer {{
+            border: 1px solid {MONITOR_AMBER};
+            border-left: 4px solid {MONITOR_AMBER};
+            background: rgba(255,176,32,0.06);
+            color: #f2d9a8;
+            padding: 0.7rem 1rem;
+            font-size: 0.82rem;
+            letter-spacing: 0.02em;
+            border-radius: 2px;
+            margin: 0.6rem 0;
+        }}
+
+        .rs-disclaimer.rs-red {{
+            border-color: {MONITOR_RED};
+            background: rgba(255,77,79,0.08);
+            color: #ffd9d9;
+        }}
+
+        /* risk banners */
+        .rs-risk {{
+            border-radius: 4px;
+            padding: 0.9rem 1.1rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-align: center;
+            border: 1px solid;
+        }}
+
+        .rs-risk-high {{
+            color: {MONITOR_RED};
+            border-color: {MONITOR_RED};
+            background: rgba(255,77,79,0.08);
+        }}
+
+        .rs-risk-mid {{
+            color: {MONITOR_AMBER};
+            border-color: {MONITOR_AMBER};
+            background: rgba(255,176,32,0.08);
+        }}
+
+        .rs-risk-low {{
+            color: {MONITOR_GREEN};
+            border-color: {MONITOR_GREEN_DIM};
+            background: rgba(51,255,153,0.06);
+        }}
+
+        div[data-testid="stMetric"] {{
+            background-color: {PANEL_BLACK};
+            border: 1px solid {BORDER};
+            border-radius: 4px;
+            padding: 0.6rem 0.9rem;
+        }}
+
+        div[data-testid="stMetricValue"] {{
+            color: {MONITOR_GREEN} !important;
+            font-family: 'JetBrains Mono', monospace !important;
+        }}
+
+        .stButton > button {{
+            background-color: {PANEL_BLACK};
+            color: {MONITOR_GREEN};
+            border: 1px solid {MONITOR_GREEN_DIM};
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-weight: 600;
+            font-family: 'JetBrains Mono', monospace !important;
+        }}
+
+        .stButton > button:hover {{
+            border-color: {MONITOR_GREEN};
+            color: #ffffff;
+            background-color: {MONITOR_GREEN_DIM};
+        }}
+
+        .stButton > button[kind="primary"] {{
+            background-color: {MONITOR_GREEN_DIM};
+            color: #06110a;
+            border: 1px solid {MONITOR_GREEN};
+        }}
+
+        div[data-testid="stChatMessage"] {{
+            background-color: {PANEL_BLACK};
+            border: 1px solid {BORDER};
+            border-radius: 4px;
+        }}
+
+        .rs-footer {{
+            border-top: 1px solid {BORDER};
+            margin-top: 2rem;
+            padding-top: 1rem;
+            color: {TEXT_MUTED};
+            font-size: 0.78rem;
+            text-align: center;
+            letter-spacing: 0.04em;
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+def rs_section(tag: str):
+    """Render a runsheet-style '// SECTION' divider."""
+
+    st.markdown(
+        f"""
+        <div class="rs-section">
+            <span class="rs-tag">// {tag}</span>
+            <span class="rs-line"></span>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+st.markdown(
+    """
+    <div class="rs-masthead">
+        <h1>🚑 PARAMEDIC AI // COPILOT</h1>
+        <div class="rs-sub">EMS EDUCATION &amp; DECISION-SUPPORT DEMONSTRATION</div>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 
@@ -64,7 +290,11 @@ st.caption(
 # SIDEBAR — PATIENT ASSESSMENT
 # ============================================================
 
-st.sidebar.header("🩺 Patient Assessment")
+st.sidebar.markdown(
+    "<div class='rs-tag' style='color:#33ff99;font-weight:700;"
+    "letter-spacing:0.1em;'>// PATIENT ASSESSMENT</div>",
+    unsafe_allow_html=True,
+)
 
 age = st.sidebar.number_input(
     "Age",
@@ -120,7 +350,7 @@ temperature = st.sidebar.number_input(
 # ML ASSESSMENT
 # ============================================================
 
-st.header("🧠 ML Risk Assessment")
+rs_section("ML Risk Assessment")
 
 if st.button(
     "Run ML Assessment",
@@ -173,20 +403,23 @@ if st.button(
 
             if category == "HIGHER RISK":
 
-                st.error(
-                    "HIGHER RISK"
+                st.markdown(
+                    "<div class='rs-risk rs-risk-high'>⚠ HIGHER RISK</div>",
+                    unsafe_allow_html=True,
                 )
 
             elif category == "INTERMEDIATE RISK":
 
-                st.warning(
-                    "INTERMEDIATE RISK"
+                st.markdown(
+                    "<div class='rs-risk rs-risk-mid'>◐ INTERMEDIATE RISK</div>",
+                    unsafe_allow_html=True,
                 )
 
             else:
 
-                st.success(
-                    "LOWER RISK"
+                st.markdown(
+                    "<div class='rs-risk rs-risk-low'>✓ LOWER RISK</div>",
+                    unsafe_allow_html=True,
                 )
 
         with st.expander(
@@ -198,16 +431,18 @@ if st.button(
                 use_container_width=True,
             )
 
-        st.info(
-            "This prediction is generated by a "
-            "demonstration machine-learning model "
-            "and is NOT a clinical diagnosis."
+        st.markdown(
+            "<div class='rs-disclaimer'>This prediction is generated by a "
+            "demonstration machine-learning model and is <b>NOT</b> a "
+            "clinical diagnosis.</div>",
+            unsafe_allow_html=True,
         )
 
     except Exception as error:
 
-        st.error(
-            f"ML prediction error: {error}"
+        st.markdown(
+            f"<div class='rs-disclaimer rs-red'>ML prediction error: {error}</div>",
+            unsafe_allow_html=True,
         )
 
 
@@ -217,7 +452,7 @@ if st.button(
 
 st.divider()
 
-st.header("💬 Paramedic Copilot")
+rs_section("Paramedic Copilot")
 
 
 # ============================================================
@@ -257,7 +492,7 @@ for message in st.session_state.copilot_messages:
 # ============================================================
 
 st.caption(
-    "🎙️ Speak your question, then review the transcription before sending."
+    "🎙️ SPEAK YOUR QUESTION, THEN REVIEW THE TRANSCRIPTION BEFORE SENDING."
 )
 
 voice_question = speech_to_text(
@@ -294,7 +529,7 @@ if typed_question:
 
 if st.session_state.voice_text:
 
-    st.markdown("### 📝 Review your question")
+    st.markdown("##### 📝 REVIEW YOUR QUESTION")
 
     reviewed_question = st.text_area(
         "Edit the transcription if needed:",
@@ -333,8 +568,9 @@ if st.session_state.voice_text:
 
         if not question:
 
-            st.warning(
-                "Please enter or speak a question first."
+            st.markdown(
+                "<div class='rs-disclaimer'>Please enter or speak a question first.</div>",
+                unsafe_allow_html=True,
             )
         else:
 
@@ -468,12 +704,9 @@ if st.session_state.voice_text:
 
                     except Exception as error:
 
-                        error_message = (
-                            f"Copilot error: {error}"
-                        )
-
-                        st.error(
-                            error_message
+                        st.markdown(
+                            f"<div class='rs-disclaimer rs-red'>Copilot error: {error}</div>",
+                            unsafe_allow_html=True,
                         )
 
 # ============================================================
@@ -489,8 +722,9 @@ if st.button(
 
     if not answer:
 
-        st.warning(
-            "There is no Copilot response to read yet."
+        st.markdown(
+            "<div class='rs-disclaimer'>There is no Copilot response to read yet.</div>",
+            unsafe_allow_html=True,
         )
 
     else:
@@ -522,26 +756,29 @@ if st.button(
                     format="audio/wav"
                 )
 
-            st.success(
-                "🔊 Press ▶️ to hear the response."
+            st.markdown(
+                "<div class='rs-disclaimer' style='border-color:#33ff99;"
+                "color:#c8ffe6;'>🔊 Press ▶️ to hear the response.</div>",
+                unsafe_allow_html=True,
             )
 
         except Exception as error:
 
-            st.error(
-                f"Groq TTS error: {error}"
+            st.markdown(
+                f"<div class='rs-disclaimer rs-red'>Groq TTS error: {error}</div>",
+                unsafe_allow_html=True,
             )
-           
+
 # ============================================================
 # KNOWLEDGE MANAGER
 # ============================================================
 
 st.divider()
 
-st.header("📚 Knowledge Manager")
+rs_section("Knowledge Manager")
 
 st.caption(
-    "Upload and manage authorized EMS reference documents."
+    "UPLOAD AND MANAGE AUTHORIZED EMS REFERENCE DOCUMENTS."
 )
 
 
@@ -567,8 +804,10 @@ if uploaded_file:
         uploaded_file.getbuffer()
     )
 
-    st.success(
-        f"Uploaded: {uploaded_file.name}"
+    st.markdown(
+        f"<div class='rs-disclaimer' style='border-color:#33ff99;"
+        f"color:#c8ffe6;'>✓ Uploaded: {uploaded_file.name}</div>",
+        unsafe_allow_html=True,
     )
 
 
@@ -728,8 +967,10 @@ if uploaded_file:
                 )
 
 
-            st.success(
-                "Metadata saved."
+            st.markdown(
+                "<div class='rs-disclaimer' style='border-color:#33ff99;"
+                "color:#c8ffe6;'>✓ Metadata saved.</div>",
+                unsafe_allow_html=True,
             )
 
 
@@ -753,8 +994,9 @@ if uploaded_file:
 
             if ingestion.returncode != 0:
 
-                st.error(
-                    "Document ingestion failed."
+                st.markdown(
+                    "<div class='rs-disclaimer rs-red'>Document ingestion failed.</div>",
+                    unsafe_allow_html=True,
                 )
 
                 st.code(
@@ -779,8 +1021,9 @@ if uploaded_file:
 
                 if index_result.returncode != 0:
 
-                    st.error(
-                        "Knowledge index rebuild failed."
+                    st.markdown(
+                        "<div class='rs-disclaimer rs-red'>Knowledge index rebuild failed.</div>",
+                        unsafe_allow_html=True,
                     )
 
                     st.code(
@@ -789,8 +1032,10 @@ if uploaded_file:
 
                 else:
 
-                    st.success(
-                        "Knowledge index rebuilt successfully."
+                    st.markdown(
+                        "<div class='rs-disclaimer' style='border-color:#33ff99;"
+                        "color:#c8ffe6;'>✓ Knowledge index rebuilt successfully.</div>",
+                        unsafe_allow_html=True,
                     )
 
                     st.code(
@@ -822,55 +1067,45 @@ with st.expander(
             for filename, metadata in registry.items():
 
                 st.markdown(
-                    f"### 📄 {metadata.get('title', filename)}"
-                )
-
-                st.write(
-                    f"**File:** {filename}"
-                )
-
-                st.write(
-                    f"**Jurisdiction:** "
-                    f"{metadata.get('jurisdiction', 'UNSPECIFIED')}"
-                )
-
-                st.write(
-                    f"**Type:** "
-                    f"{metadata.get('document_type', 'UNKNOWN')}"
-                )
-
-                st.write(
-                    f"**Status:** "
+                    f"<div class='rs-panel'>"
+                    f"<b style='color:#33ff99;'>📄 "
+                    f"{metadata.get('title', filename)}</b><br>"
+                    f"<span style='color:#7c8b93;'>FILE:</span> {filename}<br>"
+                    f"<span style='color:#7c8b93;'>JURISDICTION:</span> "
+                    f"{metadata.get('jurisdiction', 'UNSPECIFIED')}<br>"
+                    f"<span style='color:#7c8b93;'>TYPE:</span> "
+                    f"{metadata.get('document_type', 'UNKNOWN')}<br>"
+                    f"<span style='color:#7c8b93;'>STATUS:</span> "
                     f"{metadata.get('status', 'UNKNOWN')}"
+                    f"</div>",
+                    unsafe_allow_html=True,
                 )
-
 
                 if metadata.get(
                     "review_required",
                     True,
                 ):
 
-                    st.warning(
-                        "⚠️ Review required"
+                    st.markdown(
+                        "<div class='rs-disclaimer'>⚠️ Review required</div>",
+                        unsafe_allow_html=True,
                     )
 
                 else:
 
-                    st.success(
-                        "✓ Review complete"
+                    st.markdown(
+                        "<div class='rs-disclaimer' style='border-color:#33ff99;"
+                        "color:#c8ffe6;'>✓ Review complete</div>",
+                        unsafe_allow_html=True,
                     )
 
         else:
 
-            st.info(
-                "No registered sources."
-            )
+            st.caption("NO REGISTERED SOURCES.")
 
     else:
 
-        st.info(
-            "No knowledge registry found."
-        )
+        st.caption("NO KNOWLEDGE REGISTRY FOUND.")
 
 
 # ============================================================
@@ -879,12 +1114,25 @@ with st.expander(
 
 st.divider()
 
-st.warning(
-    "DEMO ONLY — NOT FOR CLINICAL DECISION MAKING."
+st.markdown(
+    """
+    <div class="rs-disclaimer rs-red" style="text-align:center;
+    font-weight:700; letter-spacing:0.08em;">
+        ⚠ DEMO ONLY — NOT FOR CLINICAL DECISION MAKING
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
-st.caption(
-    "Always follow current local EMS protocols, "
-    "medical direction, scope of practice, "
-    "manufacturer instructions, and applicable regulations."
+st.markdown(
+    """
+    <div class="rs-footer">
+        Always follow current local EMS protocols, medical direction,
+        scope of practice, manufacturer instructions, and applicable
+        regulations.<br>
+        PARAMEDIC AI — companion tool, styled after
+        <b style="color:#33ff99;">RUNSHEET</b> // built for EMT / paramedic students.
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
