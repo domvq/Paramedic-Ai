@@ -178,17 +178,11 @@ with col4:
 
 st.divider()
 
-st.markdown("## 🚑 Clinical Overview")
+st.markdown("## 🚑 Clinical Assessment")
 
 # ============================================================
 # ML ASSESSMENT
 # ============================================================
-
-st.header(" Paramedic Copilot")
-st.caption(
-    "Ask EMS education and decision-support questions using "
-    "your authorized knowledge sources."
-)
 
 st.markdown("### 📊 ML Risk Assessment")
 st.caption(
