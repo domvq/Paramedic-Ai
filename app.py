@@ -87,7 +87,21 @@ st.markdown("""
         border-color: #0052A3;
         color: white;
     }
-    
+
+
+    /* EMS section headers */
+    .ems-section {
+        border-left: 5px solid #0066CC;
+        padding: 10px 0 10px 16px;
+        margin: 20px 0 15px 0;
+        border-radius: 4px;
+    }
+
+    .ems-section h2,
+    .ems-section h3 {
+        margin: 0;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -196,7 +210,14 @@ st.divider()
 # ML ASSESSMENT
 # ============================================================
 
-st.markdown("### 📊 ML Clinical Risk Assessment")
+st.markdown(
+    """
+    <div class="ems-section">
+        <h3>📊 ML Clinical Risk Assessment</h3>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 st.caption(
     "Run a demonstration risk assessment using the current patient vitals."
 )
@@ -297,8 +318,14 @@ if st.button(
 
 st.divider()
 
-st.header(" Paramedic Copilot")
-
+st.markdown(
+    """
+    <div class="ems-section">
+        <h2> Paramedic Copilot</h2>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # ============================================================
 # SESSION STATE
