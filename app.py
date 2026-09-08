@@ -54,58 +54,64 @@ st.set_page_config(
 
 
 # ============================================================
-# THEME — RUNSHEET-STYLE MONITOR / TERMINAL LOOK
+# THEME — MATCHES runsheet.website EXACTLY
 # ============================================================
-# Dark cardiac-monitor palette: near-black background, monospace
-# type, monitor-green primary accent, and the same red/amber/green
-# risk coding used across runsheet.website's rhythm + assessment
-# tools. This is a visual theme only — no functional logic below
-# is changed from the original app.
+# Same CSS variables, fonts, and component styling pulled straight
+# from the runsheet.website stylesheet (Oswald display font, IBM
+# Plex Sans body, IBM Plex Mono for labels/data, dark green cardiac
+# palette). Visual theme only — no functional logic below is
+# changed from the original app.
 
-MONITOR_GREEN = "#33ff99"
-MONITOR_GREEN_DIM = "#1c8f5c"
-MONITOR_AMBER = "#ffb020"
-MONITOR_RED = "#ff4d4f"
-BG_BLACK = "#07090c"
-PANEL_BLACK = "#0d1117"
-BORDER = "#1c2530"
-TEXT_MUTED = "#7c8b93"
+BG = "#0a1210"
+BG_RAISED = "#101c19"
+BG_CARD = "#0e1a17"
+HAIRLINE = "#1e3229"
+TRACE_GREEN = "#3ce089"
+TRACE_AMBER = "#ffb020"
+TRACE_RED = "#ff5a5a"
+TEXT = "#e6f2ec"
+TEXT_DIM = "#7fa196"
+TEXT_DIMMER = "#4d685f"
 
 st.markdown(
     f"""
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
         html, body, [class*="css"] {{
-            font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+            font-family: 'IBM Plex Sans', sans-serif !important;
         }}
 
         .stApp {{
-            background-color: {BG_BLACK};
-            color: #e6f1ec;
+            background:
+                radial-gradient(ellipse at top, #0d1a16 0%, {BG} 55%);
+            color: {TEXT};
         }}
 
         section[data-testid="stSidebar"] {{
-            background-color: {PANEL_BLACK};
-            border-right: 1px solid {BORDER};
+            background-color: {BG_RAISED};
+            border-right: 1px solid {HAIRLINE};
         }}
 
         section[data-testid="stSidebar"] * {{
-            color: #e6f1ec !important;
+            color: {TEXT} !important;
         }}
 
         h1, h2, h3, h4 {{
-            font-family: 'JetBrains Mono', monospace !important;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            color: #e6f1ec !important;
+            font-family: 'Oswald', sans-serif !important;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+            color: {TEXT} !important;
         }}
 
-        /* top masthead, styled like the runsheet.website title bar */
+        code, pre, .stCode, div[data-testid="stMetricValue"] {{
+            font-family: 'IBM Plex Mono', monospace !important;
+        }}
+
+        /* top masthead, styled like the runsheet.website header bar */
         .rs-masthead {{
-            border: 1px solid {MONITOR_GREEN_DIM};
-            border-left: 4px solid {MONITOR_GREEN};
-            background: linear-gradient(90deg, rgba(51,255,153,0.06), transparent);
+            border-bottom: 1px solid {HAIRLINE};
+            background: rgba(10,18,16,0.92);
             padding: 0.9rem 1.2rem;
             margin-bottom: 1.4rem;
         }}
@@ -113,19 +119,20 @@ st.markdown(
         .rs-masthead h1 {{
             margin: 0;
             font-size: 1.4rem;
-            color: {MONITOR_GREEN} !important;
-            letter-spacing: 0.08em;
+            color: {TEXT} !important;
+            letter-spacing: 0.06em;
         }}
 
         .rs-masthead .rs-sub {{
-            color: {TEXT_MUTED};
-            font-size: 0.8rem;
-            letter-spacing: 0.12em;
+            color: {TEXT_DIM};
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
             text-transform: uppercase;
             margin-top: 0.2rem;
         }}
 
-        /* section dividers, echoing the "// SECTION" nav labels on runsheet.website */
+        /* section dividers — mirrors the "eyebrow" label on runsheet.website */
         .rs-section {{
             display: flex;
             align-items: center;
@@ -134,126 +141,139 @@ st.markdown(
         }}
 
         .rs-section .rs-tag {{
-            color: {MONITOR_GREEN};
-            font-weight: 700;
-            letter-spacing: 0.1em;
+            color: {TRACE_GREEN};
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 500;
+            letter-spacing: 0.22em;
             text-transform: uppercase;
-            font-size: 0.95rem;
+            font-size: 0.7rem;
             white-space: nowrap;
         }}
 
         .rs-section .rs-line {{
             flex: 1;
             height: 1px;
-            background: {BORDER};
+            background: {HAIRLINE};
         }}
 
-        /* panel / card container used for grouped content */
+        /* panel / card container, matches .ecg-card / .result-card */
         .rs-panel {{
-            border: 1px solid {BORDER};
-            background-color: {PANEL_BLACK};
+            border: 1px solid {HAIRLINE};
+            border-left: 3px solid {TRACE_GREEN};
+            background-color: {BG_CARD};
             padding: 1rem 1.2rem;
-            border-radius: 4px;
+            border-radius: 10px;
             margin-bottom: 1rem;
         }}
 
-        /* disclaimer boxes, matching the amber "study tool" banners on runsheet.website */
+        /* disclaimer boxes — dashed hairline border, dim mono text,
+           exactly like .disclaimer on runsheet.website */
         .rs-disclaimer {{
-            border: 1px solid {MONITOR_AMBER};
-            border-left: 4px solid {MONITOR_AMBER};
-            background: rgba(255,176,32,0.06);
-            color: #f2d9a8;
-            padding: 0.7rem 1rem;
-            font-size: 0.82rem;
-            letter-spacing: 0.02em;
-            border-radius: 2px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.72rem;
+            color: {TEXT_DIMMER};
+            border: 1px dashed {HAIRLINE};
+            border-radius: 8px;
+            padding: 12px 14px;
+            line-height: 1.6;
             margin: 0.6rem 0;
         }}
 
-        .rs-disclaimer.rs-red {{
-            border-color: {MONITOR_RED};
-            background: rgba(255,77,79,0.08);
-            color: #ffd9d9;
+        .rs-disclaimer strong {{
+            color: {TRACE_AMBER};
+        }}
+
+        .rs-disclaimer.rs-red strong {{
+            color: {TRACE_RED};
         }}
 
         /* risk banners */
         .rs-risk {{
-            border-radius: 4px;
+            border-radius: 10px;
             padding: 0.9rem 1.1rem;
-            font-weight: 700;
-            letter-spacing: 0.08em;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+            letter-spacing: 0.04em;
             text-transform: uppercase;
             text-align: center;
             border: 1px solid;
         }}
 
         .rs-risk-high {{
-            color: {MONITOR_RED};
-            border-color: {MONITOR_RED};
-            background: rgba(255,77,79,0.08);
+            color: {TRACE_RED};
+            border-color: {TRACE_RED};
+            background: rgba(255,90,90,0.08);
         }}
 
         .rs-risk-mid {{
-            color: {MONITOR_AMBER};
-            border-color: {MONITOR_AMBER};
+            color: {TRACE_AMBER};
+            border-color: {TRACE_AMBER};
             background: rgba(255,176,32,0.08);
         }}
 
         .rs-risk-low {{
-            color: {MONITOR_GREEN};
-            border-color: {MONITOR_GREEN_DIM};
-            background: rgba(51,255,153,0.06);
+            color: {TRACE_GREEN};
+            border-color: {TRACE_GREEN};
+            background: rgba(60,224,137,0.08);
         }}
 
         div[data-testid="stMetric"] {{
-            background-color: {PANEL_BLACK};
-            border: 1px solid {BORDER};
-            border-radius: 4px;
+            background-color: {BG_CARD};
+            border: 1px solid {HAIRLINE};
+            border-radius: 10px;
             padding: 0.6rem 0.9rem;
         }}
 
         div[data-testid="stMetricValue"] {{
-            color: {MONITOR_GREEN} !important;
-            font-family: 'JetBrains Mono', monospace !important;
+            color: {TRACE_GREEN} !important;
         }}
 
+        /* buttons, matches .btn-primary / .btn-ghost */
         .stButton > button {{
-            background-color: {PANEL_BLACK};
-            color: {MONITOR_GREEN};
-            border: 1px solid {MONITOR_GREEN_DIM};
-            border-radius: 3px;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            font-weight: 600;
-            font-family: 'JetBrains Mono', monospace !important;
+            background-color: transparent;
+            color: {TEXT_DIM};
+            border: 1px solid {HAIRLINE};
+            border-radius: 8px;
+            font-family: 'IBM Plex Mono', monospace !important;
+            font-size: 0.75rem;
+            letter-spacing: 0.06em;
+            padding: 12px 18px;
         }}
 
         .stButton > button:hover {{
-            border-color: {MONITOR_GREEN};
-            color: #ffffff;
-            background-color: {MONITOR_GREEN_DIM};
+            color: {TEXT};
+            border-color: {TEXT_DIM};
         }}
 
         .stButton > button[kind="primary"] {{
-            background-color: {MONITOR_GREEN_DIM};
-            color: #06110a;
-            border: 1px solid {MONITOR_GREEN};
+            background-color: {TRACE_GREEN};
+            color: #04140d;
+            border: none;
+            font-family: 'Oswald', sans-serif !important;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }}
+
+        .stButton > button[kind="primary"]:hover {{
+            box-shadow: 0 0 22px rgba(60,224,137,.35);
         }}
 
         div[data-testid="stChatMessage"] {{
-            background-color: {PANEL_BLACK};
-            border: 1px solid {BORDER};
-            border-radius: 4px;
+            background-color: {BG_CARD};
+            border: 1px solid {HAIRLINE};
+            border-radius: 10px;
         }}
 
         .rs-footer {{
-            border-top: 1px solid {BORDER};
+            border-top: 1px solid {HAIRLINE};
             margin-top: 2rem;
             padding-top: 1rem;
-            color: {TEXT_MUTED};
-            font-size: 0.78rem;
+            color: {TEXT_DIMMER};
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.72rem;
             text-align: center;
-            letter-spacing: 0.04em;
+            letter-spacing: 0.05em;
         }}
     </style>
     """,
@@ -291,8 +311,9 @@ st.markdown(
 # ============================================================
 
 st.sidebar.markdown(
-    "<div class='rs-tag' style='color:#33ff99;font-weight:700;"
-    "letter-spacing:0.1em;'>// PATIENT ASSESSMENT</div>",
+    "<div class='rs-tag' style=\"color:#3ce089;font-family:'IBM Plex Mono',monospace;"
+    "font-weight:500;letter-spacing:0.22em;text-transform:uppercase;"
+    "font-size:0.7rem;\">// PATIENT ASSESSMENT</div>",
     unsafe_allow_html=True,
 )
 
@@ -757,8 +778,8 @@ if st.button(
                 )
 
             st.markdown(
-                "<div class='rs-disclaimer' style='border-color:#33ff99;"
-                "color:#c8ffe6;'>🔊 Press ▶️ to hear the response.</div>",
+                "<div class='rs-disclaimer' style='border-color:#3ce089;"
+                "color:#c9f5df;'>🔊 Press ▶️ to hear the response.</div>",
                 unsafe_allow_html=True,
             )
 
@@ -805,8 +826,8 @@ if uploaded_file:
     )
 
     st.markdown(
-        f"<div class='rs-disclaimer' style='border-color:#33ff99;"
-        f"color:#c8ffe6;'>✓ Uploaded: {uploaded_file.name}</div>",
+        f"<div class='rs-disclaimer' style='border-color:#3ce089;"
+        f"color:#c9f5df;'>✓ Uploaded: {uploaded_file.name}</div>",
         unsafe_allow_html=True,
     )
 
@@ -968,8 +989,8 @@ if uploaded_file:
 
 
             st.markdown(
-                "<div class='rs-disclaimer' style='border-color:#33ff99;"
-                "color:#c8ffe6;'>✓ Metadata saved.</div>",
+                "<div class='rs-disclaimer' style='border-color:#3ce089;"
+                "color:#c9f5df;'>✓ Metadata saved.</div>",
                 unsafe_allow_html=True,
             )
 
@@ -1033,8 +1054,8 @@ if uploaded_file:
                 else:
 
                     st.markdown(
-                        "<div class='rs-disclaimer' style='border-color:#33ff99;"
-                        "color:#c8ffe6;'>✓ Knowledge index rebuilt successfully.</div>",
+                        "<div class='rs-disclaimer' style='border-color:#3ce089;"
+                        "color:#c9f5df;'>✓ Knowledge index rebuilt successfully.</div>",
                         unsafe_allow_html=True,
                     )
 
@@ -1068,7 +1089,7 @@ with st.expander(
 
                 st.markdown(
                     f"<div class='rs-panel'>"
-                    f"<b style='color:#33ff99;'>📄 "
+                    f"<b style='color:#3ce089;'>📄 "
                     f"{metadata.get('title', filename)}</b><br>"
                     f"<span style='color:#7c8b93;'>FILE:</span> {filename}<br>"
                     f"<span style='color:#7c8b93;'>JURISDICTION:</span> "
@@ -1094,8 +1115,8 @@ with st.expander(
                 else:
 
                     st.markdown(
-                        "<div class='rs-disclaimer' style='border-color:#33ff99;"
-                        "color:#c8ffe6;'>✓ Review complete</div>",
+                        "<div class='rs-disclaimer' style='border-color:#3ce089;"
+                        "color:#c9f5df;'>✓ Review complete</div>",
                         unsafe_allow_html=True,
                     )
 
@@ -1131,7 +1152,7 @@ st.markdown(
         scope of practice, manufacturer instructions, and applicable
         regulations.<br>
         PARAMEDIC AI — companion tool, styled after
-        <b style="color:#33ff99;">RUNSHEET</b> // built for EMT / paramedic students.
+        <b style="color:#3ce089;">RUNSHEET</b> // built for EMT / paramedic students.
     </div>
     """,
     unsafe_allow_html=True,
