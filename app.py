@@ -149,13 +149,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-<div class="main-header">
-    <h1>🚑 Paramedic AI</h1>
-    <p>EMS education and decision-support demonstration</p>
-</div>
-""", unsafe_allow_html=True)
-
 
 # ============================================================
 # SIDEBAR — PATIENT ASSESSMENT
