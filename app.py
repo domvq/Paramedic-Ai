@@ -48,7 +48,7 @@ REGISTRY_PATH = (
 # ============================================================
 
 st.set_page_config(
-    page_title="Paramedic AI",
+    page_title="Paramedic AI | EMS Decision Support",
     page_icon="🚑",
     layout="wide",
     initial_sidebar_state="expanded",
