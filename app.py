@@ -31,7 +31,7 @@ format_references,
 
 # ============================================================
 
-PROJECT_ROOT = Path(**file**).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent
 
 DOCUMENTS_DIR = PROJECT_ROOT / "data" / "documents"
 
