@@ -689,10 +689,14 @@ if st.button(
 
 st.divider()
 
-st.header("📚 Knowledge Manager")
-
-st.caption(
-    "Upload and manage authorized EMS reference documents."
+st.markdown(
+    """
+    <div class="knowledge-compact">
+        <h2>📚 Knowledge Manager</h2>
+        <p>Upload and manage authorized EMS reference documents.</p>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 
