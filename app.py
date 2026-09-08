@@ -75,6 +75,18 @@ st.markdown("""
         margin-top: 8px;
         font-size: 1.1rem;
     }
+
+    .stButton > button[kind="primary"] {
+    background-color: #0066CC;
+    color: white;
+    border: 1px solid #0066CC;
+    }
+
+    .stButton > button[kind="primary"]:hover {
+        background-color: #0052A3;
+        border-color: #0052A3;
+        color: white;
+    }
 </style>
 """, unsafe_allow_html=True)
 
