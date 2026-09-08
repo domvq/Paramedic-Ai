@@ -184,15 +184,21 @@ st.markdown("## 🚑 Clinical Overview")
 # ML ASSESSMENT
 # ============================================================
 
-st.header("🧠 Paramedic Copilot")
+st.header(" Paramedic Copilot")
 st.caption(
     "Ask EMS education and decision-support questions using "
     "your authorized knowledge sources."
 )
 
+st.markdown("### 📊 ML Risk Assessment")
+st.caption(
+    "Run a demonstration risk assessment using the current patient vitals."
+)
+
 if st.button(
-    "Run ML Assessment",
+    "🔍 Run ML Assessment",
     type="primary",
+    use_container_width=True,
 ):
 
     patient = pd.DataFrame(
