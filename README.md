@@ -1,3 +1,5 @@
+Link to Streamlit host: https://paramedic-ai-final-cmxfpj3tuzuebmbtwdk5ap.streamlit.app/
+
 # 🚑 Paramedic AI
 
 **Paramedic AI** is an educational EMS decision-support demonstration built with Python and Streamlit. It combines machine-learning risk assessment, an AI copilot, voice input, document-based knowledge retrieval, and optional C++ text-to-speech.
