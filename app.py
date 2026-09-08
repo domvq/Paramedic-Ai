@@ -416,10 +416,8 @@ overview_col1, overview_col2 = st.columns(2)
 
 with overview_col1:
 
-```
 st.markdown(
     """
-```
 
 <div class="patient-card">
     <h4>👤 Patient</h4>
@@ -428,20 +426,16 @@ st.markdown(
         unsafe_allow_html=True,
     )
 
-```
 st.write(f"**Age:** {age} years")
 st.write(
     f"**Respiratory Rate:** "
     f"{respiratory_rate:.0f} breaths/min"
 )
-```
 
 with overview_col2:
 
-```
 st.markdown(
     """
-```
 
 <div class="safety-card">
     <h4>⚠️ Clinical Safety</h4>
@@ -450,14 +444,12 @@ st.markdown(
         unsafe_allow_html=True,
     )
 
-```
 st.warning(
     "This application is an educational and "
     "decision-support demonstration. It does not "
     "replace clinical judgment, medical protocols, "
     "medical direction, or local EMS requirements."
 )
-```
 
 st.divider()
 
@@ -486,7 +478,6 @@ type="primary",
 use_container_width=True,
 ):
 
-```
 patient = pd.DataFrame(
     [
         {
@@ -572,8 +563,6 @@ except Exception as error:
     st.error(
         f"ML prediction error: {error}"
     )
-```
-
 # ============================================================
 
 # COPILOT
@@ -607,21 +596,16 @@ st.markdown(
 
 if "copilot_messages" not in st.session_state:
 
-```
 st.session_state.copilot_messages = []
-```
 
 if "voice_text" not in st.session_state:
 
-```
 st.session_state.voice_text = ""
-```
 
 if "last_copilot_answer" not in st.session_state:
 
-```
+
 st.session_state.last_copilot_answer = ""
-```
 
 # ============================================================
 
@@ -631,7 +615,6 @@ st.session_state.last_copilot_answer = ""
 
 for message in st.session_state.copilot_messages:
 
-```
 with st.chat_message(
     message["role"]
 ):
@@ -639,7 +622,6 @@ with st.chat_message(
     st.markdown(
         message["content"]
     )
-```
 
 # ============================================================
 
@@ -662,9 +644,7 @@ key="voice_input",
 
 if voice_question:
 
-```
 st.session_state.voice_text = voice_question
-```
 
 # ============================================================
 
@@ -678,9 +658,7 @@ typed_question = st.chat_input(
 
 if typed_question:
 
-```
 st.session_state.voice_text = typed_question
-```
 
 # ============================================================
 
@@ -690,7 +668,6 @@ st.session_state.voice_text = typed_question
 
 if st.session_state.voice_text:
 
-```
 st.markdown(
     "### 📝 Review Your Question"
 )
@@ -889,7 +866,6 @@ if send_question:
                     st.error(
                         error_message
                     )
-```
 
 # ============================================================
 
@@ -906,7 +882,6 @@ if st.button(
 use_container_width=True,
 ):
 
-```
 answer = (
     st.session_state.last_copilot_answer
 )
@@ -970,7 +945,6 @@ else:
         st.error(
             f"Groq TTS error: {error}"
         )
-```
 
 # ============================================================
 
@@ -1004,7 +978,6 @@ type=["pdf", "docx"],
 
 if uploaded_file:
 
-```
 DOCUMENTS_DIR.mkdir(
     parents=True,
     exist_ok=True,
@@ -1253,7 +1226,6 @@ with st.expander(
                 st.code(
                     index_result.stdout
                 )
-```
 
 # ============================================================
 
@@ -1265,7 +1237,6 @@ with st.expander(
 "📖 View Registered Sources"
 ):
 
-```
 if REGISTRY_PATH.exists():
 
     with open(
@@ -1338,7 +1309,6 @@ else:
     st.info(
         "No knowledge registry found."
     )
-```
 
 # ============================================================
 
