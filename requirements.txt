@@ -140,4 +140,9 @@ websockets==16.1.1
 widgetsnbextension==4.0.16
 streamlit-mic-recorder
 groq
-
+streamlit
+pandas
+numpy
+scikit-learn
+groq
+streamlit-mic-recorder
