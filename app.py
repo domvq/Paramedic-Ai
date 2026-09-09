@@ -146,45 +146,6 @@ st.markdown("""
         line-height: 1.35;
     }
 
-    @media (max-width: 640px) {
-    .block-container {
-        padding-left: 0.6rem;
-        padding-right: 0.6rem;
-        padding-top: 1rem;
-    }
-
-    .main-header {
-        padding: 18px 16px;
-        border-radius: 10px;
-    }
-
-    .main-header h1 {
-        font-size: 1.7rem;
-    }
-
-    .main-header p {
-        font-size: 0.9rem;
-    }
-
-    @media (max-width: 640px) {
-    .block-container {
-        padding-left: 0.6rem;
-        padding-right: 0.6rem;
-        padding-top: 1rem;
-    }
-
-    .main-header {
-        padding: 18px 16px;
-        border-radius: 10px;
-    }
-
-    .main-header h1 {
-        font-size: 1.7rem;
-    }
-
-    .main-header p {
-        font-size: 0.9rem;
-    }
 }
 </style>
 """, unsafe_allow_html=True)
