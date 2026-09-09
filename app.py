@@ -230,25 +230,147 @@ temperature = st.sidebar.number_input(
 )
 
 st.markdown("## 🩺 Patient Vital Signs")
-
 st.caption("Current patient assessment")
 
-col1, col2, col3, col4 = st.columns(4)
+# ============================================================
+# RESPONSIVE VITAL SIGNS
+# ============================================================
 
-with col1:
-    st.metric("❤️ Heart Rate", f"{heart_rate:.0f}", "bpm")
+st.markdown("""
+<style>
+    .vitals-row {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        width: 100%;
+        margin: 10px 0 20px 0;
+    }
 
-with col2:
-    st.metric("🩸 Blood Pressure", f"{systolic_bp:.0f}/{diastolic_bp:.0f}", "mmHg")
+    .vital-card {
+        background: white;
+        border: 1px solid #E2E8F0;
+        border-radius: 12px;
+        padding: 12px 8px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        min-width: 0;
+        overflow: hidden;
+    }
 
-with col3:
-    st.metric("🫁 SpO₂", f"{spo2:.0f}", "%")
+    .vital-label {
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #475569;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
-with col4:
-    st.metric("🌡️ Temperature", f"{temperature:.1f}", "°F")
+    .vital-value {
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: #0B1F33;
+        line-height: 1.2;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .vital-unit {
+        font-size: 0.68rem;
+        color: #64748B;
+        margin-top: 2px;
+    }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+
+        .vitals-row {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 5px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .vital-card {
+            padding: 9px 3px;
+            border-radius: 9px;
+        }
+
+        .vital-label {
+            font-size: 0.58rem;
+        }
+
+        .vital-value {
+            font-size: 0.95rem;
+        }
+
+        .vital-unit {
+            font-size: 0.55rem;
+        }
+    }
+
+    /* Very narrow phones */
+    @media (max-width: 380px) {
+
+        .vitals-row {
+            gap: 3px;
+        }
+
+        .vital-card {
+            padding: 8px 2px;
+        }
+
+        .vital-label {
+            font-size: 0.52rem;
+        }
+
+        .vital-value {
+            font-size: 0.82rem;
+        }
+
+        .vital-unit {
+            font-size: 0.48rem;
+        }
+    }
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown(
+    f"""
+    <div class="vitals-row">
+
+        <div class="vital-card">
+            <div class="vital-label">❤️ Heart Rate</div>
+            <div class="vital-value">{heart_rate:.0f}</div>
+            <div class="vital-unit">bpm</div>
+        </div>
+
+        <div class="vital-card">
+            <div class="vital-label">🩸 Blood Pressure</div>
+            <div class="vital-value">
+                {systolic_bp:.0f}/{diastolic_bp:.0f}
+            </div>
+            <div class="vital-unit">mmHg</div>
+        </div>
+
+        <div class="vital-card">
+            <div class="vital-label">🫁 SpO₂</div>
+            <div class="vital-value">{spo2:.0f}</div>
+            <div class="vital-unit">%</div>
+        </div>
+
+        <div class="vital-card">
+            <div class="vital-label">🌡️ Temperature</div>
+            <div class="vital-value">{temperature:.1f}</div>
+            <div class="vital-unit">°F</div>
+        </div>
+
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.divider()
-
 
 # ============================================================
 # ML ASSESSMENT
