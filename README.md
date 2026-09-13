@@ -1,4 +1,4 @@
-Link to Streamlit host: https://paramedic-ai-final-cmxfpj3tuzuebmbtwdk5ap.streamlit.app/
+Link to Streamlit host: https://paramedic-ai-copliot.streamlit.app/
 
 # 🚑 Paramedic AI
 
